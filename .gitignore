@@ -1,0 +1,5 @@
+.env
+node_modules/
+quiz_assistant_env/
+venv/
+__pycache__/

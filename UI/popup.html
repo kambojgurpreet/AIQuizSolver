@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 280px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+    }
+    
+    .header h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .subtitle {
+      font-size: 11px;
+      opacity: 0.8;
+      margin-top: 3px;
+    }
+    
+    button {
+      width: 100%;
+      margin: 6px 0;
+      padding: 10px 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    .primary-btn {
+      background: #28a745;
+      color: white;
+    }
+    
+    .secondary-btn {
+      background: #007bff;
+      color: white;
+    }
+    
+    .info-btn {
+      background: #17a2b8;
+      color: white;
+    }
+    
+    .warning-btn {
+      background: #ffc107;
+      color: #212529;
+    }
+    
+    .danger-btn {
+      background: #dc3545;
+      color: white;
+    }
+    
+    #status {
+      margin: 10px 0;
+      padding: 8px 10px;
+      border-radius: 5px;
+      font-size: 11px;
+      text-align: center;
+      min-height: 16px;
+      border: 1px solid rgba(255,255,255,0.3);
+      background: rgba(255,255,255,0.1);
+    }
+    
+    .footer {
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.3);
+      text-align: center;
+      font-size: 10px;
+      opacity: 0.7;
+    }
+    
+    .emoji {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>🤖 AI Quiz Assistant</h2>
+    <div class="subtitle">Enhanced with Bilingual Support & Speed Optimization</div>
+  </div>
+  
+  <button id="run" class="warning-btn">
+    <span class="emoji">🎯</span>Answer Current Question
+  </button>
+  
+  <!-- New buttons will be dynamically added by popup.js -->
+  
+  <div class="footer">
+    Make sure proxy server is running on localhost:3000
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
