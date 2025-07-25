@@ -1,8 +1,8 @@
 # FastAPI Quiz Assistant Server Dependencies
-# Core requirements for the current implementation
+# Core requirements for multi-model AI implementation
 
 # Web framework
-fastapi==0.104.1
+fastapi
 uvicorn[standard]==0.24.0
 
 # HTTP and CORS
@@ -14,8 +14,14 @@ pydantic==2.5.0
 # Environment variables
 python-dotenv==1.0.0
 
-# OpenAI API client
-openai==1.3.7
+# AI Model APIs
+# OpenAI API client (GPT-4)
+openai
+
+# Google Generative AI (Gemini Pro) - Latest package
+google-genai
+
+# Note: xAI Grok uses OpenAI-compatible API via openai package
 
 # Async support
 asyncio-throttle==1.0.2

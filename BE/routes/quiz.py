@@ -1,13 +1,14 @@
 """
-Quiz processing routes
+Quiz processing routes with multi-model AI support
 """
 
 import asyncio
 from typing import List
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from schemas.requests import QuestionRequest, BatchRequest
 from schemas.responses import AnswerResponse, BatchAnswerResponse
 from services.ai_service import get_ai_answer
+from services.multi_model_service import get_multi_model_answer
 import logging
 
 logger = logging.getLogger(__name__)
@@ -15,13 +16,25 @@ router = APIRouter(tags=["quiz"])
 
 
 @router.post("/ask", response_model=AnswerResponse)
-async def ask_question(request: QuestionRequest):
+async def ask_question(
+    request: QuestionRequest,
+    multi_model: bool = Query(default=False, description="Use multi-model analysis")
+):
     """
     Process a single quiz question - Main endpoint for Chrome extension
+    Supports both single model (GPT 4.1) and multi-model analysis (GPT 4.1 + Gemini 2.5 Pro + Grok 4)
     """
     try:
-        logger.info(f"Processing question: {request.question[:50]}...")
-        result = await get_ai_answer(request.question, request.options)
+        logger.info(f"🔍 /ask endpoint - multi_model parameter: {multi_model} (type: {type(multi_model)})")
+        logger.info(f"Processing question with multi_model={multi_model}: {request.question[:50]}...")
+        
+        if multi_model:
+            logger.info("🧠 Using multi-model analysis")
+            result = await get_multi_model_answer(request.question, request.options)
+        else:
+            logger.info("🚀 Using single model analysis")
+            result = await get_ai_answer(request.question, request.options)
+            
         return result
     except Exception as e:
         logger.error(f"Error in /ask endpoint: {e}")
@@ -29,22 +42,43 @@ async def ask_question(request: QuestionRequest):
 
 
 @router.post("/ask-batch", response_model=List[BatchAnswerResponse])
-async def ask_questions_batch(request: BatchRequest):
+async def ask_questions_batch(
+    request: BatchRequest,
+    multi_model: bool = Query(default=False, description="Use multi-model analysis")
+):
     """
     Process multiple questions in parallel for better performance
+    Supports both single model and multi-model analysis
     """
     try:
-        logger.info(f"Processing batch of {len(request.questions)} questions")
+        logger.info(f"🔍 /ask-batch endpoint - multi_model parameter: {multi_model} (type: {type(multi_model)})")
+        logger.info(f"Processing batch of {len(request.questions)} questions with multi_model={multi_model}")
         
         async def process_question(index: int, question_data) -> BatchAnswerResponse:
             try:
-                result = await get_ai_answer(question_data.question, question_data.options)
-                return BatchAnswerResponse(
+                if multi_model:
+                    logger.info(f"🧠 Q{index+1}: Using multi-model analysis")
+                    result = await get_multi_model_answer(question_data.question, question_data.options)
+                else:
+                    logger.info(f"🚀 Q{index+1}: Using single model analysis")
+                    result = await get_ai_answer(question_data.question, question_data.options)
+                    
+                batch_response = BatchAnswerResponse(
                     index=index,
                     answer=result.answer,
                     confidence=result.confidence,
-                    raw=result.raw
+                    raw=result.raw,
+                    reasoning=result.reasoning if hasattr(result, 'reasoning') else None
                 )
+                
+                # Add multi-model specific fields if available
+                if hasattr(result, 'consensus'):
+                    batch_response.consensus = result.consensus
+                if hasattr(result, 'individual_answers'):
+                    batch_response.individual_answers = result.individual_answers
+                    
+                return batch_response
+                
             except Exception as e:
                 logger.error(f"Error processing question {index}: {e}")
                 return BatchAnswerResponse(

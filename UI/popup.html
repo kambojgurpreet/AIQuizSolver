@@ -98,12 +98,93 @@
       font-size: 16px;
       margin-right: 5px;
     }
+    
+    .model-selection {
+      margin-bottom: 15px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .model-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .toggle-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .toggle-option {
+      position: relative;
+    }
+    
+    .toggle-option input[type="radio"] {
+      display: none;
+    }
+    
+    .toggle-option label {
+      display: block;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    
+    .toggle-option input[type="radio"]:checked + label {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: #28a745;
+      box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
+    }
+    
+    .toggle-option label:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-1px);
+    }
+    
+    .option-desc {
+      font-size: 9px;
+      opacity: 0.8;
+      margin-top: 2px;
+      font-weight: 400;
+    }
   </style>
 </head>
 <body>
   <div class="header">
     <h2>🤖 AI Quiz Assistant</h2>
     <div class="subtitle">Enhanced with Bilingual Support & Speed Optimization</div>
+  </div>
+  
+  <!-- Model Selection -->
+  <div class="model-selection">
+    <div class="model-title">🔬 Analysis Mode</div>
+    <div class="toggle-container">
+      <div class="toggle-option">
+        <input type="radio" id="singleModel" name="analysisMode" value="single" checked>
+        <label for="singleModel">
+          <span class="emoji">⚡</span>Single Model (GPT 4.1)
+          <div class="option-desc">Fast & Efficient</div>
+        </label>
+      </div>
+      <div class="toggle-option">
+        <input type="radio" id="multiModel" name="analysisMode" value="multi">
+        <label for="multiModel">
+          <span class="emoji">🧠</span>Multi-Model Consensus
+          <div class="option-desc">GPT 4.1 + Gemini 2.5 Pro + Grok 4</div>
+        </label>
+      </div>
+    </div>
   </div>
   
   <button id="run" class="warning-btn">

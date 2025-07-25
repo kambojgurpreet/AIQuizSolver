@@ -4,14 +4,62 @@ document.addEventListener("DOMContentLoaded", function() {
   statusDiv.id = "status";
   statusDiv.style.cssText = "margin: 10px 0; padding: 8px; border-radius: 4px; font-size: 12px;";
   
-  // Add new buttons
+  // Get model selection elements
+  const singleModelRadio = document.getElementById("singleModel");
+  const multiModelRadio = document.getElementById("multiModel");
+  
+  // Function to get selected analysis mode
+  function getSelectedMode() {
+    return singleModelRadio.checked ? 'single' : 'multi';
+  }
+  
+  // Function to update button text based on selection
+  function updateButtonText() {
+    const mode = getSelectedMode();
+    const emoji = mode === 'single' ? '⚡' : '🧠';
+    const modeText = mode === 'single' ? 'Single Model' : 'Multi-Model';
+    runBtn.innerHTML = `<span class="emoji">${emoji}</span>Answer with ${modeText}`;
+  }
+  
+  // Add new buttons with model-aware functionality
   const processAllBtn = document.createElement("button");
-  processAllBtn.textContent = "🚀 Process All Questions";
   processAllBtn.style.cssText = "width: 100%; margin: 5px 0; padding: 8px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;";
   
   const autoCompleteBtn = document.createElement("button");
-  autoCompleteBtn.textContent = "⚡ Auto-Complete Quiz";
   autoCompleteBtn.style.cssText = "width: 100%; margin: 5px 0; padding: 8px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;";
+  
+  // Function to update process all button text
+  function updateProcessAllText() {
+    const mode = getSelectedMode();
+    const emoji = mode === 'single' ? '🚀' : '🧠';
+    const modeText = mode === 'single' ? 'Single Model' : 'Multi-Model';
+    processAllBtn.innerHTML = `${emoji} Process All (${modeText})`;
+  }
+  
+  // Function to update auto-complete button text
+  function updateAutoCompleteText() {
+    const mode = getSelectedMode();
+    const emoji = mode === 'single' ? '⚡' : '🤖';
+    const modeText = mode === 'single' ? 'Single Model' : 'Multi-Model';
+    autoCompleteBtn.innerHTML = `${emoji} Auto-Complete (${modeText})`;
+  }
+  
+  // Add event listeners to radio buttons
+  singleModelRadio.addEventListener('change', () => {
+    updateButtonText();
+    updateProcessAllText();
+    updateAutoCompleteText();
+  });
+  multiModelRadio.addEventListener('change', () => {
+    updateButtonText();
+    updateProcessAllText();
+    updateAutoCompleteText();
+  });
+  
+  // Initialize button texts
+  updateButtonText();
+  updateProcessAllText();
+  updateAutoCompleteText();
   
   const testBtn = document.createElement("button");
   testBtn.textContent = "🔗 Test Connection";
@@ -59,28 +107,30 @@ document.addEventListener("DOMContentLoaded", function() {
         case 'runQuizAssistant':
           results = await chrome.scripting.executeScript({
             target: { tabId: tab.id },
-            func: () => {
+            func: (params) => {
               if (typeof window.runQuizAssistant === 'function') {
-                return window.runQuizAssistant();
+                return window.runQuizAssistant(params?.mode || 'single');
               } else {
                 console.error('runQuizAssistant function not found');
                 return false;
               }
-            }
+            },
+            args: [params]
           });
           break;
 
         case 'autoCompleteQuiz':
           results = await chrome.scripting.executeScript({
             target: { tabId: tab.id },
-            func: () => {
+            func: (params) => {
               if (typeof window.autoCompleteQuiz === 'function') {
-                return window.autoCompleteQuiz();
+                return window.autoCompleteQuiz(params?.mode || 'single');
               } else {
                 console.error('autoCompleteQuiz function not found');
                 return false;
               }
-            }
+            },
+            args: [params]
           });
           break;
 
@@ -112,7 +162,8 @@ document.addEventListener("DOMContentLoaded", function() {
         case 'answerCurrentQuestion':
           results = await chrome.scripting.executeScript({
             target: { tabId: tab.id },
-            func: () => {
+            func: (params) => {
+              const mode = params?.mode || 'single';
               // Single question processing with English extraction
               const visibleQuizItem = document.querySelector(".wpProQuiz_listItem[style='']") || 
                                      document.querySelector(".wpProQuiz_listItem:not([style*='display: none'])");
@@ -133,32 +184,59 @@ document.addEventListener("DOMContentLoaded", function() {
                   
                   console.log("Extracted English question:", question);
                   console.log("Extracted English options:", options);
+                  console.log("Using mode:", mode);
                   
-                  fetch("http://localhost:3000/ask", {
+                  const requestBody = { question, options };
+                  
+                  // Use query parameter for multi_model (not in request body)
+                  const url = mode === 'multi' 
+                    ? "http://localhost:3000/ask?multi_model=true"
+                    : "http://localhost:3000/ask?multi_model=false";
+                  
+                  fetch(url, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ question, options })
+                    body: JSON.stringify(requestBody)
                   })
                   .then(response => response.json())
                   .then(data => {
                     console.log("AI Answer:", data.answer, "Confidence:", data.confidence);
                     
-                    // Highlight the answer
+                    // Highlight the answer with mode-specific colors
                     const answerIndex = data.answer.charCodeAt(0) - 65;
                     if (optionEls[answerIndex]) {
-                      optionEls[answerIndex].style.border = "3px solid #00ff00";
-                      optionEls[answerIndex].style.backgroundColor = "rgba(0, 255, 0, 0.2)";
+                      if (mode === 'multi') {
+                        // Multi-model highlighting
+                        const isConsensus = data.consensus === true;
+                        const borderColor = isConsensus ? "#00ff00" : "#ff9500";
+                        const bgColor = isConsensus ? "rgba(0, 255, 0, 0.2)" : "rgba(255, 149, 0, 0.2)";
+                        optionEls[answerIndex].style.border = `3px solid ${borderColor}`;
+                        optionEls[answerIndex].style.backgroundColor = bgColor;
+                      } else {
+                        // Single model highlighting (green)
+                        optionEls[answerIndex].style.border = "3px solid #00ff00";
+                        optionEls[answerIndex].style.backgroundColor = "rgba(0, 255, 0, 0.2)";
+                      }
                     }
                     
                     // Log the result
                     const log = JSON.parse(localStorage.getItem("quizLog") || "[]");
-                    log.push({
+                    const logEntry = {
                       question,
                       options,
                       answer: data.answer,
                       confidence: data.confidence,
+                      reasoning: data.reasoning || 'No reasoning provided',
+                      mode: mode,
                       time: new Date().toLocaleString()
-                    });
+                    };
+                    
+                    if (mode === 'multi') {
+                      logEntry.consensus = data.consensus;
+                      logEntry.individual_answers = data.individual_answers;
+                    }
+                    
+                    log.push(logEntry);
                     localStorage.setItem("quizLog", JSON.stringify(log));
                   })
                   .catch(err => console.error("Error:", err));
@@ -172,7 +250,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 console.error('No visible quiz item found');
                 return false;
               }
-            }
+            },
+            args: [params]
           });
           break;
 
@@ -189,8 +268,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Original functionality - answer current question
   runBtn.addEventListener("click", async () => {
-    setStatus("Processing current question...", "loading");
-    const result = await executeInActiveTab('answerCurrentQuestion');
+    const mode = getSelectedMode();
+    setStatus(`Processing current question with ${mode === 'single' ? 'single model' : 'multi-model consensus'}...`, "loading");
+    const result = await executeInActiveTab('answerCurrentQuestion', { mode });
     if (result?.result) {
       setStatus("Current question processed", "success");
     } else {
@@ -200,8 +280,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Process all questions asynchronously
   processAllBtn.addEventListener("click", async () => {
-    setStatus("Processing all questions...", "loading");
-    const result = await executeInActiveTab('runQuizAssistant');
+    const mode = getSelectedMode();
+    setStatus(`Processing all questions with ${mode === 'single' ? 'single model' : 'multi-model consensus'}...`, "loading");
+    const result = await executeInActiveTab('runQuizAssistant', { mode });
     if (result?.result !== false) {
       setStatus("All questions processed! Check the on-page UI", "success");
     } else {
@@ -211,8 +292,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Auto-complete quiz 
   autoCompleteBtn.addEventListener("click", async () => {
-    setStatus("Starting auto-completion...", "loading");
-    const result = await executeInActiveTab('autoCompleteQuiz');
+    const mode = getSelectedMode();
+    setStatus(`Starting auto-completion with ${mode === 'single' ? 'single model' : 'multi-model consensus'}...`, "loading");
+    const result = await executeInActiveTab('autoCompleteQuiz', { mode });
     if (result?.result !== false) {
       setStatus("Auto-completion started", "success");
     } else {

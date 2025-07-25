@@ -34,9 +34,9 @@ def get_openai_client() -> AsyncOpenAI:
     return _openai_client
 
 
-def parse_answer_response(response_content: str) -> Tuple[str, int]:
+def parse_answer_response(response_content: str) -> Tuple[str, int, str]:
     """
-    Parse AI response to extract answer and confidence with enhanced regex patterns
+    Parse AI response to extract answer, confidence, and reasoning with enhanced regex patterns
     """
     try:
         # Strategy 1: Look for explicit Answer: pattern
@@ -69,11 +69,35 @@ def parse_answer_response(response_content: str) -> Tuple[str, int]:
                 confidence = min(10, max(1, int(conf_match.group(1))))
                 break
         
-        return answer, confidence
+        # Extract reasoning
+        reasoning_patterns = [
+            r'[Rr]easoning:\s*(.+?)(?:\n|$)',
+            r'[Ee]xplanation:\s*(.+?)(?:\n|$)',
+            r'[Jj]ustification:\s*(.+?)(?:\n|$)',
+            r'[Bb]ecause:\s*(.+?)(?:\n|$)',
+        ]
+        
+        reasoning = "No reasoning provided"
+        for pattern in reasoning_patterns:
+            reasoning_match = re.search(pattern, response_content, re.DOTALL)
+            if reasoning_match:
+                reasoning = reasoning_match.group(1).strip()
+                break
+        
+        # If no explicit reasoning found, try to extract everything after the confidence
+        if reasoning == "No reasoning provided":
+            # Look for content after confidence line
+            after_confidence = re.search(r'[Cc]onfidence:\s*\d+\s*(.+)', response_content, re.DOTALL)
+            if after_confidence:
+                potential_reasoning = after_confidence.group(1).strip()
+                if len(potential_reasoning) > 10:  # Only use if substantial content
+                    reasoning = potential_reasoning
+        
+        return answer, confidence, reasoning
         
     except Exception as e:
         logger.warning(f"Error parsing response: {e}")
-        return "A", 8
+        return "A", 1, "Error parsing reasoning"
 
 
 async def get_ai_answer(question: str, options: List[str]) -> AnswerResponse:
@@ -121,7 +145,7 @@ Reasoning: [Brief explanation]"""
         )
         
         response_content = response.choices[0].message.content
-        answer, confidence = parse_answer_response(response_content)
+        answer, confidence, reasoning = parse_answer_response(response_content)
         
         logger.info(f"Question processed: {question[:50]}... -> Answer: {answer} (Confidence: {confidence})")
         
@@ -129,6 +153,7 @@ Reasoning: [Brief explanation]"""
             answer=answer,
             confidence=confidence,
             raw=response_content,
+            reasoning=reasoning,
             model="gpt-4.1"
         )
         

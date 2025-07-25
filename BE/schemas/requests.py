@@ -12,7 +12,7 @@ class QuestionRequest(BaseModel):
     options: List[str] = Field(..., min_items=2, max_items=4, description="Answer options")
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "question": "What is the capital of France?",
                 "options": ["London", "Berlin", "Paris", "Madrid"]
@@ -26,7 +26,7 @@ class QuestionData(BaseModel):
     options: List[str]
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "question": "What is 2 + 2?",
                 "options": ["3", "4", "5", "6"]
@@ -39,7 +39,7 @@ class BatchRequest(BaseModel):
     questions: List[QuestionData] = Field(..., description="List of questions to process")
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "questions": [
                     {
