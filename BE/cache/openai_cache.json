@@ -1,1 +1,18 @@
-{}
+{
+  "b9561d4b087c003c09c26a952e73b5cf": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: e-KUN is designed to facilitate the issuance of electronic Negotiable Warehouse Receipts (e-NWR), making the process more efficient and secure compared to physical receipts. This digital approach is likely to encourage farmers and depositors to opt for e-NWRs over traditional physical receipts.",
+    "reasoning": "e-KUN is designed to facilitate the issuance of electronic Negotiable Warehouse Receipts (e-NWR), making the process more efficient and secure compared to physical receipts. This digital approach is likely to encourage farmers and depositors to opt for e-NWRs over traditional physical receipts.",
+    "error": false
+  },
+  "3287495a1e971c821ff879f030e9e49a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Warehousing Development and Regulatory Authority (WDRA) is responsible for regulating and ensuring the quality and standardization of warehousing in India, including the maintenance of quality standards for stored commodities. Therefore, the statement that WDRA has no role in maintaining quality standards is incorrect.",
+    "reasoning": "The Warehousing Development and Regulatory Authority (WDRA) is responsible for regulating and ensuring the quality and standardization of warehousing in India, including the maintenance of quality standards for stored commodities. Therefore, the statement that WDRA has no role in maintaining quality standards is incorrect.",
+    "error": false
+  }
+}

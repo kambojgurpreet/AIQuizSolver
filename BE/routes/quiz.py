@@ -8,7 +8,8 @@ from fastapi import APIRouter, HTTPException, Query
 from schemas.requests import QuestionRequest, BatchRequest
 from schemas.responses import AnswerResponse, BatchAnswerResponse
 from services.ai_service import get_ai_answer
-from services.multi_model_service import get_multi_model_answer, get_cache_stats, clear_caches, save_caches_now
+from services.multi_model_service import get_multi_model_answer
+from services.cache_service import get_cache_stats, clear_caches, save_caches_now
 import logging
 
 logger = logging.getLogger(__name__)

@@ -1,1 +1,18 @@
-{}
+{
+  "3287495a1e971c821ff879f030e9e49a": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The statement is false. The Warehousing Development and Regulatory Authority (WDRA) of India plays a fundamental role in ensuring the quality of stored commodities. It regulates warehouses and promotes the system of Negotiable Warehouse Receipts (NWRs), which are issued only after the goods are inspected and graded according to prescribed quality standards. This ensures that the quality is maintained throughout the storage period.",
+    "reasoning": "The statement is false. The Warehousing Development and Regulatory Authority (WDRA) of India plays a fundamental role in ensuring the quality of stored commodities. It regulates warehouses and promotes the system of Negotiable Warehouse Receipts (NWRs), which are issued only after the goods are inspected and graded according to prescribed quality standards. This ensures that the quality is maintained throughout the storage period.",
+    "error": false
+  },
+  "b9561d4b087c003c09c26a952e73b5cf": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: e-KUN (Kisan Upaj Nidhi) is a digital gateway created by the Warehousing Development and Regulatory Authority (WDRA). Its core function is to facilitate post-harvest pledge financing for farmers by leveraging electronic Negotiable Warehouse Receipts (e-NWRs). By making the process of obtaining and using e-NWRs for loans simpler and more accessible, the platform is explicitly designed to encourage farmers to adopt the digital e-NWR system over traditional, less secure physical receipts.",
+    "reasoning": "e-KUN (Kisan Upaj Nidhi) is a digital gateway created by the Warehousing Development and Regulatory Authority (WDRA). Its core function is to facilitate post-harvest pledge financing for farmers by leveraging electronic Negotiable Warehouse Receipts (e-NWRs). By making the process of obtaining and using e-NWRs for loans simpler and more accessible, the platform is explicitly designed to encourage farmers to adopt the digital e-NWR system over traditional, less secure physical receipts.",
+    "error": false
+  }
+}

@@ -2,36 +2,16 @@
 AI service for quiz processing using OpenAI GPT models
 """
 
-import os
 import re
 import logging
-from typing import List, Tuple, Optional
+from typing import List, Tuple
 from datetime import datetime
 from fastapi import HTTPException
-from openai import AsyncOpenAI
-from schemas.responses import AnswerResponse
-
-# Load environment variables
-from dotenv import load_dotenv
-load_dotenv()
+from schemas.responses import AnswerResponse, ModelResponse
+from services.ai_clients import get_openai_client
+from services.cache_service import create_cache_key, get_from_cache, add_to_cache
 
 logger = logging.getLogger(__name__)
-
-# Global client variable
-_openai_client: Optional[AsyncOpenAI] = None
-
-
-def get_openai_client() -> AsyncOpenAI:
-    """
-    Get or create OpenAI client with lazy initialization
-    """
-    global _openai_client
-    if _openai_client is None:
-        api_key = os.getenv("OPENAI_API_KEY")
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY environment variable is required")
-        _openai_client = AsyncOpenAI(api_key=api_key)
-    return _openai_client
 
 
 def parse_answer_response(response_content: str) -> Tuple[str, int, str]:
@@ -102,8 +82,22 @@ def parse_answer_response(response_content: str) -> Tuple[str, int, str]:
 
 async def get_ai_answer(question: str, options: List[str]) -> AnswerResponse:
     """
-    Get AI answer for a single question with enhanced error handling
+    Get AI answer for a single question with caching and enhanced error handling
     """
+    # Check cache first
+    cache_key = create_cache_key(question, options)
+    cached_response = get_from_cache("openai", cache_key)
+    if cached_response:
+        logger.debug("Returning cached single-model response")
+        # Convert ModelResponse to AnswerResponse for compatibility
+        return AnswerResponse(
+            answer=cached_response.answer,
+            confidence=cached_response.confidence,
+            raw=cached_response.raw,
+            reasoning=cached_response.reasoning,
+            model=cached_response.model
+        )
+    
     try:
         # Format options properly
         formatted_options = []
@@ -149,13 +143,26 @@ Reasoning: [Brief explanation]"""
         
         logger.info(f"Question processed: {question[:50]}... -> Answer: {answer} (Confidence: {confidence})")
         
-        return AnswerResponse(
+        # Create response objects
+        answer_response = AnswerResponse(
             answer=answer,
             confidence=confidence,
             raw=response_content,
             reasoning=reasoning,
             model="gpt-4.1"
         )
+        
+        # Cache the response for future use (as ModelResponse)
+        model_response = ModelResponse(
+            model="gpt-4.1",
+            answer=answer,
+            confidence=confidence,
+            raw=response_content,
+            reasoning=reasoning
+        )
+        add_to_cache("openai", cache_key, model_response)
+        
+        return answer_response
         
     except Exception as e:
         logger.error(f"Error getting AI answer: {e}")
