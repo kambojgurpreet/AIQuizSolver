@@ -63,6 +63,12 @@ function formatConfidence(confidence) {
 
 // Function to get confidence color based on level
 function getConfidenceColor(confidence) {
+  // Use theme configuration if available, otherwise fallback to hardcoded values
+  if (window.ThemeHelper && window.ThemeHelper.getConfidenceColors) {
+    return window.ThemeHelper.getConfidenceColors(confidence);
+  }
+  
+  // Fallback colors if theme is not loaded
   if (typeof confidence === 'number') {
     if (confidence >= 8) return { bg: '#d4edda', text: 'green', highlight: 'rgba(0, 255, 0, 0.3)' };
     if (confidence >= 5) return { bg: '#fff3cd', text: 'orange', highlight: 'rgba(255, 165, 0, 0.3)' };
@@ -115,24 +121,24 @@ function getHighlightingType(questionData) {
 
 // Function to get multi-model highlighting colors with nuanced logic
 function getMultiModelColors(highlightType) {
+  // Use theme configuration if available
+  if (window.ThemeHelper && window.ThemeHelper.getMultiModelColors) {
+    return window.ThemeHelper.getMultiModelColors(highlightType);
+  }
+  
+  // Fallback colors if theme is not loaded
   switch (highlightType) {
     case 'consensus':
-      // Green highlighting for full consensus
       return { bg: '#d4edda', text: 'green', highlight: 'rgba(0, 255, 0, 0.3)', border: '#28a745' };
     case 'disagreement':
-      // Light yellow/orange for model disagreement (all models responded)
       return { bg: '#fff3cd', text: 'orange', highlight: 'rgba(255, 193, 7, 0.3)', border: '#ffc107' };
     case 'error':
-      // Red/pink for model failures
       return { bg: '#f8d7da', text: 'red', highlight: 'rgba(220, 53, 69, 0.3)', border: '#dc3545' };
     case 'partial':
-      // Light blue for partial consensus (majority with some failures)
       return { bg: '#d1ecf1', text: 'blue', highlight: 'rgba(23, 162, 184, 0.3)', border: '#17a2b8' };
     case 'multiple':
-      // Legacy yellow highlighting for conflicting answers (backward compatibility)
       return { bg: '#fff3cd', text: 'orange', highlight: 'rgba(255, 255, 0, 0.4)', border: '#ffc107' };
     default:
-      // Default green highlighting
       return { bg: '#d4edda', text: 'green', highlight: 'rgba(0, 255, 0, 0.3)', border: '#28a745' };
   }
 }
@@ -739,23 +745,52 @@ function makeDraggable() {
 function showProcessingUI() {
   removeExistingUI();
   
+  // Get theme configuration or use fallback values
+  const theme = window.THEME_CONFIG || {
+    colors: {
+      popupBackground: 'white',
+      primary: '#007cba',
+      lightGray: '#f0f0f0',
+      white: 'white'
+    },
+    icons: {
+      robot: '🤖',
+      pin: '📌',
+      close: '✕'
+    },
+    shadows: {
+      medium: '0 4px 8px rgba(0,0,0,0.3)'
+    },
+    borderRadius: {
+      xl: '10px',
+      large: '8px'
+    },
+    spacing: {
+      lg: '15px',
+      md: '10px'
+    },
+    zIndex: {
+      popup: 10000
+    }
+  };
+  
   const ui = document.createElement('div');
   ui.id = 'quizAssistantUI';
   ui.innerHTML = `
-    <div id="quizAssistantPopup" style="position: fixed; top: 200px; right: 800px; background: white; border: 2px solid #007cba; 
-                border-radius: 10px; padding: 15px; z-index: 10000; max-width: 450px; min-width: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); cursor: default; transition: box-shadow 0.2s, transform 0.2s;">
-      <div id="dragHeader" style="margin: -15px -15px 10px -15px; padding: 10px 15px; background: #007cba; color: white; border-radius: 8px 8px 0 0; cursor: grab; user-select: none; transition: background 0.2s; border-bottom: 1px solid rgba(255,255,255,0.1);">
-        <h3 style="margin: 0; color: white; display: flex; justify-content: space-between; align-items: center;">
-          <span>🤖 Quiz Assistant</span>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <span style="font-size: 12px; opacity: 0.8;">📌 Drag header to move</span>
-            <button id="closePopup" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; padding: 0; opacity: 0.8; transition: opacity 0.2s, transform 0.2s;" title="Close">✕</button>
+    <div id="quizAssistantPopup" style="position: fixed; top: 200px; right: 800px; background: ${theme.colors.popupBackground}; border: 2px solid ${theme.colors.primary}; 
+                border-radius: ${theme.borderRadius.xl}; padding: ${theme.spacing.lg}; z-index: ${theme.zIndex.popup}; max-width: 450px; min-width: 350px; box-shadow: ${theme.shadows.medium}; cursor: default; transition: box-shadow 0.2s, transform 0.2s;">
+      <div id="dragHeader" style="margin: -${theme.spacing.lg} -${theme.spacing.lg} ${theme.spacing.md} -${theme.spacing.lg}; padding: ${theme.spacing.md} ${theme.spacing.lg}; background: ${theme.colors.primary}; color: ${theme.colors.white}; border-radius: ${theme.borderRadius.large} ${theme.borderRadius.large} 0 0; cursor: grab; user-select: none; transition: background 0.2s; border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <h3 style="margin: 0; color: ${theme.colors.white}; display: flex; justify-content: space-between; align-items: center;">
+          <span>${theme.icons.robot} Quiz Assistant</span>
+          <div style="display: flex; align-items: center; gap: ${theme.spacing.md};">
+            <span style="font-size: 12px; opacity: 0.8;">${theme.icons.pin} Drag header to move</span>
+            <button id="closePopup" style="background: none; border: none; color: ${theme.colors.white}; font-size: 18px; cursor: pointer; padding: 0; opacity: 0.8; transition: opacity 0.2s, transform 0.2s;" title="Close">${theme.icons.close}</button>
           </div>
         </h3>
       </div>
       <div id="processingStatus">Processing questions...</div>
-      <div id="progressBar" style="width: 100%; height: 20px; background: #f0f0f0; border-radius: 10px; margin: 10px 0;">
-        <div id="progressFill" style="height: 100%; background: #007cba; border-radius: 10px; width: 0%; transition: width 0.3s;"></div>
+      <div id="progressBar" style="width: 100%; height: 20px; background: ${theme.colors.lightGray}; border-radius: ${theme.borderRadius.xl}; margin: ${theme.spacing.md} 0;">
+        <div id="progressFill" style="height: 100%; background: ${theme.colors.primary}; border-radius: ${theme.borderRadius.xl}; width: 0%; transition: width 0.3s;"></div>
       </div>
       <div id="questionsList" style="max-height: 300px; overflow-y: auto;"></div>
     </div>
