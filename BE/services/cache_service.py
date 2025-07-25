@@ -3,7 +3,6 @@ Cache service for persistent storage of AI model responses
 Handles file-based caching with automatic persistence and memory management
 """
 
-import os
 import json
 import atexit
 import hashlib

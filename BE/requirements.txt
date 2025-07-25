@@ -6,7 +6,7 @@ fastapi
 uvicorn[standard]==0.24.0
 
 # HTTP and CORS
-httpx==0.25.2
+httpx
 
 # Data validation and parsing
 pydantic==2.5.0
@@ -19,7 +19,7 @@ python-dotenv==1.0.0
 openai
 
 # Google Generative AI (Gemini Pro) - Latest package
-google-genai
+google-genai==1.27.0
 
 # Note: xAI Grok uses OpenAI-compatible API via openai package
 

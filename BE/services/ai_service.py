@@ -5,7 +5,6 @@ AI service for quiz processing using OpenAI GPT models
 import re
 import logging
 from typing import List, Tuple
-from datetime import datetime
 from fastapi import HTTPException
 from schemas.responses import AnswerResponse, ModelResponse
 from services.ai_clients import get_openai_client

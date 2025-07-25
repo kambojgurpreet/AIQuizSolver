@@ -5,11 +5,10 @@ Multi-model AI service for quiz processing using OpenAI GPT-4.1, Google Gemini, 
 import re
 import asyncio
 import logging
-from typing import List, Tuple, Optional
+from typing import List, Tuple
 from fastapi import HTTPException
 
 # AI Model imports
-from google import genai
 from google.genai import types
 
 # Schema imports
@@ -17,8 +16,7 @@ from schemas.responses import AnswerResponse, ModelResponse, MultiModelAnalysis
 
 # Service imports
 from services.cache_service import (
-    create_cache_key, get_from_cache, add_to_cache, 
-    get_cache_stats, clear_caches, save_caches_now
+    create_cache_key, get_from_cache, add_to_cache,
 )
 from services.ai_clients import get_openai_client, get_xai_client, get_gemini_client
 
@@ -211,7 +209,11 @@ async def get_gemini_answer(question: str, options: List[str]) -> ModelResponse:
             gemini_client.models.generate_content,
             model='gemini-2.5-pro',
             contents=prompt,
-            # config={"tools": [{"google_search": {}}]}
+            config=types.GenerateContentConfig(
+                thinking_config=types.ThinkingConfig(thinking_budget=-1),
+                tools=[types.Tool(google_search=types.GoogleSearch())],
+                temperature=0.1,
+            )
         )
 
         # end time
@@ -304,8 +306,8 @@ async def get_xai_answer(question: str, options: List[str]) -> ModelResponse:
                 {"role": "system", "content": "You are a highly accurate quiz assistant. Always provide clear, confident answers in the requested format."},
                 {"role": "user", "content": prompt}
             ],
-            # max_tokens=150,
-            # temperature=0.1
+            max_tokens=150,
+            temperature=0.1
         )
 
         logger.info(100*"-")

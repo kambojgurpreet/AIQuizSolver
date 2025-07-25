@@ -10,7 +10,6 @@ from typing import Optional
 # AI Model imports
 from openai import AsyncOpenAI
 from google import genai
-from google.genai import types
 
 # Load environment variables
 from dotenv import load_dotenv
@@ -64,10 +63,18 @@ def get_gemini_client() -> genai.Client:
     global _gemini_client
     if _gemini_client is None:
         api_key = os.getenv("GEMINI_API_KEY")
+        location = os.getenv("GOOGLE_CLOUD_LOCATION")
+        project = os.getenv("GOOGLE_CLOUD_PROJECT")
+
         if not api_key:
             raise ValueError("GEMINI_API_KEY environment variable is required")
         
-        _gemini_client = genai.Client(api_key=api_key)
+        _gemini_client = genai.Client(
+            # api_key=api_key,
+            vertexai=True,
+            project=project,
+            location=location,
+        )
         logger.info("Gemini client initialized")
     
     return _gemini_client
