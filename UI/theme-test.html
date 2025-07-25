@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Test Page</title>
+    <script src="theme-config.js"></script>
+</head>
+<body>
+    <h1>Theme Configuration Test</h1>
+    <div id="test-results"></div>
+    
+    <script>
+        function runTests() {
+            const results = document.getElementById('test-results');
+            let html = '<h2>Test Results:</h2>';
+            
+            // Test 1: THEME_CONFIG exists
+            if (typeof THEME_CONFIG !== 'undefined') {
+                html += '<p>✅ THEME_CONFIG is defined</p>';
+                
+                // Test 2: Check basic properties
+                if (THEME_CONFIG.colors && THEME_CONFIG.icons) {
+                    html += '<p>✅ THEME_CONFIG has colors and icons</p>';
+                } else {
+                    html += '<p>❌ THEME_CONFIG missing colors or icons</p>';
+                }
+                
+                // Test 3: ThemeHelper exists
+                if (typeof ThemeHelper !== 'undefined') {
+                    html += '<p>✅ ThemeHelper is defined</p>';
+                    
+                    // Test 4: Helper functions work
+                    try {
+                        const primaryColor = ThemeHelper.getColor('colors.primary');
+                        const robotIcon = ThemeHelper.getIcon('robot');
+                        html += `<p>✅ Primary color: ${primaryColor}</p>`;
+                        html += `<p>✅ Robot icon: ${robotIcon}</p>`;
+                    } catch (e) {
+                        html += `<p>❌ Helper function error: ${e.message}</p>`;
+                    }
+                } else {
+                    html += '<p>❌ ThemeHelper is not defined</p>';
+                }
+            } else {
+                html += '<p>❌ THEME_CONFIG is not defined</p>';
+            }
+            
+            results.innerHTML = html;
+        }
+        
+        // Run tests when page loads
+        setTimeout(runTests, 100);
+    </script>
+</body>
+</html>

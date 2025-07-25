@@ -418,6 +418,25 @@ window.runQuizAssistant = async function(mode = 'single') {
   await processAllQuestionsAsync(mode);
 };
 
+// Test function to verify content script is loaded
+window.testQuizAssistant = function() {
+  console.log('Quiz Assistant content script is loaded and working!');
+  console.log('Available functions:', {
+    runQuizAssistant: typeof window.runQuizAssistant,
+    autoCompleteQuiz: typeof window.autoCompleteQuiz,
+    testCORS: typeof window.testCORS,
+    processAllQuestionsAsync: typeof processAllQuestionsAsync
+  });
+  return {
+    loaded: true,
+    functions: {
+      runQuizAssistant: typeof window.runQuizAssistant === 'function',
+      autoCompleteQuiz: typeof window.autoCompleteQuiz === 'function',
+      testCORS: typeof window.testCORS === 'function'
+    }
+  };
+};
+
 // Function to perform web search for a question
 window.searchQuestion = function(questionData, questionIndex) {
   try {

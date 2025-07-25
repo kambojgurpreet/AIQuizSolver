@@ -1,6 +1,15 @@
 // UI Theme Configuration
 // Centralized colors, icons, and styling variables for the AI Quiz Assistant Extension
 
+// Prevent redeclaration errors by checking if already defined
+(function() {
+  'use strict';
+  
+  // Skip if already defined
+  if (typeof window !== 'undefined' && window.THEME_CONFIG) {
+    return;
+  }
+
 const THEME_CONFIG = {
   // Color Palette
   colors: {
@@ -314,3 +323,5 @@ if (typeof module !== 'undefined' && module.exports) {
   window.THEME_CONFIG = THEME_CONFIG;
   window.ThemeHelper = ThemeHelper;
 }
+
+})(); // End of IIFE to prevent redeclaration

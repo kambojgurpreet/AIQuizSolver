@@ -1,19 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Wait for theme configuration to be available
-  if (typeof THEME_CONFIG === 'undefined' || typeof ThemeHelper === 'undefined') {
-    console.error('Theme configuration not loaded. Retrying...');
-    setTimeout(() => {
-      if (typeof THEME_CONFIG !== 'undefined' && typeof ThemeHelper !== 'undefined') {
-        initializeTheme();
-        initializeUI();
-      } else {
-        console.error('Theme configuration failed to load. Using fallback styling.');
-        initializeUIWithFallback();
-      }
-    }, 100);
-    return;
-  }
-  
   // Initialize theme and UI elements
   initializeTheme();
   initializeUI();
@@ -68,18 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
       button:hover {
         transform: ${theme.buttons.common.hoverTransform};
         box-shadow: ${theme.buttons.common.hoverBoxShadow};
-      }
-      
-      button:disabled {
-        opacity: 0.6 !important;
-        cursor: not-allowed !important;
-        transform: none !important;
-        box-shadow: ${theme.buttons.common.boxShadow} !important;
-      }
-      
-      button:disabled:hover {
-        transform: none !important;
-        box-shadow: ${theme.buttons.common.boxShadow} !important;
       }
       
       .primary-btn {
@@ -203,69 +176,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('run-btn-icon').textContent = ThemeHelper.getIcon('target');
   }
   
-  function initializeUIWithFallback() {
-    console.log('Initializing UI with fallback styling...');
-    
-    // Set fallback CSS
-    const styleElement = document.getElementById('theme-styles');
-    const fallbackCSS = `
-      body {
-        width: 280px;
-        padding: 15px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-      }
-      .header { text-align: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid rgba(255,255,255,0.3); }
-      .header h2 { margin: 0; font-size: 18px; font-weight: 600; }
-      .subtitle { font-size: 11px; opacity: 0.8; margin-top: 3px; }
-      button { width: 100%; margin: 6px 0; padding: 10px 12px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
-      button:hover { transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.3); }
-      button:disabled { opacity: 0.6 !important; cursor: not-allowed !important; transform: none !important; box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important; }
-      button:disabled:hover { transform: none !important; box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important; }
-      .primary-btn { background: #28a745; color: white; }
-      .secondary-btn { background: #007bff; color: white; }
-      .info-btn { background: #17a2b8; color: white; }
-      .warning-btn { background: #ffc107; color: #212529; }
-      .danger-btn { background: #dc3545; color: white; }
-    `;
-    styleElement.textContent = fallbackCSS;
-    
-    // Set fallback icons
-    document.getElementById('main-title').innerHTML = `🤖 AI Quiz Assistant`;
-    document.getElementById('analysis-mode-title').innerHTML = `🔬 Analysis Mode`;
-    document.getElementById('single-model-icon').textContent = '⚡';
-    document.getElementById('multi-model-icon').textContent = '🧠';
-    document.getElementById('run-btn-icon').textContent = '🎯';
-    
-    // Initialize with basic functionality
-    initializeBasicUI();
-  }
-  
-  function initializeBasicUI() {
-    // Basic UI initialization without theme dependency
-    const runBtn = document.getElementById("run");
-    const statusDiv = document.createElement("div");
-    statusDiv.id = "status";
-    statusDiv.style.cssText = "margin: 10px 0; padding: 8px; border-radius: 4px; font-size: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);";
-    
-    runBtn.parentNode.insertBefore(statusDiv, runBtn.nextSibling);
-    
-    function setStatus(message, type = "info") {
-      statusDiv.textContent = message;
-      const colors = {
-        info: "rgba(255,255,255,0.1)",
-        success: "rgba(40, 167, 69, 0.2)", 
-        error: "rgba(220, 53, 69, 0.2)",
-        loading: "rgba(255, 193, 7, 0.2)"
-      };
-      statusDiv.style.backgroundColor = colors[type] || colors.info;
-    }
-    
-    setStatus("Ready! (Fallback mode - theme config not loaded)");
-  }
-  
   function initializeUI() {
     const runBtn = document.getElementById("run");
     const statusDiv = document.createElement("div");
@@ -294,9 +204,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const autoCompleteBtn = document.createElement("button");
     autoCompleteBtn.className = "secondary-btn";
-    autoCompleteBtn.disabled = true; // Initially disabled until questions are processed
-    autoCompleteBtn.style.opacity = "0.6";
-    autoCompleteBtn.style.cursor = "not-allowed";
     
     const testBtn = document.createElement("button");
     testBtn.className = "info-btn";
@@ -322,56 +229,6 @@ document.addEventListener("DOMContentLoaded", function() {
       autoCompleteBtn.innerHTML = `${emoji} Auto-Complete (${modeText})`;
     }
     
-    // Function to check if quiz data is available and update button states
-    async function checkQuizDataAvailability() {
-      try {
-        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-        const result = await chrome.scripting.executeScript({
-          target: { tabId: tab.id },
-          func: () => {
-            // Check if quiz data is available
-            const hasQuizData = window.allQuizData && window.allQuizData.length > 0;
-            const isProcessing = window.isProcessing || false;
-            return {
-              hasData: hasQuizData,
-              dataLength: window.allQuizData ? window.allQuizData.length : 0,
-              isProcessing: isProcessing
-            };
-          }
-        });
-        
-        const dataInfo = result[0]?.result;
-        updateAutoCompleteButtonState(dataInfo);
-        return dataInfo;
-      } catch (error) {
-        console.log('Could not check quiz data availability:', error.message);
-        return { hasData: false, dataLength: 0, isProcessing: false };
-      }
-    }
-    
-    // Function to update auto-complete button state
-    function updateAutoCompleteButtonState(dataInfo) {
-      if (dataInfo?.hasData && !dataInfo?.isProcessing) {
-        // Enable button - questions are processed and available
-        autoCompleteBtn.disabled = false;
-        autoCompleteBtn.style.opacity = "1";
-        autoCompleteBtn.style.cursor = "pointer";
-        autoCompleteBtn.title = `Ready to auto-complete ${dataInfo.dataLength} questions`;
-      } else if (dataInfo?.isProcessing) {
-        // Disable button - processing in progress
-        autoCompleteBtn.disabled = true;
-        autoCompleteBtn.style.opacity = "0.6";
-        autoCompleteBtn.style.cursor = "not-allowed";
-        autoCompleteBtn.title = "Processing questions... Please wait.";
-      } else {
-        // Disable button - no data available
-        autoCompleteBtn.disabled = true;
-        autoCompleteBtn.style.opacity = "0.6";
-        autoCompleteBtn.style.cursor = "not-allowed";
-        autoCompleteBtn.title = "No quiz data available. Process questions first using 'Process All' button.";
-      }
-    }
-    
     // Add event listeners to radio buttons
     singleModelRadio.addEventListener('change', () => {
       updateButtonText();
@@ -384,13 +241,10 @@ document.addEventListener("DOMContentLoaded", function() {
       updateAutoCompleteText();
     });
     
-    // Initialize button texts and check initial state
+    // Initialize button texts
     updateButtonText();
     updateProcessAllText();
     updateAutoCompleteText();
-    
-    // Check quiz data availability on popup open
-    checkQuizDataAvailability();
     
     // Insert new elements
     runBtn.parentNode.insertBefore(statusDiv, runBtn.nextSibling);
@@ -415,59 +269,12 @@ document.addEventListener("DOMContentLoaded", function() {
       try {
         const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         
-        // First, check if the content script is already loaded
-        let scriptsLoaded = false;
-        try {
-          const testResults = await chrome.scripting.executeScript({
-            target: { tabId: tab.id },
-            func: () => {
-              // Test if content script functions are available
-              const hasRunQuizAssistant = typeof window.runQuizAssistant === 'function';
-              const hasThemeConfig = typeof window.THEME_CONFIG !== 'undefined';
-              const hasTestFunction = typeof window.testQuizAssistant === 'function';
-              
-              console.log('Content script availability check:', {
-                runQuizAssistant: hasRunQuizAssistant,
-                themeConfig: hasThemeConfig,
-                testFunction: hasTestFunction,
-                url: window.location.href
-              });
-              
-              if (hasTestFunction) {
-                // Run the test function to get detailed info
-                return window.testQuizAssistant();
-              }
-              
-              return {
-                loaded: hasRunQuizAssistant && hasThemeConfig,
-                functions: {
-                  runQuizAssistant: hasRunQuizAssistant,
-                  themeConfig: hasThemeConfig
-                }
-              };
-            }
-          });
-          
-          const testResult = testResults[0]?.result;
-          scriptsLoaded = testResult?.loaded === true;
-          console.log('Script loading test result:', testResult);
-          
-        } catch (e) {
-          console.log('Content script not loaded, will inject manually. Error:', e.message);
-        }
-        
-        // If content script is not loaded (not on quiz page), inject it manually
-        if (!scriptsLoaded) {
-          console.log('Injecting content scripts manually...');
-          await chrome.scripting.executeScript({
-            target: { tabId: tab.id },
-            files: ["theme-config.js", "content.js"]
-          });
-          
-          // Wait a moment for scripts to initialize
-          await new Promise(resolve => setTimeout(resolve, 500));
-        }
-        
+        // First ensure content script is loaded
+        await chrome.scripting.executeScript({
+          target: { tabId: tab.id },
+          files: ["theme-config.js", "content.js"]
+        });
+
         // Execute predefined functions based on action
         let results;
         switch (action) {
@@ -475,26 +282,11 @@ document.addEventListener("DOMContentLoaded", function() {
             results = await chrome.scripting.executeScript({
               target: { tabId: tab.id },
               func: (params) => {
-                console.log('Checking for runQuizAssistant function...');
-                console.log('Available functions:', Object.keys(window).filter(key => key.includes('Quiz') || key.includes('quiz')));
-                console.log('THEME_CONFIG available:', typeof window.THEME_CONFIG !== 'undefined');
-                console.log('runQuizAssistant available:', typeof window.runQuizAssistant === 'function');
-                
                 if (typeof window.runQuizAssistant === 'function') {
-                  console.log('Calling runQuizAssistant with mode:', params?.mode || 'single');
-                  try {
-                    const result = window.runQuizAssistant(params?.mode || 'single');
-                    console.log('runQuizAssistant called successfully');
-                    return result;
-                  } catch (error) {
-                    console.error('Error calling runQuizAssistant:', error);
-                    return { error: error.message };
-                  }
+                  return window.runQuizAssistant(params?.mode || 'single');
                 } else {
                   console.error('runQuizAssistant function not found');
-                  console.log('Current URL:', window.location.href);
-                  console.log('Available window properties:', Object.keys(window).filter(key => typeof window[key] === 'function' && key.toLowerCase().includes('quiz')));
-                  return { error: 'runQuizAssistant function not found' };
+                  return false;
                 }
               },
               args: [params]
@@ -635,14 +427,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return results[0];
       } catch (error) {
         console.error("Error executing script:", error);
-        console.error("Error details:", {
-          message: error.message,
-          stack: error.stack,
-          action: action,
-          params: params
-        });
         setStatus(`Error: ${error.message}`, "error");
-        return { error: error.message, result: false };
       }
     }
 
@@ -661,47 +446,15 @@ document.addEventListener("DOMContentLoaded", function() {
     processAllBtn.addEventListener("click", async () => {
       const mode = getSelectedMode();
       setStatus(`Processing all questions with ${mode === 'single' ? 'single model' : 'multi-model consensus'}...`, "loading");
-      
-      // Disable auto-complete button during processing
-      updateAutoCompleteButtonState({ hasData: false, isProcessing: true });
-      
-      try {
-        const result = await executeInActiveTab('runQuizAssistant', { mode });
-        console.log('Process All result:', result);
-        
-        if (result?.error) {
-          setStatus(`Error: ${result.error}`, "error");
-        } else if (result?.result !== false) {
-          setStatus("All questions processed! Check the on-page UI", "success");
-          
-          // Wait a moment for processing to complete, then check data availability
-          setTimeout(async () => {
-            await checkQuizDataAvailability();
-          }, 1000);
-        } else {
-          setStatus("Failed to start processing - check browser console for details", "error");
-        }
-      } catch (error) {
-        console.error('Process All button error:', error);
-        setStatus(`Process All failed: ${error.message}`, "error");
+      const result = await executeInActiveTab('runQuizAssistant', { mode });
+      if (result?.result !== false) {
+        setStatus("All questions processed! Check the on-page UI", "success");
+      } else {
+        setStatus("Failed to start processing", "error");
       }
     });
 
     autoCompleteBtn.addEventListener("click", async () => {
-      // Check if button is disabled
-      if (autoCompleteBtn.disabled) {
-        setStatus("Auto-complete not available. Process questions first.", "error");
-        return;
-      }
-      
-      // Double-check data availability before proceeding
-      const dataInfo = await checkQuizDataAvailability();
-      if (!dataInfo?.hasData) {
-        setStatus("No quiz data available. Process questions first using 'Process All' button.", "error");
-        updateAutoCompleteButtonState(dataInfo);
-        return;
-      }
-      
       const mode = getSelectedMode();
       setStatus(`Starting auto-completion with ${mode === 'single' ? 'single model' : 'multi-model consensus'}...`, "loading");
       const result = await executeInActiveTab('autoCompleteQuiz', { mode });
@@ -713,53 +466,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     testBtn.addEventListener("click", async () => {
-      setStatus("Testing content script and connection...", "loading");
-      
-      try {
-        // First test if content script is loaded
-        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-        const scriptTestResult = await chrome.scripting.executeScript({
-          target: { tabId: tab.id },
-          func: () => {
-            if (typeof window.testQuizAssistant === 'function') {
-              return window.testQuizAssistant();
-            } else {
-              return {
-                loaded: false,
-                error: 'Content script not loaded',
-                functions: {
-                  runQuizAssistant: typeof window.runQuizAssistant === 'function',
-                  autoCompleteQuiz: typeof window.autoCompleteQuiz === 'function',
-                  testCORS: typeof window.testCORS === 'function'
-                }
-              };
-            }
-          }
-        });
-        
-        const scriptResult = scriptTestResult[0]?.result;
-        console.log('Content script test result:', scriptResult);
-        
-        if (!scriptResult?.loaded) {
-          setStatus(`Content script not loaded. Available functions: ${JSON.stringify(scriptResult?.functions)}`, "error");
-          return;
-        }
-        
-        // Check quiz data availability
-        const dataInfo = await checkQuizDataAvailability();
-        
-        // If content script is loaded, test the CORS connection
-        const corsResult = await executeInActiveTab('testCORS');
-        if (corsResult?.result) {
-          const dataStatus = dataInfo?.hasData ? `& ${dataInfo.dataLength} questions processed` : '& no quiz data';
-          setStatus(`${ThemeHelper.getIcon('success')} Content script loaded, proxy connected ${dataStatus}!`, "success");
-        } else {
-          setStatus(`Content script loaded but proxy server connection failed`, "warning");
-        }
-        
-      } catch (error) {
-        console.error('Test button error:', error);
-        setStatus(`Test failed: ${error.message}`, "error");
+      setStatus("Testing connection...", "loading");
+      const result = await executeInActiveTab('testCORS');
+      if (result?.result) {
+        setStatus(`${ThemeHelper.getIcon('success')} Proxy server connected successfully!`, "success");
+      } else {
+        setStatus(`${ThemeHelper.getIcon('error')} Connection failed. Is proxy server running?`, "error");
       }
     });
 
