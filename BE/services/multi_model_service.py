@@ -6,7 +6,11 @@ import os
 import re
 import asyncio
 import logging
-from typing import List, Tuple, Optional
+import hashlib
+import json
+import atexit
+from pathlib import Path
+from typing import List, Tuple, Optional, Dict
 from fastapi import HTTPException
 
 # AI Model imports
@@ -23,10 +27,189 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
+# Cache configuration
+CACHE_SIZE = 10000  # Number of cached responses per model
+CACHE_DIR = Path("cache")  # Directory to store cache files
+CACHE_FILES = {
+    "openai": CACHE_DIR / "openai_cache.json",
+    "gemini": CACHE_DIR / "gemini_cache.json", 
+    "xai": CACHE_DIR / "xai_cache.json"
+}
+
+# Ensure cache directory exists
+CACHE_DIR.mkdir(exist_ok=True)
+
+# Separate caches for each model
+_openai_cache: Dict[str, ModelResponse] = {}
+_gemini_cache: Dict[str, ModelResponse] = {}
+_xai_cache: Dict[str, ModelResponse] = {}
+
+
+def _serialize_model_response(response: ModelResponse) -> dict:
+    """Convert ModelResponse to dictionary for JSON serialization"""
+    return {
+        "model": response.model,
+        "answer": response.answer,
+        "confidence": response.confidence,
+        "raw": response.raw,
+        "reasoning": response.reasoning,
+        "error": getattr(response, 'error', False)
+    }
+
+
+def _deserialize_model_response(data: dict) -> ModelResponse:
+    """Convert dictionary back to ModelResponse"""
+    return ModelResponse(
+        model=data["model"],
+        answer=data["answer"],
+        confidence=data["confidence"],
+        raw=data["raw"],
+        reasoning=data.get("reasoning"),
+        error=data.get("error", False)
+    )
+
+
+def _load_cache_from_file(cache_file: Path) -> Dict[str, ModelResponse]:
+    """Load cache from JSON file"""
+    if not cache_file.exists():
+        logger.info(f"Cache file {cache_file} does not exist, starting with empty cache")
+        return {}
+    
+    try:
+        with open(cache_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Convert dict back to ModelResponse objects
+        cache = {}
+        for key, response_data in data.items():
+            cache[key] = _deserialize_model_response(response_data)
+        
+        logger.info(f"Loaded {len(cache)} cached responses from {cache_file}")
+        return cache
+    
+    except Exception as e:
+        logger.error(f"Error loading cache from {cache_file}: {e}")
+        return {}
+
+
+def _save_cache_to_file(cache: Dict[str, ModelResponse], cache_file: Path) -> None:
+    """Save cache to JSON file"""
+    try:
+        # Convert ModelResponse objects to dictionaries
+        data = {}
+        for key, response in cache.items():
+            data[key] = _serialize_model_response(response)
+        
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        logger.debug(f"Saved {len(cache)} cached responses to {cache_file}")
+    
+    except Exception as e:
+        logger.error(f"Error saving cache to {cache_file}: {e}")
+
+
+def _load_all_caches() -> None:
+    """Load all caches from disk on startup"""
+    global _openai_cache, _gemini_cache, _xai_cache
+    
+    logger.info("Loading persistent caches from disk...")
+    _openai_cache = _load_cache_from_file(CACHE_FILES["openai"])
+    _gemini_cache = _load_cache_from_file(CACHE_FILES["gemini"])
+    _xai_cache = _load_cache_from_file(CACHE_FILES["xai"])
+    
+    total_cached = len(_openai_cache) + len(_gemini_cache) + len(_xai_cache)
+    logger.info(f"Loaded {total_cached} total cached responses from disk")
+
+
+def _save_all_caches() -> None:
+    """Save all caches to disk"""
+    logger.info("Saving persistent caches to disk...")
+    _save_cache_to_file(_openai_cache, CACHE_FILES["openai"])
+    _save_cache_to_file(_gemini_cache, CACHE_FILES["gemini"])
+    _save_cache_to_file(_xai_cache, CACHE_FILES["xai"])
+    
+    total_cached = len(_openai_cache) + len(_gemini_cache) + len(_xai_cache)
+    logger.info(f"Saved {total_cached} total cached responses to disk")
+
+
+# Load caches on module import
+_load_all_caches()
+
+# Register auto-save on program exit
+atexit.register(_save_all_caches)
+
 # Global client variables
 _openai_client: Optional[AsyncOpenAI] = None
 _xai_client: Optional[AsyncOpenAI] = None
 _gemini_client: Optional[genai.Client] = None
+
+
+def _create_cache_key(question: str, options: List[str]) -> str:
+    """Create a cache key for question+options combination"""
+    content = f"{question}|{'|'.join(options)}"
+    return hashlib.md5(content.encode()).hexdigest()
+
+
+def _get_from_cache(cache: Dict[str, ModelResponse], cache_key: str) -> Optional[ModelResponse]:
+    """Get response from specific model cache"""
+    return cache.get(cache_key)
+
+
+def _add_to_cache(cache: Dict[str, ModelResponse], cache_key: str, response: ModelResponse) -> None:
+    """Add response to specific model cache with size limit and auto-save"""
+    if len(cache) >= CACHE_SIZE:
+        # Remove oldest entry (simple FIFO)
+        oldest_key = next(iter(cache))
+        del cache[oldest_key]
+    cache[cache_key] = response
+    
+    # Auto-save to disk (async to avoid blocking)
+    try:
+        # Determine which cache file to save to
+        if cache is _openai_cache:
+            _save_cache_to_file(cache, CACHE_FILES["openai"])
+        elif cache is _gemini_cache:
+            _save_cache_to_file(cache, CACHE_FILES["gemini"])
+        elif cache is _xai_cache:
+            _save_cache_to_file(cache, CACHE_FILES["xai"])
+    except Exception as e:
+        logger.error(f"Error auto-saving cache: {e}")
+
+
+def get_cache_stats() -> Dict[str, int]:
+    """Get cache statistics for monitoring"""
+    return {
+        "openai_cache_size": len(_openai_cache),
+        "gemini_cache_size": len(_gemini_cache),
+        "xai_cache_size": len(_xai_cache),
+        "total_cached_responses": len(_openai_cache) + len(_gemini_cache) + len(_xai_cache),
+        "cache_size_limit": CACHE_SIZE
+    }
+
+
+def clear_caches() -> None:
+    """Clear all model caches and remove cache files"""
+    global _openai_cache, _gemini_cache, _xai_cache
+    _openai_cache.clear()
+    _gemini_cache.clear()
+    _xai_cache.clear()
+    
+    # Also remove cache files
+    for cache_file in CACHE_FILES.values():
+        try:
+            if cache_file.exists():
+                cache_file.unlink()
+                logger.debug(f"Removed cache file: {cache_file}")
+        except Exception as e:
+            logger.error(f"Error removing cache file {cache_file}: {e}")
+    
+    logger.info("All model caches cleared and cache files removed")
+
+
+def save_caches_now() -> None:
+    """Manually trigger cache save (useful for periodic saves)"""
+    _save_all_caches()
 
 
 def get_openai_client() -> AsyncOpenAI:
@@ -137,6 +320,13 @@ def parse_answer_response(response_content: str, model_name: str) -> Tuple[str, 
 
 async def get_openai_answer(question: str, options: List[str]) -> ModelResponse:
     """Get answer from OpenAI GPT-4.1"""
+    # Check cache first
+    cache_key = _create_cache_key(question, options)
+    cached_response = _get_from_cache(_openai_cache, cache_key)
+    if cached_response:
+        logger.debug("Returning cached OpenAI response")
+        return cached_response
+    
     try:
         formatted_options = []
         for i, option in enumerate(options):
@@ -177,13 +367,17 @@ async def get_openai_answer(question: str, options: List[str]) -> ModelResponse:
         response_content = response.choices[0].message.content
         answer, confidence, reasoning = parse_answer_response(response_content, "gpt-4.1")
         
-        return ModelResponse(
+        result = ModelResponse(
             model="gpt-4.1",
             answer=answer,
             confidence=confidence,
             raw=response_content,
             reasoning=reasoning
         )
+        
+        # Cache the successful response
+        _add_to_cache(_openai_cache, cache_key, result)
+        return result
         
     except Exception as e:
         logger.error(f"Error getting OpenAI answer: {e}")
@@ -200,6 +394,13 @@ async def get_openai_answer(question: str, options: List[str]) -> ModelResponse:
 
 async def get_gemini_answer(question: str, options: List[str]) -> ModelResponse:
     """Get answer from Google Gemini"""
+    # Check cache first
+    cache_key = _create_cache_key(question, options)
+    cached_response = _get_from_cache(_gemini_cache, cache_key)
+    if cached_response:
+        logger.debug("Returning cached Gemini response")
+        return cached_response
+    
     try:
         gemini_client = configure_gemini()
         
@@ -262,13 +463,17 @@ async def get_gemini_answer(question: str, options: List[str]) -> ModelResponse:
         response_content = response.text
         answer, confidence, reasoning = parse_answer_response(response_content, "gemini-2.5-pro")
         
-        return ModelResponse(
+        result = ModelResponse(
             model="gemini-2.5-pro",
             answer=answer,
             confidence=confidence,
             raw=response_content,
             reasoning=reasoning
         )
+        
+        # Cache the successful response
+        _add_to_cache(_gemini_cache, cache_key, result)
+        return result
         
     except Exception as e:
         logger.error(f"Error getting Gemini answer: {e}")
@@ -285,6 +490,13 @@ async def get_gemini_answer(question: str, options: List[str]) -> ModelResponse:
 
 async def get_xai_answer(question: str, options: List[str]) -> ModelResponse:
     """Get answer from xAI Grok"""
+    # Check cache first
+    cache_key = _create_cache_key(question, options)
+    cached_response = _get_from_cache(_xai_cache, cache_key)
+    if cached_response:
+        logger.debug("Returning cached xAI response")
+        return cached_response
+    
     try:
         formatted_options = []
         for i, option in enumerate(options):
@@ -330,13 +542,17 @@ async def get_xai_answer(question: str, options: List[str]) -> ModelResponse:
         response_content = response.choices[0].message.content
         answer, confidence, reasoning = parse_answer_response(response_content, "grok-4")
         
-        return ModelResponse(
+        result = ModelResponse(
             model="grok-4",
             answer=answer,
             confidence=confidence,
             raw=response_content,
             reasoning=reasoning
         )
+        
+        # Cache the successful response
+        _add_to_cache(_xai_cache, cache_key, result)
+        return result
         
     except Exception as e:
         logger.error(f"Error getting xAI answer: {e}")
