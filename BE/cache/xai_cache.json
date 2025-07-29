@@ -1,18 +1,1 @@
-{
-  "b9561d4b087c003c09c26a952e73b5cf": {
-    "model": "grok-4",
-    "answer": "A",
-    "confidence": 9,
-    "raw": "Answer: A  \nConfidence: 9  \nReasoning: e-KUN (e-Kisan Upaj Nidhi) is a digital initiative by the Indian government to facilitate post-harvest storage and finance for farmers using e-NWRs (electronic Negotiable Warehouse Receipts), which naturally encourages adoption of electronic receipts over physical ones for efficiency and accessibility.",
-    "reasoning": "e-KUN (e-Kisan Upaj Nidhi) is a digital initiative by the Indian government to facilitate post-harvest storage and finance for farmers using e-NWRs (electronic Negotiable Warehouse Receipts), which naturally encourages adoption of electronic receipts over physical ones for efficiency and accessibility.",
-    "error": false
-  },
-  "3287495a1e971c821ff879f030e9e49a": {
-    "model": "grok-4",
-    "answer": "B",
-    "confidence": 8,
-    "raw": "Answer: B  \nConfidence: 8  \nReasoning: WDRA (Warehousing Development and Regulatory Authority) regulates warehouses to ensure proper storage conditions, which directly contributes to maintaining the quality of stored commodities, making the statement false.",
-    "reasoning": "WDRA (Warehousing Development and Regulatory Authority) regulates warehouses to ensure proper storage conditions, which directly contributes to maintaining the quality of stored commodities, making the statement false.",
-    "error": false
-  }
-}
+{}

@@ -161,6 +161,82 @@ function highlightMultipleAnswers(visibleQuizItem, conflictingAnswers, confidenc
   });
 }
 
+// Helper function to check if a question is retryable
+function isQuestionRetryable(question) {
+  // Case 1: Complete processing failure
+  if (question.status === 'error') {
+    return true;
+  }
+  
+  // Case 2: Multi-model question with individual model failures
+  if (question.mode === 'multi' && question.individual_answers) {
+    const hasFailedModels = Object.values(question.individual_answers).some(data => data.error === true);
+    return hasFailedModels;
+  }
+  
+  // Case 3: Multi-model question with no consensus (disagreement)
+  if (question.mode === 'multi' && question.consensus === false) {
+    return true;
+  }
+  
+  return false;
+}
+
+// Helper function to log question results to localStorage for log.html display
+function logQuestionToStorage(questionData, mode) {
+  try {
+    const log = JSON.parse(localStorage.getItem('quizLog') || '[]');
+    
+    // Check if this question is already logged (avoid duplicates on retries)
+    const existingIndex = log.findIndex(entry => 
+      entry.question === questionData.question && 
+      entry.options && 
+      JSON.stringify(entry.options) === JSON.stringify(questionData.options)
+    );
+    
+    const logEntry = {
+      question: questionData.question,
+      options: questionData.options,
+      answer: questionData.answer,
+      confidence: questionData.confidence,
+      reasoning: questionData.reasoning || 'No reasoning provided',
+      mode: mode,
+      time: new Date().toLocaleString()
+    };
+    
+    if (mode === 'multi') {
+      logEntry.consensus = questionData.consensus;
+      logEntry.individual_answers = questionData.individual_answers;
+    }
+    
+    // Update existing entry or add new one
+    if (existingIndex !== -1) {
+      // Update existing entry (in case of retry with different results)
+      logEntry.time = `${logEntry.time} (Updated)`;
+      log[existingIndex] = logEntry;
+      console.log(`Updated log entry for: ${questionData.question.substring(0, 50)}...`);
+    } else {
+      // Add new entry
+      log.push(logEntry);
+      console.log(`Added log entry for: ${questionData.question.substring(0, 50)}...`);
+    }
+    
+    localStorage.setItem('quizLog', JSON.stringify(log));
+  } catch (error) {
+    console.warn('Failed to log question to localStorage:', error);
+  }
+}
+
+// Helper function to clear quiz logs (optional, for new sessions)
+function clearQuizLogs() {
+  try {
+    localStorage.removeItem('quizLog');
+    console.log('Quiz logs cleared for new session');
+  } catch (error) {
+    console.warn('Failed to clear quiz logs:', error);
+  }
+}
+
 // Make helper functions available globally for popup.js
 window.extractEnglishText = extractEnglishText;
 window.formatConfidence = formatConfidence;
@@ -221,6 +297,9 @@ async function processAllQuestionsAsync(mode = 'single') {
     return;
   }
   
+  // Optional: Clear previous logs for new batch session (uncomment if needed)
+  // clearQuizLogs();
+  
   // Show processing UI
   showProcessingUI();
   
@@ -274,6 +353,9 @@ async function processAllQuestionsAsync(mode = 'single') {
         } else {
           allQuizData[index].highlight_type = 'single';
         }
+        
+        // Log the result to localStorage for log.html display
+        logQuestionToStorage(allQuizData[index], mode);
         
         const modeText = mode === 'single' ? 'Single' : 'Multi';
         let consensusText = '';
@@ -363,6 +445,9 @@ async function processQuestion(questionData, mode = 'single', retryCount = 0) {
     } else {
       questionData.highlight_type = 'single';
     }
+    
+    // Log the result to localStorage for log.html display (for retry operations)
+    logQuestionToStorage(questionData, mode);
     
     const modeText = mode === 'single' ? 'Single' : 'Multi';
     let consensusText = '';
@@ -643,14 +728,16 @@ function completeQuestionAndNext(index) {
   }, 100);
 }
 
-// Function to make popup draggable - ONLY from header
+// Function to make popup draggable and resizable
 function makeDraggable() {
   const popup = document.getElementById('quizAssistantPopup');
   const dragHeader = document.getElementById('dragHeader');
+  const resizeHandle = document.getElementById('resizeHandle');
   
   if (!popup || !dragHeader) return;
   
   let isDragging = false;
+  let isResizing = false;
   let currentX;
   let currentY;
   let initialX;
@@ -663,6 +750,7 @@ function makeDraggable() {
   xOffset = rect.left;
   yOffset = rect.top;
   
+  // DRAGGING FUNCTIONALITY
   // ONLY add drag events to the header
   dragHeader.addEventListener('mousedown', dragStart);
   document.addEventListener('mousemove', drag);
@@ -670,23 +758,44 @@ function makeDraggable() {
   
   // Add hover effects ONLY to header
   dragHeader.addEventListener('mouseenter', () => {
-    if (!isDragging) {
+    if (!isDragging && !isResizing) {
       dragHeader.style.background = '#0056b3';
       dragHeader.style.cursor = 'grab';
     }
   });
   
   dragHeader.addEventListener('mouseleave', () => {
-    if (!isDragging) {
+    if (!isDragging && !isResizing) {
       dragHeader.style.background = '#007cba';
       dragHeader.style.cursor = 'grab';
     }
   });
   
+  // RESIZING FUNCTIONALITY
+  if (resizeHandle) {
+    resizeHandle.addEventListener('mousedown', resizeStart);
+    document.addEventListener('mousemove', resize);
+    document.addEventListener('mouseup', resizeEnd);
+    
+    // Hover effects for resize handle
+    resizeHandle.addEventListener('mouseenter', () => {
+      if (!isResizing && !isDragging) {
+        resizeHandle.style.opacity = '1';
+      }
+    });
+    
+    resizeHandle.addEventListener('mouseleave', () => {
+      if (!isResizing && !isDragging) {
+        resizeHandle.style.opacity = '0.6';
+      }
+    });
+  }
+  
   // Also add touch support for mobile
   dragHeader.addEventListener('touchstart', dragStart);
-  document.addEventListener('touchmove', drag);
-  document.addEventListener('touchend', dragEnd);
+  if (resizeHandle) resizeHandle.addEventListener('touchstart', resizeStart);
+  document.addEventListener('touchmove', handleTouch);
+  document.addEventListener('touchend', handleTouchEnd);
   
   function dragStart(e) {
     // STRICT CHECK: Only allow dragging if the event target is within the header
@@ -712,6 +821,26 @@ function makeDraggable() {
     
     // Add visual feedback that we're dragging
     document.body.style.userSelect = 'none'; // Prevent text selection while dragging
+  }
+  
+  function resizeStart(e) {
+    if (!resizeHandle || !resizeHandle.contains(e.target)) return;
+    
+    e.preventDefault();
+    e.stopPropagation(); // Prevent drag from starting
+    
+    isResizing = true;
+    resizeHandle.style.opacity = '1';
+    popup.style.boxShadow = '0 8px 16px rgba(0,0,0,0.4)';
+    document.body.style.userSelect = 'none';
+    
+    if (e.type === "touchstart") {
+      initialX = e.touches[0].clientX;
+      initialY = e.touches[0].clientY;
+    } else {
+      initialX = e.clientX;
+      initialY = e.clientY;
+    }
   }
   
   function drag(e) {
@@ -742,6 +871,37 @@ function makeDraggable() {
     popup.style.right = 'auto'; // Remove right positioning
   }
   
+  function resize(e) {
+    if (!isResizing) return;
+    
+    e.preventDefault();
+    
+    let clientX, clientY;
+    if (e.type === "touchmove") {
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+    } else {
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+    
+    const rect = popup.getBoundingClientRect();
+    const newWidth = clientX - rect.left;
+    const newHeight = clientY - rect.top;
+    
+    // Apply constraints
+    const minWidth = 350;
+    const maxWidth = window.innerWidth * 0.9;
+    const minHeight = 400;
+    const maxHeight = window.innerHeight * 0.9;
+    
+    const constrainedWidth = Math.max(minWidth, Math.min(newWidth, maxWidth));
+    const constrainedHeight = Math.max(minHeight, Math.min(newHeight, maxHeight));
+    
+    popup.style.width = constrainedWidth + 'px';
+    popup.style.height = constrainedHeight + 'px';
+  }
+  
   function dragEnd(e) {
     if (!isDragging) return;
     
@@ -757,6 +917,31 @@ function makeDraggable() {
     
     // Re-enable text selection
     document.body.style.userSelect = '';
+  }
+  
+  function resizeEnd(e) {
+    if (!isResizing) return;
+    
+    isResizing = false;
+    if (resizeHandle) resizeHandle.style.opacity = '0.6';
+    popup.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
+    document.body.style.userSelect = '';
+  }
+  
+  function handleTouch(e) {
+    if (isDragging) {
+      drag(e);
+    } else if (isResizing) {
+      resize(e);
+    }
+  }
+  
+  function handleTouchEnd(e) {
+    if (isDragging) {
+      dragEnd(e);
+    } else if (isResizing) {
+      resizeEnd(e);
+    }
   }
 }
 
@@ -797,24 +982,52 @@ function showProcessingUI() {
   ui.id = 'quizAssistantUI';
   ui.innerHTML = `
     <div id="quizAssistantPopup" style="position: fixed; top: 200px; right: 800px; background: ${theme.colors.popupBackground}; border: 2px solid ${theme.colors.primary}; 
-                border-radius: ${theme.borderRadius.xl}; padding: ${theme.spacing.lg}; z-index: ${theme.zIndex.popup}; max-width: 450px; min-width: 350px; box-shadow: ${theme.shadows.medium}; cursor: default; transition: box-shadow 0.2s, transform 0.2s;">
-      <div id="dragHeader" style="margin: -${theme.spacing.lg} -${theme.spacing.lg} ${theme.spacing.md} -${theme.spacing.lg}; padding: ${theme.spacing.md} ${theme.spacing.lg}; background: ${theme.colors.primary}; color: ${theme.colors.white}; border-radius: ${theme.borderRadius.large} ${theme.borderRadius.large} 0 0; cursor: grab; user-select: none; transition: background 0.2s; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                border-radius: ${theme.borderRadius.xl}; padding: ${theme.spacing.lg}; z-index: ${theme.zIndex.popup}; width: 450px; min-width: 350px; max-width: 90vw; height: 500px; min-height: 400px; max-height: 90vh; 
+                box-shadow: ${theme.shadows.medium}; cursor: default; transition: box-shadow 0.2s, transform 0.2s; resize: both; overflow: hidden; display: flex; flex-direction: column;">
+      <div id="dragHeader" style="margin: -${theme.spacing.lg} -${theme.spacing.lg} ${theme.spacing.md} -${theme.spacing.lg}; padding: ${theme.spacing.md} ${theme.spacing.lg}; background: ${theme.colors.primary}; color: ${theme.colors.white}; border-radius: ${theme.borderRadius.large} ${theme.borderRadius.large} 0 0; cursor: grab; user-select: none; transition: background 0.2s; border-bottom: 1px solid rgba(255,255,255,0.1); flex-shrink: 0;">
         <h3 style="margin: 0; color: ${theme.colors.white}; display: flex; justify-content: space-between; align-items: center;">
           <span>${theme.icons.robot} Quiz Assistant</span>
           <div style="display: flex; align-items: center; gap: ${theme.spacing.md};">
-            <span style="font-size: 12px; opacity: 0.8;">${theme.icons.pin} Drag header to move</span>
+            <span style="font-size: 12px; opacity: 0.8;">${theme.icons.pin} Drag header | 📐 Resize from bottom-right</span>
             <button id="closePopup" style="background: none; border: none; color: ${theme.colors.white}; font-size: 18px; cursor: pointer; padding: 0; opacity: 0.8; transition: opacity 0.2s, transform 0.2s;" title="Close">${theme.icons.close}</button>
           </div>
         </h3>
       </div>
-      <div id="processingStatus">Processing questions...</div>
-      <div id="progressBar" style="width: 100%; height: 20px; background: ${theme.colors.lightGray}; border-radius: ${theme.borderRadius.xl}; margin: ${theme.spacing.md} 0;">
+      <div id="processingStatus" style="flex-shrink: 0;">Processing questions...</div>
+      <div id="progressBar" style="width: 100%; height: 20px; background: ${theme.colors.lightGray}; border-radius: ${theme.borderRadius.xl}; margin: ${theme.spacing.md} 0; flex-shrink: 0;">
         <div id="progressFill" style="height: 100%; background: ${theme.colors.primary}; border-radius: ${theme.borderRadius.xl}; width: 0%; transition: width 0.3s;"></div>
       </div>
-      <div id="questionsList" style="max-height: 300px; overflow-y: auto;"></div>
+      <div id="questionsList" style="overflow-y: auto; flex: 1; padding-right: 5px; scrollbar-width: thin; scrollbar-color: ${theme.colors.primary} ${theme.colors.lightGray};"></div>
+      <div id="resizeHandle" style="position: absolute; bottom: 0; right: 0; width: 20px; height: 20px; background: linear-gradient(-45deg, transparent 40%, ${theme.colors.primary} 40%, ${theme.colors.primary} 60%, transparent 60%), linear-gradient(45deg, transparent 40%, ${theme.colors.primary} 40%, ${theme.colors.primary} 60%, transparent 60%); cursor: nw-resize; opacity: 0.6; border-radius: 0 0 ${theme.borderRadius.xl} 0; transition: opacity 0.2s;"></div>
     </div>
   `;
   document.body.appendChild(ui);
+  
+  // Add custom scrollbar styles for webkit browsers
+  const style = document.createElement('style');
+  style.textContent = `
+    #questionsList::-webkit-scrollbar {
+      width: 8px;
+    }
+    #questionsList::-webkit-scrollbar-track {
+      background: ${theme.colors.lightGray};
+      border-radius: 4px;
+    }
+    #questionsList::-webkit-scrollbar-thumb {
+      background: ${theme.colors.primary};
+      border-radius: 4px;
+    }
+    #questionsList::-webkit-scrollbar-thumb:hover {
+      background: #0056b3;
+    }
+    #quizAssistantPopup {
+      box-sizing: border-box;
+    }
+    #quizAssistantPopup * {
+      box-sizing: border-box;
+    }
+  `;
+  document.head.appendChild(style);
   
   // Make the popup draggable
   makeDraggable();
@@ -909,6 +1122,9 @@ function showResultsUI() {
   // Count general processing errors (different from model failures)
   const processingErrors = allQuizData.filter(q => q.status === 'error').length;
   
+  // Count all retryable questions
+  const retryableQuestions = allQuizData.filter(isQuestionRetryable).length;
+  
   let statsHTML = `
     <div style="margin-bottom: 10px; font-weight: bold;">
       📊 Confidence Summary:<br>
@@ -944,13 +1160,13 @@ function showResultsUI() {
               style="flex: 1; padding: 8px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 11px;">
         🔍 Search All Questions
       </button>
-      ${(processingErrors + errorQuestions) > 0 ? `
+      ${retryableQuestions > 0 ? `
       <button id="retryFailedBtn" 
               style="flex: 1; padding: 8px; background: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 11px;">
-        🔄 Retry Failed (${processingErrors + errorQuestions})
+        🔄 Retry Issues (${retryableQuestions})
       </button>` : ''}
     </div>
-    <div style="font-size: 11px; max-height: 200px; overflow-y: auto;">
+    <div style="font-size: 11px; overflow-y: auto; flex: 1; padding-right: 5px;">
       ${allQuizData.map((q, i) => {
         const colors = getConfidenceColor(q.confidence);
         const answerLetter = q.answer || 'N/A';
@@ -1052,6 +1268,7 @@ function showResultsUI() {
         
         // Check if this question has an error
         const hasError = q.status === 'error';
+        const isRetryable = isQuestionRetryable(q);
         const errorDisplay = hasError ? `
           <div style="margin-top: 6px; padding: 6px; background: rgba(220, 53, 69, 0.1); border: 1px solid #dc3545; border-radius: 4px;">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
@@ -1063,6 +1280,21 @@ function showResultsUI() {
             </div>
             <div style="font-size: 9px; color: #721c24;">
               This question failed to process. Click retry to attempt again.
+            </div>
+          </div>` : '';
+
+        // Add retry button for non-consensus multi-model questions
+        const retrySection = !hasError && isRetryable ? `
+          <div style="margin-top: 6px; padding: 6px; background: rgba(255, 193, 7, 0.1); border: 1px solid #ffc107; border-radius: 4px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+              <span style="color: #856404; font-weight: bold; font-size: 10px;">⚠️ Issues detected - retry recommended</span>
+              <button class="retryQuestionBtn" data-question-index="${i}" 
+                      style="padding: 3px 8px; font-size: 9px; background: #ffc107; color: #212529; border: none; border-radius: 3px; cursor: pointer; font-weight: bold;">
+                🔄 Retry Question
+              </button>
+            </div>
+            <div style="font-size: 9px; color: #856404;">
+              ${q.mode === 'multi' && q.consensus === false ? 'Models disagreed or some failed.' : 'Individual model failures detected.'}
             </div>
           </div>` : '';
         
@@ -1091,6 +1323,7 @@ function showResultsUI() {
             </div>
             ${multiModelInfo}
             ${reasoningSection}
+            ${retrySection}
             ` : ''}
             ${errorDisplay}
           </div>
@@ -1134,15 +1367,15 @@ function showResultsUI() {
   // Add retry failed questions button event listener
   if (retryFailedBtn) {
     retryFailedBtn.addEventListener('click', async function() {
-      const failedQuestions = allQuizData.filter(q => q.status === 'error');
+      const retryableQuestions = allQuizData.filter(isQuestionRetryable);
       
-      if (failedQuestions.length === 0) {
-        showSuccessNotification('No failed questions to retry!');
+      if (retryableQuestions.length === 0) {
+        showSuccessNotification('No questions need retrying!');
         return;
       }
       
       // Show progress
-      this.textContent = `⏳ Retrying ${failedQuestions.length} questions...`;
+      this.textContent = `⏳ Retrying ${retryableQuestions.length} questions...`;
       this.disabled = true;
       this.style.background = '#6c757d';
       
@@ -1150,8 +1383,8 @@ function showResultsUI() {
       let failCount = 0;
       
       try {
-        // Process failed questions one by one
-        for (const question of failedQuestions) {
+        // Process retryable questions one by one
+        for (const question of retryableQuestions) {
           try {
             const mode = question.mode || 'single';
             await processQuestion(question, mode);
@@ -1619,9 +1852,10 @@ window.testCORS = async function() {
 
 // Make functions available immediately
 console.log("Enhanced Quiz Assistant content script loaded successfully");
-console.log("Available functions: runQuizAssistant(), autoCompleteQuiz(), searchQuestion(), searchAllQuestions(), testCORS()");
+console.log("Available functions: runQuizAssistant(), autoCompleteQuiz(), searchQuestion(), searchAllQuestions(), testCORS(), clearQuizLogs()");
 
-// Ensure functions are properly available on window object
+// Make clearQuizLogs available globally
+window.clearQuizLogs = clearQuizLogs;
 console.log("Verifying function availability:");
 console.log("window.searchQuestion:", typeof window.searchQuestion);
 console.log("window.searchAllQuestions:", typeof window.searchAllQuestions);
@@ -1639,9 +1873,10 @@ if (typeof window !== 'undefined') {
     processAll: processAllQuestionsAsync,
     extractEnglish: extractEnglishText,
     formatConfidence: formatConfidence,
-    getConfidenceColor: getConfidenceColor
+    getConfidenceColor: getConfidenceColor,
+    clearLogs: clearQuizLogs
   };
-  console.log("Functions also available as: quizAssistant.run(), quizAssistant.autoComplete(), quizAssistant.searchQuestion(), quizAssistant.searchAllQuestions()");
+  console.log("Functions also available as: quizAssistant.run(), quizAssistant.autoComplete(), quizAssistant.searchQuestion(), quizAssistant.searchAllQuestions(), quizAssistant.clearLogs()");
 }
 
 })(); // End of IIFE to prevent variable conflicts

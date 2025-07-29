@@ -389,7 +389,7 @@ async def get_multi_model_answer(question: str, options: List[str]) -> AnswerRes
         tasks = [
             get_openai_answer(question, options),
             get_gemini_answer(question, options),
-            get_xai_answer(question, options)
+            # get_xai_answer(question, options)
         ]
         
         # Execute all tasks and handle exceptions gracefully

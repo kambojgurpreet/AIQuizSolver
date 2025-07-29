@@ -1,10 +1,1130 @@
 {
-  "b9561d4b087c003c09c26a952e73b5cf": {
+  "30d5f026e823d4beaca21ed43d2ea506": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Potato chips are high in unhealthy fats, salt, and calories, making them an unhealthy snack for kids. Nuts, whole fruits, and yogurt are generally considered healthy options when consumed in appropriate amounts.",
+    "reasoning": "Potato chips are high in unhealthy fats, salt, and calories, making them an unhealthy snack for kids. Nuts, whole fruits, and yogurt are generally considered healthy options when consumed in appropriate amounts.",
+    "error": false
+  },
+  "2d41f5375615e101a474a9b2ea3cda9a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Moderate-intensity cardio exercises like jogging and cycling are scientifically proven to be effective for burning fat by increasing calorie expenditure and promoting fat loss. The other options (drinking warm water, doing yoga once a week, skipping breakfast) have little to no significant impact on fat burning compared to regular cardio exercise.",
+    "reasoning": "Moderate-intensity cardio exercises like jogging and cycling are scientifically proven to be effective for burning fat by increasing calorie expenditure and promoting fat loss. The other options (drinking warm water, doing yoga once a week, skipping breakfast) have little to no significant impact on fat burning compared to regular cardio exercise.",
+    "error": false
+  },
+  "14dda987b88d20039d83d14f053b4ae9": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Leptin is a hormone produced by fat cells that regulates hunger and fat storage by signaling the brain to reduce appetite when fat stores are sufficient. Insulin is primarily involved in blood sugar regulation, melatonin controls sleep cycles, and serotonin affects mood and well-being.",
+    "reasoning": "Leptin is a hormone produced by fat cells that regulates hunger and fat storage by signaling the brain to reduce appetite when fat stores are sufficient. Insulin is primarily involved in blood sugar regulation, melatonin controls sleep cycles, and serotonin affects mood and well-being.",
+    "error": false
+  },
+  "9a2b916f026395935cdd5d8bb63324f9": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: People with obesity often face social stigma and discrimination, which is well-documented in medical and social research. The other options are incorrect: obesity is not associated with increased energy levels, faster metabolism, or reduced risk of diseases—in fact, it is linked to the opposite effects.",
+    "reasoning": "People with obesity often face social stigma and discrimination, which is well-documented in medical and social research. The other options are incorrect: obesity is not associated with increased energy levels, faster metabolism, or reduced risk of diseases—in fact, it is linked to the opposite effects.",
+    "error": false
+  },
+  "44e62c512285ccfefcbfb138528de55d": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Ragi (finger millet) is a traditional Indian grain that is exceptionally high in dietary fibre compared to the other options. High-fibre foods promote satiety, which can help manage obesity. White rice and naan are made from refined grains and are low in fibre, while potatoes, though containing some fibre, are not as rich as ragi.",
+    "reasoning": "Ragi (finger millet) is a traditional Indian grain that is exceptionally high in dietary fibre compared to the other options. High-fibre foods promote satiety, which can help manage obesity. White rice and naan are made from refined grains and are low in fibre, while potatoes, though containing some fibre, are not as rich as ragi.",
+    "error": false
+  },
+  "8c132d167191eded298ed43bca0fc1ba": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: All the listed behaviors—late night eating, savory snacking between meals, and consumption of sugary beverages—are associated with increased calorie intake and poor dietary habits, which can hinder effective obesity management. Therefore, all should be avoided.",
+    "reasoning": "All the listed behaviors—late night eating, savory snacking between meals, and consumption of sugary beverages—are associated with increased calorie intake and poor dietary habits, which can hinder effective obesity management. Therefore, all should be avoided.",
+    "error": false
+  },
+  "894ebfcdee293e9be568415625bc2833": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: All the listed foods—wholegrains and unpolished millets (A), fruits with skin (B), and whole grams like rajma, chana, and rajgira (C)—are well-known sources of dietary fiber. Therefore, \"All of the above\" is the most accurate answer.",
+    "reasoning": "All the listed foods—wholegrains and unpolished millets (A), fruits with skin (B), and whole grams like rajma, chana, and rajgira (C)—are well-known sources of dietary fiber. Therefore, \"All of the above\" is the most accurate answer.",
+    "error": false
+  },
+  "e5d549b4fe50fb60fe9d53d45cceea6f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Most health and fitness guidelines, including those from the CDC and ACSM, recommend strength training 2-3 times per week for effective weight loss and muscle maintenance. Once a week (A) is generally insufficient for significant results, while every day (C) does not allow for adequate muscle recovery. Once a month (D) is far too infrequent to have any meaningful impact.",
+    "reasoning": "Most health and fitness guidelines, including those from the CDC and ACSM, recommend strength training 2-3 times per week for effective weight loss and muscle maintenance. Once a week (A) is generally insufficient for significant results, while every day (C) does not allow for adequate muscle recovery. Once a month (D) is far too infrequent to have any meaningful impact.",
+    "error": false
+  },
+  "66cf9bec5df8dc28bcffd0bdf4b8e8a3": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Pumpkin, flax, and sunflower seeds are rich in protein and fibre, both of which help control hunger and promote a feeling of fullness, supporting obesity management. The other options are incorrect: these seeds are not high in sugars or refined carbohydrates, and they do not increase insulin resistance.",
+    "reasoning": "Pumpkin, flax, and sunflower seeds are rich in protein and fibre, both of which help control hunger and promote a feeling of fullness, supporting obesity management. The other options are incorrect: these seeds are not high in sugars or refined carbohydrates, and they do not increase insulin resistance.",
+    "error": false
+  },
+  "f8a8475b1527022f7bb800b384f64202": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Type 2 Diabetes is closely linked to obesity, as excess body weight is a major risk factor for developing this condition. Type 1 Diabetes and Juvenile Diabetes (another name for Type 1) are autoimmune and not related to obesity. Gestational Diabetes occurs during pregnancy and, while obesity can be a risk factor, it is not as closely linked as with Type 2.",
+    "reasoning": "Type 2 Diabetes is closely linked to obesity, as excess body weight is a major risk factor for developing this condition. Type 1 Diabetes and Juvenile Diabetes (another name for Type 1) are autoimmune and not related to obesity. Gestational Diabetes occurs during pregnancy and, while obesity can be a risk factor, it is not as closely linked as with Type 2.",
+    "error": false
+  },
+  "096ac72fd64b89bb385279ddc6711cc0": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Chandrayaan is India's lunar mission, Aditya-L1 is a solar mission, and Mangalyaan is the Mars Orbiter Mission. Gaganyaan is the Indian space mission specifically aimed at sending humans to space.",
+    "reasoning": "Chandrayaan is India's lunar mission, Aditya-L1 is a solar mission, and Mangalyaan is the Mars Orbiter Mission. Gaganyaan is the Indian space mission specifically aimed at sending humans to space.",
+    "error": false
+  },
+  "1c2608c245cc5946f3747289a641f4a4": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The world's largest office building by floor area is the Surat Diamond Bourse, located in Surat, India. It surpassed the Pentagon in the United States in 2023. The other options (Dubai, New York, Shanghai) do not currently have office buildings larger than the Surat Diamond Bourse.",
+    "reasoning": "The world's largest office building by floor area is the Surat Diamond Bourse, located in Surat, India. It surpassed the Pentagon in the United States in 2023. The other options (Dubai, New York, Shanghai) do not currently have office buildings larger than the Surat Diamond Bourse.",
+    "error": false
+  },
+  "8d7d8b33292a04d5ebe915a8be7dbc1d": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The National Turmeric Board, as inaugurated by PM Narendra Modi, is specifically focused on the development of turmeric and turmeric products. The other options (rice production, organic farming, wheat exports) are unrelated to the board's primary mandate.",
+    "reasoning": "The National Turmeric Board, as inaugurated by PM Narendra Modi, is specifically focused on the development of turmeric and turmeric products. The other options (rice production, organic farming, wheat exports) are unrelated to the board's primary mandate.",
+    "error": false
+  },
+  "7462c6b367eb953e745562710dc29277": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: ONDC (Open Network for Digital Commerce) is a technology platform specifically designed to facilitate digital commerce, including for Farmer Producer Organizations (FPOs). The other options (e-Dhara, Aadhar eKYC, Kisan Portal) are related to land records, identity verification, and agricultural information, but not directly to digital commerce.",
+    "reasoning": "ONDC (Open Network for Digital Commerce) is a technology platform specifically designed to facilitate digital commerce, including for Farmer Producer Organizations (FPOs). The other options (e-Dhara, Aadhar eKYC, Kisan Portal) are related to land records, identity verification, and agricultural information, but not directly to digital commerce.",
+    "error": false
+  },
+  "e934cb08c78908ec5410f42077d0757d": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: India is the second-largest fish producing country in the world, after China. This ranking is widely cited in government reports and international fisheries statistics.",
+    "reasoning": "India is the second-largest fish producing country in the world, after China. This ranking is widely cited in government reports and international fisheries statistics.",
+    "error": false
+  },
+  "5e4df25ad831f7c2be78f7c82bce42c4": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: According to official data from the Indian government and recent news reports, the number of MBBS seats in India is projected to reach approximately 1,18,137 by 2025. This figure is widely cited in government releases and reputable news sources, making option C the most accurate. The other options are either outdated or significantly lower than the current projections.",
+    "reasoning": "According to official data from the Indian government and recent news reports, the number of MBBS seats in India is projected to reach approximately 1,18,137 by 2025. This figure is widely cited in government releases and reputable news sources, making option C the most accurate. The other options are either outdated or significantly lower than the current projections.",
+    "error": false
+  },
+  "65bdd05a36fe665f5fb9c943763d8319": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Chenab Railway Bridge in Jammu & Kashmir, India, is officially recognized as the world's highest railway bridge, with a height of 359 meters (1,178 feet) above the Chenab River. None of the other options surpass this height.",
+    "reasoning": "The Chenab Railway Bridge in Jammu & Kashmir, India, is officially recognized as the world's highest railway bridge, with a height of 359 meters (1,178 feet) above the Chenab River. None of the other options surpass this height.",
+    "error": false
+  },
+  "d87f252dde155db5589d6a93c9fd13d4": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: India has officially announced its intention to bid for hosting the Olympic Games in 2036. There have been no official bids for 2028, 2032, or 2040. The Indian government and Olympic Association have both confirmed 2036 as their target year.",
+    "reasoning": "India has officially announced its intention to bid for hosting the Olympic Games in 2036. There have been no official bids for 2028, 2032, or 2040. The Indian government and Olympic Association have both confirmed 2036 as their target year.",
+    "error": false
+  },
+  "88fff3d837a4affb3fae25af42fff4ab": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: PM POSHAN (Pradhan Mantri Poshan Shakti Nirman) is the government initiative that provides hot cooked meals to students in government schools, formerly known as the Mid-Day Meal Scheme. The other options focus on immunization (Mission Indradhanush), maternal and child health (Janani Shishu Suraksha Karyakram, Pradhan Mantri Surakshit Matritva Abhiyan), not school meals.",
+    "reasoning": "PM POSHAN (Pradhan Mantri Poshan Shakti Nirman) is the government initiative that provides hot cooked meals to students in government schools, formerly known as the Mid-Day Meal Scheme. The other options focus on immunization (Mission Indradhanush), maternal and child health (Janani Shishu Suraksha Karyakram, Pradhan Mantri Surakshit Matritva Abhiyan), not school meals.",
+    "error": false
+  },
+  "52ba3ca0db94f2988854b23e936208ff": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: According to official data from the Sample Registration System (SRS), India's Maternal Mortality Rate (MMR) declined from 130 per 100,000 live births in 2014–16 to 97 per 100,000 live births in 2019–21. This is a decline of 33 points, but the closest and most accurate option provided is 37 points, which aligns with commonly cited figures in government reports. Therefore, option D is the best answer.",
+    "reasoning": "According to official data from the Sample Registration System (SRS), India's Maternal Mortality Rate (MMR) declined from 130 per 100,000 live births in 2014–16 to 97 per 100,000 live births in 2019–21. This is a decline of 33 points, but the closest and most accurate option provided is 37 points, which aligns with commonly cited figures in government reports. Therefore, option D is the best answer.",
+    "error": false
+  },
+  "16e0cdaa2049a8e07b771960e8e63517": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The rejuvenation of more than 1,300 railway stations across India is being carried out under the \"Amrit Bharat Station Scheme.\" This scheme was specifically launched by the Indian government for the redevelopment and modernization of railway stations. The other options do not correspond to the official scheme for this large-scale station redevelopment.",
+    "reasoning": "The rejuvenation of more than 1,300 railway stations across India is being carried out under the \"Amrit Bharat Station Scheme.\" This scheme was specifically launched by the Indian government for the redevelopment and modernization of railway stations. The other options do not correspond to the official scheme for this large-scale station redevelopment.",
+    "error": false
+  },
+  "8b25ef66cb9dceb69b8d769a81e180fd": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Ira Singhal was the first differently-abled woman to top the UPSC Civil Services Examination in 2014. The other options, while notable civil servants, do not fit this specific distinction.",
+    "reasoning": "Ira Singhal was the first differently-abled woman to top the UPSC Civil Services Examination in 2014. The other options, while notable civil servants, do not fit this specific distinction.",
+    "error": false
+  },
+  "257a9e1e722d77025cf4c5da27d5bd3f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: Sudha Pillai is known for her work as a civil servant and was notably involved in the amendments to the MRTP (Monopolies and Restrictive Trade Practices) Act. There is no significant association of her with the other acts listed.",
+    "reasoning": "Sudha Pillai is known for her work as a civil servant and was notably involved in the amendments to the MRTP (Monopolies and Restrictive Trade Practices) Act. There is no significant association of her with the other acts listed.",
+    "error": false
+  },
+  "a0545b88313cebf1d6e0b4561a556915": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Women were first inducted into the Indian Armed Forces in non-medical roles in 1992, when the Indian Army, Navy, and Air Force began recruiting women as officers outside the medical stream. The other years do not correspond to this milestone.",
+    "reasoning": "Women were first inducted into the Indian Armed Forces in non-medical roles in 1992, when the Indian Army, Navy, and Air Force began recruiting women as officers outside the medical stream. The other years do not correspond to this milestone.",
+    "error": false
+  },
+  "f602d91a31a2f1aeae6528b61c0468fe": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Rani Rudramba, also known as Rudrama Devi, was a prominent queen and ruler of the Kakatiya Dynasty in South India. She is well-known for her leadership and administrative skills. The other dynasties listed (Chola, Pallava, Chalukya) are not associated with her reign.",
+    "reasoning": "Rani Rudramba, also known as Rudrama Devi, was a prominent queen and ruler of the Kakatiya Dynasty in South India. She is well-known for her leadership and administrative skills. The other dynasties listed (Chola, Pallava, Chalukya) are not associated with her reign.",
+    "error": false
+  },
+  "e649ebdc2ba5c4fc9aaeec037c146c0d": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Sudha Chandran is a renowned Indian classical dancer who continued her career after losing a leg in an accident and dancing with a Jaipur Foot prosthetic. The other options are famous dancers but are not associated with this story.",
+    "reasoning": "Sudha Chandran is a renowned Indian classical dancer who continued her career after losing a leg in an accident and dancing with a Jaipur Foot prosthetic. The other options are famous dancers but are not associated with this story.",
+    "error": false
+  },
+  "1526b5ba218415ec1df56c08b9c7b99b": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The All India Women’s Conference (AIWC) held its first session in 1927. This organization was established to address women’s issues and promote social reform, and its inaugural session took place in Pune in 1927. The other dates do not correspond to the founding session of the AIWC.",
+    "reasoning": "The All India Women’s Conference (AIWC) held its first session in 1927. This organization was established to address women’s issues and promote social reform, and its inaugural session took place in Pune in 1927. The other dates do not correspond to the founding session of the AIWC.",
+    "error": false
+  },
+  "532479b3ef59b58770249bedb22f80b4": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The Rajkumari Challenge Cup is a well-known award associated with table tennis in India. The other options are linked to different sports: Begam Hazrat Mahal is not a sports award, Ruiya Gold Cup is associated with football, and Lady Ratan Tata Trophy is linked to hockey.",
+    "reasoning": "The Rajkumari Challenge Cup is a well-known award associated with table tennis in India. The other options are linked to different sports: Begam Hazrat Mahal is not a sports award, Ruiya Gold Cup is associated with football, and Lady Ratan Tata Trophy is linked to hockey.",
+    "error": false
+  },
+  "7fccaa3f8f93e45358c4e5fb0a1f870c": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Laxmi Lakra became the first woman to work for Northern Railways as a locopilot, which is the official term for a train driver or engine driver. While option C (\"Engine driver\") is also correct in a general sense, \"locopilot\" is the precise and official designation used by Indian Railways for this profession.",
+    "reasoning": "Laxmi Lakra became the first woman to work for Northern Railways as a locopilot, which is the official term for a train driver or engine driver. While option C (\"Engine driver\") is also correct in a general sense, \"locopilot\" is the precise and official designation used by Indian Railways for this profession.",
+    "error": false
+  },
+  "814d65a5c72b0cc28e028d69030b8c48": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The ‘Nupi Lan’ or ‘Women’s War’ refers specifically to two major uprisings by Manipuri women against British colonial policies in 1904 and 1939. These events are a significant part of Manipur’s history and are not associated with Nagaland, Mizoram, or Kerala.",
+    "reasoning": "The ‘Nupi Lan’ or ‘Women’s War’ refers specifically to two major uprisings by Manipuri women against British colonial policies in 1904 and 1939. These events are a significant part of Manipur’s history and are not associated with Nagaland, Mizoram, or Kerala.",
+    "error": false
+  },
+  "79588cebdd18384a77a1ef60927f3fb7": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: Jwala Gutta is an Indian badminton player known for her achievements in doubles and mixed doubles. She holds the record for the most international badminton titles won by an Indian, with over 20 international titles. The other options—Saina Nehwal is a top singles player but has fewer international titles, Mirabai Chanu is a weightlifter (not a badminton player), and Ashwini Ponnappa, while successful, has fewer titles than Jwala Gutta.",
+    "reasoning": "Jwala Gutta is an Indian badminton player known for her achievements in doubles and mixed doubles. She holds the record for the most international badminton titles won by an Indian, with over 20 international titles. The other options—Saina Nehwal is a top singles player but has fewer international titles, Mirabai Chanu is a weightlifter (not a badminton player), and Ashwini Ponnappa, while successful, has fewer titles than Jwala Gutta.",
+    "error": false
+  },
+  "0fdffeb82afd2e57eede35efeb11388c": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mahadevi Verma was a prominent poet and a key figure in the Chhayavad Movement of Hindi literature. The other options—Sarojini Naidu, Kamala Das, and Savitri Bai Phule—were influential in Indian literature and social reform but were not associated with the Chhayavad Movement, which was specific to Hindi literature.",
+    "reasoning": "Mahadevi Verma was a prominent poet and a key figure in the Chhayavad Movement of Hindi literature. The other options—Sarojini Naidu, Kamala Das, and Savitri Bai Phule—were influential in Indian literature and social reform but were not associated with the Chhayavad Movement, which was specific to Hindi literature.",
+    "error": false
+  },
+  "3b1545dff64f8757a132854f7955ff37": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: Shanti Tigga is recognized as the first woman to serve in a combat role in the Indian Army. She joined the Indian Territorial Army as a jawan (not as an officer), breaking gender barriers in a combat position. The other options are notable women in the Indian armed forces but are not credited as the first in a combat role.",
+    "reasoning": "Shanti Tigga is recognized as the first woman to serve in a combat role in the Indian Army. She joined the Indian Territorial Army as a jawan (not as an officer), breaking gender barriers in a combat position. The other options are notable women in the Indian armed forces but are not credited as the first in a combat role.",
+    "error": false
+  },
+  "2e78526e0a8aa3f0b476c1481b0baa3a": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: The paper ‘Streedharma’ was started by the Bharat Stree Mahamandal, which was one of the earliest women’s organizations in India, founded by Sarala Devi Chaudhurani. The other organizations listed (Women's Indian Association, All India Women's Conference, National Council for Women) are not associated with the publication of ‘Streedharma’.",
+    "reasoning": "The paper ‘Streedharma’ was started by the Bharat Stree Mahamandal, which was one of the earliest women’s organizations in India, founded by Sarala Devi Chaudhurani. The other organizations listed (Women's Indian Association, All India Women's Conference, National Council for Women) are not associated with the publication of ‘Streedharma’.",
+    "error": false
+  },
+  "f0c54484b34a75b7622d0d802073c7b2": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Bardoli Satyagraha of 1928 is well-known for the significant participation of women, who in some instances outnumbered men. Under the leadership of Sardar Vallabhbhai Patel, women played a crucial role in mobilizing the movement and resisting government actions, making Bardoli a landmark in the history of women's involvement in India's freedom struggle. The other options (Surat, Kheda, Ahmedabad) do not have the same historical association with women's participation in 1928.",
+    "reasoning": "The Bardoli Satyagraha of 1928 is well-known for the significant participation of women, who in some instances outnumbered men. Under the leadership of Sardar Vallabhbhai Patel, women played a crucial role in mobilizing the movement and resisting government actions, making Bardoli a landmark in the history of women's involvement in India's freedom struggle. The other options (Surat, Kheda, Ahmedabad) do not have the same historical association with women's participation in 1928.",
+    "error": false
+  },
+  "39eb376f650f6a4be713af6251eab24d": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Mira Nair is internationally recognized as a film director, known for movies such as \"Salaam Bombay!\", \"Monsoon Wedding\", and \"The Namesake.\" She is not primarily associated with classical dance, literature, or painting.",
+    "reasoning": "Mira Nair is internationally recognized as a film director, known for movies such as \"Salaam Bombay!\", \"Monsoon Wedding\", and \"The Namesake.\" She is not primarily associated with classical dance, literature, or painting.",
+    "error": false
+  },
+  "f43fadb301109d5f72ea24662432e6be": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: India was the first country in the world to launch a national Family Planning program in 1952. None of the other options initiated such a program before India.",
+    "reasoning": "India was the first country in the world to launch a national Family Planning program in 1952. None of the other options initiated such a program before India.",
+    "error": false
+  },
+  "410ba2448adadc6dfeeacf6deb29aae7": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Rukmini Lakshmipathi was the first woman to be arrested in connection with the Salt Satyagraha in Madras. She is well-documented in Indian history for her active participation in the Civil Disobedience Movement, particularly in the Salt Satyagraha, where she was the first lady to be imprisoned in Madras. The other options do not have historical records linking them to this event.",
+    "reasoning": "Rukmini Lakshmipathi was the first woman to be arrested in connection with the Salt Satyagraha in Madras. She is well-documented in Indian history for her active participation in the Civil Disobedience Movement, particularly in the Salt Satyagraha, where she was the first lady to be imprisoned in Madras. The other options do not have historical records linking them to this event.",
+    "error": false
+  },
+  "bc015fdb709daa5020efdd229aa99303": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Kanchan Devi is recognized as the first woman officer to become the Director General of the Indian Council of Forestry Research and Education (ICFRE). The other options do not have any known association with this position or organization.",
+    "reasoning": "Kanchan Devi is recognized as the first woman officer to become the Director General of the Indian Council of Forestry Research and Education (ICFRE). The other options do not have any known association with this position or organization.",
+    "error": false
+  },
+  "cd5cfc9673381e73447a58ab4e397427": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Nirmala Sitharaman is the first full-time woman Finance Minister of India, appointed in 2019. The other options—Sushma Swaraj, Kamaladevi Chattopadhyay, and Sucheta Kriplani—have not held the position of Finance Minister.",
+    "reasoning": "Nirmala Sitharaman is the first full-time woman Finance Minister of India, appointed in 2019. The other options—Sushma Swaraj, Kamaladevi Chattopadhyay, and Sucheta Kriplani—have not held the position of Finance Minister.",
+    "error": false
+  },
+  "8a402bb22953c9a76a0b5dd323b1fa77": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Ritu Karidhal is known as the \"Rocket Woman of India\" and played a key role as Deputy Operations Director for the Mars Orbiter Mission (Mangalyaan). Kalpana Chawla and Sunita Williams are Indian-American astronauts, not directly involved with Mangalyaan. Tessy Thomas is known for her work on the Agni missile project, not the Mars mission.",
+    "reasoning": "Ritu Karidhal is known as the \"Rocket Woman of India\" and played a key role as Deputy Operations Director for the Mars Orbiter Mission (Mangalyaan). Kalpana Chawla and Sunita Williams are Indian-American astronauts, not directly involved with Mangalyaan. Tessy Thomas is known for her work on the Agni missile project, not the Mars mission.",
+    "error": false
+  },
+  "f094ec90b90831e795e9134c9d21c630": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: All the options listed (leach pits at community level, small tube wells with closed drain systems, and waste stabilization ponds/decentralized wastewater treatment systems) are recognized technologies for managing greywater, depending on the scale, context, and local conditions. Therefore, \"All of the above\" is the most accurate answer.",
+    "reasoning": "All the options listed (leach pits at community level, small tube wells with closed drain systems, and waste stabilization ponds/decentralized wastewater treatment systems) are recognized technologies for managing greywater, depending on the scale, context, and local conditions. Therefore, \"All of the above\" is the most accurate answer.",
+    "error": false
+  },
+  "ee76f89f42ab56ccdcbb65a97ef907bb": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Gobardhan Yojana aims to manage biodegradable waste (A), create employment and entrepreneurship opportunities (B), and provide additional income to farmers while promoting organic farming (C). Therefore, all the listed benefits apply, making \"All of the above\" the most accurate answer.",
+    "reasoning": "Gobardhan Yojana aims to manage biodegradable waste (A), create employment and entrepreneurship opportunities (B), and provide additional income to farmers while promoting organic farming (C). Therefore, all the listed benefits apply, making \"All of the above\" the most accurate answer.",
+    "error": false
+  },
+  "ccd0aa507ecfaefdcd8ecc90515fbe42": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The recommended minimum distance between a leach pit toilet and a well is at least 10 meters to prevent contamination of the water source. This is a widely accepted public health guideline to ensure safe drinking water. Options A and B are too close, and D is incorrect as the distance is significant.",
+    "reasoning": "The recommended minimum distance between a leach pit toilet and a well is at least 10 meters to prevent contamination of the water source. This is a widely accepted public health guideline to ensure safe drinking water. Options A and B are too close, and D is incorrect as the distance is significant.",
+    "error": false
+  },
+  "04cddf3c697cb8212f9c661faf25bd10": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Proper sanitation in a village is a collective responsibility. Villagers must maintain cleanliness, the Gram Panchayat oversees and implements sanitation programs, and government servants may provide support and resources. Therefore, all parties listed share responsibility.",
+    "reasoning": "Proper sanitation in a village is a collective responsibility. Villagers must maintain cleanliness, the Gram Panchayat oversees and implements sanitation programs, and government servants may provide support and resources. Therefore, all parties listed share responsibility.",
+    "error": false
+  },
+  "ece6b173c67587135927ee4061e23d39": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Using dirty and old cloth (option C) is an unhealthy menstrual management practice because it can harbor bacteria and increase the risk of infections. The other options (A, B, D) all describe healthy and hygienic menstrual management practices.",
+    "reasoning": "Using dirty and old cloth (option C) is an unhealthy menstrual management practice because it can harbor bacteria and increase the risk of infections. The other options (A, B, D) all describe healthy and hygienic menstrual management practices.",
+    "error": false
+  },
+  "c0e1cdc732feaf129b56c903206b13b7": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: The question asks for true statements regarding leach pits for both pits. Option D states, \"There must be a distance of one meter between the two,\" which is a standard guideline for twin leach pits to ensure proper functioning and prevent contamination. The other options are either incorrect or not universally required (e.g., only one pit is not enough, gas pipe is not necessary, and the required distance from the junction box is typically more than 1 meter, not specifically 3 meters).",
+    "reasoning": "The question asks for true statements regarding leach pits for both pits. Option D states, \"There must be a distance of one meter between the two,\" which is a standard guideline for twin leach pits to ensure proper functioning and prevent contamination. The other options are either incorrect or not universally required (e.g., only one pit is not enough, gas pipe is not necessary, and the required distance from the junction box is typically more than 1 meter, not specifically 3 meters).",
+    "error": false
+  },
+  "f2b81ccd87c55171bcd3aee3b93a01bd": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: India’s first e-waste clinic was inaugurated in Bhopal, Madhya Pradesh. This initiative was a collaboration between the Bhopal Municipal Corporation and the Central Pollution Control Board. None of the other options were the location for this first-of-its-kind clinic.",
+    "reasoning": "India’s first e-waste clinic was inaugurated in Bhopal, Madhya Pradesh. This initiative was a collaboration between the Bhopal Municipal Corporation and the Central Pollution Control Board. None of the other options were the location for this first-of-its-kind clinic.",
+    "error": false
+  },
+  "0009c26056af1b8f2a44c645cf03e9c5": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: World Toilet Day is observed annually on 19th November to raise awareness about sanitation issues. The other dates correspond to major Indian holidays (Republic Day, Independence Day, Gandhi Jayanti) and are not related to World Toilet Day.",
+    "reasoning": "World Toilet Day is observed annually on 19th November to raise awareness about sanitation issues. The other dates correspond to major Indian holidays (Republic Day, Independence Day, Gandhi Jayanti) and are not related to World Toilet Day.",
+    "error": false
+  },
+  "ebd516eb8b465ad992d40903212b7516": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The Village Water and Sanitation Committee (VWSC) is typically a committee elected by the people of the village to manage water supply and sanitation issues at the village level. It is a community-based group, not limited to government servants, Panchayat members, or SHGs, though it may coordinate with them. The emphasis is on community participation and representation.",
+    "reasoning": "The Village Water and Sanitation Committee (VWSC) is typically a committee elected by the people of the village to manage water supply and sanitation issues at the village level. It is a community-based group, not limited to government servants, Panchayat members, or SHGs, though it may coordinate with them. The emphasis is on community participation and representation.",
+    "error": false
+  },
+  "876cc0be3b2e88b2c2eac4eba3fbee8f": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Handwashing is important before cooking or eating (to prevent ingesting germs), after using the toilet (to remove harmful bacteria), and after helping a child use the toilet (to avoid spreading germs). Therefore, all options are correct.",
+    "reasoning": "Handwashing is important before cooking or eating (to prevent ingesting germs), after using the toilet (to remove harmful bacteria), and after helping a child use the toilet (to avoid spreading germs). Therefore, all options are correct.",
+    "error": false
+  },
+  "46836a0cb0b9eb29d93f85ad3262cafb": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Media negatively influences young people toward tobacco use by glamorizing smoking or chewing, making it appear attractive or desirable. The other options either describe positive influences (warnings, anti-tobacco messages, blocking content) or do not contribute to negative influence.",
+    "reasoning": "Media negatively influences young people toward tobacco use by glamorizing smoking or chewing, making it appear attractive or desirable. The other options either describe positive influences (warnings, anti-tobacco messages, blocking content) or do not contribute to negative influence.",
+    "error": false
+  },
+  "097eafd930dcc4e239851a63290e28ac": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Banana is a fruit and not related to tobacco in any way. Gutka, pan masala, and cigarette/bidi/hookah are all products that commonly contain tobacco or are used for tobacco consumption.",
+    "reasoning": "Banana is a fruit and not related to tobacco in any way. Gutka, pan masala, and cigarette/bidi/hookah are all products that commonly contain tobacco or are used for tobacco consumption.",
+    "error": false
+  },
+  "d173eb6042d385a96ab13d1563c6f7b2": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: E-cigarettes and vaping products still contain nicotine and other harmful chemicals, which can be dangerous to health. They are not free of harmful substances (eliminating A), are not approved as health supplements (eliminating C), and are not considered safe even for adults (eliminating D). The most accurate answer is B.",
+    "reasoning": "E-cigarettes and vaping products still contain nicotine and other harmful chemicals, which can be dangerous to health. They are not free of harmful substances (eliminating A), are not approved as health supplements (eliminating C), and are not considered safe even for adults (eliminating D). The most accurate answer is B.",
+    "error": false
+  },
+  "28f83aa9c7b71aa1cb7f634baa97024d": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The Cigarettes and Other Tobacco Products Act (COTPA) 2003 addresses multiple aspects of tobacco control in India, including the prohibition of smoking in public places (Option A), prohibition of advertisement of tobacco products (Option B), and regulation of production, supply, and distribution of tobacco products (Option C). Therefore, \"All of the above\" (Option D) is the most accurate answer.",
+    "reasoning": "The Cigarettes and Other Tobacco Products Act (COTPA) 2003 addresses multiple aspects of tobacco control in India, including the prohibition of smoking in public places (Option A), prohibition of advertisement of tobacco products (Option B), and regulation of production, supply, and distribution of tobacco products (Option C). Therefore, \"All of the above\" (Option D) is the most accurate answer.",
+    "error": false
+  },
+  "9ca9254ce0c8d2d78ee61ddafc96ea6b": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Nicotine is addictive because it stimulates the release of dopamine (option B), a neurotransmitter associated with pleasure and reward. This dopamine release (option C) creates feelings of relaxation, improved concentration, and increased energy, which reinforces the desire to continue using tobacco. Therefore, both B and C are correct.",
+    "reasoning": "Nicotine is addictive because it stimulates the release of dopamine (option B), a neurotransmitter associated with pleasure and reward. This dopamine release (option C) creates feelings of relaxation, improved concentration, and increased energy, which reinforces the desire to continue using tobacco. Therefore, both B and C are correct.",
+    "error": false
+  },
+  "448883568645a22d762a835d85d2ad00": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The family plays a crucial role in tobacco prevention by both raising awareness about the harmful effects (option A) and providing support to help members quit tobacco use (option B). Ignoring the habit (option C) is not a preventive measure. Therefore, the most accurate answer is \"Both a & b.\"",
+    "reasoning": "The family plays a crucial role in tobacco prevention by both raising awareness about the harmful effects (option A) and providing support to help members quit tobacco use (option B). Ignoring the habit (option C) is not a preventive measure. Therefore, the most accurate answer is \"Both a & b.\"",
+    "error": false
+  },
+  "fec721860b46427cd6c569700510d2b6": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: All the listed options are government-supported facilities for tobacco cessation. De-addiction centres at District Hospitals provide in-person support, Tele MANAS (14416) is a national mental health helpline that includes addiction counseling, and Manodarpan (8448440632) offers psychological support, including for substance abuse. Therefore, \"All of the above\" is the most accurate answer.",
+    "reasoning": "All the listed options are government-supported facilities for tobacco cessation. De-addiction centres at District Hospitals provide in-person support, Tele MANAS (14416) is a national mental health helpline that includes addiction counseling, and Manodarpan (8448440632) offers psychological support, including for substance abuse. Therefore, \"All of the above\" is the most accurate answer.",
+    "error": false
+  },
+  "3055038d3ffe0bed06c038fc70310402": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Carbon monoxide from tobacco smoke binds to hemoglobin in red blood cells more effectively than oxygen does, reducing the amount of oxygen that can be transported in the blood. This decreases oxygen delivery to tissues. The other options are incorrect: carbon monoxide does not increase oxygen supply, help filter chemicals, or strengthen the immune system.",
+    "reasoning": "Carbon monoxide from tobacco smoke binds to hemoglobin in red blood cells more effectively than oxygen does, reducing the amount of oxygen that can be transported in the blood. This decreases oxygen delivery to tissues. The other options are incorrect: carbon monoxide does not increase oxygen supply, help filter chemicals, or strengthen the immune system.",
+    "error": false
+  },
+  "20449e6b531665d31a3da91ef79838a6": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Saying “No thanks, I care about my health” is the healthiest and most assertive response. It sets a clear boundary, prioritizes your well-being, and does not give in to peer pressure. The other options either involve trying the harmful substance, pretending (which can lead to further pressure), or hiding it (which is dishonest and still risky).",
+    "reasoning": "Saying “No thanks, I care about my health” is the healthiest and most assertive response. It sets a clear boundary, prioritizes your well-being, and does not give in to peer pressure. The other options either involve trying the harmful substance, pretending (which can lead to further pressure), or hiding it (which is dishonest and still risky).",
+    "error": false
+  },
+  "dcf57284b662a38cb2efbaf49167ab3e": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Cigarettes and Other Tobacco Products Act (COTPA) 2003 mandates that tobacco product packets in India must display health warnings, including pictorial and textual warnings about the dangers of tobacco use. The other options (toys, film celebrities, sports stars) are not required or allowed on tobacco packaging by law.",
+    "reasoning": "The Cigarettes and Other Tobacco Products Act (COTPA) 2003 mandates that tobacco product packets in India must display health warnings, including pictorial and textual warnings about the dangers of tobacco use. The other options (toys, film celebrities, sports stars) are not required or allowed on tobacco packaging by law.",
+    "error": false
+  },
+  "d8ef1d19288e77c0d16670b2b213932c": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: Operation Sindoor was launched as a response to the Pahalgam attack on tourists in Jammu and Kashmir. The operation was aimed at flushing out militants responsible for the attack, making option B the most accurate choice.",
+    "reasoning": "Operation Sindoor was launched as a response to the Pahalgam attack on tourists in Jammu and Kashmir. The operation was aimed at flushing out militants responsible for the attack, making option B the most accurate choice.",
+    "error": false
+  },
+  "407a81d407eb5b5fab38ee6de97eb667": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Lahore Declaration was signed in February 1999 to improve relations between India and Pakistan. Atal Bihari Vajpayee, who was the Prime Minister of India at the time, signed the declaration on behalf of India. The other options were not Prime Minister or did not represent India in this capacity during the signing.",
+    "reasoning": "The Lahore Declaration was signed in February 1999 to improve relations between India and Pakistan. Atal Bihari Vajpayee, who was the Prime Minister of India at the time, signed the declaration on behalf of India. The other options were not Prime Minister or did not represent India in this capacity during the signing.",
+    "error": false
+  },
+  "17f9d0580cfc0b5df688571fded1a781": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Operation Meghdoot was launched by the Indian Armed Forces in 1984 to secure the Siachen Glacier. This is a well-documented historical event, and 1984 is the correct year among the options provided.",
+    "reasoning": "Operation Meghdoot was launched by the Indian Armed Forces in 1984 to secure the Siachen Glacier. This is a well-documented historical event, and 1984 is the correct year among the options provided.",
+    "error": false
+  },
+  "013c45957a939f4528f9f5033eaacabc": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Bumla Pass is located on the Indo-China border near Tawang in Arunachal Pradesh. Subedar Joginder Singh was awarded the Param Vir Chakra for his bravery during the 1962 Sino-Indian War at this location. The other options are incorrect as Bumla Pass is not in Assam or Himachal Pradesh.",
+    "reasoning": "Bumla Pass is located on the Indo-China border near Tawang in Arunachal Pradesh. Subedar Joginder Singh was awarded the Param Vir Chakra for his bravery during the 1962 Sino-Indian War at this location. The other options are incorrect as Bumla Pass is not in Assam or Himachal Pradesh.",
+    "error": false
+  },
+  "6e092e97339826582d7c223cc282b0c3": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Indian Armed Forces used the Douglas DC-3 Dakota aircraft to airlift troops and military cargo to Leh during the 1947-48 war with Pakistan. The Dakota was the primary transport aircraft of the Indian Air Force at that time. The other options (Spitfire, Tempest, Hawker Hart) were fighter or bomber aircraft, not used for large-scale troop or cargo transport.",
+    "reasoning": "The Indian Armed Forces used the Douglas DC-3 Dakota aircraft to airlift troops and military cargo to Leh during the 1947-48 war with Pakistan. The Dakota was the primary transport aircraft of the Indian Air Force at that time. The other options (Spitfire, Tempest, Hawker Hart) were fighter or bomber aircraft, not used for large-scale troop or cargo transport.",
+    "error": false
+  },
+  "191de0409d15fe94eca6cef440f1f8d7": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: At the Battle of Rezang La during the 1962 India-China war, Indian soldiers of the 13 Kumaon Regiment, despite being vastly outnumbered, fought bravely and held their ground until almost all were killed in action. This act of valor is remembered as \"fighting to the last man.\" The other options do not accurately reflect the historical events at Rezang La.",
+    "reasoning": "At the Battle of Rezang La during the 1962 India-China war, Indian soldiers of the 13 Kumaon Regiment, despite being vastly outnumbered, fought bravely and held their ground until almost all were killed in action. This act of valor is remembered as \"fighting to the last man.\" The other options do not accurately reflect the historical events at Rezang La.",
+    "error": false
+  },
+  "b56b18c22d75b83e22bcb72ecebeae91": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Rifleman Jaswant Singh Rawat is renowned for his bravery during the 1962 Sino-Indian War and is specifically associated with the Garhwal Rifles regiment. His heroic stand at the Battle of Nuranang is a celebrated part of Garhwal Rifles history. The other regiments listed are not connected to his legacy.",
+    "reasoning": "Rifleman Jaswant Singh Rawat is renowned for his bravery during the 1962 Sino-Indian War and is specifically associated with the Garhwal Rifles regiment. His heroic stand at the Battle of Nuranang is a celebrated part of Garhwal Rifles history. The other regiments listed are not connected to his legacy.",
+    "error": false
+  },
+  "3f3a44187e289aa2e5e52f4b8122a8cf": {
     "model": "gpt-4.1",
     "answer": "A",
     "confidence": 9,
-    "raw": "Answer: A  \nConfidence: 9  \nReasoning: e-KUN is designed to facilitate the issuance of electronic Negotiable Warehouse Receipts (e-NWR), making the process more efficient and secure compared to physical receipts. This digital approach is likely to encourage farmers and depositors to opt for e-NWRs over traditional physical receipts.",
-    "reasoning": "e-KUN is designed to facilitate the issuance of electronic Negotiable Warehouse Receipts (e-NWR), making the process more efficient and secure compared to physical receipts. This digital approach is likely to encourage farmers and depositors to opt for e-NWRs over traditional physical receipts.",
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: In military honors, a \"Star\" is typically awarded for participation in a specific campaign or operation, often of short duration, to distinguish it from medals for long service or peacetime activities. The term \"Star\" is associated with campaign stars or medals (e.g., the Africa Star, Burma Star), which are awarded for short campaigns rather than long-term service or peacetime.",
+    "reasoning": "In military honors, a \"Star\" is typically awarded for participation in a specific campaign or operation, often of short duration, to distinguish it from medals for long service or peacetime activities. The term \"Star\" is associated with campaign stars or medals (e.g., the Africa Star, Burma Star), which are awarded for short campaigns rather than long-term service or peacetime.",
+    "error": false
+  },
+  "895fa378e44dd1e602ace6bd04988137": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: Operation ‘Falcon’ was launched by the Indian Paramilitary Force, specifically the Assam Rifles and other paramilitary units, to counter Chinese incursions and secure the Arunachal Pradesh border in the 1980s. It is not associated with the Navy, Special Forces, or Air Force.",
+    "reasoning": "Operation ‘Falcon’ was launched by the Indian Paramilitary Force, specifically the Assam Rifles and other paramilitary units, to counter Chinese incursions and secure the Arunachal Pradesh border in the 1980s. It is not associated with the Navy, Special Forces, or Air Force.",
+    "error": false
+  },
+  "86b10f3625a00cd362966cc80565871b": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The official war cry of the Maratha Regiment is \"Shree Chhatrapati Shivaji Maharaj Ki Jai,\" honoring the legendary Maratha king, Chhatrapati Shivaji Maharaj. This is widely recognized and used in regimental traditions. The other options are not officially associated with the Maratha Regiment's war cry.",
+    "reasoning": "The official war cry of the Maratha Regiment is \"Shree Chhatrapati Shivaji Maharaj Ki Jai,\" honoring the legendary Maratha king, Chhatrapati Shivaji Maharaj. This is widely recognized and used in regimental traditions. The other options are not officially associated with the Maratha Regiment's war cry.",
+    "error": false
+  },
+  "445fce66cf72186cc015bda030db2756": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Governor House in Dhaka was bombarded by the Indian Air Force during the 1971 War, which was the Bangladesh Liberation War. This conflict led to the independence of Bangladesh from Pakistan, and Dhaka was a major target for Indian military operations. The other wars listed (1947-48, 1962, 1965) did not involve significant military action in Dhaka.",
+    "reasoning": "The Governor House in Dhaka was bombarded by the Indian Air Force during the 1971 War, which was the Bangladesh Liberation War. This conflict led to the independence of Bangladesh from Pakistan, and Dhaka was a major target for Indian military operations. The other wars listed (1947-48, 1962, 1965) did not involve significant military action in Dhaka.",
+    "error": false
+  },
+  "546c114c9f06db780008f06e487ada73": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: Promoting battlefield tourism primarily aims to attract visitors to historical or strategic sites, thereby enhancing tourism in those locations. While there may be secondary socio-economic benefits, the direct and most accurate benefit among the options is the enhancement of tourism in strategic locations. The other options either misstate the purpose (such as revealing vital defence installations or civilian defence) or are incomplete.",
+    "reasoning": "Promoting battlefield tourism primarily aims to attract visitors to historical or strategic sites, thereby enhancing tourism in those locations. While there may be secondary socio-economic benefits, the direct and most accurate benefit among the options is the enhancement of tourism in strategic locations. The other options either misstate the purpose (such as revealing vital defence installations or civilian defence) or are incomplete.",
+    "error": false
+  },
+  "e88ada9566486df7f2fb4bb872c29f08": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The slogan ‘Jai Jawan Jai Kisan’ was famously given by Lal Bahadur Shastri, who was the Prime Minister of India during the 1965 war. This slogan highlighted the importance of soldiers (jawans) and farmers (kisans) for the nation. The other options (Nehru, Indira Gandhi, Rajiv Gandhi) were not associated with this statement.",
+    "reasoning": "The slogan ‘Jai Jawan Jai Kisan’ was famously given by Lal Bahadur Shastri, who was the Prime Minister of India during the 1965 war. This slogan highlighted the importance of soldiers (jawans) and farmers (kisans) for the nation. The other options (Nehru, Indira Gandhi, Rajiv Gandhi) were not associated with this statement.",
+    "error": false
+  },
+  "e7650dc97ad17b827ebae0f0f2f33e42": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: During the 1947-48 Indo-Pakistani War, Poonch was famously besieged by Pakistani forces and tribal militias for several months. The siege of Poonch is a well-documented event, with Indian forces eventually breaking the siege and relieving the town. While Srinagar, Jammu, and Leh were also threatened, they were not under siege in the same way as Poonch.",
+    "reasoning": "During the 1947-48 Indo-Pakistani War, Poonch was famously besieged by Pakistani forces and tribal militias for several months. The siege of Poonch is a well-documented event, with Indian forces eventually breaking the siege and relieving the town. While Srinagar, Jammu, and Leh were also threatened, they were not under siege in the same way as Poonch.",
+    "error": false
+  },
+  "bce9a1c2d20d76e450f0778537cacb0a": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Indian Army intervened in Jammu and Kashmir on 27 October 1947, after the Maharaja of Kashmir signed the Instrument of Accession to India. This marks the official start of Indian military involvement in the First Indo-Pak War, making October 1947 the correct answer.",
+    "reasoning": "The Indian Army intervened in Jammu and Kashmir on 27 October 1947, after the Maharaja of Kashmir signed the Instrument of Accession to India. This marks the official start of Indian military involvement in the First Indo-Pak War, making October 1947 the correct answer.",
+    "error": false
+  },
+  "82aefe0a1968059a3933f8d5ecfe6e1c": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Brigadier Rajendra Singh was the Chief of Staff of the Jammu & Kashmir State Forces when Pakistan invaded in 1947. He is renowned for his leadership in delaying the advance of the raiders, which was crucial in allowing time for Indian forces to arrive. The other options refer to Pakistani officers or British officers not holding this specific position in the J&K State Forces at that time.",
+    "reasoning": "Brigadier Rajendra Singh was the Chief of Staff of the Jammu & Kashmir State Forces when Pakistan invaded in 1947. He is renowned for his leadership in delaying the advance of the raiders, which was crucial in allowing time for Indian forces to arrive. The other options refer to Pakistani officers or British officers not holding this specific position in the J&K State Forces at that time.",
+    "error": false
+  },
+  "5624cb941795761c139f4cd68c588b74": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The highway that connects Manali to Leh is National Highway 3 (NH 3), commonly known as the Manali-Leh Highway. NH 44 runs from Srinagar to Kanyakumari, NH 1A connects Jammu to Srinagar, and the \"Srinagar-Leh Highway\" refers to the route from Srinagar to Leh, not Manali. Therefore, NH 3 is the correct answer.",
+    "reasoning": "The highway that connects Manali to Leh is National Highway 3 (NH 3), commonly known as the Manali-Leh Highway. NH 44 runs from Srinagar to Kanyakumari, NH 1A connects Jammu to Srinagar, and the \"Srinagar-Leh Highway\" refers to the route from Srinagar to Leh, not Manali. Therefore, NH 3 is the correct answer.",
+    "error": false
+  },
+  "0c9c5de53bfed228356b00dca6904913": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Rezang La is a mountain pass located in the Chushul sector, which is in the Union Territory of Ladakh. It is historically significant due to the 1962 India-China war. The other options (Arunachal Pradesh, Himachal Pradesh, Uttarakhand) are not correct as Rezang La is specifically in Ladakh.",
+    "reasoning": "Rezang La is a mountain pass located in the Chushul sector, which is in the Union Territory of Ladakh. It is historically significant due to the 1962 India-China war. The other options (Arunachal Pradesh, Himachal Pradesh, Uttarakhand) are not correct as Rezang La is specifically in Ladakh.",
+    "error": false
+  },
+  "7b35fdab6e5933a01ece2254053f9442": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The Instrument of Accession for Jammu and Kashmir was signed by Maharaja Hari Singh on October 26, 1947. This is a well-documented historical fact. The other dates either refer to India's independence (August 15, 1947), Republic Day (January 26, 1950), or the date when the accession was accepted by the Government of India (October 27, 1947), not when it was signed.",
+    "reasoning": "The Instrument of Accession for Jammu and Kashmir was signed by Maharaja Hari Singh on October 26, 1947. This is a well-documented historical fact. The other dates either refer to India's independence (August 15, 1947), Republic Day (January 26, 1950), or the date when the accession was accepted by the Government of India (October 27, 1947), not when it was signed.",
+    "error": false
+  },
+  "26a7c4a3a017fa137b9443e1c1601c04": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Operation Devi Shakti was specifically launched by the Indian government in 2021 to evacuate Indian nationals and Afghan partners from Kabul during the Taliban takeover. The other operations listed (Rahat, Maitri, Sankat Mochan) were evacuation missions for different crises in previous years.",
+    "reasoning": "Operation Devi Shakti was specifically launched by the Indian government in 2021 to evacuate Indian nationals and Afghan partners from Kabul during the Taliban takeover. The other operations listed (Rahat, Maitri, Sankat Mochan) were evacuation missions for different crises in previous years.",
+    "error": false
+  },
+  "dc05a8f96fee213b99ea4f9fc3ec54c6": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The primary goal of Atmanirbhar Bharat in defence is to reduce dependency on foreign arms by promoting indigenous manufacturing and self-reliance in defence production. The other options do not align with the core objectives of the initiative.",
+    "reasoning": "The primary goal of Atmanirbhar Bharat in defence is to reduce dependency on foreign arms by promoting indigenous manufacturing and self-reliance in defence production. The other options do not align with the core objectives of the initiative.",
+    "error": false
+  },
+  "ee41aa07dd872e040353d505b61a6ecb": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The speed of sound is defined as Mach 1. Mach numbers represent multiples of the speed of sound, so Mach 1 is exactly equal to the speed of sound.",
+    "reasoning": "The speed of sound is defined as Mach 1. Mach numbers represent multiples of the speed of sound, so Mach 1 is exactly equal to the speed of sound.",
+    "error": false
+  },
+  "d97a63e87db2079f0650cb63531ed3f0": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Tata LPTA is a series of high-mobility military trucks designed and manufactured in India specifically for troop transport and logistics in challenging terrains. The other options—Mahindra Bolero and Maruti Gypsy—are light utility vehicles, and the Ashok Leyland Dost is a small commercial truck, none of which are primarily designed for high-mobility troop transport.",
+    "reasoning": "The Tata LPTA is a series of high-mobility military trucks designed and manufactured in India specifically for troop transport and logistics in challenging terrains. The other options—Mahindra Bolero and Maruti Gypsy—are light utility vehicles, and the Ashok Leyland Dost is a small commercial truck, none of which are primarily designed for high-mobility troop transport.",
+    "error": false
+  },
+  "858e1b033d5432e91358cebe9b2b0f12": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Akashdeep Aerostat is an Indian innovation specifically designed for battlefield surveillance using tethered balloons. It is developed by DRDO and is used to carry surveillance equipment for monitoring large areas. The other options do not refer to battlefield surveillance balloon systems.",
+    "reasoning": "The Akashdeep Aerostat is an Indian innovation specifically designed for battlefield surveillance using tethered balloons. It is developed by DRDO and is used to carry surveillance equipment for monitoring large areas. The other options do not refer to battlefield surveillance balloon systems.",
+    "error": false
+  },
+  "4ed694e1f91f4f51f19fc94d720676d8": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Agni-V (sometimes written as Agni-V-5) is India's nuclear-capable intercontinental ballistic missile (ICBM) with a range exceeding 5,000 km. Akash is a surface-to-air missile, BrahMos is a supersonic cruise missile, and Nirbhay is a subsonic cruise missile. Only Agni-V fits the description of a nuclear-capable ICBM.",
+    "reasoning": "Agni-V (sometimes written as Agni-V-5) is India's nuclear-capable intercontinental ballistic missile (ICBM) with a range exceeding 5,000 km. Akash is a surface-to-air missile, BrahMos is a supersonic cruise missile, and Nirbhay is a subsonic cruise missile. Only Agni-V fits the description of a nuclear-capable ICBM.",
+    "error": false
+  },
+  "235d196fa6849ba967f4455271258468": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Shaurya is an Indian surface-to-surface tactical missile developed by DRDO. It is not an anti-aircraft missile, submarine-launched ballistic missile, or air-to-air missile. Its primary role is as a land-based, canister-launched missile capable of carrying nuclear or conventional warheads.",
+    "reasoning": "Shaurya is an Indian surface-to-surface tactical missile developed by DRDO. It is not an anti-aircraft missile, submarine-launched ballistic missile, or air-to-air missile. Its primary role is as a land-based, canister-launched missile capable of carrying nuclear or conventional warheads.",
+    "error": false
+  },
+  "6dfb2dbd7ff1d6d7907e0cd5848e9361": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: ideaForge is a well-known private Indian company specializing in the development and manufacturing of military-grade drones. The other options—Zomato (food delivery), Flipkart (e-commerce), and Tata Steel (steel manufacturing)—are not involved in drone production.",
+    "reasoning": "ideaForge is a well-known private Indian company specializing in the development and manufacturing of military-grade drones. The other options—Zomato (food delivery), Flipkart (e-commerce), and Tata Steel (steel manufacturing)—are not involved in drone production.",
+    "error": false
+  },
+  "32728067537c20d428915b6c3b1851be": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Rustom-II is an Indian unmanned aerial vehicle (UAV) developed by DRDO for surveillance and reconnaissance missions. It is not related to sonar systems, radar fences, or torpedoes.",
+    "reasoning": "Rustom-II is an Indian unmanned aerial vehicle (UAV) developed by DRDO for surveillance and reconnaissance missions. It is not related to sonar systems, radar fences, or torpedoes.",
+    "error": false
+  },
+  "898fc0eca2de6c59819b430cbc021be4": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: BEL stands for Bharat Electronics Limited, an Indian government-owned aerospace and defense company. It is primarily known for manufacturing radars, electronic equipment, and related defense electronics. The other options (submarines, satellites, fighter jets) are not products of BEL.",
+    "reasoning": "BEL stands for Bharat Electronics Limited, an Indian government-owned aerospace and defense company. It is primarily known for manufacturing radars, electronic equipment, and related defense electronics. The other options (submarines, satellites, fighter jets) are not products of BEL.",
+    "error": false
+  },
+  "5731d0c09068a214a22eb14c7c504888": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Akash missile system uses the indigenous Rajendra Radar for target tracking and guidance. Green Pine is associated with Israel's Arrow system, S-band is a frequency band (not a specific radar), and TPQ Radar is typically used for artillery locating. Rajendra Radar is specifically developed in India for the Akash system.",
+    "reasoning": "The Akash missile system uses the indigenous Rajendra Radar for target tracking and guidance. Green Pine is associated with Israel's Arrow system, S-band is a frequency band (not a specific radar), and TPQ Radar is typically used for artillery locating. Rajendra Radar is specifically developed in India for the Akash system.",
+    "error": false
+  },
+  "3d86d503ac41fcc6384e7240471684d5": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The primary function of DRDO’s Daksh robot is bomb detection and disposal. It is specifically designed to handle and safely dispose of explosive devices, making it an essential tool for bomb disposal squads. The other options (surveillance, combat operations, logistics support) are not its main purpose.",
+    "reasoning": "The primary function of DRDO’s Daksh robot is bomb detection and disposal. It is specifically designed to handle and safely dispose of explosive devices, making it an essential tool for bomb disposal squads. The other options (surveillance, combat operations, logistics support) are not its main purpose.",
+    "error": false
+  },
+  "c226c00eb19d18aae80089fe56bbe83f": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Netra AEW&C (Airborne Early Warning and Control) system was developed by the Defence Research and Development Organisation (DRDO) of India. ISRO is focused on space research, HAL manufactures aircraft, and BEL specializes in electronics, but DRDO is responsible for indigenous defense technology development, including AEW&C systems.",
+    "reasoning": "The Netra AEW&C (Airborne Early Warning and Control) system was developed by the Defence Research and Development Organisation (DRDO) of India. ISRO is focused on space research, HAL manufactures aircraft, and BEL specializes in electronics, but DRDO is responsible for indigenous defense technology development, including AEW&C systems.",
+    "error": false
+  },
+  "82a08a1be635a1d40168ca75a5895fd6": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: \"Gaurav\" is the name of the DRDO-developed long-range guided glide bomb, unveiled in 2023. \"Sudarshan\" is a laser-guided bomb kit, \"HSLD\" refers to High-Speed Low Drag bombs (not specifically a guided glide bomb), and \"SAAW\" (Smart Anti-Airfield Weapon) is a precision-guided bomb but not classified as a long-range guided glide bomb like \"Gaurav.\"",
+    "reasoning": "\"Gaurav\" is the name of the DRDO-developed long-range guided glide bomb, unveiled in 2023. \"Sudarshan\" is a laser-guided bomb kit, \"HSLD\" refers to High-Speed Low Drag bombs (not specifically a guided glide bomb), and \"SAAW\" (Smart Anti-Airfield Weapon) is a precision-guided bomb but not classified as a long-range guided glide bomb like \"Gaurav.\"",
+    "error": false
+  },
+  "f26f54233675be881e5a58f1515a3c18": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The iDEX (Innovations for Defence Excellence) Prime initiative is specifically designed to support and fund high-tech innovations by Indian startups and MSMEs in the defence sector. It aims to foster indigenous development of advanced technologies for the Indian military. The other options do not align with the stated objectives of iDEX Prime.",
+    "reasoning": "The iDEX (Innovations for Defence Excellence) Prime initiative is specifically designed to support and fund high-tech innovations by Indian startups and MSMEs in the defence sector. It aims to foster indigenous development of advanced technologies for the Indian military. The other options do not align with the stated objectives of iDEX Prime.",
+    "error": false
+  },
+  "102134cdc8b0747dd7f1cd9826320b6e": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Operation SINDOOR was a major Indian military exercise that demonstrated the country's preparedness for multidomain warfare, integrating land, air, sea, cyber, and space capabilities. The other options (maritime oil exploration, high-altitude mining, bio-weapon containment) are unrelated to the context of Operation SINDOOR.",
+    "reasoning": "Operation SINDOOR was a major Indian military exercise that demonstrated the country's preparedness for multidomain warfare, integrating land, air, sea, cyber, and space capabilities. The other options (maritime oil exploration, high-altitude mining, bio-weapon containment) are unrelated to the context of Operation SINDOOR.",
+    "error": false
+  },
+  "25f9d1084a8c563cbb2e16f68183e163": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The HSLD (High Speed Low Drag) bomb is designed for supersonic release, typically up to speeds of Mach 1.1. This allows it to be deployed from modern fighter aircraft at high speeds without compromising accuracy or safety. Options A and C/D are either too low or too high for standard operational parameters.",
+    "reasoning": "The HSLD (High Speed Low Drag) bomb is designed for supersonic release, typically up to speeds of Mach 1.1. This allows it to be deployed from modern fighter aircraft at high speeds without compromising accuracy or safety. Options A and C/D are either too low or too high for standard operational parameters.",
+    "error": false
+  },
+  "b34b9a684856d78690f8dc4283ad0591": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The key feature distinguishing the Tejas Mk1A from the Mk1 is the inclusion of an Active Electronically Scanned Array (AESA) radar. The other options are incorrect: nuclear capability is not a primary differentiator, both are single-engine jets (not twin-engine), and neither is designed for helicopter launch.",
+    "reasoning": "The key feature distinguishing the Tejas Mk1A from the Mk1 is the inclusion of an Active Electronically Scanned Array (AESA) radar. The other options are incorrect: nuclear capability is not a primary differentiator, both are single-engine jets (not twin-engine), and neither is designed for helicopter launch.",
+    "error": false
+  },
+  "3913d85de520682154aa29d089ffc8bf": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The ‘Offset Policy’ in defence procurement is designed to promote technology transfer, local production, and the development of domestic industry by requiring foreign suppliers to invest a portion of the contract value in the purchasing country. This helps build indigenous capabilities rather than increasing imports or reducing domestic manufacturing.",
+    "reasoning": "The ‘Offset Policy’ in defence procurement is designed to promote technology transfer, local production, and the development of domestic industry by requiring foreign suppliers to invest a portion of the contract value in the purchasing country. This helps build indigenous capabilities rather than increasing imports or reducing domestic manufacturing.",
+    "error": false
+  },
+  "1bd7c43d9adf7417aa4d3dedcf41b96d": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mission Raksha Gyan Shakti is an initiative by the Indian Ministry of Defence aimed at promoting Intellectual Property Rights (IPR) awareness and culture in the defence sector. It focuses on training personnel to identify, protect, and leverage innovations and intellectual property within defence organizations. The other options do not relate to the core objective of this mission.",
+    "reasoning": "Mission Raksha Gyan Shakti is an initiative by the Indian Ministry of Defence aimed at promoting Intellectual Property Rights (IPR) awareness and culture in the defence sector. It focuses on training personnel to identify, protect, and leverage innovations and intellectual property within defence organizations. The other options do not relate to the core objective of this mission.",
+    "error": false
+  },
+  "2772160ce7d8b0277fb53dbb407d317f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\n\nConfidence: 9\n\nReasoning: PPSP stands for Pinaka Projectile System Project, which is associated with the development of the Pinaka multi-barrel rocket launcher system. This project was developed by DRDO (Defence Research and Development Organisation) in India. The other options—NASA, BHEL, and BARC—are not linked to this specific defense project.",
+    "reasoning": "PPSP stands for Pinaka Projectile System Project, which is associated with the development of the Pinaka multi-barrel rocket launcher system. This project was developed by DRDO (Defence Research and Development Organisation) in India. The other options—NASA, BHEL, and BARC—are not linked to this specific defense project.",
+    "error": false
+  },
+  "b8e06198bd8db515923006d6cc71d4a7": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: DigiLocker is a flagship initiative under Digital India that provides cloud storage for documents, allowing users to securely store and access digital copies of important documents. The other options (UMANG, MyGov, BharatNet) do not specifically offer cloud storage for documents.",
+    "reasoning": "DigiLocker is a flagship initiative under Digital India that provides cloud storage for documents, allowing users to securely store and access digital copies of important documents. The other options (UMANG, MyGov, BharatNet) do not specifically offer cloud storage for documents.",
+    "error": false
+  },
+  "5ef2cbd1ed062be859fcc819e5bb8baf": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: According to recent reports and official NPCI data, UPI transactions in April 2025 crossed 1,867 crore, making option C the most accurate. The other options are either outdated or rounded estimates.",
+    "reasoning": "According to recent reports and official NPCI data, UPI transactions in April 2025 crossed 1,867 crore, making option C the most accurate. The other options are either outdated or rounded estimates.",
+    "error": false
+  },
+  "5b3f36eb90695e902595d71b528b2fb2": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: 5G services were officially launched in India on October 1, 2022, during the India Mobile Congress by Prime Minister Narendra Modi. The other dates do not correspond to the official launch event.",
+    "reasoning": "5G services were officially launched in India on October 1, 2022, during the India Mobile Congress by Prime Minister Narendra Modi. The other dates do not correspond to the official launch event.",
+    "error": false
+  },
+  "f41a89e99c9f17b10fb2b56823dbd141": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: BharatNet is a government initiative in India aimed at providing high-speed fiber-based broadband connectivity to rural areas. Its primary focus is on connecting gram panchayats (village councils) through optical fiber, not urban internet cafes, satellite broadband, or international data exchange.",
+    "reasoning": "BharatNet is a government initiative in India aimed at providing high-speed fiber-based broadband connectivity to rural areas. Its primary focus is on connecting gram panchayats (village councils) through optical fiber, not urban internet cafes, satellite broadband, or international data exchange.",
+    "error": false
+  },
+  "c479c82ea53acc20fc1d744d2e347843": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Aadhaar-based e-KYC has streamlined the verification process by enabling instant digital authentication, reducing the need for physical paperwork, and increasing transparency through secure digital records. The other options are incorrect as e-KYC has not made verification more expensive, slower, or eliminated digital documents.",
+    "reasoning": "Aadhaar-based e-KYC has streamlined the verification process by enabling instant digital authentication, reducing the need for physical paperwork, and increasing transparency through secure digital records. The other options are incorrect as e-KYC has not made verification more expensive, slower, or eliminated digital documents.",
+    "error": false
+  },
+  "a8c87b14f8c1034c2f2108aeef2db633": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Digital India initiative was specifically launched to transform India into a digitally empowered society and knowledge economy. The focus is on digital infrastructure, digital literacy, and delivering government services electronically, which aligns directly with a digital and knowledge-based economy, not agriculture, manufacturing, or service-based economies alone.",
+    "reasoning": "The Digital India initiative was specifically launched to transform India into a digitally empowered society and knowledge economy. The focus is on digital infrastructure, digital literacy, and delivering government services electronically, which aligns directly with a digital and knowledge-based economy, not agriculture, manufacturing, or service-based economies alone.",
+    "error": false
+  },
+  "d1bbc1b1b8e44e5031b26d4e5b4cd21b": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: India has the second-largest number of mobile subscriptions in the world, after China. Multiple recent reports and telecom statistics confirm India's global rank as number 2 in mobile subscriptions.",
+    "reasoning": "India has the second-largest number of mobile subscriptions in the world, after China. Multiple recent reports and telecom statistics confirm India's global rank as number 2 in mobile subscriptions.",
+    "error": false
+  },
+  "8d0116c21e65cf9f3a89082ce8a6dc71": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: As of late 2024 and into early 2025, ONDC (Open Network for Digital Commerce) has rapidly expanded its network across India, surpassing 600 cities. Multiple credible news sources and official ONDC updates indicate coverage in over 600 cities by the end of 2024, making \"616+\" the most accurate and up-to-date option. The other options are outdated or significantly underestimate ONDC's reach.",
+    "reasoning": "As of late 2024 and into early 2025, ONDC (Open Network for Digital Commerce) has rapidly expanded its network across India, surpassing 600 cities. Multiple credible news sources and official ONDC updates indicate coverage in over 600 cities by the end of 2024, making \"616+\" the most accurate and up-to-date option. The other options are outdated or significantly underestimate ONDC's reach.",
+    "error": false
+  },
+  "2051d15f1c9b0e1eabf37cddd2300112": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Start-up India is a flagship initiative specifically designed to support start-ups and foster entrepreneurship, particularly in the technology sector. Make in India focuses on manufacturing, Stand-up India promotes entrepreneurship among SC/ST and women, and Skill India is aimed at skill development. Therefore, Start-up India is the most accurate answer.",
+    "reasoning": "Start-up India is a flagship initiative specifically designed to support start-ups and foster entrepreneurship, particularly in the technology sector. Make in India focuses on manufacturing, Stand-up India promotes entrepreneurship among SC/ST and women, and Skill India is aimed at skill development. Therefore, Start-up India is the most accurate answer.",
+    "error": false
+  },
+  "a7156d2dc9110d08f83721b89265d23d": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: As of early 2024, India has rapidly expanded its 5G network and is widely reported to be the third largest 5G market in the world, after China and the United States. Multiple industry reports and news sources confirm this ranking.",
+    "reasoning": "As of early 2024, India has rapidly expanded its 5G network and is widely reported to be the third largest 5G market in the world, after China and the United States. Multiple industry reports and news sources confirm this ranking.",
+    "error": false
+  },
+  "77e6d6f11fd974ec241257d3cd65b5b5": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: As per Section 106 of the Insolvency and Bankruptcy Code, 2016, the resolution professional is required to submit the repayment plan to the Adjudicating Authority within 90 days from the resolution process commencement date. This makes option B (90 days) the most accurate answer.",
+    "reasoning": "As per Section 106 of the Insolvency and Bankruptcy Code, 2016, the resolution professional is required to submit the repayment plan to the Adjudicating Authority within 90 days from the resolution process commencement date. This makes option B (90 days) the most accurate answer.",
+    "error": false
+  },
+  "f66c09e5bcda176e0e7bf84ce071ba13": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: As per the Insolvency and Bankruptcy Board of India (IBBI) regulations, the resolution professional is required to appoint two registered valuers for each asset class to determine the fair value and liquidation value of the assets in a corporate insolvency resolution process. This ensures accuracy and objectivity in the valuation process.",
+    "reasoning": "As per the Insolvency and Bankruptcy Board of India (IBBI) regulations, the resolution professional is required to appoint two registered valuers for each asset class to determine the fair value and liquidation value of the assets in a corporate insolvency resolution process. This ensures accuracy and objectivity in the valuation process.",
+    "error": false
+  },
+  "08affc549ff4c62d08c658b4f18cd6cc": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Once appointed, the resolution professional takes over the management of the corporate debtor and exercises the powers of the board of directors, as per Section 17 of the Insolvency and Bankruptcy Code, 2016. The other options (statutory auditor, creditors, shareholders) do not accurately reflect the powers assumed by the resolution professional.",
+    "reasoning": "Once appointed, the resolution professional takes over the management of the corporate debtor and exercises the powers of the board of directors, as per Section 17 of the Insolvency and Bankruptcy Code, 2016. The other options (statutory auditor, creditors, shareholders) do not accurately reflect the powers assumed by the resolution professional.",
+    "error": false
+  },
+  "9bc84fc195126488e8f8b1c1e2e992dc": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Debt Recovery Tribunal (DRT) is specifically established to handle applications from banks and financial institutions for the recovery of debts due to them. The Debt Recovery Appellate Tribunal (Option B) hears appeals against DRT decisions, not the original applications. Securities Appellate Tribunals (Option C) deal with securities market matters, and the Central Board for Direct Taxes (Option D) handles tax administration, not debt recovery.",
+    "reasoning": "The Debt Recovery Tribunal (DRT) is specifically established to handle applications from banks and financial institutions for the recovery of debts due to them. The Debt Recovery Appellate Tribunal (Option B) hears appeals against DRT decisions, not the original applications. Securities Appellate Tribunals (Option C) deal with securities market matters, and the Central Board for Direct Taxes (Option D) handles tax administration, not debt recovery.",
+    "error": false
+  },
+  "3001684a87e77176630279afed95c25e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The authority to admit or reject applications for the initiation of the pre-packaged insolvency resolution process (PPIRP) under the Insolvency and Bankruptcy Code (IBC) lies with the National Company Law Tribunal (NCLT). The other options—National MSME Tribunal, Insolvency and Bankruptcy Board of India, and Ministry of Micro, Small & Medium Enterprises—do not have this statutory power.",
+    "reasoning": "The authority to admit or reject applications for the initiation of the pre-packaged insolvency resolution process (PPIRP) under the Insolvency and Bankruptcy Code (IBC) lies with the National Company Law Tribunal (NCLT). The other options—National MSME Tribunal, Insolvency and Bankruptcy Board of India, and Ministry of Micro, Small & Medium Enterprises—do not have this statutory power.",
+    "error": false
+  },
+  "e2512ec7385d332270693d31ba15811e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: According to Section 419(3) of the Companies Act, 2013, the President of the National Company Law Tribunal (NCLT) may constitute a single-member Bench, but only a Judicial Member can function as such. Technical members cannot constitute a Bench alone. Therefore, the correct answer is that a judicial member, if duly authorized, can function as a Bench.",
+    "reasoning": "According to Section 419(3) of the Companies Act, 2013, the President of the National Company Law Tribunal (NCLT) may constitute a single-member Bench, but only a Judicial Member can function as such. Technical members cannot constitute a Bench alone. Therefore, the correct answer is that a judicial member, if duly authorized, can function as a Bench.",
+    "error": false
+  },
+  "8755dd81114c69352bac3af835cab14a": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Under the Insolvency and Bankruptcy Code (IBC), an operational creditor is defined as a person to whom an operational debt is owed, typically arising from the provision of goods or services (such as suppliers or workmen) or dues payable to the government. However, an allottee of a real estate project is specifically classified as a \"financial creditor\" under the IBC, not an operational creditor. Therefore, option C is not an operational creditor.",
+    "reasoning": "Under the Insolvency and Bankruptcy Code (IBC), an operational creditor is defined as a person to whom an operational debt is owed, typically arising from the provision of goods or services (such as suppliers or workmen) or dues payable to the government. However, an allottee of a real estate project is specifically classified as a \"financial creditor\" under the IBC, not an operational creditor. Therefore, option C is not an operational creditor.",
+    "error": false
+  },
+  "cb86db9278f74dcb1533d829c56d902c": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Under the Companies Act, if a company fails to commence its business within one year of incorporation, the Registrar of Companies has the authority to strike off its name from the register of companies. The other options (granting dormant status, suspending registration, or ordering liquidation) are not the standard actions prescribed for this specific situation.",
+    "reasoning": "Under the Companies Act, if a company fails to commence its business within one year of incorporation, the Registrar of Companies has the authority to strike off its name from the register of companies. The other options (granting dormant status, suspending registration, or ordering liquidation) are not the standard actions prescribed for this specific situation.",
+    "error": false
+  },
+  "96d3a98f9cbd7a59ef046ed250c68dfe": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The Companies (Accounting Standards) Rules, 2021 apply to all companies except those to which Indian Accounting Standards (Ind AS) are applicable. Ind AS is mandatory for certain specified companies (mainly large listed and unlisted companies meeting certain criteria), while all other companies must follow the Accounting Standards as per these Rules. The other options are either too narrow or incorrect.",
+    "reasoning": "The Companies (Accounting Standards) Rules, 2021 apply to all companies except those to which Indian Accounting Standards (Ind AS) are applicable. Ind AS is mandatory for certain specified companies (mainly large listed and unlisted companies meeting certain criteria), while all other companies must follow the Accounting Standards as per these Rules. The other options are either too narrow or incorrect.",
+    "error": false
+  },
+  "f45bc0dd6d4bcc19a9f1f263df07c295": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Under company law (such as Section 59 of the Insolvency and Bankruptcy Code, 2016 in India), the majority of directors must declare that the company can pay all its debts in full within a specified period (usually 12 months) from the commencement of voluntary liquidation. This declaration is a prerequisite for initiating voluntary liquidation, confirming the company is solvent and able to meet its liabilities. The other options refer to insolvency, which would require a different process.",
+    "reasoning": "Under company law (such as Section 59 of the Insolvency and Bankruptcy Code, 2016 in India), the majority of directors must declare that the company can pay all its debts in full within a specified period (usually 12 months) from the commencement of voluntary liquidation. This declaration is a prerequisite for initiating voluntary liquidation, confirming the company is solvent and able to meet its liabilities. The other options refer to insolvency, which would require a different process.",
+    "error": false
+  },
+  "52bcd49af0610c81efbc68575f1bf255": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: Under the Depositories Act, 1996, the Securities and Exchange Board of India (SEBI) is the regulatory authority overseeing depositories and related recovery proceedings. SEBI has the power to appoint an insolvency professional as an Administrator to assist the Recovery Officer in recovering monies from defaulters. The IBBI (A) regulates insolvency professionals but does not appoint them in this context; IRDAI (C) and RBI (D) are not relevant to the Depositories Act.",
+    "reasoning": "Under the Depositories Act, 1996, the Securities and Exchange Board of India (SEBI) is the regulatory authority overseeing depositories and related recovery proceedings. SEBI has the power to appoint an insolvency professional as an Administrator to assist the Recovery Officer in recovering monies from defaulters. The IBBI (A) regulates insolvency professionals but does not appoint them in this context; IRDAI (C) and RBI (D) are not relevant to the Depositories Act.",
+    "error": false
+  },
+  "daaebed502a638ee8b479a2915e5be13": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: When a resolution plan under the Insolvency and Bankruptcy Code (IBC) involves a \"combination\" (such as mergers, acquisitions, or amalgamations that may affect market competition), the approval of the Competition Commission of India (CCI) is required before the Committee of Creditors can approve the plan. The other options (IBBI and SEBI) are not the relevant authorities for competition-related approvals.",
+    "reasoning": "When a resolution plan under the Insolvency and Bankruptcy Code (IBC) involves a \"combination\" (such as mergers, acquisitions, or amalgamations that may affect market competition), the approval of the Competition Commission of India (CCI) is required before the Committee of Creditors can approve the plan. The other options (IBBI and SEBI) are not the relevant authorities for competition-related approvals.",
+    "error": false
+  },
+  "8b16b741a4809b8175097346660a4c89": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: According to Section 81(1) of the Insolvency and Bankruptcy Code, 2016, when an application for a fresh start is made, the interim moratorium commences from the date of filing of such application. This is to ensure immediate protection for the debtor from any legal action regarding their debts. The other options refer to later stages in the process or are not relevant.",
+    "reasoning": "According to Section 81(1) of the Insolvency and Bankruptcy Code, 2016, when an application for a fresh start is made, the interim moratorium commences from the date of filing of such application. This is to ensure immediate protection for the debtor from any legal action regarding their debts. The other options refer to later stages in the process or are not relevant.",
+    "error": false
+  },
+  "8861ef6b2cc80c2fa1a33fd641ee4cbc": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: According to Regulation 41 of the Insolvency and Bankruptcy Board of India (Liquidation Process) Regulations, 2016, the liquidator is required to preserve records relating to the liquidation process for a period of ten years after the dissolution of the corporate debtor. This makes option C (\"ten years\") the most accurate answer.",
+    "reasoning": "According to Regulation 41 of the Insolvency and Bankruptcy Board of India (Liquidation Process) Regulations, 2016, the liquidator is required to preserve records relating to the liquidation process for a period of ten years after the dissolution of the corporate debtor. This makes option C (\"ten years\") the most accurate answer.",
+    "error": false
+  },
+  "c2c9f922341557b73ed202c801a08384": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Under insolvency laws (such as the Insolvency and Bankruptcy Code, 2016 in India), a debtor may apply for a \"fresh start\" only for discharge of \"qualifying debts,\" which are specifically defined and limited in scope. It does not apply to all debts, operational debts, or financial debts in general.",
+    "reasoning": "Under insolvency laws (such as the Insolvency and Bankruptcy Code, 2016 in India), a debtor may apply for a \"fresh start\" only for discharge of \"qualifying debts,\" which are specifically defined and limited in scope. It does not apply to all debts, operational debts, or financial debts in general.",
+    "error": false
+  },
+  "4883bb57a4d8d85df65f8ebdbcd2e9c1": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: Under Section 29A of the Insolvency and Bankruptcy Code (IBC), persons such as wilful defaulters, undischarged insolvents, and those disqualified to be directors under the Companies Act, 2013 are specifically ineligible to submit a resolution plan. However, a promoter is not automatically ineligible unless they fall under one of the specific disqualifications listed in Section 29A. Therefore, among the options, \"promoter\" is NOT ineligible by default.",
+    "reasoning": "Under Section 29A of the Insolvency and Bankruptcy Code (IBC), persons such as wilful defaulters, undischarged insolvents, and those disqualified to be directors under the Companies Act, 2013 are specifically ineligible to submit a resolution plan. However, a promoter is not automatically ineligible unless they fall under one of the specific disqualifications listed in Section 29A. Therefore, among the options, \"promoter\" is NOT ineligible by default.",
+    "error": false
+  },
+  "df5a0f5955e24bb0559433b7f4fc0fef": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Under the Insolvency and Bankruptcy Code, 2016, a transaction that requires the corporate debtor to make an exorbitant payment is specifically termed an \"extortionate\" transaction. The other options (preferential, undervalued, fraudulent) refer to different types of transactions under the Code, but \"extortionate\" directly addresses transactions involving excessive or unfair payments.",
+    "reasoning": "Under the Insolvency and Bankruptcy Code, 2016, a transaction that requires the corporate debtor to make an exorbitant payment is specifically termed an \"extortionate\" transaction. The other options (preferential, undervalued, fraudulent) refer to different types of transactions under the Code, but \"extortionate\" directly addresses transactions involving excessive or unfair payments.",
+    "error": false
+  },
+  "2f704e15fc528ecc29aa010ce3491925": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: The Insolvency and Bankruptcy Code, 2016 prescribes strict timelines for the completion of the insolvency resolution process (generally 180 days, extendable by 90 days). However, non-adherence to these timelines does not attract specific penal provisions such as imprisonment or monetary penalty under the Code. Instead, delays may result in costs to stakeholders, such as erosion of asset value or loss of business opportunities, but there is no direct punishment or fine specified for missing the timeline.",
+    "reasoning": "The Insolvency and Bankruptcy Code, 2016 prescribes strict timelines for the completion of the insolvency resolution process (generally 180 days, extendable by 90 days). However, non-adherence to these timelines does not attract specific penal provisions such as imprisonment or monetary penalty under the Code. Instead, delays may result in costs to stakeholders, such as erosion of asset value or loss of business opportunities, but there is no direct punishment or fine specified for missing the timeline.",
+    "error": false
+  },
+  "97beee68ff8211f25ddcc5b11d309eea": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: According to the standard procedures followed by Disciplinary Committees, particularly under professional regulatory bodies in India (such as ICAI, ICSI, etc.), a show-cause notice typically provides 30 days to the noticee to make a written submission. This is a well-established norm to ensure adequate time for response and due process. The other options (15, 21, 45 days) are less commonly prescribed in such contexts.",
+    "reasoning": "According to the standard procedures followed by Disciplinary Committees, particularly under professional regulatory bodies in India (such as ICAI, ICSI, etc.), a show-cause notice typically provides 30 days to the noticee to make a written submission. This is a well-established norm to ensure adequate time for response and due process. The other options (15, 21, 45 days) are less commonly prescribed in such contexts.",
+    "error": false
+  },
+  "a84b9dc9926e655bf5c8dd77d1d31a04": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: According to Section 227 of the Insolvency and Bankruptcy Code (IBC), 2016, when a financial service provider is admitted into the corporate insolvency resolution process, its license or registration shall not be suspended or cancelled during the process. This provision ensures continuity of critical financial services and stability in the financial system.",
+    "reasoning": "According to Section 227 of the Insolvency and Bankruptcy Code (IBC), 2016, when a financial service provider is admitted into the corporate insolvency resolution process, its license or registration shall not be suspended or cancelled during the process. This provision ensures continuity of critical financial services and stability in the financial system.",
+    "error": false
+  },
+  "bac632e3089405bde9ce07af5badf833": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: A higher BEE (Bureau of Energy Efficiency) star rating indicates better energy efficiency. This means the AC consumes less electricity for the same cooling output, thereby decreasing energy consumption.",
+    "reasoning": "A higher BEE (Bureau of Energy Efficiency) star rating indicates better energy efficiency. This means the AC consumes less electricity for the same cooling output, thereby decreasing energy consumption.",
+    "error": false
+  },
+  "9e9568491ff6dc59479135ccaeadd980": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Using energy-efficient appliances reduces energy consumption, which directly lowers carbon emissions. The other options either increase energy use or rely on non-renewable sources, both of which increase your carbon footprint.",
+    "reasoning": "Using energy-efficient appliances reduces energy consumption, which directly lowers carbon emissions. The other options either increase energy use or rely on non-renewable sources, both of which increase your carbon footprint.",
+    "error": false
+  },
+  "5228d0136893b69e5fe2eff2690fc129": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Using a BEE 5-star AC is the most energy-efficient option among the choices, as 5-star rated appliances consume less electricity. Running the AC at 16°C or keeping it on all day increases power consumption, and using an old AC is typically less efficient. Therefore, option C is the best way to reduce electricity bills.",
+    "reasoning": "Using a BEE 5-star AC is the most energy-efficient option among the choices, as 5-star rated appliances consume less electricity. Running the AC at 16°C or keeping it on all day increases power consumption, and using an old AC is typically less efficient. Therefore, option C is the best way to reduce electricity bills.",
+    "error": false
+  },
+  "15b3d2fdca5ab85a6a7926e1f7292e69": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Bureau of Energy Efficiency (BEE) is responsible for promoting energy efficiency in India, including providing star ratings for appliances like air conditioners (ACs) based on their energy efficiency. BEE does not manufacture, sell, or repair ACs; its main role is to set standards and label products to help consumers make informed choices.",
+    "reasoning": "The Bureau of Energy Efficiency (BEE) is responsible for promoting energy efficiency in India, including providing star ratings for appliances like air conditioners (ACs) based on their energy efficiency. BEE does not manufacture, sell, or repair ACs; its main role is to set standards and label products to help consumers make informed choices.",
+    "error": false
+  },
+  "cea1892013a7971d111eec6a7a090dd7": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Energy-efficient lighting is designed to use less energy, resulting in lower electricity bills (A), reduced heat generation (B), and a longer lifespan (C). Increased energy consumption (D) is the opposite of the intended benefit, making it the correct answer.",
+    "reasoning": "Energy-efficient lighting is designed to use less energy, resulting in lower electricity bills (A), reduced heat generation (B), and a longer lifespan (C). Increased energy consumption (D) is the opposite of the intended benefit, making it the correct answer.",
+    "error": false
+  },
+  "c3065cb1fd82729ee5148d3ad0c02e53": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: BEE 5 Star ACs are recommended because they consume less energy compared to old ACs, making them more energy-efficient and cost-effective. The correct answer is that old ACs consume more energy, which is why replacing them with BEE 5 Star ACs is advised.",
+    "reasoning": "BEE 5 Star ACs are recommended because they consume less energy compared to old ACs, making them more energy-efficient and cost-effective. The correct answer is that old ACs consume more energy, which is why replacing them with BEE 5 Star ACs is advised.",
+    "error": false
+  },
+  "dcfcdd75f00adfcd939bd7b9accee534": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Regularly cleaning and replacing filters ensures that the HVAC system operates efficiently by allowing proper airflow and reducing strain on the system. Options A and C would decrease efficiency, and while D (installing in a shaded area) can help, it is less universally applicable than regular filter maintenance.",
+    "reasoning": "Regularly cleaning and replacing filters ensures that the HVAC system operates efficiently by allowing proper airflow and reducing strain on the system. Options A and C would decrease efficiency, and while D (installing in a shaded area) can help, it is less universally applicable than regular filter maintenance.",
+    "error": false
+  },
+  "40a10434d1b56465d231fae2210f6d5e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The star rating on an AC (air conditioner) is a measure of its energy efficiency, as determined by the Bureau of Energy Efficiency (BEE) in India and similar agencies elsewhere. More stars indicate higher energy efficiency, meaning the appliance consumes less electricity for the same performance. The other options (popularity, cooling speed, noise level) are not represented by the star rating.",
+    "reasoning": "The star rating on an AC (air conditioner) is a measure of its energy efficiency, as determined by the Bureau of Energy Efficiency (BEE) in India and similar agencies elsewhere. More stars indicate higher energy efficiency, meaning the appliance consumes less electricity for the same performance. The other options (popularity, cooling speed, noise level) are not represented by the star rating.",
+    "error": false
+  },
+  "b1f2e334cab4d1d88be9f563589cb8c8": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: Setting an AC to 24°C or higher reduces the workload on the compressor, as it doesn't have to cool the room as much as it would at lower temperatures. This leads to less wear and tear, fewer cycles, and overall less strain on the system, which can increase the lifespan of the AC unit. Lower settings force the AC to work harder, potentially decreasing its lifespan.",
+    "reasoning": "Setting an AC to 24°C or higher reduces the workload on the compressor, as it doesn't have to cool the room as much as it would at lower temperatures. This leads to less wear and tear, fewer cycles, and overall less strain on the system, which can increase the lifespan of the AC unit. Lower settings force the AC to work harder, potentially decreasing its lifespan.",
+    "error": false
+  },
+  "9601056d29e590ea76e8c2b977ee9e9e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: When purchasing an air conditioner, it is important to consider the size of the room (1), the star rating of the appliance (3), and the price of the air-conditioner (4). The number of persons using the room (2) can be a secondary factor but is generally less critical than the other three. Option B (1, 3, and 4) best matches the most important considerations.",
+    "reasoning": "When purchasing an air conditioner, it is important to consider the size of the room (1), the star rating of the appliance (3), and the price of the air-conditioner (4). The number of persons using the room (2) can be a secondary factor but is generally less critical than the other three. Option B (1, 3, and 4) best matches the most important considerations.",
     "error": false
   },
   "3287495a1e971c821ff879f030e9e49a": {
@@ -13,6 +1133,278 @@
     "confidence": 10,
     "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Warehousing Development and Regulatory Authority (WDRA) is responsible for regulating and ensuring the quality and standardization of warehousing in India, including the maintenance of quality standards for stored commodities. Therefore, the statement that WDRA has no role in maintaining quality standards is incorrect.",
     "reasoning": "The Warehousing Development and Regulatory Authority (WDRA) is responsible for regulating and ensuring the quality and standardization of warehousing in India, including the maintenance of quality standards for stored commodities. Therefore, the statement that WDRA has no role in maintaining quality standards is incorrect.",
+    "error": false
+  },
+  "b9561d4b087c003c09c26a952e73b5cf": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: e-KUN is a digital platform related to warehouse receipts, and e-NWR (electronic Negotiable Warehouse Receipt) is a digital alternative to physical receipts for stock deposits. The system is designed to encourage farmers/depositors to use electronic receipts for better security, transparency, and ease of transaction. Therefore, it is true that e-KUN may inspire farmers/depositors to get e-NWR instead of physical receipts.",
+    "reasoning": "e-KUN is a digital platform related to warehouse receipts, and e-NWR (electronic Negotiable Warehouse Receipt) is a digital alternative to physical receipts for stock deposits. The system is designed to encourage farmers/depositors to use electronic receipts for better security, transparency, and ease of transaction. Therefore, it is true that e-KUN may inspire farmers/depositors to get e-NWR instead of physical receipts.",
+    "error": false
+  },
+  "bdedf02c775d55ec7d68479af3bec900": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The star rating on an AC (air conditioner) indicates its energy efficiency. More stars mean the AC uses less electricity for the same cooling, making it more energy efficient. It does not directly relate to cooling power, electricity bill (except that a higher rating means a lower bill), or size.",
+    "reasoning": "The star rating on an AC (air conditioner) indicates its energy efficiency. More stars mean the AC uses less electricity for the same cooling, making it more energy efficient. It does not directly relate to cooling power, electricity bill (except that a higher rating means a lower bill), or size.",
+    "error": false
+  },
+  "68b5898b93c89af601152b84335f479d": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Indian Seasonal Energy Efficiency Ratio (ISEER) is a metric specifically developed to rate the energy efficiency of air conditioners (ACs) in India, taking into account seasonal variations. It does not measure cooling speed, noise levels, or price.",
+    "reasoning": "The Indian Seasonal Energy Efficiency Ratio (ISEER) is a metric specifically developed to rate the energy efficiency of air conditioners (ACs) in India, taking into account seasonal variations. It does not measure cooling speed, noise levels, or price.",
+    "error": false
+  },
+  "48b66cbd1a40fe6802e0936c5cefe406": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The Bureau of Energy Efficiency (BEE) in India provides star labels for a range of appliances to indicate their energy efficiency. Ceiling fans, electric geysers, and tubular fluorescent lamps are all included in the list of products eligible for BEE star labeling. Therefore, \"All of the above\" is the most accurate answer.",
+    "reasoning": "The Bureau of Energy Efficiency (BEE) in India provides star labels for a range of appliances to indicate their energy efficiency. Ceiling fans, electric geysers, and tubular fluorescent lamps are all included in the list of products eligible for BEE star labeling. Therefore, \"All of the above\" is the most accurate answer.",
+    "error": false
+  },
+  "37cb748175935a912b759400d6cda675": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Installing BEE 5-star ACs (which are highly energy efficient) and maintaining a moderate temperature of 24°C both reduce electricity consumption. Lower energy use leads to reduced demand on power plants, which in India often burn fossil fuels, thus reducing CO2 emissions. The other options are incorrect because energy efficiency and moderate temperature settings do not increase emissions or ozone depletion, and they do have a positive impact on emissions.",
+    "reasoning": "Installing BEE 5-star ACs (which are highly energy efficient) and maintaining a moderate temperature of 24°C both reduce electricity consumption. Lower energy use leads to reduced demand on power plants, which in India often burn fossil fuels, thus reducing CO2 emissions. The other options are incorrect because energy efficiency and moderate temperature settings do not increase emissions or ozone depletion, and they do have a positive impact on emissions.",
+    "error": false
+  },
+  "d2fa0983798bbac0e2c2808c4600caf9": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Bureau of Energy Efficiency (BEE) recommends a default temperature setting of 24°C for air conditioners to balance energy efficiency and user comfort. This setting helps reduce energy consumption without compromising comfort, making it the most sustainable and practical choice. The other options are incorrect: A is not always true, C is the opposite of the guideline's intent, and D is irrelevant.",
+    "reasoning": "The Bureau of Energy Efficiency (BEE) recommends a default temperature setting of 24°C for air conditioners to balance energy efficiency and user comfort. This setting helps reduce energy consumption without compromising comfort, making it the most sustainable and practical choice. The other options are incorrect: A is not always true, C is the opposite of the guideline's intent, and D is irrelevant.",
+    "error": false
+  },
+  "1172812ccc7d0996914fb8d2062c66bc": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Setting the AC temperature to 24°C is a common energy-saving practice because it reduces the difference between indoor and outdoor temperatures, making the HVAC system work less and thus lowering energy consumption. This leads to reduced energy bills compared to setting the AC at a lower temperature (e.g., 20°C).",
+    "reasoning": "Setting the AC temperature to 24°C is a common energy-saving practice because it reduces the difference between indoor and outdoor temperatures, making the HVAC system work less and thus lowering energy consumption. This leads to reduced energy bills compared to setting the AC at a lower temperature (e.g., 20°C).",
+    "error": false
+  },
+  "90b022b041eea79ab655375856684e20": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Traditional refrigerants, such as CFCs and HCFCs, are known for their significant contribution to greenhouse gas (GHG) emissions and ozone layer depletion. They have a high global warming potential, making GHG emissions their major environmental impact. The other options (soil erosion, water pollution, deforestation) are not primary concerns associated with refrigerants.",
+    "reasoning": "Traditional refrigerants, such as CFCs and HCFCs, are known for their significant contribution to greenhouse gas (GHG) emissions and ozone layer depletion. They have a high global warming potential, making GHG emissions their major environmental impact. The other options (soil erosion, water pollution, deforestation) are not primary concerns associated with refrigerants.",
+    "error": false
+  },
+  "6c123fde558702cca58c9c89b1ac2b55": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Trees or shrubs should be planted to shade the air-conditioning unit, which helps it run more efficiently by keeping it cooler. However, it's important not to block the airflow around the unit, as this can reduce efficiency and potentially damage the system. Option C is the only choice that provides shade without obstructing airflow.",
+    "reasoning": "Trees or shrubs should be planted to shade the air-conditioning unit, which helps it run more efficiently by keeping it cooler. However, it's important not to block the airflow around the unit, as this can reduce efficiency and potentially damage the system. Option C is the only choice that provides shade without obstructing airflow.",
+    "error": false
+  },
+  "5edc76127da0e1335dc033fb2b331612": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Cleaning or replacing the filters regularly ensures proper airflow and prevents dust buildup, which allows the AC to operate more efficiently. The other options do not impact the AC's efficiency.",
+    "reasoning": "Cleaning or replacing the filters regularly ensures proper airflow and prevents dust buildup, which allows the AC to operate more efficiently. The other options do not impact the AC's efficiency.",
+    "error": false
+  },
+  "d2a8af761056ab19dc26200dd34e0ee6": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Bureau of Energy Efficiency (BEE) is the Indian government body responsible for certifying star-rated appliances under the Standards & Labeling Programme, which indicates energy efficiency. The other options (MoHUA, BIS, MoEFCC) are not responsible for this certification.",
+    "reasoning": "The Bureau of Energy Efficiency (BEE) is the Indian government body responsible for certifying star-rated appliances under the Standards & Labeling Programme, which indicates energy efficiency. The other options (MoHUA, BIS, MoEFCC) are not responsible for this certification.",
+    "error": false
+  },
+  "f5b17662c97b4ca813993cb0029d6e22": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Using ceiling fans along with AC helps circulate cool air more efficiently, allowing you to set the thermostat higher and save energy. Keeping doors open, overcooling, and using heaters all waste energy during cooling.",
+    "reasoning": "Using ceiling fans along with AC helps circulate cool air more efficiently, allowing you to set the thermostat higher and save energy. Keeping doors open, overcooling, and using heaters all waste energy during cooling.",
+    "error": false
+  },
+  "3d4ed9912702f96b70678fcfa29619d1": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The authenticity of a BEE (Bureau of Energy Efficiency) star label can be verified by visiting the official BEE website, where consumers can cross-check product details using the label information or registration number. The color of the label, brand name, or price are not reliable methods for verifying authenticity.",
+    "reasoning": "The authenticity of a BEE (Bureau of Energy Efficiency) star label can be verified by visiting the official BEE website, where consumers can cross-check product details using the label information or registration number. The color of the label, brand name, or price are not reliable methods for verifying authenticity.",
+    "error": false
+  },
+  "ab989a0dfee1f32b00a5e54ef4a3ab6f": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: Increasing the temperature setting of an air conditioner by 1°C typically results in about 2% electricity savings. This is a widely cited figure in energy efficiency guidelines and government recommendations. The other options (4%, 6%, 8%) are higher than what is generally supported by research and official sources.",
+    "reasoning": "Increasing the temperature setting of an air conditioner by 1°C typically results in about 2% electricity savings. This is a widely cited figure in energy efficiency guidelines and government recommendations. The other options (4%, 6%, 8%) are higher than what is generally supported by research and official sources.",
+    "error": false
+  },
+  "629651c45d7886e27ce1c33fc11983d1": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: ISEER stands for Indian Seasonal Energy Efficiency Ratio, which measures the energy efficiency of air conditioners. A higher ISEER rating means the appliance uses less electricity to provide the same amount of cooling, indicating higher energy efficiency. The other options are unrelated to what ISEER measures.",
+    "reasoning": "ISEER stands for Indian Seasonal Energy Efficiency Ratio, which measures the energy efficiency of air conditioners. A higher ISEER rating means the appliance uses less electricity to provide the same amount of cooling, indicating higher energy efficiency. The other options are unrelated to what ISEER measures.",
+    "error": false
+  },
+  "6aa3743b655807cbbd2bc8de0911199f": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: BEE (Bureau of Energy Efficiency) Star ratings indicate the energy efficiency of appliances. Choosing BEE Star rated ACs and fans means they consume less electricity, which directly helps reduce electricity bills. The other options (style, warranty, noise) are not guaranteed benefits of BEE Star ratings.",
+    "reasoning": "BEE (Bureau of Energy Efficiency) Star ratings indicate the energy efficiency of appliances. Choosing BEE Star rated ACs and fans means they consume less electricity, which directly helps reduce electricity bills. The other options (style, warranty, noise) are not guaranteed benefits of BEE Star ratings.",
+    "error": false
+  },
+  "52a9dfd894e2add4b544c6967f05d00a": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Insolvency and Bankruptcy Code, 2016 specifically provides for the creation of the \"Insolvency and Bankruptcy Fund\" by the Central Government for the purposes of insolvency resolution, liquidation, and bankruptcy. Option B is not the correct terminology used in the Code.",
+    "reasoning": "The Insolvency and Bankruptcy Code, 2016 specifically provides for the creation of the \"Insolvency and Bankruptcy Fund\" by the Central Government for the purposes of insolvency resolution, liquidation, and bankruptcy. Option B is not the correct terminology used in the Code.",
+    "error": false
+  },
+  "e2a52f38a68b055c3afda25b320a901c": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: According to the Companies Act, 2013 (Section 31) and SEBI regulations, a company filing a shelf prospectus is required to file an \"Information Memorandum\" with the Registrar. The other options (A, B, C) are not relevant or correct in this context.",
+    "reasoning": "According to the Companies Act, 2013 (Section 31) and SEBI regulations, a company filing a shelf prospectus is required to file an \"Information Memorandum\" with the Registrar. The other options (A, B, C) are not relevant or correct in this context.",
+    "error": false
+  },
+  "35618e8967aae82acd4f7661df09cd39": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The primary functions of a bankruptcy trustee are to investigate the affairs of the bankrupt (A), realize (collect and sell) the estate of the bankrupt (B), and distribute the estate among creditors (C). While the trustee may interact with creditors, their role is not to represent creditors in all negotiations (D); rather, they act as an impartial administrator of the bankruptcy estate. Therefore, D is not a function of a bankruptcy trustee.",
+    "reasoning": "The primary functions of a bankruptcy trustee are to investigate the affairs of the bankrupt (A), realize (collect and sell) the estate of the bankrupt (B), and distribute the estate among creditors (C). While the trustee may interact with creditors, their role is not to represent creditors in all negotiations (D); rather, they act as an impartial administrator of the bankruptcy estate. Therefore, D is not a function of a bankruptcy trustee.",
+    "error": false
+  },
+  "944b5ca1d41560a55099b33072d6f174": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Under the pre-packaged insolvency resolution process (PPIRP) framework in India, the base resolution plan is submitted by the corporate debtor. If this plan is not approved or is challenged, the best alternate plan from a prospective resolution applicant is considered, and both plans compete through a challenge mechanism. This matches option A: \"corporate debtor, prospective resolution applicant.\"",
+    "reasoning": "Under the pre-packaged insolvency resolution process (PPIRP) framework in India, the base resolution plan is submitted by the corporate debtor. If this plan is not approved or is challenged, the best alternate plan from a prospective resolution applicant is considered, and both plans compete through a challenge mechanism. This matches option A: \"corporate debtor, prospective resolution applicant.\"",
+    "error": false
+  },
+  "59d4ca52821aab219789441dffd572c7": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The moratorium under Section 14 of the Insolvency and Bankruptcy Code (IBC), 2016, applies to the assets of the corporate debtor, not to the assets of third parties or guarantors. Specifically, it does not cover the property of a corporate guarantor of the corporate debtor. The moratorium is intended to protect the assets of the corporate debtor undergoing insolvency, not those of guarantors or third parties.",
+    "reasoning": "The moratorium under Section 14 of the Insolvency and Bankruptcy Code (IBC), 2016, applies to the assets of the corporate debtor, not to the assets of third parties or guarantors. Specifically, it does not cover the property of a corporate guarantor of the corporate debtor. The moratorium is intended to protect the assets of the corporate debtor undergoing insolvency, not those of guarantors or third parties.",
+    "error": false
+  },
+  "006f2efdbf24e78914c89f3ca0857dda": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Under the Insolvency and Bankruptcy Code (IBC), 2016, the resolution professional lays down the eligibility criteria for resolution applicants with the approval of the committee of creditors (CoC). The board of directors loses control during insolvency, and the IBBI and NCLT do not approve eligibility criteria for applicants.",
+    "reasoning": "Under the Insolvency and Bankruptcy Code (IBC), 2016, the resolution professional lays down the eligibility criteria for resolution applicants with the approval of the committee of creditors (CoC). The board of directors loses control during insolvency, and the IBBI and NCLT do not approve eligibility criteria for applicants.",
+    "error": false
+  },
+  "6d8f724ec14813b5a42245f1853ca02e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Appeals against orders of the National Company Law Appellate Tribunal (NCLAT) on questions of law are to be made to the Supreme Court of India, as per Section 423 of the Companies Act, 2013. The other options (High Court of Delhi, Special Court, Commercial Court) are not the correct appellate forums for such matters.",
+    "reasoning": "Appeals against orders of the National Company Law Appellate Tribunal (NCLAT) on questions of law are to be made to the Supreme Court of India, as per Section 423 of the Companies Act, 2013. The other options (High Court of Delhi, Special Court, Commercial Court) are not the correct appellate forums for such matters.",
+    "error": false
+  },
+  "964e95323abdd9e7f8fbc20bca2d0023": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: The bankruptcy estate generally includes all assets owned by the bankrupt individual, except those specifically exempted by law. Tools necessary for personal use (A) and furniture for basic domestic needs (B) are typically exempt assets. Life insurance policies (D) may also be exempt depending on the jurisdiction and policy type. Fixed deposits (C), however, are financial assets and are usually included in the bankruptcy estate to satisfy creditors.",
+    "reasoning": "The bankruptcy estate generally includes all assets owned by the bankrupt individual, except those specifically exempted by law. Tools necessary for personal use (A) and furniture for basic domestic needs (B) are typically exempt assets. Life insurance policies (D) may also be exempt depending on the jurisdiction and policy type. Fixed deposits (C), however, are financial assets and are usually included in the bankruptcy estate to satisfy creditors.",
+    "error": false
+  },
+  "69383fe2cb366003b73a96cb0d802915": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Supreme Court in \"P. Mohanraj & Ors. Vs. Ms. Shah Brothers Ispat Pvt. Ltd.\" specifically held that the moratorium under the Insolvency and Bankruptcy Code, 2016, applies only to the corporate debtor and not to natural persons (such as directors) mentioned in section 141 of the Negotiable Instruments Act, 1881. This is a landmark judgment directly addressing the issue described in the question. The other options do not pertain to this specific legal principle.",
+    "reasoning": "The Supreme Court in \"P. Mohanraj & Ors. Vs. Ms. Shah Brothers Ispat Pvt. Ltd.\" specifically held that the moratorium under the Insolvency and Bankruptcy Code, 2016, applies only to the corporate debtor and not to natural persons (such as directors) mentioned in section 141 of the Negotiable Instruments Act, 1881. This is a landmark judgment directly addressing the issue described in the question. The other options do not pertain to this specific legal principle.",
+    "error": false
+  },
+  "2d3ae9418dab961d893b1aedb9243b30": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Under Section 55 of the Insolvency and Bankruptcy Code, 2016, the fast-track corporate insolvency resolution process is available to (a) small companies as defined in the Companies Act, 2013, (b) start-ups (other than partnership firms), and (c) unlisted companies with total assets not exceeding Rs. 1 crore. However, option B says \"A start-up which is not a partnership firm,\" which is actually eligible. The question asks for the entity NOT eligible. Reviewing the options, all except B are eligible. However, the wording of B is tricky: \"A start-up which is not a partnership firm\" is eligible, but if",
+    "reasoning": "Under Section 55 of the Insolvency and Bankruptcy Code, 2016, the fast-track corporate insolvency resolution process is available to (a) small companies as defined in the Companies Act, 2013, (b) start-ups (other than partnership firms), and (c) unlisted companies with total assets not exceeding Rs. 1 crore. However, option B says \"A start-up which is not a partnership firm,\" which is actually eligible. The question asks for the entity NOT eligible. Reviewing the options, all except B are eligible. However, the wording of B is tricky: \"A start-up which is not a partnership firm\" is eligible, but if",
+    "error": false
+  },
+  "ef1eef98e5c2449b0d34df18fbf82a49": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Under the Insolvency and Bankruptcy Code (IBC), \"operational creditors\" are those to whom operational debts are owed, such as suppliers of goods/services, employees, and government authorities for dues like taxes. However, the Income Tax Department is considered an operational creditor because statutory dues are included as operational debt. Allottees in a real estate project are specifically classified as financial creditors, not operational creditors. Employees and sundry creditors (suppliers) are operational creditors. Therefore, the correct answer is C, as the Income Tax Department is actually considered an operational creditor, but based on the options and typical exam framing, the most accurate answer is A, since allottees are not operational",
+    "reasoning": "Under the Insolvency and Bankruptcy Code (IBC), \"operational creditors\" are those to whom operational debts are owed, such as suppliers of goods/services, employees, and government authorities for dues like taxes. However, the Income Tax Department is considered an operational creditor because statutory dues are included as operational debt. Allottees in a real estate project are specifically classified as financial creditors, not operational creditors. Employees and sundry creditors (suppliers) are operational creditors. Therefore, the correct answer is C, as the Income Tax Department is actually considered an operational creditor, but based on the options and typical exam framing, the most accurate answer is A, since allottees are not operational",
+    "error": false
+  },
+  "b2f839a38e11028c7ba88c330ca01bab": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Asset reconstruction companies (ARCs) in India are regulated by the Reserve Bank of India (RBI) under the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002. The RBI issues guidelines, grants licenses, and oversees their functioning. The other options do not regulate ARCs.",
+    "reasoning": "Asset reconstruction companies (ARCs) in India are regulated by the Reserve Bank of India (RBI) under the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002. The RBI issues guidelines, grants licenses, and oversees their functioning. The other options do not regulate ARCs.",
+    "error": false
+  },
+  "452153fbfef9ad9414d15995979674da": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: National Asset Reconstruction Company Ltd. (NARCL) is a government-backed entity established by the Union Government of India to address the issue of non-performing assets (NPAs) in the banking sector. It is not a private, state government, or foreign company. The Union Government holds a majority stake, making it a Union Government company.",
+    "reasoning": "National Asset Reconstruction Company Ltd. (NARCL) is a government-backed entity established by the Union Government of India to address the issue of non-performing assets (NPAs) in the banking sector. It is not a private, state government, or foreign company. The Union Government holds a majority stake, making it a Union Government company.",
+    "error": false
+  },
+  "b954a8b76b6372403a45e5575062c6cf": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Under the Insolvency and Bankruptcy Code, 2016, employees and workmen who are owed dues by a company are classified as \"operational creditors.\" This is because their claims arise from services rendered to the company, which falls under the definition of operational debt. Financial creditors are those who have lent money, and \"other creditors\" and \"resolution professional\" do not fit the context of employee claims.",
+    "reasoning": "Under the Insolvency and Bankruptcy Code, 2016, employees and workmen who are owed dues by a company are classified as \"operational creditors.\" This is because their claims arise from services rendered to the company, which falls under the definition of operational debt. Financial creditors are those who have lent money, and \"other creditors\" and \"resolution professional\" do not fit the context of employee claims.",
+    "error": false
+  },
+  "d36cf747f93bd15063bf8fcb73d5812a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: In a corporate insolvency resolution process under the Insolvency and Bankruptcy Code (IBC) of India, a creditor submits a claim to the interim resolution professional (IRP). The IRP is responsible for collecting claims from creditors and verifying them. The other options are incorrect because shareholders do not submit claims to the IBBI, home buyers do not submit claims to the committee of creditors, and creditors do not submit claims directly to the committee of creditors.",
+    "reasoning": "In a corporate insolvency resolution process under the Insolvency and Bankruptcy Code (IBC) of India, a creditor submits a claim to the interim resolution professional (IRP). The IRP is responsible for collecting claims from creditors and verifying them. The other options are incorrect because shareholders do not submit claims to the IBBI, home buyers do not submit claims to the committee of creditors, and creditors do not submit claims directly to the committee of creditors.",
+    "error": false
+  },
+  "5d9885bbf2fcf724456200db517f5366": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: As per the Insolvency and Bankruptcy Code, 2016 and the IBBI (Liquidation Process) Regulations, an asset in the liquidation estate that cannot be sold through available options is termed a \"not readily realisable asset.\" This is specifically mentioned in Regulation 37 of the Liquidation Process Regulations, which deals with assets that cannot be readily or advantageously sold. The other options do not accurately describe such assets as per the Code and regulations.",
+    "reasoning": "As per the Insolvency and Bankruptcy Code, 2016 and the IBBI (Liquidation Process) Regulations, an asset in the liquidation estate that cannot be sold through available options is termed a \"not readily realisable asset.\" This is specifically mentioned in Regulation 37 of the Liquidation Process Regulations, which deals with assets that cannot be readily or advantageously sold. The other options do not accurately describe such assets as per the Code and regulations.",
+    "error": false
+  },
+  "9cf00a8550cb58a4865a5e836df87b2e": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The term \"unconscionable\" in contract law refers to terms that are excessively unfair or oppressive to one party, often due to an imbalance of bargaining power. Such transactions are typically described as \"extortionate\" because they take unfair advantage of one party. The other options (preferential, undervalued, fraudulent) do not specifically address the concept of unconscionability in contract law.",
+    "reasoning": "The term \"unconscionable\" in contract law refers to terms that are excessively unfair or oppressive to one party, often due to an imbalance of bargaining power. Such transactions are typically described as \"extortionate\" because they take unfair advantage of one party. The other options (preferential, undervalued, fraudulent) do not specifically address the concept of unconscionability in contract law.",
+    "error": false
+  },
+  "842736a89856f72d019bd23a5620a07d": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: The Y H Malegam Committee, set up by the Reserve Bank of India in 2018, was tasked with reviewing the classification and resolution of stressed assets (bad loans) and suggesting measures to improve the monitoring and management of such loans. The other options do not align with the committee's mandate.",
+    "reasoning": "The Y H Malegam Committee, set up by the Reserve Bank of India in 2018, was tasked with reviewing the classification and resolution of stressed assets (bad loans) and suggesting measures to improve the monitoring and management of such loans. The other options do not align with the committee's mandate.",
     "error": false
   }
 }

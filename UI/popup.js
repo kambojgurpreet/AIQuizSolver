@@ -584,9 +584,34 @@ document.addEventListener("DOMContentLoaded", function() {
                       // Use theme-based highlighting
                       const answerIndex = data.answer.charCodeAt(0) - 65;
                       if (optionEls[answerIndex]) {
-                        const colors = window.ThemeHelper ? 
+                        let colors = window.ThemeHelper ? 
                           window.ThemeHelper.getConfidenceColors(data.confidence) :
                           { highlight: 'rgba(0, 255, 0, 0.2)', border: '#00ff00' };
+                        
+                        // Modify colors based on consensus for multi-model responses
+                        if (mode === 'multi' && data.consensus === false) {
+                          // Use orange/red colors to indicate no consensus
+                          colors = {
+                            highlight: 'rgba(255, 152, 0, 0.3)', // Orange background
+                            border: '#FF9800' // Orange border
+                          };
+                          
+                          // Add a consensus indicator to the option
+                          const consensusIndicator = document.createElement('span');
+                          consensusIndicator.textContent = ' ⚠️ No Consensus';
+                          consensusIndicator.style.fontSize = '0.8em';
+                          consensusIndicator.style.color = '#FF9800';
+                          consensusIndicator.style.fontWeight = 'bold';
+                          optionEls[answerIndex].appendChild(consensusIndicator);
+                        } else if (mode === 'multi' && data.consensus === true) {
+                          // Add a consensus indicator for confirmed consensus
+                          const consensusIndicator = document.createElement('span');
+                          consensusIndicator.textContent = ' ✓ Consensus';
+                          consensusIndicator.style.fontSize = '0.8em';
+                          consensusIndicator.style.color = '#4CAF50';
+                          consensusIndicator.style.fontWeight = 'bold';
+                          optionEls[answerIndex].appendChild(consensusIndicator);
+                        }
                         
                         optionEls[answerIndex].style.border = `3px solid ${colors.border || '#00ff00'}`;
                         optionEls[answerIndex].style.backgroundColor = colors.highlight || 'rgba(0, 255, 0, 0.2)';
