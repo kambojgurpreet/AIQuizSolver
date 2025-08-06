@@ -1318,5 +1318,1189 @@
     "raw": "Answer: B\nConfidence: 10\nReasoning: According to the Insolvency and Bankruptcy Code (IBC), 2016, an \"operational debt\" includes a claim in respect of the provision of goods or services, which explicitly covers employment. Therefore, employees and workmen who file claims for their unpaid dues are treated as \"operational creditors\". A financial creditor, in contrast, is a person to whom a financial debt is owed, which is a debt disbursed against the consideration for the time value of money, like a loan.",
     "reasoning": "According to the Insolvency and Bankruptcy Code (IBC), 2016, an \"operational debt\" includes a claim in respect of the provision of goods or services, which explicitly covers employment. Therefore, employees and workmen who file claims for their unpaid dues are treated as \"operational creditors\". A financial creditor, in contrast, is a person to whom a financial debt is owed, which is a debt disbursed against the consideration for the time value of money, like a loan.",
     "error": false
+  },
+  "7f45e15cdc1f02ddf2a7cca2d0e39135": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Dr. B. R. Ambedkar was appointed as the first Law Minister of Independent India on August 15, 1947. He served in this role in the first cabinet of Prime Minister Jawaharlal Nehru.",
+    "reasoning": "Dr. B. R. Ambedkar was appointed as the first Law Minister of Independent India on August 15, 1947. He served in this role in the first cabinet of Prime Minister Jawaharlal Nehru.",
+    "error": false
+  },
+  "89299c7d0be275b5be73e60e8126bb5a": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The C.R. Formula, also known as the Rajaji Formula, was proposed by Chakravarti Rajagopalachari to resolve the political deadlock between the Indian National Congress and the Muslim League. The \"C.R.\" in the formula's name stands for his initials. This set of proposals, introduced in 1944, aimed to address the Muslim League's demand for a separate nation. Although Mahatma Gandhi used it as a basis for his talks with Muhammad Ali Jinnah, the proposal was ultimately rejected by Jinnah.",
+    "reasoning": "The C.R. Formula, also known as the Rajaji Formula, was proposed by Chakravarti Rajagopalachari to resolve the political deadlock between the Indian National Congress and the Muslim League. The \"C.R.\" in the formula's name stands for his initials. This set of proposals, introduced in 1944, aimed to address the Muslim League's demand for a separate nation. Although Mahatma Gandhi used it as a basis for his talks with Muhammad Ali Jinnah, the proposal was ultimately rejected by Jinnah.",
+    "error": false
+  },
+  "f00d2c7051866f03aee2862c85b89a16": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Khan Abdul Ghaffar Khan was a Pashtun independence activist who was a close associate of Mahatma Gandhi. Due to his non-violent methods and leadership in the North-West Frontier Province, he came to be known as \"Frontier Gandhi\". Historical records clearly show that he strongly opposed the Partition of India.",
+    "reasoning": "Khan Abdul Ghaffar Khan was a Pashtun independence activist who was a close associate of Mahatma Gandhi. Due to his non-violent methods and leadership in the North-West Frontier Province, he came to be known as \"Frontier Gandhi\". Historical records clearly show that he strongly opposed the Partition of India.",
+    "error": false
+  },
+  "1f9cc60289484076ca4e7ed8ed47f67f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: The Ganges River, known as the Padma in Bangladesh, forms a significant part of the western boundary between India and Bangladesh. For approximately 145 kilometers, the Ganges River delineates the border before it flows into Bangladesh. While other rivers like the Brahmaputra and Feni also form sections of the border, the Ganga-Padma system is a major and defining feature of the international boundary. The Indus River flows through India and Pakistan, and the Yamuna is a major tributary of the Ganges entirely within India, so they are not relevant to the India-Bangladesh border.",
+    "reasoning": "The Ganges River, known as the Padma in Bangladesh, forms a significant part of the western boundary between India and Bangladesh. For approximately 145 kilometers, the Ganges River delineates the border before it flows into Bangladesh. While other rivers like the Brahmaputra and Feni also form sections of the border, the Ganga-Padma system is a major and defining feature of the international boundary. The Indus River flows through India and Pakistan, and the Yamuna is a major tributary of the Ganges entirely within India, so they are not relevant to the India-Bangladesh border.",
+    "error": false
+  },
+  "e02e3f923989508660beca611db000a3": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister, is widely known as the \"Iron Man of India.\" He played a pivotal role in the integration of more than 565 princely states into the Indian Union following independence in 1947. His determined efforts, strategic diplomacy, and willingness to use force when necessary were crucial to unifying the nation, earning him this title.",
+    "reasoning": "Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister, is widely known as the \"Iron Man of India.\" He played a pivotal role in the integration of more than 565 princely states into the Indian Union following independence in 1947. His determined efforts, strategic diplomacy, and willingness to use force when necessary were crucial to unifying the nation, earning him this title.",
+    "error": false
+  },
+  "913ef7dd9d2ce8b54e90bc528efafdd1": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Sindhi Hindu community was a prominent mercantile group based in Karachi and Hyderabad, Sindh. Following the partition of India in 1947, a large number of Sindhi Hindus migrated from these cities to India, with many settling in Gujarat and Maharashtra, particularly in Bombay (now Mumbai). The other options are less accurate: Punjabis migrated from the Punjab region, Derawals from the Derajat region of Pakistan, and Marwaris originate from the Marwar region of Rajasthan.",
+    "reasoning": "The Sindhi Hindu community was a prominent mercantile group based in Karachi and Hyderabad, Sindh. Following the partition of India in 1947, a large number of Sindhi Hindus migrated from these cities to India, with many settling in Gujarat and Maharashtra, particularly in Bombay (now Mumbai). The other options are less accurate: Punjabis migrated from the Punjab region, Derawals from the Derajat region of Pakistan, and Marwaris originate from the Marwar region of Rajasthan.",
+    "error": false
+  },
+  "6872655ff61266d26fa55281945777c1": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Sir Cyril Radcliffe, a British lawyer tasked with demarcating the border between India and Pakistan, was given only five weeks to complete the boundary awards for both Punjab and Bengal. He arrived in India in July 1947 and was expected to draw the lines that would partition the two provinces, a task made exceptionally difficult by the short timeframe and his lack of prior experience with the subcontinent.",
+    "reasoning": "Sir Cyril Radcliffe, a British lawyer tasked with demarcating the border between India and Pakistan, was given only five weeks to complete the boundary awards for both Punjab and Bengal. He arrived in India in July 1947 and was expected to draw the lines that would partition the two provinces, a task made exceptionally difficult by the short timeframe and his lack of prior experience with the subcontinent.",
+    "error": false
+  },
+  "94c318814d28872b090da044bb06bdd2": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The princely state of Junagadh, located in modern-day Gujarat, had a predominantly Hindu population (over 80%) but was governed by a Muslim ruler, Nawab Muhammad Mahabat Khanji III. In August 1947, the Nawab chose to accede to Pakistan, a decision that was accepted by Pakistan in September of that year. This move was contentious due to the state's Hindu majority and its lack of a direct land border with Pakistan. The decision led to protests and the formation of a government-in-exile. India disputed the accession, leading to a blockade and eventually Indian intervention after the Nawab fled to Pakistan. A subsequent plebiscite in February 1948 showed that the population overwhelmingly voted in favor of joining India.\n\nIn contrast:\n*   **Hyderabad:** The Muslim Nizam wanted to remain an independent state, not necessarily join Pakistan, though he did have some dealings with them.\n*   **Jammu and Kashmir:** This was the opposite scenario, with a Hindu ruler, Maharaja Hari Singh, and a majority Muslim population; the ruler ultimately acceded to India.\n*   **Bikaner:** The ruler of Bikaner was one of the first to sign the Instrument of Accession to India.",
+    "reasoning": "The princely state of Junagadh, located in modern-day Gujarat, had a predominantly Hindu population (over 80%) but was governed by a Muslim ruler, Nawab Muhammad Mahabat Khanji III. In August 1947, the Nawab chose to accede to Pakistan, a decision that was accepted by Pakistan in September of that year. This move was contentious due to the state's Hindu majority and its lack of a direct land border with Pakistan. The decision led to protests and the formation of a government-in-exile. India disputed the accession, leading to a blockade and eventually Indian intervention after the Nawab fled to Pakistan. A subsequent plebiscite in February 1948 showed that the population overwhelmingly voted in favor of joining India.",
+    "error": false
+  },
+  "099eb548a7bf8f5faabd2c14b2802cc9": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Indian Independence Act of 1947, which brought an end to British rule in India, explicitly abolished the office of the Viceroy. The Viceroy had served as the direct representative of the British monarch in their capacity as the Emperor or Empress of India. With the end of British sovereignty and the abolition of the title \"Emperor of India,\" the position of Viceroy was terminated. Lord Mountbatten, who was the last Viceroy, became the first Governor-General of the newly independent Dominion of India, a separate constitutional role. The office of the Secretary of State for India was also abolished by the Act, but the abolition of the Viceroyalty is considered a primary and symbolic change signifying the transfer of power within India itself. The position of Governor-General continued temporarily for the new dominion, and the office of Prime Minister was established, not abolished.",
+    "reasoning": "The Indian Independence Act of 1947, which brought an end to British rule in India, explicitly abolished the office of the Viceroy. The Viceroy had served as the direct representative of the British monarch in their capacity as the Emperor or Empress of India. With the end of British sovereignty and the abolition of the title \"Emperor of India,\" the position of Viceroy was terminated. Lord Mountbatten, who was the last Viceroy, became the first Governor-General of the newly independent Dominion of India, a separate constitutional role. The office of the Secretary of State for India was also abolished by the Act, but the abolition of the Viceroyalty is considered a primary and symbolic change signifying the transfer of power within India itself. The position of Governor-General continued temporarily for the new dominion, and the office of Prime Minister was established, not abolished.",
+    "error": false
+  },
+  "c7d188108b2a89c0c7167d8ea9398034": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 7,
+    "raw": "Answer: C\nConfidence: 7/10\nReasoning: During the 1947 partition of India, there was no single, officially named \"special train\" for refugees. The government organized numerous \"refugee special trains\" to transport people across the newly formed borders, and many existing passenger and goods trains were used for this purpose. Trains that arrived at their destinations with deceased passengers were grimly referred to as \"ghost trains\" or \"blood trains.\"\n\nOf the options provided:\n*   The **Shatabdi Express** and **Rajdhani Express** were introduced much later, in 1988 and 1969 respectively, and therefore could not have been used during the 1947 partition.\n*   The **Punjab Mail** and the **Frontier Mail** were both prominent, long-distance trains that were operational during the partition. Both of their routes, which originally ran into areas that became Pakistan, were significantly impacted.\n\nHowever, the **Frontier Mail**, which ran from Bombay to Peshawar on the North-West Frontier, is arguably the most fitting answer. It was one of the most famous trains in the British Empire at the time. After the partition, its route was shortened to Amritsar, the last major station before the new border with Pakistan, directly linking its service to the division of the country. Given its fame and the direct relevance of its name and route to the newly established frontier, it has become strongly associated with the partition era.",
+    "reasoning": "During the 1947 partition of India, there was no single, officially named \"special train\" for refugees. The government organized numerous \"refugee special trains\" to transport people across the newly formed borders, and many existing passenger and goods trains were used for this purpose. Trains that arrived at their destinations with deceased passengers were grimly referred to as \"ghost trains\" or \"blood trains.\"",
+    "error": false
+  },
+  "755f4e57ea10a17bbee960b2c3684326": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The \"Har Ghar Tiranga\" campaign, under the Azadi Ka Amrit Mahotsav, was initiated to foster a more personal and heartfelt connection with the Indian National Flag. The core idea is to encourage people to bring the Tiranga home and hoist it, symbolizing a personal connection and collective commitment to nation-building. This initiative aims to invoke feelings of patriotism and promote awareness about the flag. The campaign encourages hoisting the flag at homes, not just on government buildings or exclusively on Independence Day.",
+    "reasoning": "The \"Har Ghar Tiranga\" campaign, under the Azadi Ka Amrit Mahotsav, was initiated to foster a more personal and heartfelt connection with the Indian National Flag. The core idea is to encourage people to bring the Tiranga home and hoist it, symbolizing a personal connection and collective commitment to nation-building. This initiative aims to invoke feelings of patriotism and promote awareness about the flag. The campaign encourages hoisting the flag at homes, not just on government buildings or exclusively on Independence Day.",
+    "error": false
+  },
+  "cc1d8ca6c8b85e6056fc5ce5bcf8a16e": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: On August 14, 1947, during the midnight session of the Constituent Assembly, Hansa Mehta presented the National Flag on behalf of the women of India. This occurred after Jawaharlal Nehru's \"Tryst of Destiny\" speech. Hansa Mehta, a prominent member of the Constituent Assembly and a women's rights activist, was chosen for this honor as Sarojini Naidu was not in Delhi at the time.",
+    "reasoning": "On August 14, 1947, during the midnight session of the Constituent Assembly, Hansa Mehta presented the National Flag on behalf of the women of India. This occurred after Jawaharlal Nehru's \"Tryst of Destiny\" speech. Hansa Mehta, a prominent member of the Constituent Assembly and a women's rights activist, was chosen for this honor as Sarojini Naidu was not in Delhi at the time.",
+    "error": false
+  },
+  "a0d8f9734933abaefc90db70f03e7d40": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: On August 9, 1942, the first day of the Quit India Movement, Vinod Kinariwala, an 18-year-old student, was shot and killed by a British police officer. This occurred during a protest in front of Gujarat College in Ahmedabad, where he was attempting to hoist the Indian flag. A memorial in his honor now stands on the Gujarat College campus.",
+    "reasoning": "On August 9, 1942, the first day of the Quit India Movement, Vinod Kinariwala, an 18-year-old student, was shot and killed by a British police officer. This occurred during a protest in front of Gujarat College in Ahmedabad, where he was attempting to hoist the Indian flag. A memorial in his honor now stands on the Gujarat College campus.",
+    "error": false
+  },
+  "eb6529de6a40bc03182e68ffc6978639": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Rakesh Sharma was the first Indian citizen to travel to space in 1984. During this historic joint Indo-Soviet mission, the Indian national flag was part of the emblems on the spacesuit. The other options are incorrect as Chandrayaan-1 and Mangalyaan were unmanned missions, and the formation of ISRO was a foundational event, not a spaceflight.",
+    "reasoning": "Rakesh Sharma was the first Indian citizen to travel to space in 1984. During this historic joint Indo-Soviet mission, the Indian national flag was part of the emblems on the spacesuit. The other options are incorrect as Chandrayaan-1 and Mangalyaan were unmanned missions, and the formation of ISRO was a foundational event, not a spaceflight.",
+    "error": false
+  },
+  "786df876367b270543c05598cd4a3d7a": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: During the Quit India Movement in 1942, Dr. Shivpujan Rai led a group of young activists to the tehsil headquarters in Mohammadabad to hoist the national flag. Despite being warned by armed British officers, Dr. Rai advanced boldly with the tricolour in his hand. This act of defiance ultimately led to him being shot by the tehsildar, and he succumbed to his injuries.",
+    "reasoning": "During the Quit India Movement in 1942, Dr. Shivpujan Rai led a group of young activists to the tehsil headquarters in Mohammadabad to hoist the national flag. Despite being warned by armed British officers, Dr. Rai advanced boldly with the tricolour in his hand. This act of defiance ultimately led to him being shot by the tehsildar, and he succumbed to his injuries.",
+    "error": false
+  },
+  "00410a4851214f670383eaa65c688c43": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Har Ghar Tiranga campaign in 2025 is being organized in three distinct phases from August 2nd to August 15th. A circular from the Central Board of Secondary Education (CBSE) and reports from various news outlets confirm this structure. The phases are outlined as follows:\n*   **Phase I:** August 2nd to August 8th\n*   **Phase II:** August 9th to August 12th\n*   **Phase III (Culmination Phase):** August 13th to August 15th",
+    "reasoning": "The Har Ghar Tiranga campaign in 2025 is being organized in three distinct phases from August 2nd to August 15th. A circular from the Central Board of Secondary Education (CBSE) and reports from various news outlets confirm this structure. The phases are outlined as follows:",
+    "error": false
+  },
+  "9c8135da07e68f16f31a6b5f7bf0f476": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Home Rule Movement flag, adopted by Annie Besant and Bal Gangadhar Tilak in 1917, consisted of five red and four green horizontal stripes. In the upper-left corner, it featured the Union Jack, symbolizing the movement's goal of achieving dominion status within the British Empire. The flag also included a white crescent and a seven-pointed star in the top fly, along with seven white stars arranged in the Saptarishi constellation pattern, which is sacred in Hinduism. This detailed description directly corresponds to option D.",
+    "reasoning": "The Home Rule Movement flag, adopted by Annie Besant and Bal Gangadhar Tilak in 1917, consisted of five red and four green horizontal stripes. In the upper-left corner, it featured the Union Jack, symbolizing the movement's goal of achieving dominion status within the British Empire. The flag also included a white crescent and a seven-pointed star in the top fly, along with seven white stars arranged in the Saptarishi constellation pattern, which is sacred in Hinduism. This detailed description directly corresponds to option D.",
+    "error": false
+  },
+  "624289f64cae23a87d617d5397b66ff1": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: According to historical accounts of the Civil Disobedience Movement in Maharashtra, the incident that led to the death of 12-year-old Sitaram Chambhar occurred in the village of Bilashi. In an act of defiance against British forest laws, villagers had hoisted the National Flag on a teak tree. On September 5, 1930, when armed police arrived to remove the flag, the local populace resisted. The police responded with indiscriminate firing on the crowd, which resulted in the on-the-spot death of Sitaram Chambhar.",
+    "reasoning": "According to historical accounts of the Civil Disobedience Movement in Maharashtra, the incident that led to the death of 12-year-old Sitaram Chambhar occurred in the village of Bilashi. In an act of defiance against British forest laws, villagers had hoisted the National Flag on a teak tree. On September 5, 1930, when armed police arrived to remove the flag, the local populace resisted. The police responded with indiscriminate firing on the crowd, which resulted in the on-the-spot death of Sitaram Chambhar.",
+    "error": false
+  },
+  "34b1b3b530502102d03dc31a9cb90475": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: In 1947, the Constituent Assembly formed an ad-hoc committee to design the flag for independent India. Dr. Rajendra Prasad was appointed as the head of this committee. The committee's recommendation to adopt the flag of the Indian National Congress with modifications, such as replacing the \"Charkha\" with the \"Dharma Chakra,\" was approved on July 22, 1947.",
+    "reasoning": "In 1947, the Constituent Assembly formed an ad-hoc committee to design the flag for independent India. Dr. Rajendra Prasad was appointed as the head of this committee. The committee's recommendation to adopt the flag of the Indian National Congress with modifications, such as replacing the \"Charkha\" with the \"Dharma Chakra,\" was approved on July 22, 1947.",
+    "error": false
+  },
+  "15bb688373d8b16ae33f4f6c73759e08": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Ashoka Chakra, featured in the center of the Indian National Flag, is a depiction of the Dharmachakra, or the \"wheel of the law\". Its symbolism is rooted in the idea that there is life in movement and death in stagnation. This represents the dynamism of a peaceful change and the necessity for the nation to move forward. Therefore, the Chakra most accurately represents the concept of continual progress and growth.",
+    "reasoning": "The Ashoka Chakra, featured in the center of the Indian National Flag, is a depiction of the Dharmachakra, or the \"wheel of the law\". Its symbolism is rooted in the idea that there is life in movement and death in stagnation. This represents the dynamism of a peaceful change and the necessity for the nation to move forward. Therefore, the Chakra most accurately represents the concept of continual progress and growth.",
+    "error": false
+  },
+  "877b6a08a9241d643f6ef3669b29f645": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: A charkha is a type of hand-driven spinning wheel used to spin fiber into yarn or thread. The resulting yarn can then be woven into fabric, but the primary function of the charkha itself is the spinning process.",
+    "reasoning": "A charkha is a type of hand-driven spinning wheel used to spin fiber into yarn or thread. The resulting yarn can then be woven into fabric, but the primary function of the charkha itself is the spinning process.",
+    "error": false
+  },
+  "2810ce00926bb951ec004d296af8a523": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Banarasi weaving tradition is renowned for its use of fine silk, often intricately woven with gold and silver brocade or zari. While other materials like georgette and organza are also used, silk is the primary and most traditional fabric associated with this craft. Banarasi silk sarees are considered among the finest in India and are known for their opulent embroidery and detailed designs.",
+    "reasoning": "The Banarasi weaving tradition is renowned for its use of fine silk, often intricately woven with gold and silver brocade or zari. While other materials like georgette and organza are also used, silk is the primary and most traditional fabric associated with this craft. Banarasi silk sarees are considered among the finest in India and are known for their opulent embroidery and detailed designs.",
+    "error": false
+  },
+  "2f79a399e2fc0d7201618812df857538": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mrinalini Mukherjee was an Indian sculptor renowned for her work with dyed and woven hemp fibre. She created large, intricate sculptures using natural fibers, establishing a unique style in the realm of textile art. While Arpita Singh has a background in textile design, she is primarily known as a painter. Nalini Malani is a pioneer in video art and works with various media, but not predominantly fiber. Anish Kapoor is famous for his large-scale public sculptures made from materials like stainless steel and wax, not textiles. Therefore, Mrinalini Mukherjee is the artist most acclaimed for her fiber art and textile installations.",
+    "reasoning": "Mrinalini Mukherjee was an Indian sculptor renowned for her work with dyed and woven hemp fibre. She created large, intricate sculptures using natural fibers, establishing a unique style in the realm of textile art. While Arpita Singh has a background in textile design, she is primarily known as a painter. Nalini Malani is a pioneer in video art and works with various media, but not predominantly fiber. Anish Kapoor is famous for his large-scale public sculptures made from materials like stainless steel and wax, not textiles. Therefore, Mrinalini Mukherjee is the artist most acclaimed for her fiber art and textile installations.",
+    "error": false
+  },
+  "89d0ce8f826b0debeaf7f6e50d6f4ca3": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Multiple biographical sources confirm that K.G. Subramanyan held the position of Deputy Director (Design) at the All India Handloom Board in Bombay from 1959 to 1961. The other artists listed as options are not documented as having held this specific role during that period.",
+    "reasoning": "Multiple biographical sources confirm that K.G. Subramanyan held the position of Deputy Director (Design) at the All India Handloom Board in Bombay from 1959 to 1961. The other artists listed as options are not documented as having held this specific role during that period.",
+    "error": false
+  },
+  "07eeab8b50c379f639a3ea229f88f4f4": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Reinterpreting a traditional motif means transforming it into a new artistic form, not just depicting it. An abstract sculpture inspired by a woven pattern takes the original design element and translates it into a three-dimensional, contemporary artwork. Options A, C, and D describe direct representations of a textile, its creator, or its use, rather than a reinterpretation of its patterns.",
+    "reasoning": "Reinterpreting a traditional motif means transforming it into a new artistic form, not just depicting it. An abstract sculpture inspired by a woven pattern takes the original design element and translates it into a three-dimensional, contemporary artwork. Options A, C, and D describe direct representations of a textile, its creator, or its use, rather than a reinterpretation of its patterns.",
+    "error": false
+  },
+  "d3bf388cd893385dd5c4eb23068eae00": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Raja Ravi Varma is widely regarded as the \"Father of Modern Indian Art\". He was a pioneering 19th-century painter who uniquely merged European academic art techniques with traditional Indian themes and subjects derived from mythology and epics. Varma was among the first Indian artists to master the use of oil paints and realistic life study, which he used to create a new visual style that appealed to both Indian and European audiences. A key contribution to his legacy was the establishment of a lithographic press, which allowed for the mass production of his paintings. This made art accessible to the general public for the first time and played a crucial role in shaping the visual culture of the Indian populace. Art historian Geeta Kapur is noted for referring to Raja Ravi Varma as the indisputable father figure of modern Indian art.",
+    "reasoning": "Raja Ravi Varma is widely regarded as the \"Father of Modern Indian Art\". He was a pioneering 19th-century painter who uniquely merged European academic art techniques with traditional Indian themes and subjects derived from mythology and epics. Varma was among the first Indian artists to master the use of oil paints and realistic life study, which he used to create a new visual style that appealed to both Indian and European audiences. A key contribution to his legacy was the establishment of a lithographic press, which allowed for the mass production of his paintings. This made art accessible to the general public for the first time and played a crucial role in shaping the visual culture of the Indian populace. Art historian Geeta Kapur is noted for referring to Raja Ravi Varma as the indisputable father figure of modern Indian art.",
+    "error": false
+  },
+  "87e0ac797fd9694335b401a055e4249d": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A\nConfidence: 9\nReasoning: Riten Mozumdar is widely recognized as one of the most significant artist-designers of India's modernist design renaissance in the decades immediately following independence. Sources explicitly state he was a pioneering figure who revitalized textile arts like block-printing with a modern sensibility. After working with the Finnish design house Marimekko, he returned to India and started his own influential studio, M Prints, in 1959. One publication directly refers to him as \"Free India's first textile designer\". While K.G. Subramanyam was also a pivotal figure in reviving Indian textile design, and both Jamini Roy's and M.F. Hussain's art has been featured on textiles, Riten Mozumdar's career was fundamentally centered on being a professional textile designer who introduced a new aesthetic to post-independence India.",
+    "reasoning": "Riten Mozumdar is widely recognized as one of the most significant artist-designers of India's modernist design renaissance in the decades immediately following independence. Sources explicitly state he was a pioneering figure who revitalized textile arts like block-printing with a modern sensibility. After working with the Finnish design house Marimekko, he returned to India and started his own influential studio, M Prints, in 1959. One publication directly refers to him as \"Free India's first textile designer\". While K.G. Subramanyam was also a pivotal figure in reviving Indian textile design, and both Jamini Roy's and M.F. Hussain's art has been featured on textiles, Riten Mozumdar's career was fundamentally centered on being a professional textile designer who introduced a new aesthetic to post-independence India.",
+    "error": false
+  },
+  "5a9cba4764f3e18c4947fc10cd25eb5f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Swadeshi movement, championed by Mahatma Gandhi, promoted the boycott of foreign goods, particularly British textiles, in favor of locally produced ones. Khadi, a hand-spun and hand-woven cloth, became the foremost symbol of this movement, representing economic self-reliance, national pride, and non-violent resistance to colonial economic exploitation. The Haripura Panels, commissioned by Gandhi and created by Nandalal Bose for the 1938 Congress session, were intended to promote the spirit of Swadeshi. Therefore, depicting figures wearing Khadi in these panels was a deliberate and powerful political statement, symbolizing support for indigenous production and resistance against colonial rule.",
+    "reasoning": "The Swadeshi movement, championed by Mahatma Gandhi, promoted the boycott of foreign goods, particularly British textiles, in favor of locally produced ones. Khadi, a hand-spun and hand-woven cloth, became the foremost symbol of this movement, representing economic self-reliance, national pride, and non-violent resistance to colonial economic exploitation. The Haripura Panels, commissioned by Gandhi and created by Nandalal Bose for the 1938 Congress session, were intended to promote the spirit of Swadeshi. Therefore, depicting figures wearing Khadi in these panels was a deliberate and powerful political statement, symbolizing support for indigenous production and resistance against colonial rule.",
+    "error": false
+  },
+  "e6c67af123107669e74b6afc7e8338d0": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: An analysis of textile traditions' influence on modern Indian art confirms that all three options are correct.\n\n*   **A. The use of similar materials:** Contemporary Indian artists frequently use traditional textile materials. For instance, celebrated sculptor Mrinalini Mukherjee was known for her use of jute and hemp fibre, and artist Gurjeet Singh uses scrap fabrics for his soft sculptures. Other artists work with materials like cotton, natural dyes, and various fibres.\n\n*   **B. The adoption of weaving techniques in other media:** Artists have incorporated textile techniques such as weaving, stitching, and embroidery into their work. Monika Correa, for example, learned to operate a loom to create intricate tapestries, experimenting with the weaving process itself.\n\n*   **C. The representation of textile patterns and designs:** Traditional Indian textile patterns, including floral motifs, paisley (known as *buta* or *boteh*), and geometric designs, are widely represented in modern art and design. Artists and designers incorporate these enduring patterns into various forms, from paintings to contemporary fashion.\n\nSince there is clear evidence for the use of textile materials, the adoption of weaving techniques, and the representation of patterns, the most accurate answer is that textile traditions have influenced modern Indian art through all of the above.",
+    "reasoning": "An analysis of textile traditions' influence on modern Indian art confirms that all three options are correct.",
+    "error": false
+  },
+  "89c759943dfeec052858a084bab989b1": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 8,
+    "raw": "Answer: B\nConfidence: 8\nReasoning: Ganga Devi was a leading exponent of the Madhubani painting tradition and was instrumental in its transition from wall murals to other media. She was a pioneer in moving the art form onto paper and, by extension, textiles, which is a contemporary application of this traditional art. A research publication explicitly shows an image of Madhubani art on a silk saree alongside a caption identifying Ganga Devi as a master of the art form. While Sita Devi was also a celebrated Madhubani artist who helped popularize the art on new media, the evidence directly linking Ganga Devi to textile applications is more explicit. Bharti Kher is a contemporary artist known for her use of bindis in sculptures and installations, not for incorporating Madhubani motifs.",
+    "reasoning": "Ganga Devi was a leading exponent of the Madhubani painting tradition and was instrumental in its transition from wall murals to other media. She was a pioneer in moving the art form onto paper and, by extension, textiles, which is a contemporary application of this traditional art. A research publication explicitly shows an image of Madhubani art on a silk saree alongside a caption identifying Ganga Devi as a master of the art form. While Sita Devi was also a celebrated Madhubani artist who helped popularize the art on new media, the evidence directly linking Ganga Devi to textile applications is more explicit. Bharti Kher is a contemporary artist known for her use of bindis in sculptures and installations, not for incorporating Madhubani motifs.",
+    "error": false
+  },
+  "fc425d57d440c231de8f4d9eb006b4f2": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"Five Point Someone\" is a novel written by the Indian author Chetan Bhagat. It was his debut novel, published in 2004.",
+    "reasoning": "\"Five Point Someone\" is a novel written by the Indian author Chetan Bhagat. It was his debut novel, published in 2004.",
+    "error": false
+  },
+  "6d3a8555165aacb6a800254d13e9aa54": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The historical novel \"Delhi: A Novel,\" published in 1990, was written by the Indian author Khushwant Singh. The book explores the history of the city of Delhi through a narrative that moves back and forth in time.",
+    "reasoning": "The historical novel \"Delhi: A Novel,\" published in 1990, was written by the Indian author Khushwant Singh. The book explores the history of the city of Delhi through a narrative that moves back and forth in time.",
+    "error": false
+  },
+  "18b17a0f602a2b5b9cd4f30cc2966395": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The book \"India Unbound\" was written by Gurcharan Das. It is a non-fiction book that details India's economic journey from its independence in 1947 to the beginning of the global information age. Gurcharan Das is a well-known author and commentator, and \"India Unbound\" is the first volume of a trilogy he wrote on life goals.",
+    "reasoning": "The book \"India Unbound\" was written by Gurcharan Das. It is a non-fiction book that details India's economic journey from its independence in 1947 to the beginning of the global information age. Gurcharan Das is a well-known author and commentator, and \"India Unbound\" is the first volume of a trilogy he wrote on life goals.",
+    "error": false
+  },
+  "47e1bf17ae22f0c6de88e15c11fa88e8": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"Train to Pakistan,\" a historical novel published in 1956, was written by Khushwant Singh. The book is based on his experiences during the 1947 partition of India.",
+    "reasoning": "\"Train to Pakistan,\" a historical novel published in 1956, was written by Khushwant Singh. The book is based on his experiences during the 1947 partition of India.",
+    "error": false
+  },
+  "db8cee45460a76507e67c1587a060c64": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The book \"Ignited Minds: Unleashing the Power Within India\" was written by Dr. A.P.J. Abdul Kalam, who served as the President of India from 2002 to 2007. The book is addressed to the youth of India and aims to motivate them to realize their potential and contribute to the nation's development.",
+    "reasoning": "The book \"Ignited Minds: Unleashing the Power Within India\" was written by Dr. A.P.J. Abdul Kalam, who served as the President of India from 2002 to 2007. The book is addressed to the youth of India and aims to motivate them to realize their potential and contribute to the nation's development.",
+    "error": false
+  },
+  "04945f20e4c15c2d5f4609e446e15931": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The book \"The Coalition Years\" was written by Pranab Mukherjee, the 13th President of India. It is the third volume of his autobiography and covers the period of coalition governments in India from 1996 to 2012.",
+    "reasoning": "The book \"The Coalition Years\" was written by Pranab Mukherjee, the 13th President of India. It is the third volume of his autobiography and covers the period of coalition governments in India from 1996 to 2012.",
+    "error": false
+  },
+  "45866bc71c0da0b06ee002065294e2fa": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 8,
+    "raw": "Answer: A\nConfidence: 8\nReasoning: While the poem \"Sarfaroshi Ki Tamanna\" was originally written by Bismil Azimabadi in 1921, it was popularized and is most famously associated with Ram Prasad Bismil, who used it as a war cry during the Indian independence movement. Given the options, Ram Prasad Bismil is the most fitting answer as he is the one who immortalized the poem. The shared pen name \"Bismil\" has also contributed to the poem being widely attributed to him.",
+    "reasoning": "While the poem \"Sarfaroshi Ki Tamanna\" was originally written by Bismil Azimabadi in 1921, it was popularized and is most famously associated with Ram Prasad Bismil, who used it as a war cry during the Indian independence movement. Given the options, Ram Prasad Bismil is the most fitting answer as he is the one who immortalized the poem. The shared pen name \"Bismil\" has also contributed to the poem being widely attributed to him.",
+    "error": false
+  },
+  "40bcf8a9beab9d5cbd2f5a6bc1b01471": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: J. D. Salinger is the author of the novel \"The Catcher in the Rye,\" which was first published in 1951. The book details two days in the life of its 16-year-old protagonist, Holden Caulfield, after his expulsion from a prep school.",
+    "reasoning": "J. D. Salinger is the author of the novel \"The Catcher in the Rye,\" which was first published in 1951. The book details two days in the life of its 16-year-old protagonist, Holden Caulfield, after his expulsion from a prep school.",
+    "error": false
+  },
+  "75c8d099d4c2e90c638d3177bf8b2b1a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Glass Palace\" is a historical novel written by the Indian author Amitav Ghosh. The book was published in 2000 and is set in Burma, Bengal, India, and Malaya, spanning a century.",
+    "reasoning": "\"The Glass Palace\" is a historical novel written by the Indian author Amitav Ghosh. The book was published in 2000 and is set in Burma, Bengal, India, and Malaya, spanning a century.",
+    "error": false
+  },
+  "b7fbde363283c4bf2b480fa4df9fa171": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Forest of Enchantments\" is a bestselling novel written by Chitra Banerjee Divakaruni. The book is a retelling of the great Indian epic, the Ramayana, from the perspective of Sita.",
+    "reasoning": "\"The Forest of Enchantments\" is a bestselling novel written by Chitra Banerjee Divakaruni. The book is a retelling of the great Indian epic, the Ramayana, from the perspective of Sita.",
+    "error": false
+  },
+  "3726fa9a1f21e8779ef8854e7e66aa9b": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"Midnight's Children\" is a renowned novel written by the Indian-born British and American author, Salman Rushdie. The book was published in 1981 and went on to win the prestigious Booker Prize in the same year. The story is an allegory for the history of modern India, centered around characters born at the exact moment of India's independence.",
+    "reasoning": "\"Midnight's Children\" is a renowned novel written by the Indian-born British and American author, Salman Rushdie. The book was published in 1981 and went on to win the prestigious Booker Prize in the same year. The story is an allegory for the history of modern India, centered around characters born at the exact moment of India's independence.",
+    "error": false
+  },
+  "95a2a1358fa6c328d70af1f2345f2139": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Algebra of Infinite Justice\" is a collection of essays by the acclaimed Indian author and political activist Arundhati Roy. The book, first published in 2001, compiles her political writings on a variety of subjects, including India's nuclear tests, the impact of large-scale development projects, and corporate globalization. Arundhati Roy is also famously known for her Booker Prize-winning novel, \"The God of Small Things\".",
+    "reasoning": "\"The Algebra of Infinite Justice\" is a collection of essays by the acclaimed Indian author and political activist Arundhati Roy. The book, first published in 2001, compiles her political writings on a variety of subjects, including India's nuclear tests, the impact of large-scale development projects, and corporate globalization. Arundhati Roy is also famously known for her Booker Prize-winning novel, \"The God of Small Things\".",
+    "error": false
+  },
+  "9737e5719ebfcf98a33439f8ebba213e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"The Lowland\" is a novel written by the American author Jhumpa Lahiri. It was published in 2013 and was a finalist for both the Man Booker Prize and the National Book Award for Fiction.",
+    "reasoning": "\"The Lowland\" is a novel written by the American author Jhumpa Lahiri. It was published in 2013 and was a finalist for both the Man Booker Prize and the National Book Award for Fiction.",
+    "error": false
+  },
+  "1c9efa45124a54de8370b7a8e4d0fee9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"My Country My Life\" is the autobiographical book by L.K. Advani, an Indian politician who served as the Deputy Prime Minister of India. The book was released on March 19, 2008, by the eleventh President of India, Abdul Kalam. It details Advani's life and political career.",
+    "reasoning": "\"My Country My Life\" is the autobiographical book by L.K. Advani, an Indian politician who served as the Deputy Prime Minister of India. The book was released on March 19, 2008, by the eleventh President of India, Abdul Kalam. It details Advani's life and political career.",
+    "error": false
+  },
+  "5981a8e31414adac65f416c8a782fb7f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The novel \"Serious Men\" was written by Manu Joseph. It was his debut novel, published in 2010.",
+    "reasoning": "The novel \"Serious Men\" was written by Manu Joseph. It was his debut novel, published in 2010.",
+    "error": false
+  },
+  "ca8ae8f2f5d5580242108bb985dd8eb9": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Harry Potter series of seven fantasy novels was written by British author J.K. Rowling. The first book, *Harry Potter and the Philosopher's Stone*, was published in 1997. The other authors listed are known for different famous works: J.R.R. Tolkien wrote *The Hobbit* and *The Lord of the Rings*, Enid Blyton wrote many children's series including *The Famous Five* and *Noddy*, and C.S. Lewis wrote *The Chronicles of Narnia*.",
+    "reasoning": "The Harry Potter series of seven fantasy novels was written by British author J.K. Rowling. The first book, *Harry Potter and the Philosopher's Stone*, was published in 1997. The other authors listed are known for different famous works: J.R.R. Tolkien wrote *The Hobbit* and *The Lord of the Rings*, Enid Blyton wrote many children's series including *The Famous Five* and *Noddy*, and C.S. Lewis wrote *The Chronicles of Narnia*.",
+    "error": false
+  },
+  "30c26826749029dbb80685ef98e27cfd": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The book \"Freedom at Midnight\" was co-authored by Dominique Lapierre and Larry Collins. Therefore, Dominique Lapierre is one of the authors.",
+    "reasoning": "The book \"Freedom at Midnight\" was co-authored by Dominique Lapierre and Larry Collins. Therefore, Dominique Lapierre is one of the authors.",
+    "error": false
+  },
+  "aa4bd1a08f5b620c3e467ccc9474c149": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The quote, \"Books are as useful to a stupid person as a mirror to a blind person,\" is widely attributed to the ancient Indian teacher, philosopher, and royal advisor, Chanakya. This aphorism is found in his work \"Chanakya Neeti.\" The saying metaphorically emphasizes that the value of resources, like books, is contingent upon the individual's capacity to comprehend and utilize them, just as a mirror is of no use to someone who cannot see. Searches for similar quotes from Kabir, Kalidas, and Swami Vivekananda did not yield this specific proverb.",
+    "reasoning": "The quote, \"Books are as useful to a stupid person as a mirror to a blind person,\" is widely attributed to the ancient Indian teacher, philosopher, and royal advisor, Chanakya. This aphorism is found in his work \"Chanakya Neeti.\" The saying metaphorically emphasizes that the value of resources, like books, is contingent upon the individual's capacity to comprehend and utilize them, just as a mirror is of no use to someone who cannot see. Searches for similar quotes from Kabir, Kalidas, and Swami Vivekananda did not yield this specific proverb.",
+    "error": false
+  },
+  "a6e5eb0c706caf7d7d722f5b7adda5c6": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"The Paradoxical Prime Minister: Narendra Modi And His India\" is a non-fiction book written by Shashi Tharoor, a senior leader of the Indian National Congress. The book, published in 2018, examines the tenure of Indian Prime Minister Narendra Modi.",
+    "reasoning": "\"The Paradoxical Prime Minister: Narendra Modi And His India\" is a non-fiction book written by Shashi Tharoor, a senior leader of the Indian National Congress. The book, published in 2018, examines the tenure of Indian Prime Minister Narendra Modi.",
+    "error": false
+  },
+  "3a460aab7231390b30de508a5ed32b72": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Shikari Shambhu is a famous character from the Indian comic magazine Tinkle. The character was created for Tinkle in 1983 by Vasant Halbe and Luis Fernandes. Tinkle magazine, first published in 1980, features several popular characters, including Shikari Shambhu.",
+    "reasoning": "Shikari Shambhu is a famous character from the Indian comic magazine Tinkle. The character was created for Tinkle in 1983 by Vasant Halbe and Luis Fernandes. Tinkle magazine, first published in 1980, features several popular characters, including Shikari Shambhu.",
+    "error": false
+  },
+  "78a2c24338e7e8ab9e03d8d325335e88": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Before the 1947 partition, the Punjab Province was geographically described as a triangular area. The Indus River formed the western side of this triangle, and its tributary, the Sutlej River, formed the eastern side. The base of this triangle was the Lower Himalayan Range in the north. The Sutlej is also identified as the easternmost tributary of the Indus River.",
+    "reasoning": "Before the 1947 partition, the Punjab Province was geographically described as a triangular area. The Indus River formed the western side of this triangle, and its tributary, the Sutlej River, formed the eastern side. The base of this triangle was the Lower Himalayan Range in the north. The Sutlej is also identified as the easternmost tributary of the Indus River.",
+    "error": false
+  },
+  "03250d18f4c4e55cf117d1f122315e38": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Lord Mountbatten was the last Viceroy of British India, serving from March 1947 until India's independence in August 1947. He oversaw the partition of India and the transfer of power. After independence, he became the first Governor-General of independent India. Lord Wavell was his predecessor, serving as Viceroy from 1943 to 1947. Lord Linlithgow was the Viceroy from 1936 to 1943, preceding Lord Wavell. Sir Stafford Cripps was a British politician who led the Cripps Mission to India in 1942 but never held the position of Viceroy.",
+    "reasoning": "Lord Mountbatten was the last Viceroy of British India, serving from March 1947 until India's independence in August 1947. He oversaw the partition of India and the transfer of power. After independence, he became the first Governor-General of independent India. Lord Wavell was his predecessor, serving as Viceroy from 1943 to 1947. Lord Linlithgow was the Viceroy from 1936 to 1943, preceding Lord Wavell. Sir Stafford Cripps was a British politician who led the Cripps Mission to India in 1942 but never held the position of Viceroy.",
+    "error": false
+  },
+  "b124dbb3d6a185148a962635a205421d": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Kolkata, the capital of West Bengal, was the most impacted major Indian city by the influx of refugees from East Pakistan (now Bangladesh). Due to its geographical proximity, it was the primary destination for millions of refugees, especially during the 1947 partition and the 1971 Bangladesh Liberation War. The 1951 census showed that 27% of Kolkata's population consisted of refugees from East Bengal. While some refugees did settle in other cities like Delhi, the overwhelming majority went to Kolkata and the surrounding areas of West Bengal.",
+    "reasoning": "Kolkata, the capital of West Bengal, was the most impacted major Indian city by the influx of refugees from East Pakistan (now Bangladesh). Due to its geographical proximity, it was the primary destination for millions of refugees, especially during the 1947 partition and the 1971 Bangladesh Liberation War. The 1951 census showed that 27% of Kolkata's population consisted of refugees from East Bengal. While some refugees did settle in other cities like Delhi, the overwhelming majority went to Kolkata and the surrounding areas of West Bengal.",
+    "error": false
+  },
+  "4514994bb5650106bd21eaa26a54a491": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Indian Independence Act of 1947 was the legislation passed by the British Parliament that officially partitioned British India into the two independent dominions of India and Pakistan. This act was the culmination of the Mountbatten Plan, which had been agreed upon by the major political parties. The Government of India Act 1935 was an earlier piece of legislation aimed at increasing Indian self-governance but did not formalize partition. The Mountbatten Plan was the proposal for partition, but not the formal act itself. The Radcliffe Award was the report by the Boundary Commission that demarcated the new borders between India and Pakistan but was not the overarching act that legislated partition.",
+    "reasoning": "The Indian Independence Act of 1947 was the legislation passed by the British Parliament that officially partitioned British India into the two independent dominions of India and Pakistan. This act was the culmination of the Mountbatten Plan, which had been agreed upon by the major political parties. The Government of India Act 1935 was an earlier piece of legislation aimed at increasing Indian self-governance but did not formalize partition. The Mountbatten Plan was the proposal for partition, but not the formal act itself. The Radcliffe Award was the report by the Boundary Commission that demarcated the new borders between India and Pakistan but was not the overarching act that legislated partition.",
+    "error": false
+  },
+  "3e01aebed6533cd3e885009c5e8da393": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Multiple historical sources and academic research confirm that the number of people displaced during the Partition of India in 1947 was approximately 14 to 15 million. Estimates vary, with some sources providing a range of 12 to 20 million people. However, the most frequently cited figures fall within the 14 to 15 million range. For instance, some research estimates about 14.5 million displaced people, while other reports mention 15 million.",
+    "reasoning": "Multiple historical sources and academic research confirm that the number of people displaced during the Partition of India in 1947 was approximately 14 to 15 million. Estimates vary, with some sources providing a range of 12 to 20 million people. However, the most frequently cited figures fall within the 14 to 15 million range. For instance, some research estimates about 14.5 million displaced people, while other reports mention 15 million.",
+    "error": false
+  },
+  "20232ea10ce5c70c382439f1f5439070": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Great Bengal Famine of 1943, and the political and social fallout from it, significantly deepened the divide between Hindu and Muslim communities in the years leading up to the partition of India. The famine occurred while the Muslim League was in power in Bengal, and the crisis was heavily politicized. The Hindu Mahasabha, a Hindu nationalist party, accused the Muslim League government of mismanaging the famine relief, favoring Muslim traders, and using the distribution of food as a tool for religious conversion. These accusations portrayed the Muslim League as incompetent and biased, thereby arguing against the viability of a future Pakistan.\n\nConversely, there were also narratives suggesting that Hindu traders and political leaders were hoarding food supplies to undermine the Muslim-led government. The famine exacerbated pre-existing economic tensions, where Hindu landlords and moneylenders often held power over a largely Muslim peasantry. This volatile mix of hunger, political maneuvering, and religious identity created a toxic atmosphere of blame and mistrust, which widened the communal chasm and contributed to the political polarization that culminated in the partition. Other famines and droughts listed, such as those in Tamil Nadu and Bihar, occurred much earlier and are not cited as having a comparable impact on the communal tensions of the pre-partition era.",
+    "reasoning": "The Great Bengal Famine of 1943, and the political and social fallout from it, significantly deepened the divide between Hindu and Muslim communities in the years leading up to the partition of India. The famine occurred while the Muslim League was in power in Bengal, and the crisis was heavily politicized. The Hindu Mahasabha, a Hindu nationalist party, accused the Muslim League government of mismanaging the famine relief, favoring Muslim traders, and using the distribution of food as a tool for religious conversion. These accusations portrayed the Muslim League as incompetent and biased, thereby arguing against the viability of a future Pakistan.",
+    "error": false
+  },
+  "c035f04cef76c25a7d9476c89f0e8b37": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: In December 2018, as a tribute to Netaji Subhas Chandra Bose, three islands in the Andaman and Nicobar archipelago were renamed. Ross Island was officially renamed Netaji Subhash Chandra Bose Dweep. The other two islands that were renamed are Neil Island, which became Shaheed Dweep, and Havelock Island, which is now known as Swaraj Dweep.",
+    "reasoning": "In December 2018, as a tribute to Netaji Subhas Chandra Bose, three islands in the Andaman and Nicobar archipelago were renamed. Ross Island was officially renamed Netaji Subhash Chandra Bose Dweep. The other two islands that were renamed are Neil Island, which became Shaheed Dweep, and Havelock Island, which is now known as Swaraj Dweep.",
+    "error": false
+  },
+  "f24788ced7222d0d867ca4350cbb18a3": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The design of the navy blue wheel, known as the Ashoka Chakra, in the center of the Indian National Flag is taken from the abacus of the Lion Capital of Ashoka at Sarnath. This has been confirmed by multiple historical and official sources. The Constituent Assembly of India adopted the design on July 22, 1947. The Sarnath Lion Capital, a sculpture from the 3rd century BCE, features a circular abacus with a wheel, or \"Dharma Chakra,\" which symbolizes the \"wheel of the law\". While the Sanchi Stupa is also a significant Ashokan monument, the specific design of the wheel on the flag is from the Sarnath Capital. Jatindra Mohan Sengupta and Jatindra Nath Banerjee are not credited with the design of the Chakra on the national flag.",
+    "reasoning": "The design of the navy blue wheel, known as the Ashoka Chakra, in the center of the Indian National Flag is taken from the abacus of the Lion Capital of Ashoka at Sarnath. This has been confirmed by multiple historical and official sources. The Constituent Assembly of India adopted the design on July 22, 1947. The Sarnath Lion Capital, a sculpture from the 3rd century BCE, features a circular abacus with a wheel, or \"Dharma Chakra,\" which symbolizes the \"wheel of the law\". While the Sanchi Stupa is also a significant Ashokan monument, the specific design of the wheel on the flag is from the Sarnath Capital. Jatindra Mohan Sengupta and Jatindra Nath Banerjee are not credited with the design of the Chakra on the national flag.",
+    "error": false
+  },
+  "d607e691982fea5dc792501abf50fe1b": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The \"Har Ghar Tiranga\" campaign, part of the Azadi Ka Amrit Mahotsav, extended beyond merely encouraging citizens to hoist the national flag at their homes. Official promotions and citizen-led initiatives included a wide array of patriotic activities. Evidence confirms the organization of \"Tiranga Runs\" and marathons to celebrate the spirit of the tricolor. Additionally, patriot-themed street plays (Nukkad Natak) were held to educate people about India's freedom movement and foster a sense of national pride. The campaign also featured thematic exhibitions showcasing the history and evolution of the Indian national flag. Therefore, all the activities listed in options A, B, and C were promoted as part of the Har Ghar Tiranga celebrations.",
+    "reasoning": "The \"Har Ghar Tiranga\" campaign, part of the Azadi Ka Amrit Mahotsav, extended beyond merely encouraging citizens to hoist the national flag at their homes. Official promotions and citizen-led initiatives included a wide array of patriotic activities. Evidence confirms the organization of \"Tiranga Runs\" and marathons to celebrate the spirit of the tricolor. Additionally, patriot-themed street plays (Nukkad Natak) were held to educate people about India's freedom movement and foster a sense of national pride. The campaign also featured thematic exhibitions showcasing the history and evolution of the Indian national flag. Therefore, all the activities listed in options A, B, and C were promoted as part of the Har Ghar Tiranga celebrations.",
+    "error": false
+  },
+  "23cbdc3f25839d85b07107c429236739": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Bandaru Narayanaswamy, a resident of Vadapalli in the East Godavari district of Andhra Pradesh, lost his life during a procession connected to the Venkateswaraswami Chariot Festival on March 30, 1931. A conflict arose when government officials objected to the display of the Tricolour flag and portraits of national leaders on the festival chariot. The ensuing police firing on the protesting crowd resulted in Narayanaswamy's death.",
+    "reasoning": "Bandaru Narayanaswamy, a resident of Vadapalli in the East Godavari district of Andhra Pradesh, lost his life during a procession connected to the Venkateswaraswami Chariot Festival on March 30, 1931. A conflict arose when government officials objected to the display of the Tricolour flag and portraits of national leaders on the festival chariot. The ensuing police firing on the protesting crowd resulted in Narayanaswamy's death.",
+    "error": false
+  },
+  "6e2a927e458b7975cf250d1b91980710": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: On the occasion of the 74th Army Day on January 15, 2022, the world's largest Khadi national flag, measuring 225 feet by 150 feet and weighing 1400 kg, was displayed in Jaisalmer, Rajasthan. The flag was unveiled at the Jaisalmer Military Station along the India-Pakistan border. Longewala is a significant border post in the Jaisalmer district, making it the most fitting location among the given choices.",
+    "reasoning": "On the occasion of the 74th Army Day on January 15, 2022, the world's largest Khadi national flag, measuring 225 feet by 150 feet and weighing 1400 kg, was displayed in Jaisalmer, Rajasthan. The flag was unveiled at the Jaisalmer Military Station along the India-Pakistan border. Longewala is a significant border post in the Jaisalmer district, making it the most fitting location among the given choices.",
+    "error": false
+  },
+  "8d85a6dc33dbc89513cfc0c463b2ee17": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Captain Lakshmi Sahgal was a revolutionary in the Indian independence movement and an officer in the Indian National Army (INA). She is renowned for her role as the leader of the Rani of Jhansi Regiment, the women's unit of the INA. The other women listed, while significant freedom fighters, were not part of the Indian National Army. Sarojini Naidu was a prominent leader in the Indian National Congress and participated in movements such as the Civil Disobedience and Quit India movements. Usha Mehta is famous for organizing the underground Congress Radio during the Quit India Movement. Durgabai Deshmukh was a freedom fighter, lawyer, social worker, and member of the Constituent Assembly of India.",
+    "reasoning": "Captain Lakshmi Sahgal was a revolutionary in the Indian independence movement and an officer in the Indian National Army (INA). She is renowned for her role as the leader of the Rani of Jhansi Regiment, the women's unit of the INA. The other women listed, while significant freedom fighters, were not part of the Indian National Army. Sarojini Naidu was a prominent leader in the Indian National Congress and participated in movements such as the Civil Disobedience and Quit India movements. Usha Mehta is famous for organizing the underground Congress Radio during the Quit India Movement. Durgabai Deshmukh was a freedom fighter, lawyer, social worker, and member of the Constituent Assembly of India.",
+    "error": false
+  },
+  "03df8f11b2a2748a807b0531ffa18994": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The display, hoisting, and use of the Indian National Flag are governed by the Flag Code of India, 2002, and the Prevention of Insults to National Honour Act, 1971. The Flag Code of India is a comprehensive document that consolidates all laws, conventions, practices, and instructions regarding the display of the flag. While the Prevention of Insults to National Honour Act, 1971, prohibits disrespect to the flag and other national symbols, the Flag Code specifically details the protocols for its display. The Emblems and Names (Prevention of Improper Use) Act, 1950, primarily prevents the improper use of the flag and other emblems for commercial purposes. The Constituent Assembly adopted the national flag, but it is not a governing act for its display. Therefore, the Flag Code of India is the most accurate answer governing the display of the National Flag.",
+    "reasoning": "The display, hoisting, and use of the Indian National Flag are governed by the Flag Code of India, 2002, and the Prevention of Insults to National Honour Act, 1971. The Flag Code of India is a comprehensive document that consolidates all laws, conventions, practices, and instructions regarding the display of the flag. While the Prevention of Insults to National Honour Act, 1971, prohibits disrespect to the flag and other national symbols, the Flag Code specifically details the protocols for its display. The Emblems and Names (Prevention of Improper Use) Act, 1950, primarily prevents the improper use of the flag and other emblems for commercial purposes. The Constituent Assembly adopted the national flag, but it is not a governing act for its display. Therefore, the Flag Code of India is the most accurate answer governing the display of the National Flag.",
+    "error": false
+  },
+  "a83dff38e6d8ab3dd6570cd57583032e": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9\nReasoning: While the final version of the national flag was adopted by the Constituent Assembly's Flag Committee, headed by Dr. Rajendra Prasad, historical accounts credit Badr-ud-Din Tyabji with the suggestion to replace the charkha (spinning wheel) with the Ashoka Chakra. Historian Trevor Royle notes that Tyabji felt the charkha was a party symbol and the Ashoka Chakra would be more widely accepted by all communities. His wife, Surayya Tyabji, is credited with creating a graphic version of the flag with the chakra and the first flag in this design was sewn under her supervision. Pingali Venkayya designed the earlier Swaraj flag, which featured the charkha.",
+    "reasoning": "While the final version of the national flag was adopted by the Constituent Assembly's Flag Committee, headed by Dr. Rajendra Prasad, historical accounts credit Badr-ud-Din Tyabji with the suggestion to replace the charkha (spinning wheel) with the Ashoka Chakra. Historian Trevor Royle notes that Tyabji felt the charkha was a party symbol and the Ashoka Chakra would be more widely accepted by all communities. His wife, Surayya Tyabji, is credited with creating a graphic version of the flag with the chakra and the first flag in this design was sewn under her supervision. Pingali Venkayya designed the earlier Swaraj flag, which featured the charkha.",
+    "error": false
+  },
+  "61db7339be637609b5d33a66b009b30f": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Ajrakh printing technique originated in the Sindh region, which is now in Pakistan, and later flourished in the Kutch district of Gujarat and the Barmer district of Rajasthan in India. Several sources confirm that the craft is primarily practiced in these two Indian states. Therefore, the most accurate answer is Rajasthan and Gujarat.",
+    "reasoning": "The Ajrakh printing technique originated in the Sindh region, which is now in Pakistan, and later flourished in the Kutch district of Gujarat and the Barmer district of Rajasthan in India. Several sources confirm that the craft is primarily practiced in these two Indian states. Therefore, the most accurate answer is Rajasthan and Gujarat.",
+    "error": false
+  },
+  "2096932a16291fe90c585dd5ae6fa516": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Khadi is a traditional Indian textile that is defined by its method of production: it is hand-spun and hand-woven. The process involves spinning natural fibers like cotton, silk, or wool into yarn on a spinning wheel called a charkha, and then weaving the yarn into cloth on a handloom. This makes it distinct from power loom fabrics, modern printing techniques, or synthetic materials.",
+    "reasoning": "Khadi is a traditional Indian textile that is defined by its method of production: it is hand-spun and hand-woven. The process involves spinning natural fibers like cotton, silk, or wool into yarn on a spinning wheel called a charkha, and then weaving the yarn into cloth on a handloom. This makes it distinct from power loom fabrics, modern printing techniques, or synthetic materials.",
+    "error": false
+  },
+  "659390895bdb01038fe5e215a6c14257": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: India's first Craft Handloom Tourism Village is located in Pranpur, which is a village situated about 3 kilometers from Chanderi in Madhya Pradesh. The inauguration of the \"Craft Handloom Tourism Village\" was held in the city of Chanderi. The initiative aims to allow tourists to interact directly with the artisan and weaver community in Pranpur.",
+    "reasoning": "India's first Craft Handloom Tourism Village is located in Pranpur, which is a village situated about 3 kilometers from Chanderi in Madhya Pradesh. The inauguration of the \"Craft Handloom Tourism Village\" was held in the city of Chanderi. The initiative aims to allow tourists to interact directly with the artisan and weaver community in Pranpur.",
+    "error": false
+  },
+  "feb49cf6b5d6236edb027a900944ddce": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The National Gallery of Modern Art (NGMA) features a collection of over 17,000 works created by more than 2,000 artists. The museum's collection is one of the most significant compilations of modern and contemporary Indian art.",
+    "reasoning": "The National Gallery of Modern Art (NGMA) features a collection of over 17,000 works created by more than 2,000 artists. The museum's collection is one of the most significant compilations of modern and contemporary Indian art.",
+    "error": false
+  },
+  "766359a7390d8a965e8fa5a577a5fe0d": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Multiple sources confirm that Arpita Singh worked as a textile designer at the Weaver's Service Center. Her experiences there with fabrics, patterns, and traditional weaving and embroidery techniques, such as Kantha, profoundly shaped her artistic language. This direct involvement in the creation and understanding of textile design and patterns aligns perfectly with option C. The other options are not supported by the search results; there is no mention of her focusing on dyeing techniques, power loom mechanics, or the business and marketing side of textiles during her time at the center.",
+    "reasoning": "Multiple sources confirm that Arpita Singh worked as a textile designer at the Weaver's Service Center. Her experiences there with fabrics, patterns, and traditional weaving and embroidery techniques, such as Kantha, profoundly shaped her artistic language. This direct involvement in the creation and understanding of textile design and patterns aligns perfectly with option C. The other options are not supported by the search results; there is no mention of her focusing on dyeing techniques, power loom mechanics, or the business and marketing side of textiles during her time at the center.",
+    "error": false
+  },
+  "5982ffa6a3f7640743100932ee28a03b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Based on numerous official and reliable sources, the correct and full name of the institution is the National Gallery of Modern Art. The use of \"Art\" in the singular form is the accurate and official title for the premier art gallery in India, which has branches in New Delhi, Mumbai, and Bengaluru. The other options are incorrect as \"National Gallery of Modern Arts\" uses a plural form not found in the official name, and \"National Gallery\" is an incomplete and generic term.",
+    "reasoning": "Based on numerous official and reliable sources, the correct and full name of the institution is the National Gallery of Modern Art. The use of \"Art\" in the singular form is the accurate and official title for the premier art gallery in India, which has branches in New Delhi, Mumbai, and Bengaluru. The other options are incorrect as \"National Gallery of Modern Arts\" uses a plural form not found in the official name, and \"National Gallery\" is an incomplete and generic term.",
+    "error": false
+  },
+  "6f17f14459dde586f8ef15a40ab75aaa": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D\nConfidence: 9\nReasoning: Modern Indian art is diverse and draws upon a wide array of cultural and material inspirations. The textures mentioned in the options all have significant cultural resonance in India, making them all plausible sources of artistic evocation.\n\n*   **The smoothness of silk:** Silk is a traditional symbol of luxury, purity, and auspiciousness in India. Its smooth, lustrous quality is often featured in religious and ceremonial garments.\n*   **The roughness of khadi:** Khadi, a hand-spun and handwoven fabric, is a powerful symbol of India's independence movement, self-reliance, and national pride. Its texture can vary, but it is often associated with a certain rustic roughness.\n*   **The layered quality of embroidery:** India has a rich and diverse tradition of embroidery, with various techniques creating intricate, layered textures. Contemporary artists continue to explore and reinterpret these traditional embroidery techniques in their work.\n\nGiven that modern artists can and do draw from this rich textile heritage, it is entirely possible for different artworks to intentionally evoke the distinct textural qualities of any of these materials. Therefore, the most accurate answer is that the texture in certain modern Indian artworks might be intended to evoke any of the listed qualities.",
+    "reasoning": "Modern Indian art is diverse and draws upon a wide array of cultural and material inspirations. The textures mentioned in the options all have significant cultural resonance in India, making them all plausible sources of artistic evocation.",
+    "error": false
+  },
+  "ecefd4e68a8366deb6c31449e1b61a06": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Mekhala Chador is the traditional attire for women in the state of Assam. It is a two-piece garment, with the \"Mekhela\" being the lower part that is draped from the waist downwards, and the \"Chador\" being the upper part that is wrapped around the body. This attire is a significant symbol of Assamese culture and is worn by women of all ages, especially during festivals and ceremonies.",
+    "reasoning": "Mekhala Chador is the traditional attire for women in the state of Assam. It is a two-piece garment, with the \"Mekhela\" being the lower part that is draped from the waist downwards, and the \"Chador\" being the upper part that is wrapped around the body. This attire is a significant symbol of Assamese culture and is worn by women of all ages, especially during festivals and ceremonies.",
+    "error": false
+  },
+  "951b320d5bc2870a216c2197aa2e1f2a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The God of Small Things\" is the debut novel of Indian author Arundhati Roy. It was published in 1997 and went on to win the Booker Prize that same year. The novel tells the story of fraternal twins whose childhood experiences are shaped by the \"Love Laws\" in 1960s Kerala, India.",
+    "reasoning": "\"The God of Small Things\" is the debut novel of Indian author Arundhati Roy. It was published in 1997 and went on to win the Booker Prize that same year. The novel tells the story of fraternal twins whose childhood experiences are shaped by the \"Love Laws\" in 1960s Kerala, India.",
+    "error": false
+  },
+  "6d45f222390d7aa41428d091c0cac096": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Sun and Her Flowers\" is the second collection of poetry by Rupi Kaur, published in 2017. The book is described as a journey through wilting, falling, rooting, rising, and blooming.",
+    "reasoning": "\"The Sun and Her Flowers\" is the second collection of poetry by Rupi Kaur, published in 2017. The book is described as a journey through wilting, falling, rooting, rising, and blooming.",
+    "error": false
+  },
+  "768a8516c8ac8ef195ebb7e6c0ddab79": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The search results consistently and explicitly state that \"Keepers of the Kalachakra\" was written by Ashwin Sanghi. His official website and Wikipedia page list it among his notable works.",
+    "reasoning": "The search results consistently and explicitly state that \"Keepers of the Kalachakra\" was written by Ashwin Sanghi. His official website and Wikipedia page list it among his notable works.",
+    "error": false
+  },
+  "b08d6be8671c3f7de005cc3e5b2c03bb": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"The Room on the Roof\" is the debut novel of the acclaimed Indian author Ruskin Bond. He wrote the book when he was seventeen years old, and it was published in 1956. The novel won the John Llewellyn Rhys Prize in 1957.",
+    "reasoning": "\"The Room on the Roof\" is the debut novel of the acclaimed Indian author Ruskin Bond. He wrote the book when he was seventeen years old, and it was published in 1956. The novel won the John Llewellyn Rhys Prize in 1957.",
+    "error": false
+  },
+  "5790a3fef8407c939f7503385f774410": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"The Ministry of Utmost Happiness\" is the second novel by Indian writer Arundhati Roy, published in 2017. This was twenty years after her debut novel, \"The God of Small Things,\" which won the Booker Prize.",
+    "reasoning": "\"The Ministry of Utmost Happiness\" is the second novel by Indian writer Arundhati Roy, published in 2017. This was twenty years after her debut novel, \"The God of Small Things,\" which won the Booker Prize.",
+    "error": false
+  },
+  "92517a26e16129d612bc90045b909551": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The book \"India 2020: A Vision for the New Millennium\" was co-authored by Dr. A.P.J. Abdul Kalam and Y.S. Rajan. This is explicitly stated in multiple reliable sources. The other options are incorrect as there is no record of them co-authoring this specific book with Dr. Kalam.",
+    "reasoning": "The book \"India 2020: A Vision for the New Millennium\" was co-authored by Dr. A.P.J. Abdul Kalam and Y.S. Rajan. This is explicitly stated in multiple reliable sources. The other options are incorrect as there is no record of them co-authoring this specific book with Dr. Kalam.",
+    "error": false
+  },
+  "6a386007993e4258c7f13b0b76a4e38f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"The Namesake\" is the debut novel by British-American author Jhumpa Lahiri, published in 2003. The book explores the immigrant experience and the cultural clashes faced by the Ganguli family. The other authors are known for different works: Kiran Desai wrote \"The Inheritance of Loss,\" Arundhati Roy is famous for \"The God of Small Things,\" and Sudha Murty has authored many books, including \"Wise and Otherwise\" and \"Dollar Bahu.\"",
+    "reasoning": "\"The Namesake\" is the debut novel by British-American author Jhumpa Lahiri, published in 2003. The book explores the immigrant experience and the cultural clashes faced by the Ganguli family. The other authors are known for different works: Kiran Desai wrote \"The Inheritance of Loss,\" Arundhati Roy is famous for \"The God of Small Things,\" and Sudha Murty has authored many books, including \"Wise and Otherwise\" and \"Dollar Bahu.\"",
+    "error": false
+  },
+  "089609cc298fbd02fe71406de92b1803": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The historical novel \"Train to Pakistan,\" published in 1956, was written by Khushwant Singh. The book recounts the partition of India in 1947.",
+    "reasoning": "The historical novel \"Train to Pakistan,\" published in 1956, was written by Khushwant Singh. The book recounts the partition of India in 1947.",
+    "error": false
+  },
+  "f15034619e8fe7c3a987c27b4cf0fea5": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The quote \"Books are a uniquely portable magic\" is widely attributed to Stephen King. It appears in his book \"On Writing: A Memoir of the Craft\".",
+    "reasoning": "The quote \"Books are a uniquely portable magic\" is widely attributed to Stephen King. It appears in his book \"On Writing: A Memoir of the Craft\".",
+    "error": false
+  },
+  "c5e609b92374f30c8a6cf4e1649ae6a7": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"Madhushala\" is a renowned book of 135 four-line verses (quatrains) written by the Hindi poet and writer Harivansh Rai Bachchan. Published in 1935, this highly metaphorical work brought him instant fame. The book is a significant piece in the Chhayavaad (Neo-romanticism) literary movement of early 20th-century Hindi literature.",
+    "reasoning": "\"Madhushala\" is a renowned book of 135 four-line verses (quatrains) written by the Hindi poet and writer Harivansh Rai Bachchan. Published in 1935, this highly metaphorical work brought him instant fame. The book is a significant piece in the Chhayavaad (Neo-romanticism) literary movement of early 20th-century Hindi literature.",
+    "error": false
+  },
+  "18d4c23e2623f82eba511c7fc4825887": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Suppandi is one of the most famous and beloved characters appearing in Tinkle comics since his debut in 1983. Chacha Chaudhary was created for the magazine Lotpot and is published by Diamond Comics. Nagraj is a superhero from Raj Comics. Stories of Tenali Raman are primarily featured in Amar Chitra Katha, a sister publication to Tinkle.",
+    "reasoning": "Suppandi is one of the most famous and beloved characters appearing in Tinkle comics since his debut in 1983. Chacha Chaudhary was created for the magazine Lotpot and is published by Diamond Comics. Nagraj is a superhero from Raj Comics. Stories of Tenali Raman are primarily featured in Amar Chitra Katha, a sister publication to Tinkle.",
+    "error": false
+  },
+  "16f35c9f0659bb5f43e1f6f70606dbab": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Amar Chitra Katha is a popular Indian comic book series that primarily focuses on stories from Indian history and mythology. The series was founded by Anant Pai in 1967 with the aim of educating Indian children about their cultural heritage, including religious legends, epics, historical figures, and folktales. The collection includes a wide range of titles covering mythological narratives like the Ramayana and Mahabharata, as well as stories of historical heroes and cultural legends.",
+    "reasoning": "Amar Chitra Katha is a popular Indian comic book series that primarily focuses on stories from Indian history and mythology. The series was founded by Anant Pai in 1967 with the aim of educating Indian children about their cultural heritage, including religious legends, epics, historical figures, and folktales. The collection includes a wide range of titles covering mythological narratives like the Ramayana and Mahabharata, as well as stories of historical heroes and cultural legends.",
+    "error": false
+  },
+  "553e2716890923df02eac4bb4f673f87": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The quote, \"Education is the manifestation of the perfection already in man,\" is a well-known and widely cited statement by Swami Vivekananda. This idea is a central theme in his philosophy of education, emphasizing that learning is a process of discovering the inherent potential within each individual. The quote is from a letter he wrote from Chicago on March 3, 1894, to Singaravelu Mudaliyar.",
+    "reasoning": "The quote, \"Education is the manifestation of the perfection already in man,\" is a well-known and widely cited statement by Swami Vivekananda. This idea is a central theme in his philosophy of education, emphasizing that learning is a process of discovering the inherent potential within each individual. The quote is from a letter he wrote from Chicago on March 3, 1894, to Singaravelu Mudaliyar.",
+    "error": false
+  },
+  "b60c809ae51616086d14fdb3be2eb0b0": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"The Secret of the Nagas\" is the second book in the \"Shiva Trilogy\" series, written by the Indian author Amish Tripathi. It was published in 2011 and continues the story that began in \"The Immortals of Meluha\".",
+    "reasoning": "\"The Secret of the Nagas\" is the second book in the \"Shiva Trilogy\" series, written by the Indian author Amish Tripathi. It was published in 2011 and continues the story that began in \"The Immortals of Meluha\".",
+    "error": false
+  },
+  "876f543919dce8d76ce5dc7e76fbd75f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Jeff Kinney is an American author and cartoonist who is widely known for creating, writing, and illustrating the \"Diary of a Wimpy Kid\" children's book series. The other authors are famous for different popular series: Dan Brown authored \"The Da Vinci Code\" series, Suzanne Collins wrote \"The Hunger Games\" trilogy, and Rick Riordan is the author of the \"Percy Jackson & the Olympians\" series.",
+    "reasoning": "Jeff Kinney is an American author and cartoonist who is widely known for creating, writing, and illustrating the \"Diary of a Wimpy Kid\" children's book series. The other authors are famous for different popular series: Dan Brown authored \"The Da Vinci Code\" series, Suzanne Collins wrote \"The Hunger Games\" trilogy, and Rick Riordan is the author of the \"Percy Jackson & the Olympians\" series.",
+    "error": false
+  },
+  "ae9e3a2fba8815dd23360ebc2f75792f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The historical novel \"Train to Pakistan,\" published in 1956, was written by the Indian author Khushwant Singh. The book recounts the events of the Partition of India in August 1947. Singh's personal experiences during the partition inspired him to write the novel, which has become his most well-known work.",
+    "reasoning": "The historical novel \"Train to Pakistan,\" published in 1956, was written by the Indian author Khushwant Singh. The book recounts the events of the Partition of India in August 1947. Singh's personal experiences during the partition inspired him to write the novel, which has become his most well-known work.",
+    "error": false
+  },
+  "7bd63ccaa3eaa352c91474289e0fabca": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Muslim League called for Direct Action Day on August 16, 1946, to demand a separate Muslim homeland. This day of protest led to widespread communal riots, particularly in Calcutta.",
+    "reasoning": "The Muslim League called for Direct Action Day on August 16, 1946, to demand a separate Muslim homeland. This day of protest led to widespread communal riots, particularly in Calcutta.",
+    "error": false
+  },
+  "34047a47a419629632bdce19e89569c9": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Partition of India occurred in 1947, when British India was divided into two independent dominions, India and Pakistan. This event was enacted by the Indian Independence Act of 1947, passed by the British Parliament in July of that year. The transfer of power was finalized on August 14 in Pakistan and August 15 in India, marking the end of the British Raj.",
+    "reasoning": "The Partition of India occurred in 1947, when British India was divided into two independent dominions, India and Pakistan. This event was enacted by the Indian Independence Act of 1947, passed by the British Parliament in July of that year. The transfer of power was finalized on August 14 in Pakistan and August 15 in India, marking the end of the British Raj.",
+    "error": false
+  },
+  "2cb0e0502ed32fbb4ba977faf85db6ad": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: In 2021, Indian Prime Minister Narendra Modi officially declared August 14th as Partition Horrors Remembrance Day. The day was established to acknowledge the suffering of people during the country's partition in 1947. The first commemoration of this day was held on August 14, 2021.",
+    "reasoning": "In 2021, Indian Prime Minister Narendra Modi officially declared August 14th as Partition Horrors Remembrance Day. The day was established to acknowledge the suffering of people during the country's partition in 1947. The first commemoration of this day was held on August 14, 2021.",
+    "error": false
+  },
+  "fdae1144786fa8f7111df36480a2a0bb": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Partition of British India in 1947 primarily involved the division of two provinces: Bengal and Punjab. These provinces were split based on district-wise religious majorities of Muslims and non-Muslims. The western part of Punjab became part of Pakistan, while the eastern part joined India. Similarly, Bengal was divided into East Bengal (which became part of Pakistan and is now Bangladesh) and West Bengal (which remained in India). While the partition had widespread consequences, these two provinces were the ones that were geographically divided.",
+    "reasoning": "The Partition of British India in 1947 primarily involved the division of two provinces: Bengal and Punjab. These provinces were split based on district-wise religious majorities of Muslims and non-Muslims. The western part of Punjab became part of Pakistan, while the eastern part joined India. Similarly, Bengal was divided into East Bengal (which became part of Pakistan and is now Bangladesh) and West Bengal (which remained in India). While the partition had widespread consequences, these two provinces were the ones that were geographically divided.",
+    "error": false
+  },
+  "f65b04dc178cf10b7a32c3737f4c42c9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Lord Mountbatten, who had been the last Viceroy of British India, became the first Governor-General of independent India. He served in this capacity from August 15, 1947, to June 21, 1948. C. Rajagopalachari succeeded him to become the first Indian Governor-General of India.",
+    "reasoning": "Lord Mountbatten, who had been the last Viceroy of British India, became the first Governor-General of independent India. He served in this capacity from August 15, 1947, to June 21, 1948. C. Rajagopalachari succeeded him to become the first Indian Governor-General of India.",
+    "error": false
+  },
+  "15826218474555c0612a58c37cbfff13": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Jawaharlal Nehru became the first Prime Minister of independent India on August 15, 1947, the same day the Partition of India was formally enacted. The other individuals listed held different positions at that time. Sardar Patel was the Deputy Prime Minister and Home Minister. Lal Bahadur Shastri was a minister in Uttar Pradesh. C. Rajagopalachari was the Governor of West Bengal and later became the Governor-General of India.",
+    "reasoning": "Jawaharlal Nehru became the first Prime Minister of independent India on August 15, 1947, the same day the Partition of India was formally enacted. The other individuals listed held different positions at that time. Sardar Patel was the Deputy Prime Minister and Home Minister. Lal Bahadur Shastri was a minister in Uttar Pradesh. C. Rajagopalachari was the Governor of West Bengal and later became the Governor-General of India.",
+    "error": false
+  },
+  "0e8ca3559ec78a9406515abe2e74e480": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The provided search results consistently and explicitly attribute the quote, \"You cannot believe in God until you believe in yourself,\" to Swami Vivekananda. Several sources emphasize that this concept of self-belief being a prerequisite for faith in God was a core part of his teachings.",
+    "reasoning": "The provided search results consistently and explicitly attribute the quote, \"You cannot believe in God until you believe in yourself,\" to Swami Vivekananda. Several sources emphasize that this concept of self-belief being a prerequisite for faith in God was a core part of his teachings.",
+    "error": false
+  },
+  "d2e529e2c2c8d3a8962a6c18ecd61c33": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The novel \"2 States: The Story of My Marriage\" was written by Chetan Bhagat and published in 2009. The book is a fictionalized account of his own marriage and tells the story of a couple from two different Indian states who fall in love and face challenges in convincing their families to accept their union.",
+    "reasoning": "The novel \"2 States: The Story of My Marriage\" was written by Chetan Bhagat and published in 2009. The book is a fictionalized account of his own marriage and tells the story of a couple from two different Indian states who fall in love and face challenges in convincing their families to accept their union.",
+    "error": false
+  },
+  "d23c889aba049c70e7438597be0b27ef": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The author of \"The Folded Earth\" is Anuradha Roy. The book, her second novel, won the Economist Crossword Prize.",
+    "reasoning": "The author of \"The Folded Earth\" is Anuradha Roy. The book, her second novel, won the Economist Crossword Prize.",
+    "error": false
+  },
+  "b4c8d58cbad5ed90be05fef1c9fa31fa": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Panchatantra is an ancient Indian collection of animal fables that was originally written in Sanskrit. The work is attributed to Vishnu Sharma and is believed to have been composed around 300 CE. It is one of the most widely translated literary works from India, with versions in over 50 languages.",
+    "reasoning": "The Panchatantra is an ancient Indian collection of animal fables that was originally written in Sanskrit. The work is attributed to Vishnu Sharma and is believed to have been composed around 300 CE. It is one of the most widely translated literary works from India, with versions in over 50 languages.",
+    "error": false
+  },
+  "0bcc8853b9a0bd85899f7e99ef859513": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Oath of the Vayuputras\" is the third book in the Shiva Trilogy written by Amish Tripathi. It was published in 2013 and concludes the story of the mythological land of Meluha. The other authors listed as options are known for different works. Anuja Chauhan is the author of books like \"The Zoya Factor\" and \"Battle for Bittora\". Devdutt Pattanaik has written extensively on mythology, with books such as \"Jaya\" and \"My Gita\". Shobha De is known for novels like \"Starry Nights\" and \"Socialite Evenings\".",
+    "reasoning": "\"The Oath of the Vayuputras\" is the third book in the Shiva Trilogy written by Amish Tripathi. It was published in 2013 and concludes the story of the mythological land of Meluha. The other authors listed as options are known for different works. Anuja Chauhan is the author of books like \"The Zoya Factor\" and \"Battle for Bittora\". Devdutt Pattanaik has written extensively on mythology, with books such as \"Jaya\" and \"My Gita\". Shobha De is known for novels like \"Starry Nights\" and \"Socialite Evenings\".",
+    "error": false
+  },
+  "c343a93dc1672c523e1cc53207dd6c4f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"Revolution 2020: Love, Corruption, Ambition\" is a novel published in 2011, written by the Indian author Chetan Bhagat. The story is set in Varanasi and explores themes of love, corruption, and ambition through a love triangle.",
+    "reasoning": "\"Revolution 2020: Love, Corruption, Ambition\" is a novel published in 2011, written by the Indian author Chetan Bhagat. The story is set in Varanasi and explores themes of love, corruption, and ambition through a love triangle.",
+    "error": false
+  },
+  "5427cb577d05f38ca3da460db19522b8": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 8,
+    "raw": "Answer: B\nConfidence: 8\nReasoning: While the exact phrasing \"Be the change that you wish to see in the world\" is widely considered a simplification and not a direct quote from Mahatma Gandhi, the sentiment is derived from his writings. In a 1913 article, Gandhi wrote, \"If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him... We need not wait to see what others do.\" For the purpose of a general knowledge question, Gandhi is the universally accepted answer to whom this quote is attributed.",
+    "reasoning": "While the exact phrasing \"Be the change that you wish to see in the world\" is widely considered a simplification and not a direct quote from Mahatma Gandhi, the sentiment is derived from his writings. In a 1913 article, Gandhi wrote, \"If we could change ourselves, the tendencies in the world would also change. As a man changes his own nature, so does the attitude of the world change towards him... We need not wait to see what others do.\" For the purpose of a general knowledge question, Gandhi is the universally accepted answer to whom this quote is attributed.",
+    "error": false
+  },
+  "c1f9e707b53d8e3bbc685c70d8e38700": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The novel \"Pather Panchali\" was written by Bibhutibhushan Bandyopadhyay and published in 1929. Satyajit Ray directed the well-known film adaptation of the novel, which was released in 1955.",
+    "reasoning": "The novel \"Pather Panchali\" was written by Bibhutibhushan Bandyopadhyay and published in 1929. Satyajit Ray directed the well-known film adaptation of the novel, which was released in 1955.",
+    "error": false
+  },
+  "8bdb9505812d6db6ba672c5c070e5293": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"The Discovery of India\" was written by Jawaharlal Nehru, who was the first Prime Minister of India. He wrote the book between 1942 and 1945 while he was imprisoned in Ahmednagar Fort for his involvement in the Quit India Movement. The book, published in 1946, covers the vast history of Indian culture, from ancient times to the period of British rule.",
+    "reasoning": "\"The Discovery of India\" was written by Jawaharlal Nehru, who was the first Prime Minister of India. He wrote the book between 1942 and 1945 while he was imprisoned in Ahmednagar Fort for his involvement in the Quit India Movement. The book, published in 1946, covers the vast history of Indian culture, from ancient times to the period of British rule.",
+    "error": false
+  },
+  "af049628ba3c84950671f2e2fc842a0e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The quote, \"I measure the progress of a community by the degree of progress which women have achieved,\" is widely attributed to Dr. B. R. Ambedkar. He was a staunch advocate for women's rights and empowerment in India. In a 1927 address to a gathering of about three thousand women, he made this powerful statement, which has since become one of his most famous quotes on the subject. His work and speeches consistently highlighted the importance of women's education and their equal participation in society.",
+    "reasoning": "The quote, \"I measure the progress of a community by the degree of progress which women have achieved,\" is widely attributed to Dr. B. R. Ambedkar. He was a staunch advocate for women's rights and empowerment in India. In a 1927 address to a gathering of about three thousand women, he made this powerful statement, which has since become one of his most famous quotes on the subject. His work and speeches consistently highlighted the importance of women's education and their equal participation in society.",
+    "error": false
+  },
+  "6de7a7a901bf58b72634717648c31d6b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Ruskin Bond's writing is renowned for its deep connection to nature and life in the hill stations of India. Many of his most famous works are set against the backdrop of the Himalayas, drawing inspiration from his life in places like Mussoorie. His stories frequently explore the beauty of the mountains and the lives of the people who inhabit them.",
+    "reasoning": "Ruskin Bond's writing is renowned for its deep connection to nature and life in the hill stations of India. Many of his most famous works are set against the backdrop of the Himalayas, drawing inspiration from his life in places like Mussoorie. His stories frequently explore the beauty of the mountains and the lives of the people who inhabit them.",
+    "error": false
+  },
+  "4d93b8809dc10c57219804f960000e4c": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: On December 30, 1943, Netaji Subhas Chandra Bose hoisted the Indian flag for the first time in Port Blair. At that time, he was the head of the Provisional Government of Azad Hind. This government was formed in exile in Singapore on October 21, 1943. The Andaman and Nicobar Islands were transferred to the Azad Hind government by the Japanese, making them the first Indian territory to be declared free from British rule.",
+    "reasoning": "On December 30, 1943, Netaji Subhas Chandra Bose hoisted the Indian flag for the first time in Port Blair. At that time, he was the head of the Provisional Government of Azad Hind. This government was formed in exile in Singapore on October 21, 1943. The Andaman and Nicobar Islands were transferred to the Azad Hind government by the Japanese, making them the first Indian territory to be declared free from British rule.",
+    "error": false
+  },
+  "b4398436bad93226feb90fce8dd60ef1": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: In July 2022, the Government of India amended the Flag Code of India, 2002. The key change, particularly relevant to private residences, was the permission to fly the National Flag both day and night. Previously, the flag was generally expected to be flown only from sunrise to sunset. This amendment was introduced to encourage citizens to hoist the flag at their homes as part of the 'Har Ghar Tiranga' campaign.",
+    "reasoning": "In July 2022, the Government of India amended the Flag Code of India, 2002. The key change, particularly relevant to private residences, was the permission to fly the National Flag both day and night. Previously, the flag was generally expected to be flown only from sunrise to sunset. This amendment was introduced to encourage citizens to hoist the flag at their homes as part of the 'Har Ghar Tiranga' campaign.",
+    "error": false
+  },
+  "feeaec667829592a8dfcbb9bbbcd3656": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The \"Har Ghar Tiranga\" campaign was launched in 2022 to encourage people to hoist the Indian national flag at their homes. This initiative was a part of the larger \"Azadi Ka Amrit Mahotsav\" celebrations, which commemorated 75 years of India's independence. The campaign was initiated to foster a personal connection with the national flag and to promote a spirit of patriotism and national unity.",
+    "reasoning": "The \"Har Ghar Tiranga\" campaign was launched in 2022 to encourage people to hoist the Indian national flag at their homes. This initiative was a part of the larger \"Azadi Ka Amrit Mahotsav\" celebrations, which commemorated 75 years of India's independence. The campaign was initiated to foster a personal connection with the national flag and to promote a spirit of patriotism and national unity.",
+    "error": false
+  },
+  "5e42ec62136f2e788363e25bdcf55c19": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: According to the historical accounts of the Dhami firing incident, also known as the Dhami Goli Kand, which took place on July 16, 1939, a protest was held against the princely state's administration. During this event, the police opened fire on the protestors. The search results indicate that among those who were martyred were Uma Dutt and Durga Das. One source also mentions that the police seized the national flag from the protestors and burned it. While another source mentions Durga and Rup Ram as the casualties, the combination of Uma Dutt and Durga Das is explicitly stated in multiple reliable sources.",
+    "reasoning": "According to the historical accounts of the Dhami firing incident, also known as the Dhami Goli Kand, which took place on July 16, 1939, a protest was held against the princely state's administration. During this event, the police opened fire on the protestors. The search results indicate that among those who were martyred were Uma Dutt and Durga Das. One source also mentions that the police seized the national flag from the protestors and burned it. While another source mentions Durga and Rup Ram as the casualties, the combination of Uma Dutt and Durga Das is explicitly stated in multiple reliable sources.",
+    "error": false
+  },
+  "886e210642a2326efed6e9614bf8559d": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: According to the Flag Code of India, the ratio of the length to the height (width) of the National Flag of India is 3:2. This is consistently stated across multiple official and informational sources. Option B is the only choice that reflects this correct ratio.",
+    "reasoning": "According to the Flag Code of India, the ratio of the length to the height (width) of the National Flag of India is 3:2. This is consistently stated across multiple official and informational sources. Option B is the only choice that reflects this correct ratio.",
+    "error": false
+  },
+  "06f6c7ed0bc48677bcd3eab4046d6738": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: On December 30, 1943, Netaji Subhas Chandra Bose hoisted the Indian National Flag for the first time on Indian soil at the Gymkhana Ground (now Netaji Stadium) in Port Blair. This act declared the Andaman and Nicobar Islands as the first Indian territory to be liberated from British rule.",
+    "reasoning": "On December 30, 1943, Netaji Subhas Chandra Bose hoisted the Indian National Flag for the first time on Indian soil at the Gymkhana Ground (now Netaji Stadium) in Port Blair. This act declared the Andaman and Nicobar Islands as the first Indian territory to be liberated from British rule.",
+    "error": false
+  },
+  "a9b421f532640930cf2a6aad40da78d3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: During the Home Rule Movement in 1917, Bal Gangadhar Tilak and Annie Besant jointly adopted a new flag to symbolize the demand for self-rule. This flag featured five red and four green horizontal stripes, the Union Jack in the top-left corner, and seven stars in the Saptarishi configuration. The inclusion of the Union Jack signified the movement's initial goal of achieving dominion status within the British Empire. Numerous historical sources confirm that these two leaders were the principal figures behind the adoption of this specific flag for the movement.",
+    "reasoning": "During the Home Rule Movement in 1917, Bal Gangadhar Tilak and Annie Besant jointly adopted a new flag to symbolize the demand for self-rule. This flag featured five red and four green horizontal stripes, the Union Jack in the top-left corner, and seven stars in the Saptarishi configuration. The inclusion of the Union Jack signified the movement's initial goal of achieving dominion status within the British Empire. Numerous historical sources confirm that these two leaders were the principal figures behind the adoption of this specific flag for the movement.",
+    "error": false
+  },
+  "ef90b09f3114ce1e6897586779b96051": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The \"Har Ghar Tiranga\" campaign explicitly encourages citizens to participate by hoisting the national flag and then sharing selfies with it on the official website, harghartiranga.com. The primary goal of the initiative is to encourage people to bring the flag home and hoist it, making the connection to the flag more personal. While other activities like rallies and concerts are organized, the selfie with the flag is a key component of digital participation. Option A is incorrect as the campaign encourages hoisting flags at homes, not just government offices. There is no mention of using only miniature flags (Option C) or a specific focus on hosting musical programs at home (Option D).",
+    "reasoning": "The \"Har Ghar Tiranga\" campaign explicitly encourages citizens to participate by hoisting the national flag and then sharing selfies with it on the official website, harghartiranga.com. The primary goal of the initiative is to encourage people to bring the flag home and hoist it, making the connection to the flag more personal. While other activities like rallies and concerts are organized, the selfie with the flag is a key component of digital participation. Option A is incorrect as the campaign encourages hoisting flags at homes, not just government offices. There is no mention of using only miniature flags (Option C) or a specific focus on hosting musical programs at home (Option D).",
+    "error": false
+  },
+  "f6392364f305cefe2b2b4854a45c9888": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Swadeshi movement's primary goals were to promote the use of indigenous goods and to boycott foreign-made products. The promotion of handloom textiles was a key strategy to encourage self-reliance and directly challenge the economic dominance of British-made goods, particularly textiles. Public burnings of foreign cloth and the promotion of Indian-made alternatives like Khadi were central to the movement. Therefore, the promotion of handloom textiles was a direct manifestation of the call to boycott foreign goods.",
+    "reasoning": "The Swadeshi movement's primary goals were to promote the use of indigenous goods and to boycott foreign-made products. The promotion of handloom textiles was a key strategy to encourage self-reliance and directly challenge the economic dominance of British-made goods, particularly textiles. Public burnings of foreign cloth and the promotion of Indian-made alternatives like Khadi were central to the movement. Therefore, the promotion of handloom textiles was a direct manifestation of the call to boycott foreign goods.",
+    "error": false
+  },
+  "c6b2f44f671c9837db3926de8c196e5a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: National Handloom Day is celebrated annually on August 7th in India. This date was chosen to commemorate the launch of the Swadeshi Movement on August 7, 1905, which encouraged the use of indigenous products, particularly handloom textiles, and the boycott of foreign goods. The Government of India officially designated this day in 2015 to honor the handloom weaving community and to highlight the sector's contribution to the country's economy and cultural heritage.",
+    "reasoning": "National Handloom Day is celebrated annually on August 7th in India. This date was chosen to commemorate the launch of the Swadeshi Movement on August 7, 1905, which encouraged the use of indigenous products, particularly handloom textiles, and the boycott of foreign goods. The Government of India officially designated this day in 2015 to honor the handloom weaving community and to highlight the sector's contribution to the country's economy and cultural heritage.",
+    "error": false
+  },
+  "6f209252503f0bdf2aef4a96a5463c1a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Kalamkari is an ancient Indian art form of hand-painting or block-printing on cotton or silk fabric using a tamarind pen and natural dyes. The name itself is derived from the Persian words 'kalam' (pen) and 'kari' (craftsmanship). In contrast, Origami is the Japanese art of paper folding, Macramé is a textile craft using knotting techniques, and Embroidery is the craft of decorating fabric with a needle and thread. Therefore, Kalamkari is the only fabric painting tradition among the given options.",
+    "reasoning": "Kalamkari is an ancient Indian art form of hand-painting or block-printing on cotton or silk fabric using a tamarind pen and natural dyes. The name itself is derived from the Persian words 'kalam' (pen) and 'kari' (craftsmanship). In contrast, Origami is the Japanese art of paper folding, Macramé is a textile craft using knotting techniques, and Embroidery is the craft of decorating fabric with a needle and thread. Therefore, Kalamkari is the only fabric painting tradition among the given options.",
+    "error": false
+  },
+  "dd6c3c70e7e2858f94de94c3ad3673d3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Traditional handloom aesthetics, with their intricate patterns, rich colors, and unique textures, have historically served as a significant source of inspiration for artists across various movements. Artists often draw from the geometric designs, symbolic motifs, and color palettes found in textiles to inform their own compositions and explore new forms of expression. This influence is not about dictating subject matter or limiting artistic choices, but rather about providing a rich visual and cultural vocabulary that can be reinterpreted and integrated into contemporary art. The process is an adaptation and evolution of traditional techniques and aesthetics into new artistic contexts.",
+    "reasoning": "Traditional handloom aesthetics, with their intricate patterns, rich colors, and unique textures, have historically served as a significant source of inspiration for artists across various movements. Artists often draw from the geometric designs, symbolic motifs, and color palettes found in textiles to inform their own compositions and explore new forms of expression. This influence is not about dictating subject matter or limiting artistic choices, but rather about providing a rich visual and cultural vocabulary that can be reinterpreted and integrated into contemporary art. The process is an adaptation and evolution of traditional techniques and aesthetics into new artistic contexts.",
+    "error": false
+  },
+  "7efee75cbd193cf2e23d97eb65361f3d": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The National Gallery of Modern Art (NGMA) represents textile arts in a multifaceted manner. The gallery's collection is not limited to traditional art forms like paintings and sculptures but also includes digital and installation art. The NGMA has hosted dedicated textile exhibitions, such as 'Sutr Santati', which showcased a wide variety of Indian textile traditions. This exhibition featured approximately 125 revivalist pieces and contemporary textiles, including hand weaving, embroidery, resist-dyeing, printing, painting, and appliqué. Importantly, the exhibition included works by studio artists that presented textiles as art installations, moving beyond their functional purpose as attire and blurring the distinction between art and craft. This demonstrates that textile arts are present in the NGMA collection through paintings, sculptures, and as standalone textile installations.",
+    "reasoning": "The National Gallery of Modern Art (NGMA) represents textile arts in a multifaceted manner. The gallery's collection is not limited to traditional art forms like paintings and sculptures but also includes digital and installation art. The NGMA has hosted dedicated textile exhibitions, such as 'Sutr Santati', which showcased a wide variety of Indian textile traditions. This exhibition featured approximately 125 revivalist pieces and contemporary textiles, including hand weaving, embroidery, resist-dyeing, printing, painting, and appliqué. Importantly, the exhibition included works by studio artists that presented textiles as art installations, moving beyond their functional purpose as attire and blurring the distinction between art and craft. This demonstrates that textile arts are present in the NGMA collection through paintings, sculptures, and as standalone textile installations.",
+    "error": false
+  },
+  "32558cd803bd2e50651993f3e12b30b9": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Pattern and repetition in modern Indian art are multifaceted, drawing inspiration from a variety of rich cultural and historical sources. Geometric principles are fundamental to many traditional art forms like Warli and Gond, which have been incorporated into modern art. Traditional textile designs, with their intricate and diverse patterns, serve as a significant source of inspiration for contemporary artists and designers. Furthermore, mathematical concepts are not only inherent in traditional ritualistic art like Kolam, which is based on geometric and mathematical principles, but are also consciously explored by contemporary Indian artists. Since all three options are well-documented sources of inspiration, the most accurate answer is that pattern and repetition derive from all of the above.",
+    "reasoning": "Pattern and repetition in modern Indian art are multifaceted, drawing inspiration from a variety of rich cultural and historical sources. Geometric principles are fundamental to many traditional art forms like Warli and Gond, which have been incorporated into modern art. Traditional textile designs, with their intricate and diverse patterns, serve as a significant source of inspiration for contemporary artists and designers. Furthermore, mathematical concepts are not only inherent in traditional ritualistic art like Kolam, which is based on geometric and mathematical principles, but are also consciously explored by contemporary Indian artists. Since all three options are well-documented sources of inspiration, the most accurate answer is that pattern and repetition derive from all of the above.",
+    "error": false
+  },
+  "7479b2fa70062168e4dcd76317d5dbf8": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Handloom traditions contribute to a sense of Indianness in modern art in multiple, interconnected ways. They connect to a rich and ancient cultural heritage, with weaving techniques and motifs passed down through generations that tell stories of history and folklore. The use of specific, local materials like regional silks and cottons, as well as natural dyes, is fundamental to the craft and reflects the diverse ecology of the country. Furthermore, handlooms have historically been, and continue to be, a representation of national identity and pride, notably through their central role in the Swadeshi movement for self-reliance. Therefore, all the given options are valid contributors.",
+    "reasoning": "Handloom traditions contribute to a sense of Indianness in modern art in multiple, interconnected ways. They connect to a rich and ancient cultural heritage, with weaving techniques and motifs passed down through generations that tell stories of history and folklore. The use of specific, local materials like regional silks and cottons, as well as natural dyes, is fundamental to the craft and reflects the diverse ecology of the country. Furthermore, handlooms have historically been, and continue to be, a representation of national identity and pride, notably through their central role in the Swadeshi movement for self-reliance. Therefore, all the given options are valid contributors.",
+    "error": false
+  },
+  "4d36fffc78bed5cafd46542b825ca784": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 3,
+    "raw": "Answer: C\nConfidence: 3\nReasoning: While both handloom and modern art can and have been used to represent political events, it is not as consistently a central theme or purpose for either, compared to the other options. The use of vibrant colors and the emphasis on texture and pattern are fundamental aesthetic characteristics shared by many forms of handloom and modern art. Narrative storytelling is also a strong tradition in handloom, often depicting folklore and cultural stories, and while modern art famously moved towards abstraction, narrative and political commentary are still significant threads within the movement. However, the direct representation of political events is a more specific application that is not as universally characteristic of either art form as the other options. Textiles have been used for political messaging, and specific modern art pieces are famously political, but it is arguably the least common point of connection when looking at the entirety of both fields.",
+    "reasoning": "While both handloom and modern art can and have been used to represent political events, it is not as consistently a central theme or purpose for either, compared to the other options. The use of vibrant colors and the emphasis on texture and pattern are fundamental aesthetic characteristics shared by many forms of handloom and modern art. Narrative storytelling is also a strong tradition in handloom, often depicting folklore and cultural stories, and while modern art famously moved towards abstraction, narrative and political commentary are still significant threads within the movement. However, the direct representation of political events is a more specific application that is not as universally characteristic of either art form as the other options. Textiles have been used for political messaging, and specific modern art pieces are famously political, but it is arguably the least common point of connection when looking at the entirety of both fields.",
+    "error": false
+  },
+  "a9e2c4c279c2e1809b4bc6c9ffe5f907": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"Kabuliwala\" is a well-known Bengali short story written by Rabindranath Tagore in 1892. The story is about the friendship between a Pashtun fruit seller from Kabul and a young girl named Mini in Calcutta. It is considered one of Tagore's most famous works.",
+    "reasoning": "\"Kabuliwala\" is a well-known Bengali short story written by Rabindranath Tagore in 1892. The story is about the friendship between a Pashtun fruit seller from Kabul and a young girl named Mini in Calcutta. It is considered one of Tagore's most famous works.",
+    "error": false
+  },
+  "899f257dc1ea6262c33d741bb0f76749": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The book \"Chanakya's Chant\" was written by Ashwin Sanghi. This historical thriller weaves together a story from 340 BC with a modern-day political narrative. The novel was awarded the \"2010 Vodafone-Crossword Popular Choice Award\".",
+    "reasoning": "The book \"Chanakya's Chant\" was written by Ashwin Sanghi. This historical thriller weaves together a story from 340 BC with a modern-day political narrative. The novel was awarded the \"2010 Vodafone-Crossword Popular Choice Award\".",
+    "error": false
+  },
+  "d21b4dc87b029eb43f0874a08b1ef5a1": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The book \"Not Just An Accountant\" was written by Vinod Rai, who served as the eleventh Comptroller and Auditor General (CAG) of India. The book is his autobiographical account, detailing major scams that occurred in India and advocating for improved governance and transparency.",
+    "reasoning": "The book \"Not Just An Accountant\" was written by Vinod Rai, who served as the eleventh Comptroller and Auditor General (CAG) of India. The book is his autobiographical account, detailing major scams that occurred in India and advocating for improved governance and transparency.",
+    "error": false
+  },
+  "4ce1146c6e12044ce739e4929fecfea0": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"Open: An Autobiography\" is the memoir of former professional tennis player Andre Agassi. The book details his life, from his challenging childhood and demanding father to his successful career and personal struggles.",
+    "reasoning": "\"Open: An Autobiography\" is the memoir of former professional tennis player Andre Agassi. The book details his life, from his challenging childhood and demanding father to his successful career and personal struggles.",
+    "error": false
+  },
+  "bf76939cd56e855820e50044c37801a0": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"Godaan\" is a renowned Hindi novel written by Munshi Premchand and was first published in 1936. It is considered one of the greatest works of modern Indian literature and explores the socio-economic struggles of the rural poor. The novel was Premchand's last completed work.",
+    "reasoning": "\"Godaan\" is a renowned Hindi novel written by Munshi Premchand and was first published in 1936. It is considered one of the greatest works of modern Indian literature and explores the socio-economic struggles of the rural poor. The novel was Premchand's last completed work.",
+    "error": false
+  },
+  "5002e17cc22695d0b199037a5be5d119": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The book \"Karma: A Yogi’s Guide to Crafting Destiny\" was written by Sadhguru. He is a well-known yogi, mystic, and New York Times bestselling author. The book offers a new perspective on the concept of karma, explaining it as a means to shape one's own destiny rather than a system of reward and punishment.",
+    "reasoning": "The book \"Karma: A Yogi’s Guide to Crafting Destiny\" was written by Sadhguru. He is a well-known yogi, mystic, and New York Times bestselling author. The book offers a new perspective on the concept of karma, explaining it as a means to shape one's own destiny rather than a system of reward and punishment.",
+    "error": false
+  },
+  "26f9ac8d1bcb5c7a3a5731e7bd21e27f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The quote, \"Learning gives creativity, creativity leads to thinking,\" is widely attributed to Dr. A.P.J. Abdul Kalam, the former President of India. The full version of this well-known saying continues, \"Thinking provides knowledge, and knowledge makes you great.\" This quote is frequently cited in collections of his inspirational words on education and success.",
+    "reasoning": "The quote, \"Learning gives creativity, creativity leads to thinking,\" is widely attributed to Dr. A.P.J. Abdul Kalam, the former President of India. The full version of this well-known saying continues, \"Thinking provides knowledge, and knowledge makes you great.\" This quote is frequently cited in collections of his inspirational words on education and success.",
+    "error": false
+  },
+  "b35a9e49b6c78641f11742b07a8305a3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The novel \"Midnight's Children\" was written by Salman Rushdie. It was published in 1981 and won the Booker Prize in the same year.",
+    "reasoning": "The novel \"Midnight's Children\" was written by Salman Rushdie. It was published in 1981 and won the Booker Prize in the same year.",
+    "error": false
+  },
+  "994cbabf095a83a450a67d193e7181ad": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: \"Gitanjali,\" \"Kabuliwala,\" and \"Chokher Bali\" are all well-known works written by Rabindranath Tagore. \"The Guide\" is a novel written by the acclaimed Indian author R.K. Narayan.",
+    "reasoning": "\"Gitanjali,\" \"Kabuliwala,\" and \"Chokher Bali\" are all well-known works written by Rabindranath Tagore. \"The Guide\" is a novel written by the acclaimed Indian author R.K. Narayan.",
+    "error": false
+  },
+  "df1a1d9541db812a4d200a1a28fbee0f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"The Palace of Illusions\" by Chitra Banerjee Divakaruni is a retelling of the ancient Hindu epic, the Mahabharata. The novel narrates the epic from the perspective of Panchaali (also known as Draupadi), the wife of the five Pandava brothers. It follows her life from her birth from a fire, through her marriage, the years of exile, and the great war.",
+    "reasoning": "\"The Palace of Illusions\" by Chitra Banerjee Divakaruni is a retelling of the ancient Hindu epic, the Mahabharata. The novel narrates the epic from the perspective of Panchaali (also known as Draupadi), the wife of the five Pandava brothers. It follows her life from her birth from a fire, through her marriage, the years of exile, and the great war.",
+    "error": false
+  },
+  "ed953410ee1cbfdfc1ed5257b7a4ceb9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: \"The Palace of Illusions\" is a bestselling 2008 novel written by the Indian-American author Chitra Banerjee Divakaruni. The book is a retelling of the Hindu epic, the Mahabharata, from the perspective of the female protagonist, Draupadi (also called Panchaali).",
+    "reasoning": "\"The Palace of Illusions\" is a bestselling 2008 novel written by the Indian-American author Chitra Banerjee Divakaruni. The book is a retelling of the Hindu epic, the Mahabharata, from the perspective of the female protagonist, Draupadi (also called Panchaali).",
+    "error": false
+  },
+  "48dc4ceb349f5468ad33f79189a06d51": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: \"Charlie and the Chocolate Factory\" was written by the British author Roald Dahl and first published in 1964. Dahl is also famous for other children's books like \"Matilda,\" \"The BFG,\" and \"James and the Giant Peach.\" The other authors listed are known for different works: Dr. Seuss wrote books such as \"The Cat in the Hat\" and \"How the Grinch Stole Christmas!\", J.K. Rowling is the author of the Harry Potter series, and C.S. Lewis wrote \"The Chronicles of Narnia.\"",
+    "reasoning": "\"Charlie and the Chocolate Factory\" was written by the British author Roald Dahl and first published in 1964. Dahl is also famous for other children's books like \"Matilda,\" \"The BFG,\" and \"James and the Giant Peach.\" The other authors listed are known for different works: Dr. Seuss wrote books such as \"The Cat in the Hat\" and \"How the Grinch Stole Christmas!\", J.K. Rowling is the author of the Harry Potter series, and C.S. Lewis wrote \"The Chronicles of Narnia.\"",
+    "error": false
+  },
+  "4fe43e7ddabad43fcee341250a673e8f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The quote, \"Take up one idea. Make that one idea your life,\" is widely and consistently attributed to Swami Vivekananda. The more complete version of this well-known quote is: \"Take up one idea. Make that one idea your life – think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.\" Searches for quotes by Chanakya, Dr. Kalam, and Rabindranath Tagore do not show this phrase among their attributed sayings.",
+    "reasoning": "The quote, \"Take up one idea. Make that one idea your life,\" is widely and consistently attributed to Swami Vivekananda. The more complete version of this well-known quote is: \"Take up one idea. Make that one idea your life – think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.\" Searches for quotes by Chanakya, Dr. Kalam, and Rabindranath Tagore do not show this phrase among their attributed sayings.",
+    "error": false
+  },
+  "a41713ca9e431a4f7accf09c75fe8344": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: In 1938, Mahatma Gandhi commissioned Nandalal Bose to create the artwork for the Indian National Congress's annual session in Haripura. Bose and his students created around 400 posters, known as the Haripura posters, which depicted scenes of daily rural life, aligning with Gandhi's vision of connecting with the common people and promoting a sense of national identity. These posters were painted on handmade paper using natural pigments.",
+    "reasoning": "In 1938, Mahatma Gandhi commissioned Nandalal Bose to create the artwork for the Indian National Congress's annual session in Haripura. Bose and his students created around 400 posters, known as the Haripura posters, which depicted scenes of daily rural life, aligning with Gandhi's vision of connecting with the common people and promoting a sense of national identity. These posters were painted on handmade paper using natural pigments.",
+    "error": false
+  },
+  "625597b742e734c388a687513b515ea7": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Pichwai paintings are a traditional art form originating from Nathdwara, Rajasthan, and are specifically known for their depictions of Lord Krishna, particularly in his form as Shrinathji. The themes of these intricate and vibrant artworks revolve around Krishna's life, including his divine acts (Leela), festivals celebrating him, and symbolic representations of nature related to his stories. While other folk paintings like Pattachitra and Kalighat do feature Hindu deities, including Krishna, their themes are broader. Phad paintings primarily narrate the heroic tales of folk deities from Rajasthan, such as Pabuji and Devnarayan. Therefore, Pichwai is the folk painting most centrally and primarily focused on Lord Krishna.",
+    "reasoning": "Pichwai paintings are a traditional art form originating from Nathdwara, Rajasthan, and are specifically known for their depictions of Lord Krishna, particularly in his form as Shrinathji. The themes of these intricate and vibrant artworks revolve around Krishna's life, including his divine acts (Leela), festivals celebrating him, and symbolic representations of nature related to his stories. While other folk paintings like Pattachitra and Kalighat do feature Hindu deities, including Krishna, their themes are broader. Phad paintings primarily narrate the heroic tales of folk deities from Rajasthan, such as Pabuji and Devnarayan. Therefore, Pichwai is the folk painting most centrally and primarily focused on Lord Krishna.",
+    "error": false
+  },
+  "c72262372ad3d4dae0bf91ace7f6435d": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The documentation of handloom traditions in art serves multiple crucial purposes. Firstly, it is a vital method for **preserving cultural heritage**, as it captures and archives the intricate techniques, patterns, and historical significance of this craft for future generations. Secondly, this documentation acts as an invaluable educational tool, allowing future generations of weavers, designers, and scholars to learn and understand these traditions. Lastly, the rich visual and technical information within this documentation serves as a significant source of **inspiration for contemporary artists** and designers, who often reinterpret these traditional forms in modern contexts. Therefore, all the given options are correct.",
+    "reasoning": "The documentation of handloom traditions in art serves multiple crucial purposes. Firstly, it is a vital method for **preserving cultural heritage**, as it captures and archives the intricate techniques, patterns, and historical significance of this craft for future generations. Secondly, this documentation acts as an invaluable educational tool, allowing future generations of weavers, designers, and scholars to learn and understand these traditions. Lastly, the rich visual and technical information within this documentation serves as a significant source of **inspiration for contemporary artists** and designers, who often reinterpret these traditional forms in modern contexts. Therefore, all the given options are correct.",
+    "error": false
+  },
+  "f8d4b0fdef7dd3242249c28ac6c7fb3d": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Jamdani is a traditional weaving technique that originated in the Bengal region, which includes present-day Bangladesh and the Indian state of West Bengal. The craft has a rich history in this area, with Dhaka being a historic center for its production. In 2013, the traditional art of Jamdani weaving was declared a UNESCO Intangible Cultural Heritage of Humanity. Today, significant weaving centers for Jamdani are located in districts within West Bengal.",
+    "reasoning": "Jamdani is a traditional weaving technique that originated in the Bengal region, which includes present-day Bangladesh and the Indian state of West Bengal. The craft has a rich history in this area, with Dhaka being a historic center for its production. In 2013, the traditional art of Jamdani weaving was declared a UNESCO Intangible Cultural Heritage of Humanity. Today, significant weaving centers for Jamdani are located in districts within West Bengal.",
+    "error": false
+  },
+  "b1c9af605569abaef9c5b26220cfac99": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: According to official announcements from the Development Commissioner (Handlooms), the theme for the Handloom Hackathon 2025 is \"DREAM IT; DO IT\". This event, organized as part of the National Handloom Day 2025 celebrations, encourages innovators to develop real-world solutions for the handloom sector. While the hackathon focuses on key areas like design innovation, market access, and sustainability, the overarching official theme is \"DREAM IT; DO IT\".",
+    "reasoning": "According to official announcements from the Development Commissioner (Handlooms), the theme for the Handloom Hackathon 2025 is \"DREAM IT; DO IT\". This event, organized as part of the National Handloom Day 2025 celebrations, encourages innovators to develop real-world solutions for the handloom sector. While the hackathon focuses on key areas like design innovation, market access, and sustainability, the overarching official theme is \"DREAM IT; DO IT\".",
+    "error": false
+  },
+  "d821d907b5c2b6bcd8a40edbb07e859f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 1,
+    "raw": "",
+    "reasoning": "No reasoning provided",
+    "error": false
+  },
+  "f34ce5140e9e42333180e24b0dc42a30": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: On May 29, 1953, Tenzing Norgay, along with Sir Edmund Hillary, was one of the first two individuals to reach the summit of Mount Everest. On the summit, Tenzing Norgay unfurled the Indian National Flag. Along with the Indian flag, he also hoisted the flags of the United Nations, Great Britain, and Nepal.",
+    "reasoning": "On May 29, 1953, Tenzing Norgay, along with Sir Edmund Hillary, was one of the first two individuals to reach the summit of Mount Everest. On the summit, Tenzing Norgay unfurled the Indian National Flag. Along with the Indian flag, he also hoisted the flags of the United Nations, Great Britain, and Nepal.",
+    "error": false
+  },
+  "32301258f08bd59f0a59ce4f8f4422b0": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Ashoka Chakra, which is featured in the center of the Indian National Flag, has 24 spokes. These spokes represent the 24 qualities of a person and are also said to symbolize the 24 hours in a day, which is why it is sometimes called the 'Wheel of Time'. The flag, in its current form with the Ashoka Chakra, was adopted on July 22, 1947.",
+    "reasoning": "The Ashoka Chakra, which is featured in the center of the Indian National Flag, has 24 spokes. These spokes represent the 24 qualities of a person and are also said to symbolize the 24 hours in a day, which is why it is sometimes called the 'Wheel of Time'. The flag, in its current form with the Ashoka Chakra, was adopted on July 22, 1947.",
+    "error": false
+  },
+  "5513dc7ea97f8d9ecfad8a713dd6ddf4": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mahatma Gandhi first wrote about the need for a national flag for India in his journal 'Young India' in April 1921. In an article titled \"The National Flag,\" he expressed that a flag is a necessity for all nations as it represents an ideal. This was also the year that Pingali Venkayya presented a draft design of a flag to Gandhi.",
+    "reasoning": "Mahatma Gandhi first wrote about the need for a national flag for India in his journal 'Young India' in April 1921. In an article titled \"The National Flag,\" he expressed that a flag is a necessity for all nations as it represents an ideal. This was also the year that Pingali Venkayya presented a draft design of a flag to Gandhi.",
+    "error": false
+  },
+  "85c36b4fe002d25f87d23a32cb9a50b7": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The first postage stamp of Independent India was issued on November 21, 1947. It depicted the Indian National Flag with the slogan 'Jai Hind' in the top right-hand corner. This stamp was valued at three and one-half annas and was intended for foreign correspondence.",
+    "reasoning": "The first postage stamp of Independent India was issued on November 21, 1947. It depicted the Indian National Flag with the slogan 'Jai Hind' in the top right-hand corner. This stamp was valued at three and one-half annas and was intended for foreign correspondence.",
+    "error": false
+  },
+  "bb74e7e042b48ddb6e6ac2156bd08212": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Pingali Venkayya served in the British Indian Army during the Second Boer War in South Africa (1899–1902). During this time, Indian soldiers were required to salute the British flag, the Union Jack. This experience instilled in him the necessity for a national flag for India. He met Mahatma Gandhi during the war, a relationship that would last for over 50 years.",
+    "reasoning": "Pingali Venkayya served in the British Indian Army during the Second Boer War in South Africa (1899–1902). During this time, Indian soldiers were required to salute the British flag, the Union Jack. This experience instilled in him the necessity for a national flag for India. He met Mahatma Gandhi during the war, a relationship that would last for over 50 years.",
+    "error": false
+  },
+  "dd2088de1869770106febcb0591e9225": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 1,
+    "raw": "Assuming the question refers to the National Flag of India, which is commonly implied by the phrase \"our National Flag\" in that context.\n\n**Answer:** C\n**Confidence:** 10\n**Reasoning:** The Indian National Flag, also known as the Tiranga, has four colors. It features three horizontal stripes: saffron at the top, white in the middle, and green at the bottom. In the center of the white stripe, there is a navy-blue wheel called the Ashoka Chakra. Therefore, the four distinct colors are saffron, white, green, and navy blue.",
+    "reasoning": "** The Indian National Flag, also known as the Tiranga, has four colors. It features three horizontal stripes: saffron at the top, white in the middle, and green at the bottom. In the center of the white stripe, there is a navy-blue wheel called the Ashoka Chakra. Therefore, the four distinct colors are saffron, white, green, and navy blue.",
+    "error": false
+  },
+  "3fefbeb154a1404dc5b541ee424f50cb": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: During the inauguration of the Chenab Bridge in Jammu & Kashmir on June 6, 2025, Prime Minister Narendra Modi prominently waved the Tiranga. This act was widely reported as a symbol of national pride and a strong message of India's unity and resolve. While the Prime Minister inaugurated the other engineering marvels listed, the specific act of waving the national flag is distinctly associated with the Chenab Bridge inauguration.",
+    "reasoning": "During the inauguration of the Chenab Bridge in Jammu & Kashmir on June 6, 2025, Prime Minister Narendra Modi prominently waved the Tiranga. This act was widely reported as a symbol of national pride and a strong message of India's unity and resolve. While the Prime Minister inaugurated the other engineering marvels listed, the specific act of waving the national flag is distinctly associated with the Chenab Bridge inauguration.",
+    "error": false
+  },
+  "9a4147c6fa8e1bc06d3f94e2c6a9c22e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: In 1947, the princely state of Jammu and Kashmir, with a Hindu Maharaja and a majority Muslim population, was faced with the choice of acceding to either India or Pakistan. Following an invasion by Pashtun tribesmen from Pakistan in October 1947, the Maharaja, Hari Singh, signed the Instrument of Accession to India. This act triggered the Indo-Pakistani War of 1947–1948. The war concluded with a UN-mediated ceasefire in 1949, which resulted in the division of the state into two parts, one administered by India and the other by Pakistan.\n\nHyderabad was annexed by India in 1948 after its Muslim ruler opted for independence, but it was not divided with Pakistan. Junagadh's Muslim ruler acceded to Pakistan, but this was reversed by Indian intervention and a subsequent plebiscite; the state was not divided. The princely states of Baluchistan acceded to Pakistan and were not divided between the two nations.",
+    "reasoning": "In 1947, the princely state of Jammu and Kashmir, with a Hindu Maharaja and a majority Muslim population, was faced with the choice of acceding to either India or Pakistan. Following an invasion by Pashtun tribesmen from Pakistan in October 1947, the Maharaja, Hari Singh, signed the Instrument of Accession to India. This act triggered the Indo-Pakistani War of 1947–1948. The war concluded with a UN-mediated ceasefire in 1949, which resulted in the division of the state into two parts, one administered by India and the other by Pakistan.",
+    "error": false
   }
 }
