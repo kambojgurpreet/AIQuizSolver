@@ -12,7 +12,7 @@ echo "Activating virtual environment..."
 source venv/bin/activate
 
 echo "Installing dependencies..."
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 echo
 echo "Starting server at http://localhost:3000"
