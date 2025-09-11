@@ -361,8 +361,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     const requestBody = { question, options };
                     const url = mode === 'multi' 
-                      ? "http://localhost:3000/ask?multi_model=true"
-                      : "http://localhost:3000/ask?multi_model=false";
+                      ? "http://64.227.188.233:3000/ask?multi_model=true"
+                      : "http://64.227.188.233:3000/ask?multi_model=false";
                     
                     fetch(url, {
                       method: "POST",
@@ -485,6 +485,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Set initial status
-    setStatus("Ready! Ensure proxy server is running on localhost:3000");
+    setStatus("Ready! Ensure proxy server is running on 64.227.188.233:3000");
   }
 });

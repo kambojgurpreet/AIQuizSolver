@@ -314,8 +314,8 @@ async function processAllQuestionsAsync(mode = 'single') {
     
     // Add multi_model parameter for multi-model analysis
     const url = mode === 'multi' 
-      ? "http://localhost:3000/ask-batch?multi_model=true"
-      : "http://localhost:3000/ask-batch?multi_model=false";
+      ? "http://64.227.188.233:3000/ask-batch?multi_model=true"
+      : "http://64.227.188.233:3000/ask-batch?multi_model=false";
     
     console.log(`Sending batch request with ${allQuizData.length} questions...`);
     
@@ -414,8 +414,8 @@ async function processQuestion(questionData, mode = 'single', retryCount = 0) {
     
     // Add multi_model parameter for multi-model analysis
     const url = mode === 'multi' 
-      ? "http://localhost:3000/ask?multi_model=true"
-      : "http://localhost:3000/ask?multi_model=false";
+      ? "http://64.227.188.233:3000/ask?multi_model=true"
+      : "http://64.227.188.233:3000/ask?multi_model=false";
     
     const response = await fetch(url, {
       method: "POST",
@@ -1840,7 +1840,7 @@ function removeExistingUI() {
 window.testCORS = async function() {
   try {
     console.log("Testing CORS connection to proxy server...");
-    const response = await fetch("http://localhost:3000/test");
+    const response = await fetch("http://64.227.188.233:3000/test");
     const data = await response.json();
     console.log("CORS test successful:", data);
     return true;
