@@ -3806,5 +3806,165 @@
     "raw": "Answer: B  \nConfidence: 10  \nReasoning: Time = Distance / Speed = 384,400 km / 50,000 km/h ≈ 7.688 hours. This is closest to option A (7.6 hours), but since 7.688 rounds to 7.7, and 7.6 is slightly less, option A is a bit low. However, option B (12 hours) is much higher. Given the calculation, the most accurate answer is A (7.6 hours).\n\nCorrection:  \nAnswer: A  \nConfidence: 10  \nReasoning: 384,400 km ÷ 50,000 km/h = 7.688 hours, which matches option A (7.6",
     "reasoning": "Time = Distance / Speed = 384,400 km / 50,000 km/h ≈ 7.688 hours. This is closest to option A (7.6 hours), but since 7.688 rounds to 7.7, and 7.6 is slightly less, option A is a bit low. However, option B (12 hours) is much higher. Given the calculation, the most accurate answer is A (7.6 hours).",
     "error": false
+  },
+  "65dcd7875cf6946043ef3b6452f4157b": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Food additives serve multiple purposes, including enhancing taste and appearance (A), extending shelf life (B), and improving texture and stability (C). Therefore, \"All of the above\" (D) is the most accurate answer.",
+    "reasoning": "Food additives serve multiple purposes, including enhancing taste and appearance (A), extending shelf life (B), and improving texture and stability (C). Therefore, \"All of the above\" (D) is the most accurate answer.",
+    "error": false
+  },
+  "e8c2d10a067acb1357b0ba6ae293e0a2": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: India is the world's largest producer and processor of milk, and it is also a global leader in the production and processing of millets and pulses. While India is significant in mango production and exports, its leadership in milk, millets, and pulses is more prominent and globally recognized. Coffee beans and olives are not major processing sectors for India.",
+    "reasoning": "India is the world's largest producer and processor of milk, and it is also a global leader in the production and processing of millets and pulses. While India is significant in mango production and exports, its leadership in milk, millets, and pulses is more prominent and globally recognized. Coffee beans and olives are not major processing sectors for India.",
+    "error": false
+  },
+  "f8a7ac5632bf47b08a4d0241cd556d1d": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The process of converting raw materials into food products is called \"processing.\" Fermentation and preservation are specific types of processing, and digestion refers to the breakdown of food in the body. Therefore, \"processing\" is the most accurate and comprehensive answer.",
+    "reasoning": "The process of converting raw materials into food products is called \"processing.\" Fermentation and preservation are specific types of processing, and digestion refers to the breakdown of food in the body. Therefore, \"processing\" is the most accurate and comprehensive answer.",
+    "error": false
+  },
+  "ef201d94bc044ab64dfa3c497b05f82f": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: A diet that contains all essential nutrients in the right proportions is called a \"balanced diet.\" The other options are either incorrect or not standard nutritional terms.",
+    "reasoning": "A diet that contains all essential nutrients in the right proportions is called a \"balanced diet.\" The other options are either incorrect or not standard nutritional terms.",
+    "error": false
+  },
+  "fe4c8aa8c6f6c01a685f94531d385691": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The official dates for World Food India 2025, as announced by the Ministry of Food Processing Industries (MoFPI), Government of India, are September 25–28, 2025. This matches option C exactly. The other options do not correspond to the official event dates.",
+    "reasoning": "The official dates for World Food India 2025, as announced by the Ministry of Food Processing Industries (MoFPI), Government of India, are September 25–28, 2025. This matches option C exactly. The other options do not correspond to the official event dates.",
+    "error": false
+  },
+  "51f09ca9909ca91362044a4629cc5fea": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: GRAS is a term used by the U.S. Food and Drug Administration (FDA) that stands for \"Generally Recognized As Safe.\" It refers to substances added to food that are considered safe by experts, and thus are exempt from the usual food additive tolerance requirements. The other options do not accurately reflect the established meaning of GRAS.",
+    "reasoning": "GRAS is a term used by the U.S. Food and Drug Administration (FDA) that stands for \"Generally Recognized As Safe.\" It refers to substances added to food that are considered safe by experts, and thus are exempt from the usual food additive tolerance requirements. The other options do not accurately reflect the established meaning of GRAS.",
+    "error": false
+  },
+  "0c23315365e6fdd749bdf07272198128": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: World Food India 2025 is officially scheduled to be held at Bharat Mandapam, Pragati Maidan, New Delhi. This venue has been prominently mentioned in government and event announcements as the location for the 2025 edition. The other options are not associated with the confirmed venue for this event.",
+    "reasoning": "World Food India 2025 is officially scheduled to be held at Bharat Mandapam, Pragati Maidan, New Delhi. This venue has been prominently mentioned in government and event announcements as the location for the 2025 edition. The other options are not associated with the confirmed venue for this event.",
+    "error": false
+  },
+  "aadcdc51e0272f5881a81aa5c2526d44": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: The human body is composed of approximately 60-70% water, depending on age, sex, and body composition. Among the options, 70% (D) is the closest and most accurate estimate for the average adult, making it the best choice.",
+    "reasoning": "The human body is composed of approximately 60-70% water, depending on age, sex, and body composition. Among the options, 70% (D) is the closest and most accurate estimate for the average adult, making it the best choice.",
+    "error": false
+  },
+  "4c1351757b281c111ddce7d1d05239c2": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The primary carbohydrate found in cereals is starch, which serves as the main energy reserve in cereal grains. Cellulose is present but is not digestible by humans and is not the main carbohydrate. Sucrose and lactose are sugars found mainly in fruits and milk, respectively, not cereals.",
+    "reasoning": "The primary carbohydrate found in cereals is starch, which serves as the main energy reserve in cereal grains. Cellulose is present but is not digestible by humans and is not the main carbohydrate. Sucrose and lactose are sugars found mainly in fruits and milk, respectively, not cereals.",
+    "error": false
+  },
+  "ba354c009718f3c45dcde52d639384bd": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Fresh milk is slightly acidic, with a typical pH around 6.6. Option A (pH 4) is too acidic, C (7.5) and D (9) are alkaline, which is not characteristic of fresh milk. Therefore, B is the most accurate answer.",
+    "reasoning": "Fresh milk is slightly acidic, with a typical pH around 6.6. Option A (pH 4) is too acidic, C (7.5) and D (9) are alkaline, which is not characteristic of fresh milk. Therefore, B is the most accurate answer.",
+    "error": false
+  },
+  "f241d24ef6dbda9eb41ed39d6fdfe0f4": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The recommended strength of chlorinated water for sanitizing fruits and vegetables is typically 50 ppm to 100 ppm. This range is effective for sanitization without leaving harmful residues or affecting the quality of the produce. The other options are either too low (C) or too high (B, D) for safe and effective use on fruits and vegetables.",
+    "reasoning": "The recommended strength of chlorinated water for sanitizing fruits and vegetables is typically 50 ppm to 100 ppm. This range is effective for sanitization without leaving harmful residues or affecting the quality of the produce. The other options are either too low (C) or too high (B, D) for safe and effective use on fruits and vegetables.",
+    "error": false
+  },
+  "86c1a89126fb3e40691f123109036ec9": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Residues in food, such as pesticides, veterinary drugs, and other contaminants, are specifically regulated and monitored under the Food Safety and Standards (Contaminants, Toxins and Residues) Regulations in India. The other options either do not directly address food residues (Food Packaging Act, Bureau of Indian Standards, Agriculture Produce Act) or are not the primary regulatory framework for this purpose.",
+    "reasoning": "Residues in food, such as pesticides, veterinary drugs, and other contaminants, are specifically regulated and monitored under the Food Safety and Standards (Contaminants, Toxins and Residues) Regulations in India. The other options either do not directly address food residues (Food Packaging Act, Bureau of Indian Standards, Agriculture Produce Act) or are not the primary regulatory framework for this purpose.",
+    "error": false
+  },
+  "f948d8feff69ef0e4863b71b694d18fa": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Enzymes are biological catalysts that speed up chemical reactions in living organisms, and they are almost always proteins. While some RNA molecules can act as enzymes (ribozymes), the vast majority are proteins, not carbohydrates, lipids, or minerals.",
+    "reasoning": "Enzymes are biological catalysts that speed up chemical reactions in living organisms, and they are almost always proteins. While some RNA molecules can act as enzymes (ribozymes), the vast majority are proteins, not carbohydrates, lipids, or minerals.",
+    "error": false
+  },
+  "dad5336dcf865939608c310964ba3069": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Startup Grand Challenge at WFI (World Food India) 2025 is known as a platform for startups to pitch innovative food tech solutions. The other options (culinary competition, cooking marathon, recipe contest) do not align with the focus on startups and technology in the food sector.",
+    "reasoning": "The Startup Grand Challenge at WFI (World Food India) 2025 is known as a platform for startups to pitch innovative food tech solutions. The other options (culinary competition, cooking marathon, recipe contest) do not align with the focus on startups and technology in the food sector.",
+    "error": false
+  },
+  "ceeb0e39630c2565f308e4a588518c5a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The primary carbohydrate found in milk is lactose, which is often referred to as \"milk sugar.\" Sucrose, glucose, and fructose are not the main carbohydrates in milk. Lactose is unique to milk and dairy products.",
+    "reasoning": "The primary carbohydrate found in milk is lactose, which is often referred to as \"milk sugar.\" Sucrose, glucose, and fructose are not the main carbohydrates in milk. Lactose is unique to milk and dairy products.",
+    "error": false
+  },
+  "d4e3a23f29394fad8fa1a291b5d5f09e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The Ambassadors’ Meet for WFI 2025 was organized at Sushma Swaraj Bhawan in Delhi. This venue is commonly used for diplomatic and international events, and official press releases and news sources confirm that Sushma Swaraj Bhawan hosted this particular event. The other options are prominent venues but not associated with this specific meet.",
+    "reasoning": "The Ambassadors’ Meet for WFI 2025 was organized at Sushma Swaraj Bhawan in Delhi. This venue is commonly used for diplomatic and international events, and official press releases and news sources confirm that Sushma Swaraj Bhawan hosted this particular event. The other options are prominent venues but not associated with this specific meet.",
+    "error": false
+  },
+  "4cbdffeed29b13a5e01f8594da768542": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The primary purpose of food labeling is to provide consumers with essential information about the ingredients and nutritional content of food, enabling them to make informed choices. While labels may also include country of origin (C), branding (B), or regulatory information (D), these are secondary purposes. Option A most accurately captures the main intent of food labeling.",
+    "reasoning": "The primary purpose of food labeling is to provide consumers with essential information about the ingredients and nutritional content of food, enabling them to make informed choices. While labels may also include country of origin (C), branding (B), or regulatory information (D), these are secondary purposes. Option A most accurately captures the main intent of food labeling.",
+    "error": false
+  },
+  "63bf7592f14b9aba9bf2ba7bfca1a515": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The FSSAI logo for fortified foods is a blue and green circle with an 'F' and a '+' sign inside a ring, symbolizing food fortification. This matches option B exactly.",
+    "reasoning": "The FSSAI logo for fortified foods is a blue and green circle with an 'F' and a '+' sign inside a ring, symbolizing food fortification. This matches option B exactly.",
+    "error": false
+  },
+  "537d7e35797c075441643ccdd0def94a": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: GHP (Good Hygiene Practices) and GMP (Good Manufacturing Practices) are foundational systems that ensure food safety and quality. They create the necessary base environment for the effective implementation of HACCP (Hazard Analysis and Critical Control Points) and the identification of CCPs (Critical Control Points). The other options (marketing strategy, packaging plan, fortification guidelines) are unrelated to the core purpose of GHP and GMP.",
+    "reasoning": "GHP (Good Hygiene Practices) and GMP (Good Manufacturing Practices) are foundational systems that ensure food safety and quality. They create the necessary base environment for the effective implementation of HACCP (Hazard Analysis and Critical Control Points) and the identification of CCPs (Critical Control Points). The other options (marketing strategy, packaging plan, fortification guidelines) are unrelated to the core purpose of GHP and GMP.",
+    "error": false
+  },
+  "a8ed8e303b7ce46415932fbed575a6e9": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Prebiotic foods are specifically defined as foods that promote the growth of beneficial microbes, particularly beneficial gut bacteria. They typically contain non-digestible fibers that serve as food for these microbes. The other options refer to killing bacteria (A), containing live yeast (B, which describes probiotics), or containing antibiotics (D), none of which define prebiotics.",
+    "reasoning": "Prebiotic foods are specifically defined as foods that promote the growth of beneficial microbes, particularly beneficial gut bacteria. They typically contain non-digestible fibers that serve as food for these microbes. The other options refer to killing bacteria (A), containing live yeast (B, which describes probiotics), or containing antibiotics (D), none of which define prebiotics.",
+    "error": false
   }
 }

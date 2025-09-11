@@ -3718,5 +3718,165 @@
     "raw": "Answer: C\nConfidence: 9/10\nReasoning: The primary driver of major seismic events on Earth is plate tectonics, a process fueled by the planet's high internal heat. The Moon has significantly fewer seismic events because it has a much lower level of internal heat. Due to its smaller size, the Moon has cooled down more rapidly than Earth over its geological history. This has caused most of its internal, heat-driven geological processes to cease. While the Moon is not completely geologically dead—it experiences \"moonquakes\" from tidal forces exerted by Earth and from the continued slow cooling and contraction of its interior—it lacks the powerful engine of plate tectonics that causes the frequent and large-scale seismic activity seen on Earth.",
     "reasoning": "The primary driver of major seismic events on Earth is plate tectonics, a process fueled by the planet's high internal heat. The Moon has significantly fewer seismic events because it has a much lower level of internal heat. Due to its smaller size, the Moon has cooled down more rapidly than Earth over its geological history. This has caused most of its internal, heat-driven geological processes to cease. While the Moon is not completely geologically dead—it experiences \"moonquakes\" from tidal forces exerted by Earth and from the continued slow cooling and contraction of its interior—it lacks the powerful engine of plate tectonics that causes the frequent and large-scale seismic activity seen on Earth.",
     "error": false
+  },
+  "ba354c009718f3c45dcde52d639384bd": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Fresh cow's milk is slightly acidic, with a typical pH range of 6.4 to 6.8. Some sources even state a more specific range of 6.5 to 6.7 for milk fresh from the cow. The provided option B, 6.6, falls squarely within this established range. The other options are incorrect as a pH of 4 would be very acidic, similar to yogurt, while a pH of 7.5 or 9 would be neutral to alkaline, which can be an indicator of a medical condition like mastitis in the cow.",
+    "reasoning": "Fresh cow's milk is slightly acidic, with a typical pH range of 6.4 to 6.8. Some sources even state a more specific range of 6.5 to 6.7 for milk fresh from the cow. The provided option B, 6.6, falls squarely within this established range. The other options are incorrect as a pH of 4 would be very acidic, similar to yogurt, while a pH of 7.5 or 9 would be neutral to alkaline, which can be an indicator of a medical condition like mastitis in the cow.",
+    "error": false
+  },
+  "0c23315365e6fdd749bdf07272198128": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Multiple official sources, including the Press Information Bureau (PIB) of the Government of India and the Federation of Indian Chambers of Commerce & Industry (FICCI), have confirmed that World Food India 2025 will be held at Bharat Mandapam, Pragati Maidan, New Delhi. The event is scheduled from September 25th to 28th, 2025.",
+    "reasoning": "Multiple official sources, including the Press Information Bureau (PIB) of the Government of India and the Federation of Indian Chambers of Commerce & Industry (FICCI), have confirmed that World Food India 2025 will be held at Bharat Mandapam, Pragati Maidan, New Delhi. The event is scheduled from September 25th to 28th, 2025.",
+    "error": false
+  },
+  "51f09ca9909ca91362044a4629cc5fea": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The acronym GRAS stands for \"Generally Recognized As Safe\". This is a designation by the U.S. Food and Drug Administration (FDA) for substances, such as food additives, that are considered safe for their intended use by qualified experts. This status can be established through a history of common use in food before 1958 or through scientific procedures.",
+    "reasoning": "The acronym GRAS stands for \"Generally Recognized As Safe\". This is a designation by the U.S. Food and Drug Administration (FDA) for substances, such as food additives, that are considered safe for their intended use by qualified experts. This status can be established through a history of common use in food before 1958 or through scientific procedures.",
+    "error": false
+  },
+  "d4e3a23f29394fad8fa1a291b5d5f09e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Ministry of Food Processing Industries (MoFPI) organized an Ambassadors' Meet to discuss overseas participation in the upcoming World Food India (WFI) 2025. This meeting was held at Sushma Swaraj Bhawan in New Delhi. The event was attended by ambassadors, high commissioners, and other senior representatives from 51 countries. The main World Food India 2025 event is scheduled to take place from September 25-28, 2025, at Bharat Mandapam in New Delhi.",
+    "reasoning": "The Ministry of Food Processing Industries (MoFPI) organized an Ambassadors' Meet to discuss overseas participation in the upcoming World Food India (WFI) 2025. This meeting was held at Sushma Swaraj Bhawan in New Delhi. The event was attended by ambassadors, high commissioners, and other senior representatives from 51 countries. The main World Food India 2025 event is scheduled to take place from September 25-28, 2025, at Bharat Mandapam in New Delhi.",
+    "error": false
+  },
+  "dad5336dcf865939608c310964ba3069": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Startup Grand Challenge at World Food India (WFI) 2025 is a platform for startups and entrepreneurs to present innovative solutions in the food processing sector. The competition seeks disruptive ideas and technologies related to food tech, such as sustainable packaging, AI-driven automation, alternative protein sources, and food safety systems. It is not a culinary competition, cooking marathon, or recipe contest, but rather a pitch platform for food technology solutions.",
+    "reasoning": "The Startup Grand Challenge at World Food India (WFI) 2025 is a platform for startups and entrepreneurs to present innovative solutions in the food processing sector. The competition seeks disruptive ideas and technologies related to food tech, such as sustainable packaging, AI-driven automation, alternative protein sources, and food safety systems. It is not a culinary competition, cooking marathon, or recipe contest, but rather a pitch platform for food technology solutions.",
+    "error": false
+  },
+  "f948d8feff69ef0e4863b71b694d18fa": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Enzymes are biological catalysts that speed up chemical reactions within living organisms. The vast majority of enzymes are composed of one or more chains of amino acids, which means they are proteins. While it was once believed that all enzymes were proteins, scientists later discovered a class of RNA-based catalysts called ribozymes. Because of this exception, the most precise description is that enzymes are \"mostly proteins\". The other options are incorrect; carbohydrates, lipids, and minerals are different types of molecules, although some enzymes do require mineral ions as cofactors to be active.",
+    "reasoning": "Enzymes are biological catalysts that speed up chemical reactions within living organisms. The vast majority of enzymes are composed of one or more chains of amino acids, which means they are proteins. While it was once believed that all enzymes were proteins, scientists later discovered a class of RNA-based catalysts called ribozymes. Because of this exception, the most precise description is that enzymes are \"mostly proteins\". The other options are incorrect; carbohydrates, lipids, and minerals are different types of molecules, although some enzymes do require mineral ions as cofactors to be active.",
+    "error": false
+  },
+  "a8ed8e303b7ce46415932fbed575a6e9": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Prebiotic foods are defined as non-digestible food ingredients, primarily fiber, that act as a food source for beneficial microorganisms in the gut. By feeding these \"good\" bacteria, prebiotics selectively stimulate their growth and activity, which in turn promotes a healthy gut microbiome. This is in contrast to probiotics, which are live beneficial organisms like yeast.",
+    "reasoning": "Prebiotic foods are defined as non-digestible food ingredients, primarily fiber, that act as a food source for beneficial microorganisms in the gut. By feeding these \"good\" bacteria, prebiotics selectively stimulate their growth and activity, which in turn promotes a healthy gut microbiome. This is in contrast to probiotics, which are live beneficial organisms like yeast.",
+    "error": false
+  },
+  "aadcdc51e0272f5881a81aa5c2526d44": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9\nReasoning: The average percentage of water in an adult human body is widely cited as being around 60%. However, this figure can vary significantly depending on age, sex, and body fat, with a general range of 45% to 75%. One large study found the average for adults to be approximately 65%. Of the choices provided, 65% is the most accurate and commonly accepted approximation.",
+    "reasoning": "The average percentage of water in an adult human body is widely cited as being around 60%. However, this figure can vary significantly depending on age, sex, and body fat, with a general range of 45% to 75%. One large study found the average for adults to be approximately 65%. Of the choices provided, 65% is the most accurate and commonly accepted approximation.",
+    "error": false
+  },
+  "63bf7592f14b9aba9bf2ba7bfca1a515": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Food Safety and Standards Authority of India (FSSAI) has introduced a specific logo to identify fortified foods. This logo is designed as a square that contains an 'F' and a plus '+' sign, which is surrounded by a ring. This symbol, often referred to as the '+F' logo, indicates that the food product has been enriched with additional micronutrients to enhance its nutritional value.",
+    "reasoning": "The Food Safety and Standards Authority of India (FSSAI) has introduced a specific logo to identify fortified foods. This logo is designed as a square that contains an 'F' and a plus '+' sign, which is surrounded by a ring. This symbol, often referred to as the '+F' logo, indicates that the food product has been enriched with additional micronutrients to enhance its nutritional value.",
+    "error": false
+  },
+  "ceeb0e39630c2565f308e4a588518c5a": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The primary and most abundant carbohydrate found in milk is lactose. Lactose is a disaccharide, which means it is composed of two simpler sugars: glucose and galactose. While glucose is a component of lactose, it is not the major carbohydrate in milk by itself. Sucrose and fructose are generally not found in significant amounts in natural milk.",
+    "reasoning": "The primary and most abundant carbohydrate found in milk is lactose. Lactose is a disaccharide, which means it is composed of two simpler sugars: glucose and galactose. While glucose is a component of lactose, it is not the major carbohydrate in milk by itself. Sucrose and fructose are generally not found in significant amounts in natural milk.",
+    "error": false
+  },
+  "4c1351757b281c111ddce7d1d05239c2": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Starch is the primary form of energy storage in cereal grains and is their most abundant carbohydrate. It typically makes up 60-75% of the grain's weight. While cereals also contain other carbohydrates like cellulose (as dietary fiber) and small amounts of sugars like sucrose, starch is by far the main component. Lactose is milk sugar and is not found in cereals.",
+    "reasoning": "Starch is the primary form of energy storage in cereal grains and is their most abundant carbohydrate. It typically makes up 60-75% of the grain's weight. While cereals also contain other carbohydrates like cellulose (as dietary fiber) and small amounts of sugars like sucrose, starch is by far the main component. Lactose is milk sugar and is not found in cereals.",
+    "error": false
+  },
+  "86c1a89126fb3e40691f123109036ec9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Residues in food in India are monitored under the Food Safety and Standards (Contaminants, Toxins and Residues) Regulations, 2011. These regulations are established and enforced by the Food Safety and Standards Authority of India (FSSAI). The FSSAI is responsible for setting the Maximum Residue Limits (MRLs) for various substances such as pesticides, veterinary drugs, and other contaminants in food products to ensure public health and safety. While the Bureau of Indian Standards (BIS) sets quality standards for various products, including some food items and packaging, and the Agriculture Produce Act deals with grading and marking, the specific monitoring of chemical residues within food falls under the purview of the FSSAI's Contaminants, Toxins and Residues Regulations.",
+    "reasoning": "Residues in food in India are monitored under the Food Safety and Standards (Contaminants, Toxins and Residues) Regulations, 2011. These regulations are established and enforced by the Food Safety and Standards Authority of India (FSSAI). The FSSAI is responsible for setting the Maximum Residue Limits (MRLs) for various substances such as pesticides, veterinary drugs, and other contaminants in food products to ensure public health and safety. While the Bureau of Indian Standards (BIS) sets quality standards for various products, including some food items and packaging, and the Agriculture Produce Act deals with grading and marking, the specific monitoring of chemical residues within food falls under the purview of the FSSAI's Contaminants, Toxins and Residues Regulations.",
+    "error": false
+  },
+  "65dcd7875cf6946043ef3b6452f4157b": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Food additives serve multiple functions. They are used to enhance sensory properties such as taste, smell, and appearance. Additionally, they act as preservatives to extend the shelf life of food by preventing spoilage from microorganisms like bacteria and mold. Additives like emulsifiers and stabilizers are also used to improve and maintain the texture and consistency of food products. Since additives fulfill all these roles, all the options provided are correct.",
+    "reasoning": "Food additives serve multiple functions. They are used to enhance sensory properties such as taste, smell, and appearance. Additionally, they act as preservatives to extend the shelf life of food by preventing spoilage from microorganisms like bacteria and mold. Additives like emulsifiers and stabilizers are also used to improve and maintain the texture and consistency of food products. Since additives fulfill all these roles, all the options provided are correct.",
+    "error": false
+  },
+  "4cbdffeed29b13a5e01f8594da768542": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The fundamental purpose of food labeling is to serve as a direct means of communication between the producer and the consumer. Legally mandated labels are required to provide essential information that allows consumers to know what is in the food they are purchasing. This core function includes providing a list of ingredients in descending order of weight and detailed nutritional information, such as calories, fats, carbohydrates, and proteins. This information helps consumers make informed choices based on their dietary needs and health goals.\n\nWhile other elements are present on food packaging, they are secondary to this primary informational role.\n*   **Brand Promotion (B):** The packaging and label design are used for marketing, but this is distinct from the legally required informational panel.\n*   **Country of Origin (C):** This is one piece of information that is often required, but it is not the main purpose of the entire label.\n*   **Food Safety Enforcement (D):** Labels are a tool for *complying* with food safety regulations (e.g., by listing allergens and \"use by\" dates), but they do not *enforce* the regulations themselves; enforcement is the role of agencies like the FDA.",
+    "reasoning": "The fundamental purpose of food labeling is to serve as a direct means of communication between the producer and the consumer. Legally mandated labels are required to provide essential information that allows consumers to know what is in the food they are purchasing. This core function includes providing a list of ingredients in descending order of weight and detailed nutritional information, such as calories, fats, carbohydrates, and proteins. This information helps consumers make informed choices based on their dietary needs and health goals.",
+    "error": false
+  },
+  "fe4c8aa8c6f6c01a685f94531d385691": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Multiple official and trade sources confirm that the 4th edition of World Food India will be held from September 25th to 28th, 2025, at Bharat Mandapam, Pragati Maidan, in New Delhi.",
+    "reasoning": "Multiple official and trade sources confirm that the 4th edition of World Food India will be held from September 25th to 28th, 2025, at Bharat Mandapam, Pragati Maidan, in New Delhi.",
+    "error": false
+  },
+  "f241d24ef6dbda9eb41ed39d6fdfe0f4": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A\nConfidence: 9\nReasoning: Multiple sources indicate that the recommended concentration of chlorine for sanitizing fresh produce typically falls within a range of 50 to 200 parts per million (ppm). Specifically, some guidelines suggest starting with 50-150 ppm of total chlorine. While the maximum allowed concentration is often cited as 200 ppm, the range of 50 ppm to 100 ppm is a commonly recommended and effective level for washing fruits and vegetables.",
+    "reasoning": "Multiple sources indicate that the recommended concentration of chlorine for sanitizing fresh produce typically falls within a range of 50 to 200 parts per million (ppm). Specifically, some guidelines suggest starting with 50-150 ppm of total chlorine. While the maximum allowed concentration is often cited as 200 ppm, the range of 50 ppm to 100 ppm is a commonly recommended and effective level for washing fruits and vegetables.",
+    "error": false
+  },
+  "ef201d94bc044ab64dfa3c497b05f82f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: A diet that is rich in all necessary nutrients, in the correct types and amounts, is known as a balanced diet. This ensures the body receives the proper proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to maintain good health and function effectively. The other terms are not as precise; \"Rich diet\" is vague, \"Slim Diet\" is for weight loss, and while \"Complete diet\" is sometimes used, \"Balanced diet\" is the more accurate and widely accepted scientific term.",
+    "reasoning": "A diet that is rich in all necessary nutrients, in the correct types and amounts, is known as a balanced diet. This ensures the body receives the proper proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to maintain good health and function effectively. The other terms are not as precise; \"Rich diet\" is vague, \"Slim Diet\" is for weight loss, and while \"Complete diet\" is sometimes used, \"Balanced diet\" is the more accurate and widely accepted scientific term.",
+    "error": false
+  },
+  "537d7e35797c075441643ccdd0def94a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Good Hygiene Practices (GHP) and Good Manufacturing Practices (GMP) are widely recognized as prerequisite programs (PRPs) for a Hazard Analysis and Critical Control Points (HACCP) system. They establish the fundamental environmental and operational conditions necessary for producing safe food. This includes aspects like facility cleanliness, personal hygiene, pest control, and equipment maintenance. Without these foundational practices in place, a HACCP plan, which focuses on identifying and controlling specific hazards at critical control points (CCPs), would be ineffective and overly complicated. Therefore, GHP and GMP together provide the essential base for the effective application of HACCP and its CCPs.",
+    "reasoning": "Good Hygiene Practices (GHP) and Good Manufacturing Practices (GMP) are widely recognized as prerequisite programs (PRPs) for a Hazard Analysis and Critical Control Points (HACCP) system. They establish the fundamental environmental and operational conditions necessary for producing safe food. This includes aspects like facility cleanliness, personal hygiene, pest control, and equipment maintenance. Without these foundational practices in place, a HACCP plan, which focuses on identifying and controlling specific hazards at critical control points (CCPs), would be ineffective and overly complicated. Therefore, GHP and GMP together provide the essential base for the effective application of HACCP and its CCPs.",
+    "error": false
+  },
+  "e8c2d10a067acb1357b0ba6ae293e0a2": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: India is the world's largest producer of milk, contributing over 24% of global milk production. The country is also the largest producer of millets, accounting for approximately 40% of the world's total production. Furthermore, India holds the top position globally in the production of pulses, making up about 25% of the global output. While India is also the largest producer of mangoes, the combination of milk, millets, and pulses in option C represents a more comprehensive and accurate statement of India's global leadership in agricultural processing. India is a significant but not the leading producer of coffee beans and has a very nascent olive processing industry.",
+    "reasoning": "India is the world's largest producer of milk, contributing over 24% of global milk production. The country is also the largest producer of millets, accounting for approximately 40% of the world's total production. Furthermore, India holds the top position globally in the production of pulses, making up about 25% of the global output. While India is also the largest producer of mangoes, the combination of milk, millets, and pulses in option C represents a more comprehensive and accurate statement of India's global leadership in agricultural processing. India is a significant but not the leading producer of coffee beans and has a very nascent olive processing industry.",
+    "error": false
+  },
+  "f8a7ac5632bf47b08a4d0241cd556d1d": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The term \"processing\" accurately describes the entire sequence of converting raw materials into food products. This broad term encompasses various methods, including washing, chopping, cooking, and packaging.\n\nThe other options are more specific:\n*   **Fermentation** is a specific *type* of food processing where microorganisms convert carbohydrates into alcohol or acids.\n*   **Preservation** refers to techniques used to prevent food spoilage and extend its shelf life, which is one aspect of food processing.\n*   **Digestion** is the biological process that occurs *after* food is consumed, breaking it down in the body for absorption.",
+    "reasoning": "The term \"processing\" accurately describes the entire sequence of converting raw materials into food products. This broad term encompasses various methods, including washing, chopping, cooking, and packaging.",
+    "error": false
   }
 }
