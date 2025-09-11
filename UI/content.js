@@ -1839,14 +1839,17 @@ function removeExistingUI() {
 // Test function to check CORS
 window.testCORS = async function() {
   try {
-    console.log("Testing CORS connection to proxy server...");
     const response = await fetch("http://64.227.188.233:3000/test");
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
-    console.log("CORS test successful:", data);
-    return true;
+    console.log("CORS test success:", data);
+    return { success: true, data };
   } catch (error) {
     console.error("CORS test failed:", error);
-    return false;
+    if (error instanceof TypeError && error.message.includes('Failed to fetch')) {
+      console.error("Likely a CORS issue or network error. Check backend CORS settings and server availability.");
+    }
+    return { success: false, error: error.message };
   }
 };
 
