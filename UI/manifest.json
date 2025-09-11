@@ -11,7 +11,8 @@
     "https://127.0.0.1:*/*",
     "*://quiz.mygov.in/*",
     "*://*.mygov.in/*",
-    "file:///D:/Web/Chrome/quiz.html"
+    "file:///D:/Web/Chrome/quiz.html",
+    "*://64.227.188.233:*/*"
   ],
   "action": {
     "default_popup": "popup.html",
