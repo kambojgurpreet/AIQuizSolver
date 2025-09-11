@@ -204,9 +204,16 @@ class CacheManager:
         
         # Schedule background save (non-blocking)
         try:
-            # Create task for background save without awaiting
-            asyncio.create_task(self._save_cache_async(model_name))
-            logger.debug(f"Scheduled background save for {model_name} cache")
+            # Check if we're in an async context and can create tasks
+            try:
+                asyncio.get_running_loop()
+                # We're in an async context, create task for background save
+                asyncio.create_task(self._save_cache_async(model_name))
+                logger.debug(f"Scheduled background save for {model_name} cache")
+            except RuntimeError:
+                # No event loop running, fall back to synchronous save
+                logger.debug(f"No event loop running, falling back to synchronous save for {model_name}")
+                self._save_cache_to_file(cache, self.cache_files[model_name])
         except Exception as e:
             logger.error(f"Error scheduling background save for {model_name}: {e}")
             # Fallback to synchronous save if async fails
@@ -270,16 +277,23 @@ class CacheManager:
         
         self._shutdown_called = True
         
-        # Save all caches synchronously before shutdown
-        logger.info("Saving all caches before shutdown...")
-        self._save_all_caches()
-        
         # Wait for any pending background saves to complete
         if self._pending_saves:
             logger.info(f"Waiting for {len(self._pending_saves)} pending saves to complete...")
-            # Give background saves a moment to finish
+            # Give background saves time to finish
             import time
-            time.sleep(0.5)
+            max_wait = 2.0  # Maximum 2 seconds
+            waited = 0.0
+            while self._pending_saves and waited < max_wait:
+                time.sleep(0.1)
+                waited += 0.1
+            
+            if self._pending_saves:
+                logger.warning(f"Timeout waiting for {len(self._pending_saves)} pending saves: {self._pending_saves}")
+        
+        # Save all caches synchronously before shutdown
+        logger.info("Saving all caches before shutdown...")
+        self._save_all_caches()
         
         # Shutdown the thread pool
         if hasattr(self, 'executor') and self.executor:

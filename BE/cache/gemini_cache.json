@@ -2502,5 +2502,1221 @@
     "raw": "Answer: B\nConfidence: 10\nReasoning: In 1947, the princely state of Jammu and Kashmir, with a Hindu Maharaja and a majority Muslim population, was faced with the choice of acceding to either India or Pakistan. Following an invasion by Pashtun tribesmen from Pakistan in October 1947, the Maharaja, Hari Singh, signed the Instrument of Accession to India. This act triggered the Indo-Pakistani War of 1947–1948. The war concluded with a UN-mediated ceasefire in 1949, which resulted in the division of the state into two parts, one administered by India and the other by Pakistan.\n\nHyderabad was annexed by India in 1948 after its Muslim ruler opted for independence, but it was not divided with Pakistan. Junagadh's Muslim ruler acceded to Pakistan, but this was reversed by Indian intervention and a subsequent plebiscite; the state was not divided. The princely states of Baluchistan acceded to Pakistan and were not divided between the two nations.",
     "reasoning": "In 1947, the princely state of Jammu and Kashmir, with a Hindu Maharaja and a majority Muslim population, was faced with the choice of acceding to either India or Pakistan. Following an invasion by Pashtun tribesmen from Pakistan in October 1947, the Maharaja, Hari Singh, signed the Instrument of Accession to India. This act triggered the Indo-Pakistani War of 1947–1948. The war concluded with a UN-mediated ceasefire in 1949, which resulted in the division of the state into two parts, one administered by India and the other by Pakistan.",
     "error": false
+  },
+  "16f79e43841abb801285d84e92ffbced": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Wool has the highest moisture regain percentage among the given options. Its moisture regain can be as high as 16-18%, while Jute is around 13.75%, Silk is 11%, and Cotton is between 7-11%.",
+    "reasoning": "Wool has the highest moisture regain percentage among the given options. Its moisture regain can be as high as 16-18%, while Jute is around 13.75%, Silk is 11%, and Cotton is between 7-11%.",
+    "error": false
+  },
+  "5e41811000728b4417d5576ed231a764": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The official name of the act is \"The Handlooms (Reservation of Articles for Production) Act, 1985\". It was enacted on March 29, 1985, to provide for the reservation of certain articles for exclusive production by handlooms.",
+    "reasoning": "The official name of the act is \"The Handlooms (Reservation of Articles for Production) Act, 1985\". It was enacted on March 29, 1985, to provide for the reservation of certain articles for exclusive production by handlooms.",
+    "error": false
+  },
+  "a4aa102b471ac8fc0941f3f8ee3f1181": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Nylon is a synthetic polymer that is chemically classified as a polyamide. This is because its molecular structure consists of repeating units linked by amide bonds. Common types of nylon, such as nylon 6 and nylon 6,6, are formed from monomers that create these characteristic amide linkages.",
+    "reasoning": "Nylon is a synthetic polymer that is chemically classified as a polyamide. This is because its molecular structure consists of repeating units linked by amide bonds. Common types of nylon, such as nylon 6 and nylon 6,6, are formed from monomers that create these characteristic amide linkages.",
+    "error": false
+  },
+  "eee1bd0f822a25917c2a1684ac279bd1": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The texture of a fabric refers to its surface quality and how it feels to the touch. This property directly influences the fabric's visual appearance, such as whether it looks rough or smooth, shiny or dull, as well as its tactile characteristics, which determine how it feels against the skin when worn. While weave contributes to texture, \"texture\" is the broader and more encompassing term that describes the overall feel, look, and wearing experience.",
+    "reasoning": "The texture of a fabric refers to its surface quality and how it feels to the touch. This property directly influences the fabric's visual appearance, such as whether it looks rough or smooth, shiny or dull, as well as its tactile characteristics, which determine how it feels against the skin when worn. While weave contributes to texture, \"texture\" is the broader and more encompassing term that describes the overall feel, look, and wearing experience.",
+    "error": false
+  },
+  "12172205b00d0264c0e1189f24d5ce34": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Paisley design, also known as \"buta\" or \"boteh,\" is widely recognized as being inspired by the shape of a mango or a mango seed. This motif has its origins in Persia and India, where the mango is a significant and auspicious symbol. In several Indian languages, the pattern's name is directly related to the word for mango. For instance, in some parts of India, it is called \"ambi,\" derived from \"amb,\" meaning mango. The design is also referred to as the \"kairi\" motif, which translates to mango. While the pattern is also compared to a teardrop or a sprouting date palm, its strongest and most frequently cited association is with the mango.",
+    "reasoning": "The Paisley design, also known as \"buta\" or \"boteh,\" is widely recognized as being inspired by the shape of a mango or a mango seed. This motif has its origins in Persia and India, where the mango is a significant and auspicious symbol. In several Indian languages, the pattern's name is directly related to the word for mango. For instance, in some parts of India, it is called \"ambi,\" derived from \"amb,\" meaning mango. The design is also referred to as the \"kairi\" motif, which translates to mango. While the pattern is also compared to a teardrop or a sprouting date palm, its strongest and most frequently cited association is with the mango.",
+    "error": false
+  },
+  "a25bc0f472c855cad25613d30c09775c": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Tesu flowers, also known as Palash flowers, are soaked in water to produce a vibrant yellow or orange-yellow dye. In contrast, Lac yields red to purple dyes, Madder produces various shades of red, and Ratanjot imparts a red or purplish color.",
+    "reasoning": "Tesu flowers, also known as Palash flowers, are soaked in water to produce a vibrant yellow or orange-yellow dye. In contrast, Lac yields red to purple dyes, Madder produces various shades of red, and Ratanjot imparts a red or purplish color.",
+    "error": false
+  },
+  "b8384a535615e91acf2548a93381e1ad": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Kani shawl originates from the Kanihama area of the Kashmir valley. The government of Jammu and Kashmir has granted a geographical indication (GI) tag to the Kani shawl, which legally protects it and restricts the use of the name to shawls produced in that specific region. This confirms that its production is exclusive to Jammu & Kashmir.",
+    "reasoning": "The Kani shawl originates from the Kanihama area of the Kashmir valley. The government of Jammu and Kashmir has granted a geographical indication (GI) tag to the Kani shawl, which legally protects it and restricts the use of the name to shawls produced in that specific region. This confirms that its production is exclusive to Jammu & Kashmir.",
+    "error": false
+  },
+  "147f2ec46aa57b4df9fb0b928f96d76e": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D\nConfidence: 9\nReasoning: The Jamdani weaving technique originated in the Dhaka region of Bangladesh and is strongly associated with it, often being called \"Dhakai Jamdani\". This intricate weaving method has also been adapted in other regions. Both Uppada and Venkatagiri in Andhra Pradesh, India, are well-known for producing sarees with a distinct Jamdani style of weaving. Chanderi, on the other hand, is a traditional textile center in Madhya Pradesh known for its own unique weaving style, which is different from the Jamdani technique. While contemporary weavers may create fusion pieces combining Chanderi fabric with Jamdani motifs, Chanderi is not a place traditionally associated with the Jamdani technique itself.",
+    "reasoning": "The Jamdani weaving technique originated in the Dhaka region of Bangladesh and is strongly associated with it, often being called \"Dhakai Jamdani\". This intricate weaving method has also been adapted in other regions. Both Uppada and Venkatagiri in Andhra Pradesh, India, are well-known for producing sarees with a distinct Jamdani style of weaving. Chanderi, on the other hand, is a traditional textile center in Madhya Pradesh known for its own unique weaving style, which is different from the Jamdani technique. While contemporary weavers may create fusion pieces combining Chanderi fabric with Jamdani motifs, Chanderi is not a place traditionally associated with the Jamdani technique itself.",
+    "error": false
+  },
+  "41f539a3c7bb6383a06905938aa9374c": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Designs on durries, which are flat-woven rugs, are commonly created using the interlocking tapestry technique. This method involves interlocking different colored weft threads to form patterns without creating slits in the fabric. The other options are less suitable: Jala and Jacquard are complex weaving techniques used for intricate patterns in textiles like brocades, not typically for flat-woven durries. Tie & Dye is a method of dyeing fabric and not a weaving technique for creating the structure of a design.",
+    "reasoning": "Designs on durries, which are flat-woven rugs, are commonly created using the interlocking tapestry technique. This method involves interlocking different colored weft threads to form patterns without creating slits in the fabric. The other options are less suitable: Jala and Jacquard are complex weaving techniques used for intricate patterns in textiles like brocades, not typically for flat-woven durries. Tie & Dye is a method of dyeing fabric and not a weaving technique for creating the structure of a design.",
+    "error": false
+  },
+  "d8a6cc98edbdcf04fc52e97ae661291a": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: National Handloom Day is observed annually on August 7th to commemorate the launch of the Swadeshi Movement on that same day in 1905. The Swadeshi Movement was a pivotal part of India's freedom struggle, encouraging the use of domestic products and the boycott of foreign goods. This movement specifically promoted indigenous industries, with a significant focus on handloom weavers. The Government of India established National Handloom Day in 2015 to honor this historical event and to recognize the contribution of the handloom weaving community to the country's socio-economic development.",
+    "reasoning": "National Handloom Day is observed annually on August 7th to commemorate the launch of the Swadeshi Movement on that same day in 1905. The Swadeshi Movement was a pivotal part of India's freedom struggle, encouraging the use of domestic products and the boycott of foreign goods. This movement specifically promoted indigenous industries, with a significant focus on handloom weavers. The Government of India established National Handloom Day in 2015 to honor this historical event and to recognize the contribution of the handloom weaving community to the country's socio-economic development.",
+    "error": false
+  },
+  "6c6bf4b9917b6a5519ad69df8f5cc09f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Madam Bhikaji Cama unfurled the first version of the Indian national flag at the International Socialist Conference in Stuttgart, Germany, on August 22, 1907. This act was a powerful statement appealing for human rights, equality, and India's autonomy from Great Britain.",
+    "reasoning": "Madam Bhikaji Cama unfurled the first version of the Indian national flag at the International Socialist Conference in Stuttgart, Germany, on August 22, 1907. This act was a powerful statement appealing for human rights, equality, and India's autonomy from Great Britain.",
+    "error": false
+  },
+  "3419928a5904978fcd820cba530ae62c": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The saffron color at the top of the Indian flag represents strength, courage, and sacrifice. This is consistently stated across multiple official and informational sources. The other colors have their own distinct meanings: white for peace, truth, and purity, and green for fertility, growth, and auspiciousness.",
+    "reasoning": "The saffron color at the top of the Indian flag represents strength, courage, and sacrifice. This is consistently stated across multiple official and informational sources. The other colors have their own distinct meanings: white for peace, truth, and purity, and green for fertility, growth, and auspiciousness.",
+    "error": false
+  },
+  "e74b15321c116df29419a9af1ff6744e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: On India's Independence Day, the Prime Minister hoists the national flag at the Red Fort in Delhi. This tradition was started by India's first Prime Minister, Jawaharlal Nehru, on August 15, 1947. The ceremony at the historic Red Fort also includes an address to the nation by the Prime Minister.",
+    "reasoning": "On India's Independence Day, the Prime Minister hoists the national flag at the Red Fort in Delhi. This tradition was started by India's first Prime Minister, Jawaharlal Nehru, on August 15, 1947. The ceremony at the historic Red Fort also includes an address to the nation by the Prime Minister.",
+    "error": false
+  },
+  "27ea56df14c44b8ac7751b6ed167336d": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Flying a flag at half-mast is a universally recognized symbol of mourning. This tradition is observed to honor the dead, particularly in the case of a national tragedy, the death of a government official, or to commemorate fallen soldiers. The practice dates back to the 17th century and is a formal way for a nation or an organization to express collective grief and respect for the deceased.",
+    "reasoning": "Flying a flag at half-mast is a universally recognized symbol of mourning. This tradition is observed to honor the dead, particularly in the case of a national tragedy, the death of a government official, or to commemorate fallen soldiers. The practice dates back to the 17th century and is a formal way for a nation or an organization to express collective grief and respect for the deceased.",
+    "error": false
+  },
+  "e18cfc92d66e40c8b6c4a875f7798b29": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: According to the Flag Code of India, the correct procedure for folding the national flag is to first place it horizontally. Then, the saffron and green bands are folded under the middle white band. The white band is then folded in such a way that the Ashoka Chakra is visible in the center, with parts of the saffron and green bands also showing. This ensures the flag is stored with dignity.",
+    "reasoning": "According to the Flag Code of India, the correct procedure for folding the national flag is to first place it horizontally. Then, the saffron and green bands are folded under the middle white band. The white band is then folded in such a way that the Ashoka Chakra is visible in the center, with parts of the saffron and green bands also showing. This ensures the flag is stored with dignity.",
+    "error": false
+  },
+  "d9f34338e24c07b77276f47c9b5c978a": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Supreme Court of India, in a landmark judgment on January 23, 2004, declared that the right to fly the national flag with respect and dignity is a fundamental right of every citizen under Article 19(1)(a) of the Constitution. This ruling came on the eve of the 55th Republic Day and was the culmination of a long legal battle by industrialist Naveen Jindal. Prior to this, the display of the flag by private citizens was restricted to certain national days under the Flag Code of India. While the Supreme Court had directed the government to amend the code in 2002, the definitive ruling that established this right as a fundamental one for all citizens throughout the year was delivered in 2004.",
+    "reasoning": "The Supreme Court of India, in a landmark judgment on January 23, 2004, declared that the right to fly the national flag with respect and dignity is a fundamental right of every citizen under Article 19(1)(a) of the Constitution. This ruling came on the eve of the 55th Republic Day and was the culmination of a long legal battle by industrialist Naveen Jindal. Prior to this, the display of the flag by private citizens was restricted to certain national days under the Flag Code of India. While the Supreme Court had directed the government to amend the code in 2002, the definitive ruling that established this right as a fundamental one for all citizens throughout the year was delivered in 2004.",
+    "error": false
+  },
+  "550e8fe5437106e7d7f60c96d63b869f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The wheel in the center of the Indian flag is the Ashoka Chakra, also known as the Dharma Chakra or \"wheel of the law\". It signifies that there is life in movement and death in stagnation, representing the dynamism of a peaceful change. The chakra is meant to show that India should move forward and that the nation must progress with the times. Therefore, it symbolizes constant motion and the progress of the country.",
+    "reasoning": "The wheel in the center of the Indian flag is the Ashoka Chakra, also known as the Dharma Chakra or \"wheel of the law\". It signifies that there is life in movement and death in stagnation, representing the dynamism of a peaceful change. The chakra is meant to show that India should move forward and that the nation must progress with the times. Therefore, it symbolizes constant motion and the progress of the country.",
+    "error": false
+  },
+  "f135e39ecf890445aec2ff6f2245cd1d": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Flag Code of India was amended on January 26, 2002, to grant private citizens the right to hoist the national flag on their premises on any day of the year. This is permissible as long as the dignity, honor, and respect of the flag are maintained. Previously, this right was restricted to only national days like Independence Day and Republic Day. A legal challenge by industrialist Naveen Jindal led to a Supreme Court ruling that prompted the government to amend the code, recognizing the hoisting of the flag as a fundamental right of a citizen. Further amendments in 2022 also permitted the flag to be flown both day and night.",
+    "reasoning": "The Flag Code of India was amended on January 26, 2002, to grant private citizens the right to hoist the national flag on their premises on any day of the year. This is permissible as long as the dignity, honor, and respect of the flag are maintained. Previously, this right was restricted to only national days like Independence Day and Republic Day. A legal challenge by industrialist Naveen Jindal led to a Supreme Court ruling that prompted the government to amend the code, recognizing the hoisting of the flag as a fundamental right of a citizen. Further amendments in 2022 also permitted the flag to be flown both day and night.",
+    "error": false
+  },
+  "c1380c56970ac4a964fa24a42d9a7d6a": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Industrialist Naveen Jindal fought a decade-long legal battle for the right of every Indian citizen to display the national flag with respect and dignity on all days of the year. Previously, the Flag Code of India restricted the display of the flag by private citizens to only national days. Jindal's legal challenge began after he was told he was not permitted to fly the national flag at his factory. His case, Union of India v. Naveen Jindal, resulted in a landmark Supreme Court of India judgment on January 23, 2004. The court ruled that the right to fly the national flag is a fundamental right of a citizen under Article 19(1)(a) of the Constitution of India, as an expression of their allegiance and pride for the nation. Following this verdict, the Union Cabinet of India amended the Flag Code, allowing private citizens to hoist the flag on any day of the year.",
+    "reasoning": "Industrialist Naveen Jindal fought a decade-long legal battle for the right of every Indian citizen to display the national flag with respect and dignity on all days of the year. Previously, the Flag Code of India restricted the display of the flag by private citizens to only national days. Jindal's legal challenge began after he was told he was not permitted to fly the national flag at his factory. His case, Union of India v. Naveen Jindal, resulted in a landmark Supreme Court of India judgment on January 23, 2004. The court ruled that the right to fly the national flag is a fundamental right of a citizen under Article 19(1)(a) of the Constitution of India, as an expression of their allegiance and pride for the nation. Following this verdict, the Union Cabinet of India amended the Flag Code, allowing private citizens to hoist the flag on any day of the year.",
+    "error": false
+  },
+  "68fd51759c61004e487aa88b7eac64f0": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Pingali Venkayya is credited with designing the initial version of the Indian National Flag. In 1921, he presented a design to Mahatma Gandhi which featured red and green stripes. At Gandhi's suggestion, a white stripe was added. This design, which originally included a spinning wheel (charkha) in the center, served as the foundation for the current flag. The design was adopted in its present form with the Ashoka Chakra replacing the charkha on July 22, 1947.",
+    "reasoning": "Pingali Venkayya is credited with designing the initial version of the Indian National Flag. In 1921, he presented a design to Mahatma Gandhi which featured red and green stripes. At Gandhi's suggestion, a white stripe was added. This design, which originally included a spinning wheel (charkha) in the center, served as the foundation for the current flag. The design was adopted in its present form with the Ashoka Chakra replacing the charkha on July 22, 1947.",
+    "error": false
+  },
+  "74432c8ecc2f862260422951048c4e68": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: According to Section 2 of the Prevention of Insults to National Honour Act, 1971, anyone who, in a public place or any other place within public view, burns, mutilates, defaces, defiles, disfigures, destroys, tramples upon, or otherwise shows disrespect to the Indian National Flag can be punished with imprisonment for a term that may extend to three years, or with a fine, or with both.",
+    "reasoning": "According to Section 2 of the Prevention of Insults to National Honour Act, 1971, anyone who, in a public place or any other place within public view, burns, mutilates, defaces, defiles, disfigures, destroys, tramples upon, or otherwise shows disrespect to the Indian National Flag can be punished with imprisonment for a term that may extend to three years, or with a fine, or with both.",
+    "error": false
+  },
+  "5acea12171ffce1a9b193fc90bf6147e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: The color green in flags commonly symbolizes a country's natural wealth, agricultural land, and fertility. These concepts are directly related to national prosperity. The other options are generally represented by different colors: white often signifies peace and purity, while red can symbolize strength.",
+    "reasoning": "The color green in flags commonly symbolizes a country's natural wealth, agricultural land, and fertility. These concepts are directly related to national prosperity. The other options are generally represented by different colors: white often signifies peace and purity, while red can symbolize strength.",
+    "error": false
+  },
+  "028b5a9e66f939f2cc21e1aaf8f32164": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: Hoisting a damaged or disheveled flag is broadly considered a sign of disrespect and is against the flag codes of many nations. For instance, the Flag Code of India explicitly states that a damaged flag shall not be displayed, and disrespect to the national flag is a punishable offense. Similarly, the U.S. Flag Code dictates that a flag should be retired in a dignified way when it is no longer a fitting emblem for display. While there may not be legal penalties for civilians in the U.S. due to free speech protections, the act is still a violation of the code. Because it is explicitly illegal and punishable in some countries, it qualifies as a punishable offense.",
+    "reasoning": "Hoisting a damaged or disheveled flag is broadly considered a sign of disrespect and is against the flag codes of many nations. For instance, the Flag Code of India explicitly states that a damaged flag shall not be displayed, and disrespect to the national flag is a punishable offense. Similarly, the U.S. Flag Code dictates that a flag should be retired in a dignified way when it is no longer a fitting emblem for display. While there may not be legal penalties for civilians in the U.S. due to free speech protections, the act is still a violation of the code. Because it is explicitly illegal and punishable in some countries, it qualifies as a punishable offense.",
+    "error": false
+  },
+  "985f72abdb6895007692a495e6ebfb68": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9\nReasoning: The usage of the Indian National Flag is primarily governed by three sets of instructions: The Flag Code of India, 2002, The Emblems and Names (Prevention of Improper Use) Act, 1950, and The Prevention of Insults to National Honour Act, 1971. The Flag Code of India is a compilation of conventions and instructions, not an Act of Parliament. Between the two Acts listed, the Prevention of Insults to National Honour Act, 1971, is the specific legislation that prohibits the desecration of or insult to national symbols, including the National Flag, and prescribes punishments for such actions. The Emblems and Names Act is more focused on preventing the improper commercial use of the flag. Therefore, the Prevention of Insults to National Honour Act, 1971 is the most accurate answer among the choices provided that directly governs the respect and honor of the flag's usage.",
+    "reasoning": "The usage of the Indian National Flag is primarily governed by three sets of instructions: The Flag Code of India, 2002, The Emblems and Names (Prevention of Improper Use) Act, 1950, and The Prevention of Insults to National Honour Act, 1971. The Flag Code of India is a compilation of conventions and instructions, not an Act of Parliament. Between the two Acts listed, the Prevention of Insults to National Honour Act, 1971, is the specific legislation that prohibits the desecration of or insult to national symbols, including the National Flag, and prescribes punishments for such actions. The Emblems and Names Act is more focused on preventing the improper commercial use of the flag. Therefore, the Prevention of Insults to National Honour Act, 1971 is the most accurate answer among the choices provided that directly governs the respect and honor of the flag's usage.",
+    "error": false
+  },
+  "cb304c1033686c76543379494dc5344e": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Constituent Assembly of India adopted the national flag in its current form during a meeting held on July 22, 1947. This was a few days before India gained independence on August 15, 1947. The design features a horizontal tricolor of saffron, white, and green with the Ashoka Chakra in the center.",
+    "reasoning": "The Constituent Assembly of India adopted the national flag in its current form during a meeting held on July 22, 1947. This was a few days before India gained independence on August 15, 1947. The design features a horizontal tricolor of saffron, white, and green with the Ashoka Chakra in the center.",
+    "error": false
+  },
+  "9a6a5831ab4e2a5cb23e07bce19adbc3": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: On Republic Day (January 26th), the President of India unfurls the national flag. This ceremony commemorates the adoption of the Indian Constitution. The Prime Minister hoists the flag on Independence Day (August 15th).",
+    "reasoning": "On Republic Day (January 26th), the President of India unfurls the national flag. This ceremony commemorates the adoption of the Indian Constitution. The Prime Minister hoists the flag on Independence Day (August 15th).",
+    "error": false
+  },
+  "ee8bc38093b8d1ce339ecd16a2d75e03": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Naveen Jindal spearheaded a decade-long legal battle that culminated in a historic Supreme Court of India judgment on January 23, 2004. This ruling affirmed that the right to fly the national flag with respect is a fundamental right of every Indian citizen under Article 19(1)(a) of the Constitution. Following this legal victory, Jindal continued his efforts and advocated for the right to wear the Tiranga on clothing. His persistence led to the passage of the Prevention of Insults to National Honour (Amendment) Bill in Parliament, which allows citizens to wear the national flag on their costumes and dresses in a respectful manner.",
+    "reasoning": "Naveen Jindal spearheaded a decade-long legal battle that culminated in a historic Supreme Court of India judgment on January 23, 2004. This ruling affirmed that the right to fly the national flag with respect is a fundamental right of every Indian citizen under Article 19(1)(a) of the Constitution. Following this legal victory, Jindal continued his efforts and advocated for the right to wear the Tiranga on clothing. His persistence led to the passage of the Prevention of Insults to National Honour (Amendment) Bill in Parliament, which allows citizens to wear the national flag on their costumes and dresses in a respectful manner.",
+    "error": false
+  },
+  "ab4b71f4428ed6233ea63767071b1520": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Ashoka Chakra, which is featured in the center of the Indian national flag, has 24 spokes. These spokes are said to represent various things, including the 24 hours in a day and 24 qualities of a person. The Ashoka Chakra is a depiction of the Dharmachakra, a symbol often associated with Emperor Ashoka.",
+    "reasoning": "The Ashoka Chakra, which is featured in the center of the Indian national flag, has 24 spokes. These spokes are said to represent various things, including the 24 hours in a day and 24 qualities of a person. The Ashoka Chakra is a depiction of the Dharmachakra, a symbol often associated with Emperor Ashoka.",
+    "error": false
+  },
+  "b4dd1ae155c3714ae5fa4d479e6cf2fe": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The white middle band of the Indian national flag represents peace and truth. This is a widely recognized and officially stated symbolism. The saffron color at the top signifies strength and courage, while the green at the bottom represents fertility, growth, and auspiciousness of the land. Therefore, \"Peace and Truth\" is the most accurate description for the color white in the flag among the given options.",
+    "reasoning": "The white middle band of the Indian national flag represents peace and truth. This is a widely recognized and officially stated symbolism. The saffron color at the top signifies strength and courage, while the green at the bottom represents fertility, growth, and auspiciousness of the land. Therefore, \"Peace and Truth\" is the most accurate description for the color white in the flag among the given options.",
+    "error": false
+  },
+  "8909fc25642fba4aa5ccd1aeef8ec948": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: According to the Flag Code of India, the ratio of the length to the height (width) of the Indian National Flag must be 3:2. This is a mandatory specification for the flag. Therefore, the correct option is D, which represents the ratio of 3 to 2.",
+    "reasoning": "According to the Flag Code of India, the ratio of the length to the height (width) of the Indian National Flag must be 3:2. This is a mandatory specification for the flag. Therefore, the correct option is D, which represents the ratio of 3 to 2.",
+    "error": false
+  },
+  "1e312a9e6a78b371c8afe59b27ddb18b": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Flag Code of India, 2002 was amended on December 30, 2021, to permit the manufacturing of machine-made polyester flags. Prior to this amendment, the national flag was only permitted to be made of hand-spun and hand-woven wool, cotton, or silk khadi. The current regulations allow for the national flag to be made of hand-spun and hand-woven or machine-made cotton, polyester, wool, silk, or khadi bunting. Consequently, cotton, silk, polyester, and khadi are all approved materials for the fabric of the national flag.",
+    "reasoning": "The Flag Code of India, 2002 was amended on December 30, 2021, to permit the manufacturing of machine-made polyester flags. Prior to this amendment, the national flag was only permitted to be made of hand-spun and hand-woven wool, cotton, or silk khadi. The current regulations allow for the national flag to be made of hand-spun and hand-woven or machine-made cotton, polyester, wool, silk, or khadi bunting. Consequently, cotton, silk, polyester, and khadi are all approved materials for the fabric of the national flag.",
+    "error": false
+  },
+  "3a24d44811e0d9510894aae01c2861ae": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Flag Code of India was amended in 2005, which permitted for the first time some forms of usage of the national flag on clothing. This amendment, part of the Prevention of Insults to National Honour (Amendment) Act, 2005, allows for the flag to be adapted on certain forms of clothing, provided it is not worn below the waist.",
+    "reasoning": "The Flag Code of India was amended in 2005, which permitted for the first time some forms of usage of the national flag on clothing. This amendment, part of the Prevention of Insults to National Honour (Amendment) Act, 2005, allows for the flag to be adapted on certain forms of clothing, provided it is not worn below the waist.",
+    "error": false
+  },
+  "61629e034495967843fa1a1e25130fb3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The search results from various countries' flag codes, including the U.S. Flag Code and the Flag Code of India, consistently state that a damaged or soiled flag should be destroyed in a dignified manner. The preferred method of destruction is burning, and it should be done as a whole and in private. This directly corresponds with option B. Options A, C, and D are incorrect as storing is a temporary measure, selling is inappropriate, and while shredding can be a part of the process before burial, the core principle is destruction in a manner consistent with the dignity of the flag, with burning being the preferred method.",
+    "reasoning": "The search results from various countries' flag codes, including the U.S. Flag Code and the Flag Code of India, consistently state that a damaged or soiled flag should be destroyed in a dignified manner. The preferred method of destruction is burning, and it should be done as a whole and in private. This directly corresponds with option B. Options A, C, and D are incorrect as storing is a temporary measure, selling is inappropriate, and while shredding can be a part of the process before burial, the core principle is destruction in a manner consistent with the dignity of the flag, with burning being the preferred method.",
+    "error": false
+  },
+  "e3014fb19d822a451a09e505488bfcf5": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Ashoka Chakra is taken from the abacus of the Lion Capital of Ashoka, a sculpture that was originally placed atop a pillar in Sarnath by the Mauryan emperor Ashoka around 250 BCE. The wheel, also known as the Dharmachakra, is a prominent feature of the capital and was adopted as the center of the Indian national flag.",
+    "reasoning": "The Ashoka Chakra is taken from the abacus of the Lion Capital of Ashoka, a sculpture that was originally placed atop a pillar in Sarnath by the Mauryan emperor Ashoka around 250 BCE. The wheel, also known as the Dharmachakra, is a prominent feature of the capital and was adopted as the center of the Indian national flag.",
+    "error": false
+  },
+  "21794733f85544562cad0f574d3aa0cf": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The U.S. Flag Code states that a lapel flag pin, which is a replica of the national flag, should be worn on the left lapel near the heart. This position is considered a place of honor and respect for the flag as a living symbol. While flag patches are also permitted on the sleeves of uniforms for certain organizations, the location \"near the heart\" is explicitly mentioned in the code as the appropriate place for a flag replica.",
+    "reasoning": "The U.S. Flag Code states that a lapel flag pin, which is a replica of the national flag, should be worn on the left lapel near the heart. This position is considered a place of honor and respect for the flag as a living symbol. While flag patches are also permitted on the sleeves of uniforms for certain organizations, the location \"near the heart\" is explicitly mentioned in the code as the appropriate place for a flag replica.",
+    "error": false
+  },
+  "b9cff9aa108f0580418d35ff6e77d0aa": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The fundamental principle of the risk-return tradeoff in investing states that there is a direct relationship between risk and potential return. To achieve higher potential returns, an investor must typically accept a higher level of risk. Conversely, lower-risk investments are associated with lower potential returns. This positive correlation means that as risk increases, the potential for higher returns also increases.",
+    "reasoning": "The fundamental principle of the risk-return tradeoff in investing states that there is a direct relationship between risk and potential return. To achieve higher potential returns, an investor must typically accept a higher level of risk. Conversely, lower-risk investments are associated with lower potential returns. This positive correlation means that as risk increases, the potential for higher returns also increases.",
+    "error": false
+  },
+  "ffa9bf8fe2ef0e11d683be3306f556a8": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The IEPF-5 form is specifically designed for investors to file a claim for any shares, unclaimed dividends, matured deposits, or other amounts that have been transferred to the Investor Education and Protection Fund (IEPF). This process allows individuals to recover their rightful investments from the fund. The other options are incorrect as opening a demat account, reporting insider trading, and updating KYC details involve different forms and procedures.",
+    "reasoning": "The IEPF-5 form is specifically designed for investors to file a claim for any shares, unclaimed dividends, matured deposits, or other amounts that have been transferred to the Investor Education and Protection Fund (IEPF). This process allows individuals to recover their rightful investments from the fund. The other options are incorrect as opening a demat account, reporting insider trading, and updating KYC details involve different forms and procedures.",
+    "error": false
+  },
+  "97c6028328eeceda8e146fded4a05384": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Form IEPF-5 is available as an online web form on the official website of the Investor Education and Protection Fund (IEPF) Authority or the Ministry of Corporate Affairs (MCA) portal. The process involves filling out and submitting the form electronically. After the online submission, a printout of the completed form must be sent along with other necessary documents to the concerned company for verification.",
+    "reasoning": "Form IEPF-5 is available as an online web form on the official website of the Investor Education and Protection Fund (IEPF) Authority or the Ministry of Corporate Affairs (MCA) portal. The process involves filling out and submitting the form electronically. After the online submission, a printout of the completed form must be sent along with other necessary documents to the concerned company for verification.",
+    "error": false
+  },
+  "10b61f26a6d344bca1350224bf94c43b": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Saving regularly is a fundamental habit for sound financial planning. It allows for the accumulation of funds for emergencies, future purchases, and long-term goals like retirement. The other options represent poor financial habits: impulsive buying undermines a budget, avoiding a credit score can hinder future borrowing capabilities, and ignoring investments prevents wealth growth.",
+    "reasoning": "Saving regularly is a fundamental habit for sound financial planning. It allows for the accumulation of funds for emergencies, future purchases, and long-term goals like retirement. The other options represent poor financial habits: impulsive buying undermines a budget, avoiding a credit score can hinder future borrowing capabilities, and ignoring investments prevents wealth growth.",
+    "error": false
+  },
+  "b27a95c4d99caa7409a5571b800bea0e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Investor Education and Protection Fund (IEPF) Authority, under the Ministry of Corporate Affairs, is the designated body for managing unclaimed shares and dividends. When dividends on shares are unclaimed for seven consecutive years, the shares are transferred to the IEPF. Investors must file a claim through the official IEPF portal to reclaim these assets.\n\n*   **A. NSDL (National Securities Depository Limited)** is a securities depository; its primary role is to hold securities in a dematerialized format, not to manage or process claims for unclaimed shares transferred to the government.\n*   **C. RBI site** has a portal called UDGAM (Unclaimed Deposits-Gateway to Access Information) which is for searching for unclaimed bank deposits, not shares.\n*   **D. GSTN (Goods and Services Tax Network)** is the IT infrastructure for the Goods and Services Tax in India and is unrelated to investments or shares.",
+    "reasoning": "The Investor Education and Protection Fund (IEPF) Authority, under the Ministry of Corporate Affairs, is the designated body for managing unclaimed shares and dividends. When dividends on shares are unclaimed for seven consecutive years, the shares are transferred to the IEPF. Investors must file a claim through the official IEPF portal to reclaim these assets.",
+    "error": false
+  },
+  "0184bf529468dcb4b941ab2582b9bc2c": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Advance-fee fraud occurs when a scammer convinces a victim to pay money upfront (an \"advance fee\") with the promise of receiving something of greater value in the future, such as a loan, prize, or investment. The promised benefit, however, never materializes, and the fraudster typically disappears after receiving the payment. This makes \"Paying upfront for unreceived benefits\" the most accurate description of the fraud.",
+    "reasoning": "Advance-fee fraud occurs when a scammer convinces a victim to pay money upfront (an \"advance fee\") with the promise of receiving something of greater value in the future, such as a loan, prize, or investment. The promised benefit, however, never materializes, and the fraudster typically disappears after receiving the payment. This makes \"Paying upfront for unreceived benefits\" the most accurate description of the fraud.",
+    "error": false
+  },
+  "3dadd7feb9fb2181775c2aa741d9d040": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Dollar-cost averaging is an investment strategy that involves investing a fixed amount of money at regular intervals, regardless of the fluctuations in the market price. This approach means that when prices are high, your fixed amount buys fewer shares, and when prices are low, the same amount buys more shares. This strategy avoids the difficult task of trying to time the market by investing only at the lowest point (C) and is the opposite of investing a lump sum all at once (A). It is a disciplined investment approach and is not about investing only in high-risk stocks (D).",
+    "reasoning": "Dollar-cost averaging is an investment strategy that involves investing a fixed amount of money at regular intervals, regardless of the fluctuations in the market price. This approach means that when prices are high, your fixed amount buys fewer shares, and when prices are low, the same amount buys more shares. This strategy avoids the difficult task of trying to time the market by investing only at the lowest point (C) and is the opposite of investing a lump sum all at once (A). It is a disciplined investment approach and is not about investing only in high-risk stocks (D).",
+    "error": false
+  },
+  "9ff841bdf76fba1cf057fd1236279b24": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: A short-term financial goal is typically one that can be achieved in a year or less. Saving for a vacation fits this description, as it's a discretionary expense that can be planned for over a relatively short period. In contrast, retirement, child's education, and home loan repayment are long-term goals, as they require many years, often decades, of planning and saving.",
+    "reasoning": "A short-term financial goal is typically one that can be achieved in a year or less. Saving for a vacation fits this description, as it's a discretionary expense that can be planned for over a relatively short period. In contrast, retirement, child's education, and home loan repayment are long-term goals, as they require many years, often decades, of planning and saving.",
+    "error": false
+  },
+  "4a06d04d9b508cafcba253e4d8e12bc3": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Official regulator websites are the primary and most authoritative sources for verifying the legitimacy of any scheme, especially financial ones. These organizations are legally responsible for authorizing and monitoring such activities. In contrast, information on social media platforms like WhatsApp and YouTube is often unregulated, can be misleading, and is a common channel for scams. While TV news might report on schemes, it is a secondary source and not the official registry for verification. Always using the official regulator's database is the safest and most reliable method.",
+    "reasoning": "Official regulator websites are the primary and most authoritative sources for verifying the legitimacy of any scheme, especially financial ones. These organizations are legally responsible for authorizing and monitoring such activities. In contrast, information on social media platforms like WhatsApp and YouTube is often unregulated, can be misleading, and is a common channel for scams. While TV news might report on schemes, it is a secondary source and not the official registry for verification. Always using the official regulator's database is the safest and most reliable method.",
+    "error": false
+  },
+  "738ed51ff55726e969fcf949a0f05e22": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Investing is a fundamental component of financial planning. Financial planning is the comprehensive process of setting financial goals and creating a strategy to achieve them, which includes budgeting, saving, and investing. Sources state that a long-term investment plan is a main element of a financial plan. While investing can be part of a business strategy (A), it is not *only* for businesses, as individuals invest for personal goals like retirement. Random spending (C) is the opposite of the calculated, goal-oriented nature of investing. Credit card usage (D) is a payment and debt tool, not an investment strategy itself.",
+    "reasoning": "Investing is a fundamental component of financial planning. Financial planning is the comprehensive process of setting financial goals and creating a strategy to achieve them, which includes budgeting, saving, and investing. Sources state that a long-term investment plan is a main element of a financial plan. While investing can be part of a business strategy (A), it is not *only* for businesses, as individuals invest for personal goals like retirement. Random spending (C) is the opposite of the calculated, goal-oriented nature of investing. Credit card usage (D) is a payment and debt tool, not an investment strategy itself.",
+    "error": false
+  },
+  "09307d13f454f9dde979bc017e806550": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Investor Education and Protection Fund Authority (IEPFA) was established to manage the Investor Education and Protection Fund, which holds unclaimed dividends, matured deposits, and debentures that have been dormant for seven years or more. One of the primary functions of the IEPFA is to facilitate the refund of these unclaimed shares and dividends to the rightful investors. Therefore, the IEPFA directly processes claims related to unclaimed shares and dividends.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) was established to manage the Investor Education and Protection Fund, which holds unclaimed dividends, matured deposits, and debentures that have been dormant for seven years or more. One of the primary functions of the IEPFA is to facilitate the refund of these unclaimed shares and dividends to the rightful investors. Therefore, the IEPFA directly processes claims related to unclaimed shares and dividends.",
+    "error": false
+  },
+  "e601a4de50f823433f65980060a0cb84": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: A short-term investment is a financial instrument that can be easily converted to cash, typically within a year, though sometimes up to five years. Among the given options, Treasury Bills (T-Bills) fit this description best as they are short-term government debt securities with maturities of 52 weeks or less.\n\n*   **Equity Shares** are generally considered long-term investments as their value can be volatile in the short term, and they represent a long-term ownership stake in a company.\n*   **Real Estate** is a long-term investment due to its lack of liquidity and the significant time it can take to realize a profit.\n*   **Public Provident Fund (PPF)** is a long-term savings scheme with a mandatory lock-in period of 15 years.",
+    "reasoning": "A short-term investment is a financial instrument that can be easily converted to cash, typically within a year, though sometimes up to five years. Among the given options, Treasury Bills (T-Bills) fit this description best as they are short-term government debt securities with maturities of 52 weeks or less.",
+    "error": false
+  },
+  "aaafda12ed895317bca73a06a42e5b49": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Investor Education and Protection Fund Authority (IEPFA) actively promotes financial inclusion and awareness through a variety of outreach programs. Search results consistently show that IEPFA organizes workshops, camps (referred to as \"Shivir\"), and awareness drives to educate investors and citizens. Specific initiatives mentioned include \"Niveshak Didi,\" \"Niveshak Panchayat,\" and \"Niveshak Shivir,\" all of which are forms of awareness and education campaigns. These programs aim to enhance financial literacy across rural, semi-urban, and urban areas. For instance, the \"Niveshak Shivir\" in Pune was an investor awareness and financial literacy camp designed to help investors with practical issues like reclaiming unclaimed dividends and updating their details. The other options are incorrect as IEPFA's mandate is not to provide loans, engage in stock trading, or offer FD schemes, but rather to protect investors and promote financial literacy.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) actively promotes financial inclusion and awareness through a variety of outreach programs. Search results consistently show that IEPFA organizes workshops, camps (referred to as \"Shivir\"), and awareness drives to educate investors and citizens. Specific initiatives mentioned include \"Niveshak Didi,\" \"Niveshak Panchayat,\" and \"Niveshak Shivir,\" all of which are forms of awareness and education campaigns. These programs aim to enhance financial literacy across rural, semi-urban, and urban areas. For instance, the \"Niveshak Shivir\" in Pune was an investor awareness and financial literacy camp designed to help investors with practical issues like reclaiming unclaimed dividends and updating their details. The other options are incorrect as IEPFA's mandate is not to provide loans, engage in stock trading, or offer FD schemes, but rather to protect investors and promote financial literacy.",
+    "error": false
+  },
+  "5c8ed5a18a87cef964a798e4e9a1a164": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D\nConfidence: 9\nReasoning: The Investor Education and Protection Fund Authority (IEPFA) employs a multi-faceted approach to promote financial literacy. This includes conducting seminars, workshops, and various awareness campaigns such as 'Niveshak Didi', 'Niveshak Panchayat', 'Niveshak Shivir', and 'Saksham Niveshak'. They also heavily utilize digital media, including the dissemination of educational materials like digital banners, short films, and instructional videos through partnerships and social media platforms. While direct email campaigns are not explicitly detailed, the broad scope of their digital and outreach activities, which includes partnerships with banks that use their digital touchpoints, suggests that various forms of digital communication, likely including advertisements and potentially emails, are part of their strategy to reach a wide audience. Therefore, \"All of the above\" is the most comprehensive and accurate description of their promotional methods.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) employs a multi-faceted approach to promote financial literacy. This includes conducting seminars, workshops, and various awareness campaigns such as 'Niveshak Didi', 'Niveshak Panchayat', 'Niveshak Shivir', and 'Saksham Niveshak'. They also heavily utilize digital media, including the dissemination of educational materials like digital banners, short films, and instructional videos through partnerships and social media platforms. While direct email campaigns are not explicitly detailed, the broad scope of their digital and outreach activities, which includes partnerships with banks that use their digital touchpoints, suggests that various forms of digital communication, likely including advertisements and potentially emails, are part of their strategy to reach a wide audience. Therefore, \"All of the above\" is the most comprehensive and accurate description of their promotional methods.",
+    "error": false
+  },
+  "349c672514fb5de56a80d946b2e8b11c": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: SIP stands for Systematic Investment Plan. This is a method offered by mutual funds that allows an investor to invest a fixed amount of money at regular, pre-defined intervals (such as weekly, monthly, or quarterly). This approach promotes disciplined investing and can help average out the cost of investment over time.",
+    "reasoning": "SIP stands for Systematic Investment Plan. This is a method offered by mutual funds that allows an investor to invest a fixed amount of money at regular, pre-defined intervals (such as weekly, monthly, or quarterly). This approach promotes disciplined investing and can help average out the cost of investment over time.",
+    "error": false
+  },
+  "bfb172403ab5641050d716d8ad11d75b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Price-to-Earnings (P/E) ratio is calculated by dividing a company's stock price by its earnings per share. A high P/E ratio can suggest that investors are optimistic about the company's future growth prospects and are willing to pay a premium for its stock. Conversely, a low P/E ratio might indicate a lack of confidence or lower growth expectations. Therefore, the P/E ratio is a key indicator of market sentiment regarding a company's earnings.\n\n*   **Option A is incorrect** because a company's liquidity, its ability to meet short-term obligations, is measured by ratios such as the current ratio, quick ratio, and cash ratio.\n*   **Option C is incorrect** because the dividend payout ratio is calculated by dividing the annual dividends per share by the earnings per share, or total dividends by net income.\n*   **Option D is incorrect** because a company's debt level is assessed using metrics like the debt-to-equity ratio, debt-to-EBITDA ratio, and interest coverage ratio.",
+    "reasoning": "The Price-to-Earnings (P/E) ratio is calculated by dividing a company's stock price by its earnings per share. A high P/E ratio can suggest that investors are optimistic about the company's future growth prospects and are willing to pay a premium for its stock. Conversely, a low P/E ratio might indicate a lack of confidence or lower growth expectations. Therefore, the P/E ratio is a key indicator of market sentiment regarding a company's earnings.",
+    "error": false
+  },
+  "8b82e4b2e84c1a9ff04c28b1de9e565a": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: The search results indicate that the \"search facility\" in the question likely refers to the Investor Education and Protection Fund (IEPF) authority's portal in India, which helps investors find unclaimed dividends and shares. To use this facility, an individual needs to provide their Permanent Account Number (PAN) or their name along with other basic details like a folio number. This makes \"PAN or shareholder name with basic details\" the most accurate requirement among the given choices. The other options are incorrect as a mobile number is for contact, an ATM PIN is for bank transactions, and a Broker ID is specific to a particular stockbroker.",
+    "reasoning": "The search results indicate that the \"search facility\" in the question likely refers to the Investor Education and Protection Fund (IEPF) authority's portal in India, which helps investors find unclaimed dividends and shares. To use this facility, an individual needs to provide their Permanent Account Number (PAN) or their name along with other basic details like a folio number. This makes \"PAN or shareholder name with basic details\" the most accurate requirement among the given choices. The other options are incorrect as a mobile number is for contact, an ATM PIN is for bank transactions, and a Broker ID is specific to a particular stockbroker.",
+    "error": false
+  },
+  "73f893c5fa59a6c12dfefcc9b8065762": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Chit funds in India are governed by the central Chit Funds Act, 1982. However, the authority to register and regulate these funds is delegated to the respective State Governments. Each state appoints a Registrar of Chits who is responsible for the registration and oversight of chit fund operations within that state. While chit funds are a type of Non-Banking Financial Company (NBFC), they are explicitly exempt from the registration requirements of the Reserve Bank of India (RBI). Similarly, the Securities and Exchange Board of India (SEBI) does not regulate chit funds as they are excluded from its definition of collective investment schemes.",
+    "reasoning": "Chit funds in India are governed by the central Chit Funds Act, 1982. However, the authority to register and regulate these funds is delegated to the respective State Governments. Each state appoints a Registrar of Chits who is responsible for the registration and oversight of chit fund operations within that state. While chit funds are a type of Non-Banking Financial Company (NBFC), they are explicitly exempt from the registration requirements of the Reserve Bank of India (RBI). Similarly, the Securities and Exchange Board of India (SEBI) does not regulate chit funds as they are excluded from its definition of collective investment schemes.",
+    "error": false
+  },
+  "213f214b2d0e756be4a00a1161a81c17": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Financial planning is the process of setting financial goals and creating a comprehensive plan to meet them. This process is fundamental to achieving significant life goals, such as buying a home, funding education, or ensuring a comfortable retirement, thereby securing one's financial future. Financial planning provides clarity and reduces uncertainty, which is the opposite of increasing confusion (A). While it includes tax planning to minimize liabilities, its primary purpose is much broader than simply avoiding taxes (B). It is a structured, risk-managed approach, making it the antithesis of gambling (D).",
+    "reasoning": "Financial planning is the process of setting financial goals and creating a comprehensive plan to meet them. This process is fundamental to achieving significant life goals, such as buying a home, funding education, or ensuring a comfortable retirement, thereby securing one's financial future. Financial planning provides clarity and reduces uncertainty, which is the opposite of increasing confusion (A). While it includes tax planning to minimize liabilities, its primary purpose is much broader than simply avoiding taxes (B). It is a structured, risk-managed approach, making it the antithesis of gambling (D).",
+    "error": false
+  },
+  "e411280e00d99c7975530f2dc3eb0cdc": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: A \"boiler room\" is a term for an operation where salespeople use high-pressure, dishonest tactics to sell speculative or fraudulent investments. This is most commonly done through unsolicited phone calls, known as \"cold calls,\" to peddle questionable securities like penny stocks.",
+    "reasoning": "A \"boiler room\" is a term for an operation where salespeople use high-pressure, dishonest tactics to sell speculative or fraudulent investments. This is most commonly done through unsolicited phone calls, known as \"cold calls,\" to peddle questionable securities like penny stocks.",
+    "error": false
+  },
+  "ce76a45fb4663cdeaeec96968989962b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: UNESCO inscribed yoga on its Representative List of the Intangible Cultural Heritage of Humanity in 2016. The decision was made during the 11th session of the Intergovernmental Committee for the Safeguarding of the Intangible Cultural Heritage in Addis Ababa, Ethiopia. Specifically, the inscription occurred on December 1, 2016.",
+    "reasoning": "UNESCO inscribed yoga on its Representative List of the Intangible Cultural Heritage of Humanity in 2016. The decision was made during the 11th session of the Intergovernmental Committee for the Safeguarding of the Intangible Cultural Heritage in Addis Ababa, Ethiopia. Specifically, the inscription occurred on December 1, 2016.",
+    "error": false
+  },
+  "107e3fe19e863847316fd5ae87c50835": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: According to multiple reports, Prime Minister Shri Narendra Modi embarked on a five-nation tour from July 2 to July 9, 2025, which included visits to two African countries: Ghana and Namibia. His visit to Ghana took place from July 2-3, making it the correct answer among the options provided. The tour was aimed at strengthening diplomatic and economic ties with nations in Africa and Latin America.",
+    "reasoning": "According to multiple reports, Prime Minister Shri Narendra Modi embarked on a five-nation tour from July 2 to July 9, 2025, which included visits to two African countries: Ghana and Namibia. His visit to Ghana took place from July 2-3, making it the correct answer among the options provided. The tour was aimed at strengthening diplomatic and economic ties with nations in Africa and Latin America.",
+    "error": false
+  },
+  "c2ef473f341553b2b23507e7a1ff40d4": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Indian Technical and Economic Cooperation (ITEC) Programme was launched by the Government of India on September 15, 1964. It was established as a bilateral program for technical assistance and cooperation with other developing countries.",
+    "reasoning": "The Indian Technical and Economic Cooperation (ITEC) Programme was launched by the Government of India on September 15, 1964. It was established as a bilateral program for technical assistance and cooperation with other developing countries.",
+    "error": false
+  },
+  "f557e92e3a1a26bd7ed6a3c1bfc88d7f": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: On World Environment Day 2024, Prime Minister Shri Narendra Modi launched the ‘Ek Ped Maa Ke Naam’ campaign. He initiated the campaign by planting a Peepal tree sapling at Buddha Jayanti Park in New Delhi. The initiative encourages citizens to plant a tree as a tribute to their mothers, promoting environmental conservation.",
+    "reasoning": "On World Environment Day 2024, Prime Minister Shri Narendra Modi launched the ‘Ek Ped Maa Ke Naam’ campaign. He initiated the campaign by planting a Peepal tree sapling at Buddha Jayanti Park in New Delhi. The initiative encourages citizens to plant a tree as a tribute to their mothers, promoting environmental conservation.",
+    "error": false
+  },
+  "1e3fcc4b4fec74e561a05ee99a78f572": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The United Nations General Assembly, at its 75th session in March 2021, officially declared 2023 as the International Year of Millets. This resolution was sponsored by India and supported by over 70 other nations to raise awareness about the nutritional and health benefits of millets.",
+    "reasoning": "The United Nations General Assembly, at its 75th session in March 2021, officially declared 2023 as the International Year of Millets. This resolution was sponsored by India and supported by over 70 other nations to raise awareness about the nutritional and health benefits of millets.",
+    "error": false
+  },
+  "9c0800fe3304f9d19fe12be379a5bc3e": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The phrase \"mindful and deliberate utilization, instead of mindless and destructive consumption\" is the core principle of Mission LiFE (Lifestyle for Environment). This India-led global initiative was introduced by Prime Minister Narendra Modi and aims to encourage individuals and communities to adopt environmentally conscious lifestyles. The other options are different initiatives. \"Ek Ped Maa Ke Naam\" is a tree-planting campaign launched on World Environment Day to encourage citizens to plant a tree in their mother's name. \"Mission Pro-Planet\" is not the official name of a mission, but rather, \"Pro-Planet People\" (P3) is a term used within Mission LiFE to describe individuals who commit to environmentally friendly lifestyles.",
+    "reasoning": "The phrase \"mindful and deliberate utilization, instead of mindless and destructive consumption\" is the core principle of Mission LiFE (Lifestyle for Environment). This India-led global initiative was introduced by Prime Minister Narendra Modi and aims to encourage individuals and communities to adopt environmentally conscious lifestyles. The other options are different initiatives. \"Ek Ped Maa Ke Naam\" is a tree-planting campaign launched on World Environment Day to encourage citizens to plant a tree in their mother's name. \"Mission Pro-Planet\" is not the official name of a mission, but rather, \"Pro-Planet People\" (P3) is a term used within Mission LiFE to describe individuals who commit to environmentally friendly lifestyles.",
+    "error": false
+  },
+  "b0073d71057d800df641a4ae68910476": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The United Nations is the most accurate answer. While India is an active, founding member of the World Bank and the International Monetary Fund, the UN is the principal international organization established to promote global peace, security, and cooperation among all nations—the very definition of multilateralism. India's engagement with the UN is founded on its steadfast commitment to multilateralism.\n\nIndia is a founding member of the UN and has consistently advocated for \"reformed multilateralism\" on the global stage, highlighting its deep involvement. The country actively participates in various UN bodies, including peacekeeping operations, to address global challenges. The World Bank and IMF are specialized agencies with a focus on economic and financial cooperation. The African Union is a continental body of which India is not a member.",
+    "reasoning": "The United Nations is the most accurate answer. While India is an active, founding member of the World Bank and the International Monetary Fund, the UN is the principal international organization established to promote global peace, security, and cooperation among all nations—the very definition of multilateralism. India's engagement with the UN is founded on its steadfast commitment to multilateralism.",
+    "error": false
+  },
+  "872bd860d902776172db119d7c708e3b": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The International Solar Alliance (ISA) was launched as a joint effort by India and France on November 30, 2015. The launch event at the COP21 climate conference in Paris was co-chaired by the Prime Minister of India, Narendra Modi, and the then-President of France, François Hollande.",
+    "reasoning": "The International Solar Alliance (ISA) was launched as a joint effort by India and France on November 30, 2015. The launch event at the COP21 climate conference in Paris was co-chaired by the Prime Minister of India, Narendra Modi, and the then-President of France, François Hollande.",
+    "error": false
+  },
+  "838f2c32375ce5a9654084d9a2fc6ea6": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The theme for the 11th International Day of Yoga in 2025 is \"Yoga for One Earth, One Health\". This theme highlights the connection between personal well-being and the health of the planet.\n\nThe other options represent themes from previous years:\n*   \"Yoga for Self and Society\" was the theme for 2024.\n*   \"Yoga for Humanity\" was the theme for 2022.\n*   \"Yoga for Vasudhaiva Kutumbakam\" was the theme for 2023.",
+    "reasoning": "The theme for the 11th International Day of Yoga in 2025 is \"Yoga for One Earth, One Health\". This theme highlights the connection between personal well-being and the health of the planet.",
+    "error": false
+  },
+  "ba44a4f258b37d279d4fde95a3ac56db": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 6,
+    "raw": "Answer: A\nConfidence: 6/10\nReasoning: The premise of the question is factually incorrect based on recent data. The United States, not the UAE, hosts the world's largest Indian diaspora, with a population of approximately 5.4 million. The UAE is second, with about 3.6 million.\n\nHowever, to select the most accurate answer from the given options, we must interpret the question's likely intent. North America as a region, combining the large diaspora in the U.S. with Canada's significant population of roughly 2.9 million, represents the largest regional concentration of the Indian diaspora by a substantial margin. Therefore, even if the question incorrectly places the UAE at number one, the region with the next largest, and in fact the overall largest, diaspora is North America.",
+    "reasoning": "The premise of the question is factually incorrect based on recent data. The United States, not the UAE, hosts the world's largest Indian diaspora, with a population of approximately 5.4 million. The UAE is second, with about 3.6 million.",
+    "error": false
+  },
+  "24ccade7ffe76ea0f7ca996c6baa83aa": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: IEPF-5 is a form used to claim unpaid amounts and shares that have been transferred to the Investor Education and Protection Fund (IEPF). This includes unclaimed dividends, matured deposits, matured debentures, and shares on which dividends have been unclaimed for seven consecutive years. Therefore, the form is directly applicable to unclaimed shares and dividends.",
+    "reasoning": "IEPF-5 is a form used to claim unpaid amounts and shares that have been transferred to the Investor Education and Protection Fund (IEPF). This includes unclaimed dividends, matured deposits, matured debentures, and shares on which dividends have been unclaimed for seven consecutive years. Therefore, the form is directly applicable to unclaimed shares and dividends.",
+    "error": false
+  },
+  "e9f4218a86f945bbab3a44e075938f84": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Debt management is the strategic process of managing and repaying debts in an organized and timely manner. The primary goal is to reduce the financial burden and regain control over one's finances. This involves creating a plan to make regular payments, often by creating a budget, and ensuring debts are paid off efficiently. Options A, B, and D represent actions that are contrary to the principles of effective debt management. Taking on more loans, ignoring payments, and spending excessively would likely worsen a person's debt situation rather than manage it.",
+    "reasoning": "Debt management is the strategic process of managing and repaying debts in an organized and timely manner. The primary goal is to reduce the financial burden and regain control over one's finances. This involves creating a plan to make regular payments, often by creating a budget, and ensuring debts are paid off efficiently. Options A, B, and D represent actions that are contrary to the principles of effective debt management. Taking on more loans, ignoring payments, and spending excessively would likely worsen a person's debt situation rather than manage it.",
+    "error": false
+  },
+  "c1684564b06d2d62a37fe8046e9d1b20": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: A bull market is consistently defined as a period of time when prices in a financial market are rising. This upward trend is often associated with investor optimism and economic growth. The name itself is thought to originate from the way a bull thrusts its horns upward, symbolizing the upward movement of market prices.",
+    "reasoning": "A bull market is consistently defined as a period of time when prices in a financial market are rising. This upward trend is often associated with investor optimism and economic growth. The name itself is thought to originate from the way a bull thrusts its horns upward, symbolizing the upward movement of market prices.",
+    "error": false
+  },
+  "2a47550754501639d118b2929f6b1b1e": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Offer Document is the legal and regulatory document provided by a mutual fund company to prospective investors. It contains all the essential information about the mutual fund scheme, including the investor's rights. The Offer Document typically includes the Scheme Information Document (SID) and the Statement of Additional Information (SAI), which together detail the fund's objectives, investment strategies, risks, fees, and the legal rights and obligations of the investors. A passbook, tax return, and bank statement are personal financial documents and do not contain the specific rights of an investor within a mutual fund.",
+    "reasoning": "The Offer Document is the legal and regulatory document provided by a mutual fund company to prospective investors. It contains all the essential information about the mutual fund scheme, including the investor's rights. The Offer Document typically includes the Scheme Information Document (SID) and the Statement of Additional Information (SAI), which together detail the fund's objectives, investment strategies, risks, fees, and the legal rights and obligations of the investors. A passbook, tax return, and bank statement are personal financial documents and do not contain the specific rights of an investor within a mutual fund.",
+    "error": false
+  },
+  "b8e4b89e4e98260bd320f4eab2eb5fe9": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Investment returns are influenced by a variety of established financial and economic factors. Inflation erodes the purchasing power of returns, meaning that for an investment to be profitable in real terms, its return must outpace the inflation rate. The time horizon is also a critical factor; a longer investment period allows for the power of compounding, where returns on an investment begin to earn their own returns, and can help smooth out market volatility. The risk level of an investment is directly related to its potential return, a principle known as the risk-return tradeoff, where higher potential returns are generally associated with higher risk. In contrast, there is no scientific or financial evidence to support the idea that a person's astrological sign has any influence on investment outcomes. While some sources discuss how personality traits associated with zodiac signs might influence an individual's investment *behavior*, this does not mean the sign itself is a factor that determines the actual return of an investment.",
+    "reasoning": "Investment returns are influenced by a variety of established financial and economic factors. Inflation erodes the purchasing power of returns, meaning that for an investment to be profitable in real terms, its return must outpace the inflation rate. The time horizon is also a critical factor; a longer investment period allows for the power of compounding, where returns on an investment begin to earn their own returns, and can help smooth out market volatility. The risk level of an investment is directly related to its potential return, a principle known as the risk-return tradeoff, where higher potential returns are generally associated with higher risk. In contrast, there is no scientific or financial evidence to support the idea that a person's astrological sign has any influence on investment outcomes. While some sources discuss how personality traits associated with zodiac signs might influence an individual's investment *behavior*, this does not mean the sign itself is a factor that determines the actual return of an investment.",
+    "error": false
+  },
+  "429b5145411e15177194db3166a0378e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Form IEPF-5 is the specific application designated for a rightful claimant to request a refund of shares and unclaimed dividends that have been transferred to the Investor Education and Protection Fund (IEPF). A \"rightful claimant\" can be the original shareholder, a legal heir, a nominee, or a successor of the deceased shareholder, all of whom are entitled to file this form to reclaim their assets.",
+    "reasoning": "Form IEPF-5 is the specific application designated for a rightful claimant to request a refund of shares and unclaimed dividends that have been transferred to the Investor Education and Protection Fund (IEPF). A \"rightful claimant\" can be the original shareholder, a legal heir, a nominee, or a successor of the deceased shareholder, all of whom are entitled to file this form to reclaim their assets.",
+    "error": false
+  },
+  "ab88f885a29b98b4ed904c29bb7d141c": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 8,
+    "raw": "Answer: B\nConfidence: 8\nReasoning: The IEPF-5 form is an official application used specifically for the purpose of claiming unpaid dividends and shares from the Investor Education and Protection Fund (IEPF). While one can also claim tax refunds through an Income Tax form and use a credit note to claim money back from a seller, the IEPF-5 form is a dedicated and direct instrument for making a specific financial claim. Online shopping is a context where a claim might arise, not the method of claiming itself. Therefore, the IEPF-5 form is the most precise answer representing a formal claims process.",
+    "reasoning": "The IEPF-5 form is an official application used specifically for the purpose of claiming unpaid dividends and shares from the Investor Education and Protection Fund (IEPF). While one can also claim tax refunds through an Income Tax form and use a credit note to claim money back from a seller, the IEPF-5 form is a dedicated and direct instrument for making a specific financial claim. Online shopping is a context where a claim might arise, not the method of claiming itself. Therefore, the IEPF-5 form is the most precise answer representing a formal claims process.",
+    "error": false
+  },
+  "0196eb3c130cf7c9d4670f9a06dbe4cb": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 8,
+    "raw": "Answer: A\nConfidence: 8\nReasoning: The phrasing of the options, particularly the mention of \"NRIs\" (Non-Resident Indians) and \"agents,\" strongly implies that the question refers to the search facilities of India's Ministry of Corporate Affairs (MCA). The MCA provides public access to company data. While a basic search for company master data is free, accessing and downloading specific public documents is a paid service. A fee, typically around Rs. 100 per company, is charged for viewing and downloading detailed documents like financial statements and annual returns for a limited time. Since accessing these detailed documents, a key part of the \"search facility,\" requires payment, the facility as a whole is not free.",
+    "reasoning": "The phrasing of the options, particularly the mention of \"NRIs\" (Non-Resident Indians) and \"agents,\" strongly implies that the question refers to the search facilities of India's Ministry of Corporate Affairs (MCA). The MCA provides public access to company data. While a basic search for company master data is free, accessing and downloading specific public documents is a paid service. A fee, typically around Rs. 100 per company, is charged for viewing and downloading detailed documents like financial statements and annual returns for a limited time. Since accessing these detailed documents, a key part of the \"search facility,\" requires payment, the facility as a whole is not free.",
+    "error": false
+  },
+  "f540f638e20ff605972c68795b67f6c1": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The IEPFA Search Facility allows users to search for unclaimed shares and dividends using several pieces of information. The most fundamental and commonly required information is the investor's name. Additionally, the investor's PAN (Permanent Account Number) can also be used to conduct a search. While other details like folio number or company name can be used, a search can be initiated with just the investor's name, making it the minimum required information. Therefore, \"Investor’s PAN or name\" is the most accurate answer.",
+    "reasoning": "The IEPFA Search Facility allows users to search for unclaimed shares and dividends using several pieces of information. The most fundamental and commonly required information is the investor's name. Additionally, the investor's PAN (Permanent Account Number) can also be used to conduct a search. While other details like folio number or company name can be used, a search can be initiated with just the investor's name, making it the minimum required information. Therefore, \"Investor’s PAN or name\" is the most accurate answer.",
+    "error": false
+  },
+  "d932a5d1a10f99e79a1eb1d4afe619f3": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Investor Education and Protection Fund Authority (IEPFA) is primarily responsible for managing the Investor Education and Protection Fund, which includes handling unclaimed dividends, matured deposits, and shares. One of its key functions is to facilitate the refund of these unclaimed assets to the rightful investors. The other options are not functions of the IEPFA; issuing bank loans is done by banks, GST recovery is handled by tax authorities, and printing currency is the responsibility of the central bank.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) is primarily responsible for managing the Investor Education and Protection Fund, which includes handling unclaimed dividends, matured deposits, and shares. One of its key functions is to facilitate the refund of these unclaimed assets to the rightful investors. The other options are not functions of the IEPFA; issuing bank loans is done by banks, GST recovery is handled by tax authorities, and printing currency is the responsibility of the central bank.",
+    "error": false
+  },
+  "83cdc7ae6549fd475686dad2c23839ff": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: A promise of a 50% return in one month is an exceptionally high and unrealistic return, which is a major red flag for investment fraud. Legitimate investments always carry a level of risk, and returns are subject to market conditions. Verification by the Securities and Exchange Board of India (SEBI) and registration on the Ministry of Corporate Affairs (MCA) site are signs of legitimacy and regulatory compliance, not red flags. A transparent structure is also a positive attribute, as it allows investors to make informed decisions and understand the risks involved.",
+    "reasoning": "A promise of a 50% return in one month is an exceptionally high and unrealistic return, which is a major red flag for investment fraud. Legitimate investments always carry a level of risk, and returns are subject to market conditions. Verification by the Securities and Exchange Board of India (SEBI) and registration on the Ministry of Corporate Affairs (MCA) site are signs of legitimacy and regulatory compliance, not red flags. A transparent structure is also a positive attribute, as it allows investors to make informed decisions and understand the risks involved.",
+    "error": false
+  },
+  "0643dadd4e12c1f8d32019ae215371cc": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The overwhelming consensus from financial experts is that the earlier one starts investing, the better. This is primarily due to the power of compound interest, where earnings from an investment are reinvested to generate their own earnings. Starting at age 18 provides the longest possible time horizon for investments to grow and ride out market fluctuations. While it's never too late to start, beginning at 40, 55, or 70 significantly reduces the time available for compounding to work its magic, requiring much larger contributions to achieve the same financial goals.",
+    "reasoning": "The overwhelming consensus from financial experts is that the earlier one starts investing, the better. This is primarily due to the power of compound interest, where earnings from an investment are reinvested to generate their own earnings. Starting at age 18 provides the longest possible time horizon for investments to grow and ride out market fluctuations. While it's never too late to start, beginning at 40, 55, or 70 significantly reduces the time available for compounding to work its magic, requiring much larger contributions to achieve the same financial goals.",
+    "error": false
+  },
+  "d29326817240fc88b7ecf580352db03a": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: A core characteristic and major red flag of a Ponzi scheme is the promise of high returns with little to no risk. Legitimate investments always carry some degree of risk, and returns are typically not guaranteed. In a Ponzi scheme, these \"returns\" are not generated by actual business activities but are paid to earlier investors using the funds from new investors. The other options are signs of legitimate investments: returns tied to market performance, transparency, and registration with regulatory bodies are all hallmarks of credible investment opportunities.",
+    "reasoning": "A core characteristic and major red flag of a Ponzi scheme is the promise of high returns with little to no risk. Legitimate investments always carry some degree of risk, and returns are typically not guaranteed. In a Ponzi scheme, these \"returns\" are not generated by actual business activities but are paid to earlier investors using the funds from new investors. The other options are signs of legitimate investments: returns tied to market performance, transparency, and registration with regulatory bodies are all hallmarks of credible investment opportunities.",
+    "error": false
+  },
+  "aca3aa5afb0dc0ffc14bc06b85a713a3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Fake investment applications are frequently hosted on and distributed through fraudulent or unknown websites created by scammers. These websites are often promoted through social media, messaging apps, and phishing campaigns. While some malicious apps have been found on trusted platforms like the Apple App Store and Google Play Store, they are often quickly removed and criminals also rely on distribution via these separate websites. They are not hosted on legitimate bank websites or government portals like the RBI portal.",
+    "reasoning": "Fake investment applications are frequently hosted on and distributed through fraudulent or unknown websites created by scammers. These websites are often promoted through social media, messaging apps, and phishing campaigns. While some malicious apps have been found on trusted platforms like the Apple App Store and Google Play Store, they are often quickly removed and criminals also rely on distribution via these separate websites. They are not hosted on legitimate bank websites or government portals like the RBI portal.",
+    "error": false
+  },
+  "8fc100f00190a7daade718ab9ecb5c4d": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Karnam Malleswari made history by becoming the first Indian woman to win an Olympic medal at the Sydney 2000 Olympics. She secured the bronze medal in the 69 kg weightlifting category by lifting a total of 240 kg. This achievement was a significant moment for Indian sports and inspired many female athletes in the country.",
+    "reasoning": "Karnam Malleswari made history by becoming the first Indian woman to win an Olympic medal at the Sydney 2000 Olympics. She secured the bronze medal in the 69 kg weightlifting category by lifting a total of 240 kg. This achievement was a significant moment for Indian sports and inspired many female athletes in the country.",
+    "error": false
+  },
+  "ec50bbbeb3139a8f099120f48715c326": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Mahendra Singh Dhoni was the captain of the Indian cricket team that won the ICC Cricket World Cup in 2011. He played a crucial role in the final match, scoring an unbeaten 91 runs to lead India to victory. The tournament was co-hosted by India, Sri Lanka, and Bangladesh, and it was the second time India had won the prestigious trophy.",
+    "reasoning": "Mahendra Singh Dhoni was the captain of the Indian cricket team that won the ICC Cricket World Cup in 2011. He played a crucial role in the final match, scoring an unbeaten 91 runs to lead India to victory. The tournament was co-hosted by India, Sri Lanka, and Bangladesh, and it was the second time India had won the prestigious trophy.",
+    "error": false
+  },
+  "0712ac22c5d1e4e10b0ac5d055250e39": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Neeraj Chopra is an accomplished Indian athlete specializing in the javelin throw. He has secured gold medals in numerous prestigious international competitions. Notably, he became the first Indian track and field athlete to win a gold medal at the Olympics during the Tokyo 2020 Games. His success extends to the World Athletics Championships, where he also won gold in 2023. Furthermore, Chopra has won gold at the Asian Games and Commonwealth Games, consistently competing and winning in the javelin throw event.",
+    "reasoning": "Neeraj Chopra is an accomplished Indian athlete specializing in the javelin throw. He has secured gold medals in numerous prestigious international competitions. Notably, he became the first Indian track and field athlete to win a gold medal at the Olympics during the Tokyo 2020 Games. His success extends to the World Athletics Championships, where he also won gold in 2023. Furthermore, Chopra has won gold at the Asian Games and Commonwealth Games, consistently competing and winning in the javelin throw event.",
+    "error": false
+  },
+  "4f6c5e82d5681db912073fa5b6eaf9d3": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: India has never won a medal at the Winter Olympics. While Shiva Keshavan is a six-time Winter Olympian and a decorated athlete in luge at the Asian level, he has not won an Olympic medal. Arif Khan is an alpine skier who represented India at the 2022 Winter Olympics but did not win a medal.",
+    "reasoning": "India has never won a medal at the Winter Olympics. While Shiva Keshavan is a six-time Winter Olympian and a decorated athlete in luge at the Asian level, he has not won an Olympic medal. Arif Khan is an alpine skier who represented India at the 2022 Winter Olympics but did not win a medal.",
+    "error": false
+  },
+  "c0f662e5ec22c8cde9ea26d39e47aba4": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mary Kom is the correct answer as she was the first Indian woman to win a gold medal at the AIBA Women's World Boxing Championships in 2002. Nikhat Zareen won her first gold medal at the World Championships in 2022. Lovlina Borgohain won her first gold in 2023. Pinki Rani has won a bronze medal at the Commonwealth Games but has not won a gold medal at the World Championships.",
+    "reasoning": "Mary Kom is the correct answer as she was the first Indian woman to win a gold medal at the AIBA Women's World Boxing Championships in 2002. Nikhat Zareen won her first gold medal at the World Championships in 2022. Lovlina Borgohain won her first gold in 2023. Pinki Rani has won a bronze medal at the Commonwealth Games but has not won a gold medal at the World Championships.",
+    "error": false
+  },
+  "c13061df610992483f21d8d73b7f0a57": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Murlikant Petkar is India's first male Paralympic gold medalist. He achieved this feat by winning a gold medal in the 50m freestyle swimming event at the 1972 Summer Paralympics in Heidelberg, Germany, setting a world record time of 37.33 seconds. Devendra Jhajharia won his first gold medal in 2004, Sumit Antil in 2021 for the 2020 Games, and Sundar Singh Gurjar has won a bronze medal.",
+    "reasoning": "Murlikant Petkar is India's first male Paralympic gold medalist. He achieved this feat by winning a gold medal in the 50m freestyle swimming event at the 1972 Summer Paralympics in Heidelberg, Germany, setting a world record time of 37.33 seconds. Devendra Jhajharia won his first gold medal in 2004, Sumit Antil in 2021 for the 2020 Games, and Sundar Singh Gurjar has won a bronze medal.",
+    "error": false
+  },
+  "b3a6c997a62def22e2a72a8cb02da761": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 8,
+    "raw": "Answer: B\nConfidence: 8\nReasoning: While no Indian male boxer has won a gold medal at the World Boxing Championships to be crowned a \"champion,\" Vijender Singh was the first to secure a medal for India in the tournament's history. He won a bronze medal at the 2009 World Championships in Milan. Amit Panghal later became the first Indian male boxer to win a silver medal in 2019.",
+    "reasoning": "While no Indian male boxer has won a gold medal at the World Boxing Championships to be crowned a \"champion,\" Vijender Singh was the first to secure a medal for India in the tournament's history. He won a bronze medal at the 2009 World Championships in Milan. Amit Panghal later became the first Indian male boxer to win a silver medal in 2019.",
+    "error": false
+  },
+  "d6935ec062f7ceccb6aeee0b1e648d10": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Dipa Karmakar created history by becoming the first Indian female gymnast to qualify for the Olympics. She represented India at the 2016 Rio Olympics. Pranati Nayak was the second Indian female gymnast to compete in the Olympics, participating in the 2020 Tokyo Olympics. Deepa Malik is a celebrated Paralympic athlete who won a silver medal in shot put at the 2016 Rio Paralympics and is not a gymnast. There is no evidence to suggest that Ashmita Chatterjee has competed in gymnastics at the Olympic level.",
+    "reasoning": "Dipa Karmakar created history by becoming the first Indian female gymnast to qualify for the Olympics. She represented India at the 2016 Rio Olympics. Pranati Nayak was the second Indian female gymnast to compete in the Olympics, participating in the 2020 Tokyo Olympics. Deepa Malik is a celebrated Paralympic athlete who won a silver medal in shot put at the 2016 Rio Paralympics and is not a gymnast. There is no evidence to suggest that Ashmita Chatterjee has competed in gymnastics at the Olympic level.",
+    "error": false
+  },
+  "3bbf699d440c349b809106fc9ce41453": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Kamaljit Sandhu was the first Indian woman to win a gold medal in the 400m race at the Asian Games, achieving this feat at the 1970 Bangkok Asian Games. She completed the race in 57.3 seconds. P.T. Usha won her 400m Asian Games gold medal later, in 1986. Hima Das won a silver medal in the individual 400m race at the 2018 Asian Games. M.L. Valsamma won a gold medal in the 400m hurdles, not the 400m race, at the 1982 Asian Games.",
+    "reasoning": "Kamaljit Sandhu was the first Indian woman to win a gold medal in the 400m race at the Asian Games, achieving this feat at the 1970 Bangkok Asian Games. She completed the race in 57.3 seconds. P.T. Usha won her 400m Asian Games gold medal later, in 1986. Hima Das won a silver medal in the individual 400m race at the 2018 Asian Games. M.L. Valsamma won a gold medal in the 400m hurdles, not the 400m race, at the 1982 Asian Games.",
+    "error": false
+  },
+  "96cac05a018920182477d8d3f4993e84": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: P.V. Sindhu won her Olympic silver medal at the 2016 Rio Olympics. She became the first Indian woman to win an Olympic silver medal after a hard-fought final against Spain's Carolina Marín.",
+    "reasoning": "P.V. Sindhu won her Olympic silver medal at the 2016 Rio Olympics. She became the first Indian woman to win an Olympic silver medal after a hard-fought final against Spain's Carolina Marín.",
+    "error": false
+  },
+  "2ab68a3df3b8a542af1ca0eb68aabc74": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Indian Space Research Organisation (ISRO) is headquartered in Bengaluru, Karnataka. The main administrative offices, including the Secretariat of the Department of Space (DOS) and ISRO Headquarters, are located at Antariksh Bhavan in Bengaluru. While other cities like Thiruvananthapuram, Hyderabad, and Chennai have significant ISRO facilities, Bengaluru serves as the central headquarters for the organization.",
+    "reasoning": "The Indian Space Research Organisation (ISRO) is headquartered in Bengaluru, Karnataka. The main administrative offices, including the Secretariat of the Department of Space (DOS) and ISRO Headquarters, are located at Antariksh Bhavan in Bengaluru. While other cities like Thiruvananthapuram, Hyderabad, and Chennai have significant ISRO facilities, Bengaluru serves as the central headquarters for the organization.",
+    "error": false
+  },
+  "4783d03d35b2987ad480fe1cf964c462": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The first seismometer placed on the Moon was the Passive Seismic Experiment, deployed by the crew of Apollo 11 in 1969. This instrument, part of the Early Apollo Surface Experiments Package (EASEP), was the first to be placed on a planetary body other than Earth. While the Apollo 11 seismometer operated for only three weeks, it provided the first useful data on lunar seismology. More advanced seismometers were subsequently deployed on the Apollo 12, 14, 15, and 16 missions.",
+    "reasoning": "The first seismometer placed on the Moon was the Passive Seismic Experiment, deployed by the crew of Apollo 11 in 1969. This instrument, part of the Early Apollo Surface Experiments Package (EASEP), was the first to be placed on a planetary body other than Earth. While the Apollo 11 seismometer operated for only three weeks, it provided the first useful data on lunar seismology. More advanced seismometers were subsequently deployed on the Apollo 12, 14, 15, and 16 missions.",
+    "error": false
+  },
+  "2d41bee94543cd3920371f8143ce7988": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The construction on the Small Satellite Launch Vehicle (SSLV) Launch Complex in Kulasekarapattinam, Tamil Nadu, officially started on March 5, 2025. This was marked by a groundbreaking ceremony for the key facilities. While the foundation stone for the complex was laid by the Prime Minister on February 28, 2024, the actual construction work commenced in the following year.",
+    "reasoning": "The construction on the Small Satellite Launch Vehicle (SSLV) Launch Complex in Kulasekarapattinam, Tamil Nadu, officially started on March 5, 2025. This was marked by a groundbreaking ceremony for the key facilities. While the foundation stone for the complex was laid by the Prime Minister on February 28, 2024, the actual construction work commenced in the following year.",
+    "error": false
+  },
+  "1111e7c1837490b228eb2e3fc2f13e7b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: The Lunar Reconnaissance Orbiter (LRO) mission, which launched in 2009, included international participation. Specifically, Russia's Institute for Space Research, which falls under Roscosmos, provided the Lunar Exploration Neutron Detector (LEND) instrument for the spacecraft. While NASA also utilized data from Japan's Kaguya orbiter and German scientists supported the mission, the direct hardware collaboration on an instrument came from Russia.",
+    "reasoning": "The Lunar Reconnaissance Orbiter (LRO) mission, which launched in 2009, included international participation. Specifically, Russia's Institute for Space Research, which falls under Roscosmos, provided the Lunar Exploration Neutron Detector (LEND) instrument for the spacecraft. While NASA also utilized data from Japan's Kaguya orbiter and German scientists supported the mission, the direct hardware collaboration on an instrument came from Russia.",
+    "error": false
+  },
+  "034b8a002ebc0c72778563370469bec1": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 7,
+    "raw": "Answer: D\nConfidence: 7\nReasoning: While some official statements in early 2025 pointed to a 2027 launch, more recent reports from August 2025 indicate that the Chandrayaan-4 mission is expected in 2028. An ISRO national science meet in April 2025 also mentioned a planned launch timeframe of 2027-2028. Given that space mission timelines are often subject to adjustments, the latest information suggests 2028 is the most probable launch year.",
+    "reasoning": "While some official statements in early 2025 pointed to a 2027 launch, more recent reports from August 2025 indicate that the Chandrayaan-4 mission is expected in 2028. An ISRO national science meet in April 2025 also mentioned a planned launch timeframe of 2027-2028. Given that space mission timelines are often subject to adjustments, the latest information suggests 2028 is the most probable launch year.",
+    "error": false
+  },
+  "e5725a658427cba684c047c2a57a8774": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: In 1609, Galileo Galilei used a telescope he constructed to observe the Moon. He discovered that, contrary to the prevailing belief that celestial bodies were perfect spheres, the Moon's surface was uneven, rough, and featured mountains and valleys, much like Earth. Galileo published his detailed observations and sketches in his work \"Sidereus Nuncius\" (The Starry Messenger) in 1610, which made his discoveries widely known. While English astronomer Thomas Harriot also observed the Moon with a telescope a few months before Galileo in 1609 and created maps showing mountains, he did not publish his findings at the time. Therefore, Galileo is credited with describing the mountainous surface of the Moon.",
+    "reasoning": "In 1609, Galileo Galilei used a telescope he constructed to observe the Moon. He discovered that, contrary to the prevailing belief that celestial bodies were perfect spheres, the Moon's surface was uneven, rough, and featured mountains and valleys, much like Earth. Galileo published his detailed observations and sketches in his work \"Sidereus Nuncius\" (The Starry Messenger) in 1610, which made his discoveries widely known. While English astronomer Thomas Harriot also observed the Moon with a telescope a few months before Galileo in 1609 and created maps showing mountains, he did not publish his findings at the time. Therefore, Galileo is credited with describing the mountainous surface of the Moon.",
+    "error": false
+  },
+  "7d0801edf47a5be130beef62c8abd859": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Apollo 15 mission, which launched on July 26, 1971, was the first to carry a Lunar Roving Vehicle (LRV) to the Moon. Astronauts David Scott and James Irwin became the first humans to drive on the lunar surface on July 31, 1971. The LRV, a battery-powered \"dune buggy,\" was used on the last three Apollo missions (15, 16, and 17) to greatly expand the area astronauts could explore.\n\n*   **Apollo-11** was the first mission to land humans on the Moon in 1969, but the astronauts explored on foot.\n*   **Luna-2** was a Soviet spacecraft that became the first human-made object to impact the Moon in 1959; it did not carry a vehicle.\n*   **Sputnik-1** was the first artificial satellite launched into Earth's orbit by the Soviet Union in 1957 and was not a lunar mission.",
+    "reasoning": "The Apollo 15 mission, which launched on July 26, 1971, was the first to carry a Lunar Roving Vehicle (LRV) to the Moon. Astronauts David Scott and James Irwin became the first humans to drive on the lunar surface on July 31, 1971. The LRV, a battery-powered \"dune buggy,\" was used on the last three Apollo missions (15, 16, and 17) to greatly expand the area astronauts could explore.",
+    "error": false
+  },
+  "b2c2f38769c6181d3f1a41cb6dfd7a24": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Soviet Union's Luna program was the first to reach the Moon. The Luna 1 spacecraft was the first to fly by the Moon in January 1959. Later that year, in September, Luna 2 became the first man-made object to impact the lunar surface. The Soviet Union also achieved the first soft landing on the Moon with Luna 9 in 1966. While the USA was the first to land humans on the Moon in 1969 with the Apollo 11 mission, the Soviet Union's uncrewed spacecraft were the first to visit.",
+    "reasoning": "The Soviet Union's Luna program was the first to reach the Moon. The Luna 1 spacecraft was the first to fly by the Moon in January 1959. Later that year, in September, Luna 2 became the first man-made object to impact the lunar surface. The Soviet Union also achieved the first soft landing on the Moon with Luna 9 in 1966. While the USA was the first to land humans on the Moon in 1969 with the Apollo 11 mission, the Soviet Union's uncrewed spacecraft were the first to visit.",
+    "error": false
+  },
+  "376d17f6ad9c79984b6bf01b41ac5c88": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: There are two primary definitions for a lunar month. A \"sidereal month\" is the time it takes the Moon to orbit Earth in relation to the stars, which is approximately 27.3 days. However, the term \"lunar month\" more commonly refers to the \"synodic month,\" which is the time it takes for the Moon to cycle through all its phases, such as from one new moon to the next. This synodic period lasts about 29.5 days, making it the most accurate answer in the context of a general knowledge question.",
+    "reasoning": "There are two primary definitions for a lunar month. A \"sidereal month\" is the time it takes the Moon to orbit Earth in relation to the stars, which is approximately 27.3 days. However, the term \"lunar month\" more commonly refers to the \"synodic month,\" which is the time it takes for the Moon to cycle through all its phases, such as from one new moon to the next. This synodic period lasts about 29.5 days, making it the most accurate answer in the context of a general knowledge question.",
+    "error": false
+  },
+  "d328a32c36444005b14dde982e0e80ee": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 4,
+    "raw": "Answer: B\nConfidence: 4/10\nReasoning: In August 2025, ISRO successfully conducted the first Integrated Air Drop Test (IADT-01), which validated the entire parachute-based deceleration system for the Gaganyaan crew module. This complex system comprises multiple parachutes deploying in a precise sequence. The sequence begins with Apex Cover Separation parachutes, followed by two Drogue parachutes for initial stabilization and deceleration. Subsequently, three pilot parachutes are deployed to extract the three main parachutes, which slow the module for a safe splashdown.\n\nThe question is potentially flawed as the test qualified the entire integrated system, including the drogue, pilot, and main parachutes. However, selecting the Drogue parachute is a reasonable choice as it performs the critical first stage of the crew module's deceleration from high speeds. Options A and C, the Main and Pilot parachutes, were also successfully tested as part of this integrated system. Option D is incorrect as there is no mention of a \"Ribbon parachute\" being part of this specific qualification test.",
+    "reasoning": "In August 2025, ISRO successfully conducted the first Integrated Air Drop Test (IADT-01), which validated the entire parachute-based deceleration system for the Gaganyaan crew module. This complex system comprises multiple parachutes deploying in a precise sequence. The sequence begins with Apex Cover Separation parachutes, followed by two Drogue parachutes for initial stabilization and deceleration. Subsequently, three pilot parachutes are deployed to extract the three main parachutes, which slow the module for a safe splashdown.",
+    "error": false
+  },
+  "5da5a0e7ce92eb8ca0c1217add201869": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Neil Armstrong was the commander of the Apollo 11 mission and became the first human to step onto the lunar surface on July 20, 1969. Buzz Aldrin was the second person to walk on the Moon during the same mission. Michael Collins was the command module pilot for Apollo 11 and remained in orbit around the Moon. Alan Shepard was the first American in space and walked on the Moon during the later Apollo 14 mission.",
+    "reasoning": "Neil Armstrong was the commander of the Apollo 11 mission and became the first human to step onto the lunar surface on July 20, 1969. Buzz Aldrin was the second person to walk on the Moon during the same mission. Michael Collins was the command module pilot for Apollo 11 and remained in orbit around the Moon. Alan Shepard was the first American in space and walked on the Moon during the later Apollo 14 mission.",
+    "error": false
+  },
+  "c075b72a7e3ad2aac6d992540ecc3265": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: On the Moon, there is virtually no atmosphere, which means there is no air resistance to slow down falling objects. In a vacuum, all objects, regardless of their mass or shape, fall at the same rate due to gravity. This principle was famously demonstrated by Apollo 15 astronaut David Scott, who dropped a hammer and a feather simultaneously on the lunar surface. Both objects were observed to hit the ground at the same time, confirming Galileo's theory that without air resistance, all objects accelerate downward at the same rate.",
+    "reasoning": "On the Moon, there is virtually no atmosphere, which means there is no air resistance to slow down falling objects. In a vacuum, all objects, regardless of their mass or shape, fall at the same rate due to gravity. This principle was famously demonstrated by Apollo 15 astronaut David Scott, who dropped a hammer and a feather simultaneously on the lunar surface. Both objects were observed to hit the ground at the same time, confirming Galileo's theory that without air resistance, all objects accelerate downward at the same rate.",
+    "error": false
+  },
+  "e67e22fe2371d5b9168a95e09458972c": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The lunar highlands are the oldest parts of the Moon's surface, dating back more than 4 billion years. Because of their age, they have been exposed to meteorite impacts for a much longer period than other regions, resulting in a heavy density of craters. In contrast, the maria (or \"seas\") are younger, darker plains of solidified lava that flooded large impact basins, covering up many of the older craters. Therefore, the maria are much less cratered than the highlands. While the polar regions do contain craters, and the near side of the Moon has large basins, the highlands are distinctly characterized by their extensive and overlapping craters.",
+    "reasoning": "The lunar highlands are the oldest parts of the Moon's surface, dating back more than 4 billion years. Because of their age, they have been exposed to meteorite impacts for a much longer period than other regions, resulting in a heavy density of craters. In contrast, the maria (or \"seas\") are younger, darker plains of solidified lava that flooded large impact basins, covering up many of the older craters. Therefore, the maria are much less cratered than the highlands. While the polar regions do contain craters, and the near side of the Moon has large basins, the highlands are distinctly characterized by their extensive and overlapping craters.",
+    "error": false
+  },
+  "67f4170f6d4bb698c3a684f56874a711": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Chandrayaan-2 orbiter, the Korean Pathfinder Lunar Orbiter (also known as Danuri), and the Lunar Reconnaissance Orbiter are all currently in orbit around the Moon. The Artemis 1 mission, an uncrewed test flight, concluded in December 2022 after the Orion spacecraft orbited the Moon and returned to Earth with a splashdown in the Pacific Ocean. Therefore, the Artemis 1 spacecraft is not currently around the Moon.",
+    "reasoning": "The Chandrayaan-2 orbiter, the Korean Pathfinder Lunar Orbiter (also known as Danuri), and the Lunar Reconnaissance Orbiter are all currently in orbit around the Moon. The Artemis 1 mission, an uncrewed test flight, concluded in December 2022 after the Orion spacecraft orbited the Moon and returned to Earth with a splashdown in the Pacific Ocean. Therefore, the Artemis 1 spacecraft is not currently around the Moon.",
+    "error": false
+  },
+  "6a27818fb90d7d4f0b48a43b1492c5f2": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The conversion from Celsius to Fahrenheit is calculated using the formula: °F = (°C × 9/5) + 32. Plugging in 100 degrees Celsius, the equation becomes (°F = (100 × 9/5) + 32), which simplifies to 180 + 32 = 212°F. Therefore, 100 degrees Celsius is equivalent to 212 degrees Fahrenheit, regardless of the location.",
+    "reasoning": "The conversion from Celsius to Fahrenheit is calculated using the formula: °F = (°C × 9/5) + 32. Plugging in 100 degrees Celsius, the equation becomes (°F = (100 × 9/5) + 32), which simplifies to 180 + 32 = 212°F. Therefore, 100 degrees Celsius is equivalent to 212 degrees Fahrenheit, regardless of the location.",
+    "error": false
+  },
+  "a4f2e1f7b6bdddf6cc46173549b203e6": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A\nConfidence: 9\nReasoning: The Indian Space Research Organisation (ISRO) successfully conducted a crucial vacuum ignition test of its indigenously developed CE-20 cryogenic engine on February 7, 2025. This test was specifically aimed at validating the engine's in-flight restart capability under vacuum conditions that simulate space. While the question specifies January 2025, the early February test is the only one reported for any of the listed engines that directly relates to in-flight restart validation during that period. The CE-20 engine is a critical component for the upper stage of the LVM-3 rocket and is also planned for use in the Gaganyaan mission.",
+    "reasoning": "The Indian Space Research Organisation (ISRO) successfully conducted a crucial vacuum ignition test of its indigenously developed CE-20 cryogenic engine on February 7, 2025. This test was specifically aimed at validating the engine's in-flight restart capability under vacuum conditions that simulate space. While the question specifies January 2025, the early February test is the only one reported for any of the listed engines that directly relates to in-flight restart validation during that period. The CE-20 engine is a critical component for the upper stage of the LVM-3 rocket and is also planned for use in the Gaganyaan mission.",
+    "error": false
+  },
+  "3d8777fa1202fb6634bf88cc07133126": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The dark patches seen on the surface of the Moon are called \"maria\" (the plural of \"mare\"), which is the Latin word for \"seas\". Early astronomers named them this because they mistook the dark, smooth plains for actual seas. These areas are in fact vast, flat plains of dark basaltic rock that formed from ancient volcanic eruptions. The lunar highlands are the lighter-colored, mountainous regions, and rilles are long, narrow channels on the lunar surface.",
+    "reasoning": "The dark patches seen on the surface of the Moon are called \"maria\" (the plural of \"mare\"), which is the Latin word for \"seas\". Early astronomers named them this because they mistook the dark, smooth plains for actual seas. These areas are in fact vast, flat plains of dark basaltic rock that formed from ancient volcanic eruptions. The lunar highlands are the lighter-colored, mountainous regions, and rilles are long, narrow channels on the lunar surface.",
+    "error": false
+  },
+  "1e368e2bdaa9300f8d1cb7d3f059bc3e": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: India's first lunar mission, Chandrayaan-1, consisted of a main spacecraft that orbited the Moon and a separate probe known as the Moon Impact Probe (MIP). The orbiter carried several scientific instruments for remote sensing, while the MIP was designed to be released from the orbiter and deliberately crash into the lunar surface. On November 14, 2008, the Moon Impact Probe successfully separated from the orbiter and struck the lunar south pole, making India the fourth nation to reach the lunar surface. The mission did not include a lander or a rover.",
+    "reasoning": "India's first lunar mission, Chandrayaan-1, consisted of a main spacecraft that orbited the Moon and a separate probe known as the Moon Impact Probe (MIP). The orbiter carried several scientific instruments for remote sensing, while the MIP was designed to be released from the orbiter and deliberately crash into the lunar surface. On November 14, 2008, the Moon Impact Probe successfully separated from the orbiter and struck the lunar south pole, making India the fourth nation to reach the lunar surface. The mission did not include a lander or a rover.",
+    "error": false
+  },
+  "36a43d002707e91f59ea7ca15f420101": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Apollo 11 mission, which successfully landed the first humans on the Moon, took place in July 1969. The lunar module, named Eagle, touched down on the lunar surface on July 20, 1969.",
+    "reasoning": "The Apollo 11 mission, which successfully landed the first humans on the Moon, took place in July 1969. The lunar module, named Eagle, touched down on the lunar surface on July 20, 1969.",
+    "error": false
+  },
+  "f6c262417f915d846c4e213572f28972": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: West Bengal is the most successful team in the history of the Santosh Trophy, having won the tournament a record 33 times. Their dominance is underscored by the fact that the next most successful team, Punjab, has won the title eight times. Kerala has won it seven times, and Goa has five titles. West Bengal also won the inaugural tournament in 1941-42.",
+    "reasoning": "West Bengal is the most successful team in the history of the Santosh Trophy, having won the tournament a record 33 times. Their dominance is underscored by the fact that the next most successful team, Punjab, has won the title eight times. Kerala has won it seven times, and Goa has five titles. West Bengal also won the inaugural tournament in 1941-42.",
+    "error": false
+  },
+  "c630d11cbc65549f241047fed2b31b7b": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Harmanpreet Kaur is the first Indian woman to score a century in T20 International cricket. She achieved this feat on November 9, 2018, during the ICC Women's World T20 match against New Zealand, where she scored 103 runs off just 51 balls.",
+    "reasoning": "Harmanpreet Kaur is the first Indian woman to score a century in T20 International cricket. She achieved this feat on November 9, 2018, during the ICC Women's World T20 match against New Zealand, where she scored 103 runs off just 51 balls.",
+    "error": false
+  },
+  "b535cb877603b28b0682969afa4f25f4": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Neeraj Chopra secured India's only gold medal at the Tokyo Olympics in the men's javelin throw. This historic win marked India's first-ever Olympic gold in athletics. While the other athletes listed are celebrated Olympians, with PV Sindhu winning a bronze medal in badminton at the same games, it was Neeraj Chopra who stood on top of the podium with a gold.",
+    "reasoning": "Neeraj Chopra secured India's only gold medal at the Tokyo Olympics in the men's javelin throw. This historic win marked India's first-ever Olympic gold in athletics. While the other athletes listed are celebrated Olympians, with PV Sindhu winning a bronze medal in badminton at the same games, it was Neeraj Chopra who stood on top of the podium with a gold.",
+    "error": false
+  },
+  "fd4c05fbf6d9a87b8329a3e9f9f7f489": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Zaheer Khan of India and Shahid Afridi of Pakistan were the joint highest wicket-takers in the 2011 ICC Cricket World Cup, with both bowlers claiming 21 wickets each. Since Shahid Afridi is not an option, Zaheer Khan is the correct answer among the given choices. Lasith Malinga and Brett Lee both took 13 wickets in the tournament.",
+    "reasoning": "Zaheer Khan of India and Shahid Afridi of Pakistan were the joint highest wicket-takers in the 2011 ICC Cricket World Cup, with both bowlers claiming 21 wickets each. Since Shahid Afridi is not an option, Zaheer Khan is the correct answer among the given choices. Lasith Malinga and Brett Lee both took 13 wickets in the tournament.",
+    "error": false
+  },
+  "4c0e5987cef921ae3f387cc72e2d9660": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mary Kom created history at the 2012 London Olympics by becoming the first Indian woman boxer to win an Olympic medal. She secured a bronze medal in the flyweight (51 kg) category. Lovlina Borgohain also won a bronze medal in boxing, but this was at the later 2020 Tokyo Olympics. Nikhat Zareen and Pinki Rani have not won Olympic medals.",
+    "reasoning": "Mary Kom created history at the 2012 London Olympics by becoming the first Indian woman boxer to win an Olympic medal. She secured a bronze medal in the flyweight (51 kg) category. Lovlina Borgohain also won a bronze medal in boxing, but this was at the later 2020 Tokyo Olympics. Nikhat Zareen and Pinki Rani have not won Olympic medals.",
+    "error": false
+  },
+  "0de8183f94839fa8b9dd74aeb6f8c022": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mirabai Chanu secured India's first medal at the Tokyo Olympics 2020 by winning a silver in the women's 49kg weightlifting category. This historic win occurred on the first official day of the Games. While Ravi Dahiya also won a silver medal, Mirabai Chanu's victory came first, making her the winner of India's first silver at the event. PV Sindhu and Lovlina Borgohain both won bronze medals in their respective sports.",
+    "reasoning": "Mirabai Chanu secured India's first medal at the Tokyo Olympics 2020 by winning a silver in the women's 49kg weightlifting category. This historic win occurred on the first official day of the Games. While Ravi Dahiya also won a silver medal, Mirabai Chanu's victory came first, making her the winner of India's first silver at the event. PV Sindhu and Lovlina Borgohain both won bronze medals in their respective sports.",
+    "error": false
+  },
+  "11024fced05a6e59c00e92db9ab1283b": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The modern game of polo originated in Manipur, where it was known as \"Sagol Kangjei\". The state is widely considered the birthplace of modern polo and is home to the world's oldest polo ground, the Imphal Polo Ground. While Rajasthan also has a strong and royal tradition of polo, Manipur's historical claim as the origin of the sport makes it the most accurate answer.",
+    "reasoning": "The modern game of polo originated in Manipur, where it was known as \"Sagol Kangjei\". The state is widely considered the birthplace of modern polo and is home to the world's oldest polo ground, the Imphal Polo Ground. While Rajasthan also has a strong and royal tradition of polo, Manipur's historical claim as the origin of the sport makes it the most accurate answer.",
+    "error": false
+  },
+  "c6c2e90d369440633d66a4e2ee2a947f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Sunil Gavaskar is widely regarded as the original \"Little Master\" of Indian cricket. He earned this nickname in the 1970s due to his short stature and masterful batting technique against even the most formidable bowlers. While Sachin Tendulkar is also sometimes referred to as the \"Little Master,\" he inherited the title from Gavaskar, and his more common nicknames are \"Master Blaster\" and \"God of Cricket\". Therefore, the title \"Little Master\" is most accurately and historically associated with Sunil Gavaskar.",
+    "reasoning": "Sunil Gavaskar is widely regarded as the original \"Little Master\" of Indian cricket. He earned this nickname in the 1970s due to his short stature and masterful batting technique against even the most formidable bowlers. While Sachin Tendulkar is also sometimes referred to as the \"Little Master,\" he inherited the title from Gavaskar, and his more common nicknames are \"Master Blaster\" and \"God of Cricket\". Therefore, the title \"Little Master\" is most accurately and historically associated with Sunil Gavaskar.",
+    "error": false
+  },
+  "49080505cdf793aa5a4511014ccb3777": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Anil Kumble is India's leading wicket-taker in One Day Internationals (ODIs). He has taken 334 wickets in his ODI career. The other bowlers listed have fewer wickets: Javagal Srinath has 315 wickets, Zaheer Khan has 282 wickets, and Kapil Dev has 253 wickets.",
+    "reasoning": "Anil Kumble is India's leading wicket-taker in One Day Internationals (ODIs). He has taken 334 wickets in his ODI career. The other bowlers listed have fewer wickets: Javagal Srinath has 315 wickets, Zaheer Khan has 282 wickets, and Kapil Dev has 253 wickets.",
+    "error": false
+  },
+  "2592cd1abf1dc026f725e994ede2be65": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: India hosted the Commonwealth Games for the first time in 2010, with the event being held in Delhi. This was a historic occasion for the country and marked only the second time the games were held in Asia. The 2010 Games were the most successful for India in terms of medal count, where they finished second overall.",
+    "reasoning": "India hosted the Commonwealth Games for the first time in 2010, with the event being held in Delhi. This was a historic occasion for the country and marked only the second time the games were held in Asia. The 2010 Games were the most successful for India in terms of medal count, where they finished second overall.",
+    "error": false
+  },
+  "44dd047b7867a9a20164cb0c1be87813": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Anil Kumble is the first Indian cricketer to take all 10 wickets in a single Test innings. He achieved this remarkable feat against Pakistan on February 7, 1999, at the Feroz Shah Kotla ground in Delhi. Kumble is the only Indian bowler to have achieved this in international cricket.",
+    "reasoning": "Anil Kumble is the first Indian cricketer to take all 10 wickets in a single Test innings. He achieved this remarkable feat against Pakistan on February 7, 1999, at the Feroz Shah Kotla ground in Delhi. Kumble is the only Indian bowler to have achieved this in international cricket.",
+    "error": false
+  },
+  "3dabf7892b4a031aeba2fafb01e72082": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: India won the inaugural ICC T20 World Cup in 2007 under the captaincy of MS Dhoni. A young Indian team, without several senior players, defeated Pakistan in the final to clinch the title. This was India's first major global trophy since the 1983 Cricket World Cup.",
+    "reasoning": "India won the inaugural ICC T20 World Cup in 2007 under the captaincy of MS Dhoni. A young Indian team, without several senior players, defeated Pakistan in the final to clinch the title. This was India's first major global trophy since the 1983 Cricket World Cup.",
+    "error": false
+  },
+  "4b1161a4683e8aa810f8921273c4bde7": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Khashaba Dadasaheb Jadhav, also known as KD Jadhav, was India's first Olympic medalist in wrestling. He achieved this feat by winning a bronze medal in the bantamweight freestyle category at the 1952 Helsinki Olympics. This was also India's first individual Olympic medal after independence.\n\nSushil Kumar won his first Olympic medal, a bronze, at the 2008 Beijing Olympics, which was India's second wrestling medal at the Olympics. Yogeshwar Dutt secured his first Olympic medal, a bronze, at the 2012 London Olympics. Bajrang Punia won a bronze medal at the 2020 Tokyo Olympics.",
+    "reasoning": "Khashaba Dadasaheb Jadhav, also known as KD Jadhav, was India's first Olympic medalist in wrestling. He achieved this feat by winning a bronze medal in the bantamweight freestyle category at the 1952 Helsinki Olympics. This was also India's first individual Olympic medal after independence.",
+    "error": false
+  },
+  "762c1f660f6d68ae62468e85d8b20ca1": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Mary Kom is the only Indian boxer to have won the World Amateur Boxing Championship six times. She achieved this historic feat in 2018, making her the most successful boxer in the history of the Women's World Championships. The other boxers listed have not achieved this milestone. Lovlina Borgohain has won one gold and two bronze medals at the World Championships. Vijender Singh's best performance at the World Championships was a bronze medal in 2009. Amit Panghal won a silver medal at the 2019 AIBA World Boxing Championships.",
+    "reasoning": "Mary Kom is the only Indian boxer to have won the World Amateur Boxing Championship six times. She achieved this historic feat in 2018, making her the most successful boxer in the history of the Women's World Championships. The other boxers listed have not achieved this milestone. Lovlina Borgohain has won one gold and two bronze medals at the World Championships. Vijender Singh's best performance at the World Championships was a bronze medal in 2009. Amit Panghal won a silver medal at the 2019 AIBA World Boxing Championships.",
+    "error": false
+  },
+  "7861b98f5830b6ee9a19c129eb72b5da": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Saina Nehwal is India's first Olympic medalist in badminton. She achieved this historic feat by winning the bronze medal in the women's singles event at the 2012 London Olympics. PV Sindhu won her first Olympic medal, a silver, four years later at the 2016 Rio Olympics. Prakash Padukone, a celebrated figure in Indian badminton, did not win an Olympic medal, as the sport was not an Olympic event during the peak of his career. Sai Praneeth represented India at the Tokyo 2020 Olympics but did not secure a medal.",
+    "reasoning": "Saina Nehwal is India's first Olympic medalist in badminton. She achieved this historic feat by winning the bronze medal in the women's singles event at the 2012 London Olympics. PV Sindhu won her first Olympic medal, a silver, four years later at the 2016 Rio Olympics. Prakash Padukone, a celebrated figure in Indian badminton, did not win an Olympic medal, as the sport was not an Olympic event during the peak of his career. Sai Praneeth represented India at the Tokyo 2020 Olympics but did not secure a medal.",
+    "error": false
+  },
+  "e8b5e30d68321d05facefcc594540107": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: Based on the dates of birth and their first Olympic medal wins, P.V. Sindhu was the youngest among the given options. She won her first Olympic medal, a silver, at the Rio 2016 Olympics when she was 21 years old. In comparison, Neeraj Chopra was 23 when he won his first Olympic medal at the Tokyo 2020 Olympics, and Sakshi Malik was also 23 when she won her bronze at the Rio 2016 Games. K.D. Jadhav won his first and only Olympic medal at the age of 27 at the 1952 Helsinki Olympics.",
+    "reasoning": "Based on the dates of birth and their first Olympic medal wins, P.V. Sindhu was the youngest among the given options. She won her first Olympic medal, a silver, at the Rio 2016 Olympics when she was 21 years old. In comparison, Neeraj Chopra was 23 when he won his first Olympic medal at the Tokyo 2020 Olympics, and Sakshi Malik was also 23 when she won her bronze at the Rio 2016 Games. K.D. Jadhav won his first and only Olympic medal at the age of 27 at the 1952 Helsinki Olympics.",
+    "error": false
+  },
+  "6bb2b1dbd247f2d6d528540d0b4afb20": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: The Chandrayaan-2 mission, developed by the Indian Space Research Organisation (ISRO), included a lunar rover named Pragyan, which means \"wisdom\" in Sanskrit. The lander for this mission was named Vikram. Therefore, the correct name for the Chandrayaan-2 rover is Pragyan.",
+    "reasoning": "The Chandrayaan-2 mission, developed by the Indian Space Research Organisation (ISRO), included a lunar rover named Pragyan, which means \"wisdom\" in Sanskrit. The lander for this mission was named Vikram. Therefore, the correct name for the Chandrayaan-2 rover is Pragyan.",
+    "error": false
+  },
+  "7bde1ee2f17a1ff45105f87268035f79": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Chandrayaan-2 was launched aboard India's most powerful rocket, the Geosynchronous Satellite Launch Vehicle Mark-III (GSLV-MkIII). This three-stage heavy-lift launch vehicle carried the Chandrayaan-2 spacecraft, which consisted of an orbiter, the Vikram lander, and the Pragyan rover.",
+    "reasoning": "Chandrayaan-2 was launched aboard India's most powerful rocket, the Geosynchronous Satellite Launch Vehicle Mark-III (GSLV-MkIII). This three-stage heavy-lift launch vehicle carried the Chandrayaan-2 spacecraft, which consisted of an orbiter, the Vikram lander, and the Pragyan rover.",
+    "error": false
+  },
+  "9176d1278117cae26962af157c8f0ce9": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Apollo 17 mission, the final mission of NASA's Apollo program, utilized the Lunar Roving Vehicle (LRV) to explore the lunar surface. The other options are incorrect as they are associated with different space programs. Lunokhod 1 was a robotic rover sent to the Moon by the Soviet Union. Yutu is the name of the Chinese lunar rovers from the Chang'e program. Sojourner was the rover deployed on Mars during NASA's Pathfinder mission.",
+    "reasoning": "The Apollo 17 mission, the final mission of NASA's Apollo program, utilized the Lunar Roving Vehicle (LRV) to explore the lunar surface. The other options are incorrect as they are associated with different space programs. Lunokhod 1 was a robotic rover sent to the Moon by the Soviet Union. Yutu is the name of the Chinese lunar rovers from the Chang'e program. Sojourner was the rover deployed on Mars during NASA's Pathfinder mission.",
+    "error": false
+  },
+  "f67365c5705d11ec6711a3f2317eb851": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Seismometers placed on the Moon by the Apollo missions between 1969 and 1977 recorded thousands of moonquakes. The strongest of these seismic events registered approximately magnitude 5.0 to 5.5 on the Richter scale. Therefore, the most accurate answer for the largest recorded moonquakes is 5.",
+    "reasoning": "Seismometers placed on the Moon by the Apollo missions between 1969 and 1977 recorded thousands of moonquakes. The strongest of these seismic events registered approximately magnitude 5.0 to 5.5 on the Richter scale. Therefore, the most accurate answer for the largest recorded moonquakes is 5.",
+    "error": false
+  },
+  "e516927753e5283bc8dcab87cda8755c": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Moon is kept in orbit by the Earth's gravitational pull, which acts as a centripetal force, constantly pulling the Moon towards it. This inward force is balanced by the Moon's inertia, its tendency to continue moving in a straight line. This outward effect is often referred to as centrifugal force in the context of orbital mechanics. The equilibrium between Earth's gravity pulling the Moon inward and the outward push from its orbital velocity is what maintains its stable orbit. Without gravity, the Moon would fly off into space; without its forward motion, it would crash into Earth.",
+    "reasoning": "The Moon is kept in orbit by the Earth's gravitational pull, which acts as a centripetal force, constantly pulling the Moon towards it. This inward force is balanced by the Moon's inertia, its tendency to continue moving in a straight line. This outward effect is often referred to as centrifugal force in the context of orbital mechanics. The equilibrium between Earth's gravity pulling the Moon inward and the outward push from its orbital velocity is what maintains its stable orbit. Without gravity, the Moon would fly off into space; without its forward motion, it would crash into Earth.",
+    "error": false
+  },
+  "69a0d0fdf03ae22184af19a3d8989576": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B\nConfidence: 9\nReasoning: During the lunar night, temperatures on the Moon can plummet significantly. According to NASA, temperatures in darkness can drop to about -173 degrees Celsius. Other sources indicate the average temperature at night is around -183 degrees Celsius. While some areas might be warmer, with temperatures around -130°C, the more extreme and average temperatures are closer to -200°C than to -100°C.",
+    "reasoning": "During the lunar night, temperatures on the Moon can plummet significantly. According to NASA, temperatures in darkness can drop to about -173 degrees Celsius. Other sources indicate the average temperature at night is around -183 degrees Celsius. While some areas might be warmer, with temperatures around -130°C, the more extreme and average temperatures are closer to -200°C than to -100°C.",
+    "error": false
+  },
+  "9452f8058e20157472da3bbc894d9cf7": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The Moon's extreme surface temperatures are a direct result of solar radiation combined with the lack of a significant atmosphere. Without an atmosphere to trap heat or insulate the surface, the lunar surface heats up to extreme temperatures (over 250°F or 121°C) when in direct sunlight and then rapidly cools to incredibly low temperatures (below -200°F or -130°C) when in darkness. While lunar volcanism was a past heat source, it is not active today. Tidal forces from Earth and heat from meteoroid impacts are also not the primary drivers of the wide, cyclical temperature variations across the lunar surface.",
+    "reasoning": "The Moon's extreme surface temperatures are a direct result of solar radiation combined with the lack of a significant atmosphere. Without an atmosphere to trap heat or insulate the surface, the lunar surface heats up to extreme temperatures (over 250°F or 121°C) when in direct sunlight and then rapidly cools to incredibly low temperatures (below -200°F or -130°C) when in darkness. While lunar volcanism was a past heat source, it is not active today. Tidal forces from Earth and heat from meteoroid impacts are also not the primary drivers of the wide, cyclical temperature variations across the lunar surface.",
+    "error": false
+  },
+  "7adee60644851c38dfab7047b5996d90": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9\nReasoning: Regolith is a layer of loose, unconsolidated material, which means there is significant pore space between particles. This structure inherently leads to poor heat transfer, making its thermal conductivity generally low. However, the precise value of this conductivity is not constant. It is highly dependent on several factors, including temperature, density, particle size, and composition. For instance, measurements from missions to the Moon and Mars show that the thermal conductivity of regolith increases with depth as the material becomes more compacted and also changes with temperature. Because the property changes based on these conditions, \"Variable\" is the most accurate and comprehensive description.",
+    "reasoning": "Regolith is a layer of loose, unconsolidated material, which means there is significant pore space between particles. This structure inherently leads to poor heat transfer, making its thermal conductivity generally low. However, the precise value of this conductivity is not constant. It is highly dependent on several factors, including temperature, density, particle size, and composition. For instance, measurements from missions to the Moon and Mars show that the thermal conductivity of regolith increases with depth as the material becomes more compacted and also changes with temperature. Because the property changes based on these conditions, \"Variable\" is the most accurate and comprehensive description.",
+    "error": false
+  },
+  "745aaf943cbcd7566b276613092a69f7": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 7,
+    "raw": "Answer: B\nConfidence: 7\nReasoning: The first spacecraft to make a survivable landing on the Moon and transmit data was the Soviet Union's Luna 9 on February 3, 1966. However, the quiz question is likely considering the United States' Surveyor 1 as the correct answer. Surveyor 1, which landed on June 2, 1966, is described by NASA as the first \"true soft-landing on the Moon\". This distinction is based on its controlled descent using retrorockets to slow to a near stop before landing, whereas Luna 9 used a combination of retrorockets and an airbag, impacting the surface at a higher speed.\n\nHere is a breakdown of the other options:\n*   **A. Luna 2:** This Soviet probe was the first human-made object to reach the lunar surface in 1959, but it was an impact mission, not a soft landing.\n*   **C. Chang’e 3:** This Chinese mission, which included a lander and rover, successfully soft-landed on the Moon in 2013, making China the third country to achieve this feat.\n*   **D. Apollo 11:** This was the first mission to land *humans* on the Moon in 1969.",
+    "reasoning": "The first spacecraft to make a survivable landing on the Moon and transmit data was the Soviet Union's Luna 9 on February 3, 1966. However, the quiz question is likely considering the United States' Surveyor 1 as the correct answer. Surveyor 1, which landed on June 2, 1966, is described by NASA as the first \"true soft-landing on the Moon\". This distinction is based on its controlled descent using retrorockets to slow to a near stop before landing, whereas Luna 9 used a combination of retrorockets and an airbag, impacting the surface at a higher speed.",
+    "error": false
+  },
+  "34571da983678f3e758eea8f2d723d19": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Major Dhyan Chand was a legendary Indian field hockey player who was a pivotal part of the Indian teams that won three consecutive Olympic gold medals. These victories occurred at the 1928 Amsterdam Olympics, the 1932 Los Angeles Olympics, and the 1936 Berlin Olympics, where he captained the team. His exceptional skill and goal-scoring ability were instrumental in India's dominance in the sport during that era.",
+    "reasoning": "Major Dhyan Chand was a legendary Indian field hockey player who was a pivotal part of the Indian teams that won three consecutive Olympic gold medals. These victories occurred at the 1928 Amsterdam Olympics, the 1932 Los Angeles Olympics, and the 1936 Berlin Olympics, where he captained the team. His exceptional skill and goal-scoring ability were instrumental in India's dominance in the sport during that era.",
+    "error": false
+  },
+  "50ac6b0ad2d8511a1cc23facad1814da": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Vijender Singh became the first Indian boxer to win an Olympic medal by securing a bronze at the 2008 Beijing Olympics. Mary Kom won her bronze medal in the subsequent 2012 London Olympics, making her the first female Indian boxer to achieve this feat. Lovlina Borgohain later won a bronze medal at the 2020 Tokyo Olympics. Amit Panghal has not won an Olympic medal.",
+    "reasoning": "Vijender Singh became the first Indian boxer to win an Olympic medal by securing a bronze at the 2008 Beijing Olympics. Mary Kom won her bronze medal in the subsequent 2012 London Olympics, making her the first female Indian boxer to achieve this feat. Lovlina Borgohain later won a bronze medal at the 2020 Tokyo Olympics. Amit Panghal has not won an Olympic medal.",
+    "error": false
+  },
+  "ea9750170f6be0409428e50cd2db57ca": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Fit India Movement was launched by the Prime Minister of India, Narendra Modi, on August 29, 2019, which is also celebrated as India's National Sports Day. The launch took place at the Indira Gandhi Stadium in New Delhi with the aim of encouraging people to make fitness an integral part of their daily lives.",
+    "reasoning": "The Fit India Movement was launched by the Prime Minister of India, Narendra Modi, on August 29, 2019, which is also celebrated as India's National Sports Day. The launch took place at the Indira Gandhi Stadium in New Delhi with the aim of encouraging people to make fitness an integral part of their daily lives.",
+    "error": false
+  },
+  "6940cb6f3b19c1a22003f71b2eec3ba9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Lionel Messi was awarded the Golden Ball as the best player of the FIFA World Cup 2022. He became the first player in history to win the award twice, having also received it in 2014. Kylian Mbappe won the Golden Boot for being the top goalscorer, Emiliano Martinez won the Golden Glove for being the best goalkeeper, and Luka Modric received the Bronze Ball.",
+    "reasoning": "Lionel Messi was awarded the Golden Ball as the best player of the FIFA World Cup 2022. He became the first player in history to win the award twice, having also received it in 2014. Kylian Mbappe won the Golden Boot for being the top goalscorer, Emiliano Martinez won the Golden Glove for being the best goalkeeper, and Luka Modric received the Bronze Ball.",
+    "error": false
+  },
+  "3409a8f75d7049cd945ee0b601a917c9": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Viswanathan Anand became India's first chess Grandmaster in 1988. The other players listed achieved the title in later years: Pentala Harikrishna in 2001, Koneru Humpy in 2002, and Dronavalli Harika in 2011.",
+    "reasoning": "Viswanathan Anand became India's first chess Grandmaster in 1988. The other players listed achieved the title in later years: Pentala Harikrishna in 2001, Koneru Humpy in 2002, and Dronavalli Harika in 2011.",
+    "error": false
+  },
+  "692c8a2d9fc946dba839ed333c56a8cc": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 2,
+    "raw": "Answer: A\nConfidence: 2\nReasoning: The question is factually incorrect as India has never won an Olympic medal in rowing. However, if the question is flawed and refers to the first Indian to win a gold medal in rowing at a major multi-sport event, the answer would be Bajrang Lal Takhar. He was the first Indian rower to win a gold medal at the Asian Games in 2010. The other rowers listed have participated in the Olympics and won medals at the Asian Games, but Takhar's 2010 Asian Games gold was a historic first for Indian rowing. Dattu Bhokanal participated in the 2016 Rio Olympics, and Arjun Lal Jat and Arvind Singh competed in the 2020 Tokyo Olympics, achieving India's best-ever finish.",
+    "reasoning": "The question is factually incorrect as India has never won an Olympic medal in rowing. However, if the question is flawed and refers to the first Indian to win a gold medal in rowing at a major multi-sport event, the answer would be Bajrang Lal Takhar. He was the first Indian rower to win a gold medal at the Asian Games in 2010. The other rowers listed have participated in the Olympics and won medals at the Asian Games, but Takhar's 2010 Asian Games gold was a historic first for Indian rowing. Dattu Bhokanal participated in the 2016 Rio Olympics, and Arjun Lal Jat and Arvind Singh competed in the 2020 Tokyo Olympics, achieving India's best-ever finish.",
+    "error": false
+  },
+  "1894d98f7936f48e6a1fc56cde900cc0": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: Saina Nehwal created history by winning India's first-ever Olympic medal in badminton. She achieved this feat at the 2012 London Olympics, where she secured the bronze medal in the women's singles event. PV Sindhu won her first Olympic medal, a silver, in 2016, and Prakash Padukone, despite his illustrious career, did not win an Olympic medal. Lakshya Sen participated in the Olympics but has not won a medal.",
+    "reasoning": "Saina Nehwal created history by winning India's first-ever Olympic medal in badminton. She achieved this feat at the 2012 London Olympics, where she secured the bronze medal in the women's singles event. PV Sindhu won her first Olympic medal, a silver, in 2016, and Prakash Padukone, despite his illustrious career, did not win an Olympic medal. Lakshya Sen participated in the Olympics but has not won a medal.",
+    "error": false
+  },
+  "b8bb1338f199c5f3d0742efcf225ca2c": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 1,
+    "raw": "**Answer:** None of the provided options are correct.\n\n**Confidence:** 10\n\n**Reasoning:** The gold medal in the men's discus throw at the 2018 Asian Games was won by Ehsan Haddadi of Iran. An analysis of the options reveals the following inaccuracies:\n\n*   **A. Irfan Pathan:** He is a former Indian cricketer and is not associated with track and field events.\n*   **B. Vikas Gowda:** He is a decorated Indian discus thrower, but he did not win the gold medal at the 2018 Asian Games. He had previously won a silver medal in the event at the 2014 Asian Games.\n*   **C. Anil Singh:** Anil Singh is an Indian athlete who specializes in the javelin throw, not the discus throw.\n*   **D. Neeraj Chopra:** While Neeraj Chopra did win a gold medal for India at the 2018 Asian Games, it was in the men's javelin throw, not the discus throw.",
+    "reasoning": "** The gold medal in the men's discus throw at the 2018 Asian Games was won by Ehsan Haddadi of Iran. An analysis of the options reveals the following inaccuracies:",
+    "error": false
+  },
+  "1b3eca9ebb3c7db4b55a2951689803fd": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 1,
+    "raw": "Answer: A\nConfidence: 1\nReasoning: The premise of the question is factually incorrect. No Indian male shuttler won a bronze medal at the Tokyo 2020 Olympics. The only Indian to win a badminton medal at that event was P.V. Sindhu, who secured a bronze in the women's singles.\n\nOf the options provided:\n*   **A. B. Sai Praneeth** was the only male singles player from India to compete at the Tokyo 2020 Olympics, but he was eliminated during the group stage.\n*   **B. Kidambi Srikanth** did not qualify for the Tokyo 2020 Olympics.\n*   **C. Parupalli Kashyap** also failed to qualify for the Tokyo Games.\n*   **D. H.S. Prannoy** was not part of the Indian contingent for the Tokyo Olympics.\n\nTherefore, while none of the answers are correct, B. Sai Praneeth is the only athlete from the list who participated in the men's singles badminton event at the Tokyo 2020 Olympics.",
+    "reasoning": "The premise of the question is factually incorrect. No Indian male shuttler won a bronze medal at the Tokyo 2020 Olympics. The only Indian to win a badminton medal at that event was P.V. Sindhu, who secured a bronze in the women's singles.",
+    "error": false
+  },
+  "7ed2e8ac1accb840efcdde4a4412379b": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: A total of 12 astronauts have walked on the Moon. This occurred over six NASA Apollo missions between July 1969 and December 1972. The first person to walk on the Moon was Neil Armstrong, and the last was Eugene Cernan. While 24 astronauts flew to the Moon, only half of them exited their spacecraft to walk on the lunar surface.",
+    "reasoning": "A total of 12 astronauts have walked on the Moon. This occurred over six NASA Apollo missions between July 1969 and December 1972. The first person to walk on the Moon was Neil Armstrong, and the last was Eugene Cernan. While 24 astronauts flew to the Moon, only half of them exited their spacecraft to walk on the lunar surface.",
+    "error": false
+  },
+  "0e234ced2849396661489c1f07c29746": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: Chandrayaan-1, India's first lunar probe, was successfully launched by the Indian Space Research Organisation (ISRO) on October 22, 2008. The spacecraft was launched from the Satish Dhawan Space Centre in Sriharikota, India, using a PSLV-XL rocket.",
+    "reasoning": "Chandrayaan-1, India's first lunar probe, was successfully launched by the Indian Space Research Organisation (ISRO) on October 22, 2008. The spacecraft was launched from the Satish Dhawan Space Centre in Sriharikota, India, using a PSLV-XL rocket.",
+    "error": false
+  },
+  "0893a9fbd4b1e00f5335a43715578b73": {
+    "model": "gemini-2.5-pro",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B\nConfidence: 10\nReasoning: Airplanes and helicopters are designed to fly within an atmosphere. Airplanes require air to flow over their wings to generate lift, and their engines need air to combust fuel. Similarly, helicopters generate lift by the rotation of their rotor blades, which act as spinning wings, moving through the air. The Moon has what is considered a vacuum for most practical purposes, with an atmosphere so thin it's called an exosphere. This near-total lack of air means there is nothing for the wings of an airplane or the rotor blades of a helicopter to push against to create lift, and their conventional engines would not function. Therefore, neither an airplane nor a helicopter could fly to the Moon or on the Moon.",
+    "reasoning": "Airplanes and helicopters are designed to fly within an atmosphere. Airplanes require air to flow over their wings to generate lift, and their engines need air to combust fuel. Similarly, helicopters generate lift by the rotation of their rotor blades, which act as spinning wings, moving through the air. The Moon has what is considered a vacuum for most practical purposes, with an atmosphere so thin it's called an exosphere. This near-total lack of air means there is nothing for the wings of an airplane or the rotor blades of a helicopter to push against to create lift, and their conventional engines would not function. Therefore, neither an airplane nor a helicopter could fly to the Moon or on the Moon.",
+    "error": false
+  },
+  "ef1f59eac54a4fee0045c5c49b546d6f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The average density of the Moon is widely cited as 3.34 grams per cubic centimeter. This value is approximately 60% of Earth's average density. Option C, 3.34, directly matches this established scientific data. For comparison, the density of Earth is about 5.52 g/cm³, which corresponds to option B.",
+    "reasoning": "The average density of the Moon is widely cited as 3.34 grams per cubic centimeter. This value is approximately 60% of Earth's average density. Option C, 3.34, directly matches this established scientific data. For comparison, the density of Earth is about 5.52 g/cm³, which corresponds to option B.",
+    "error": false
+  },
+  "728daafb39f8ce350862656cb5816e81": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: The \"L1\" in the name of the Aditya-L1 mission explicitly refers to Lagrange Point 1. The spacecraft has been placed in a halo orbit around this specific point in the Sun-Earth system. This location, approximately 1.5 million kilometers from Earth, allows for a continuous and unobstructed view of the Sun.",
+    "reasoning": "The \"L1\" in the name of the Aditya-L1 mission explicitly refers to Lagrange Point 1. The spacecraft has been placed in a halo orbit around this specific point in the Sun-Earth system. This location, approximately 1.5 million kilometers from Earth, allows for a continuous and unobstructed view of the Sun.",
+    "error": false
+  },
+  "b69ddc3328c87de860fd5f46530ca1dd": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9\nReasoning: According to multiple reports from March 2025, the chairman of the Indian Space Research Organisation (ISRO) stated that the first Small Satellite Launch Vehicle (SSLV) launch from the Kulasekarapattinam spaceport is expected to occur within 24 months. This timeline points directly to the year 2027. Furthermore, in August 2025, the Union Minister of State for Science and Technology confirmed that the commissioning of the spaceport is targeted for the 2026-27 fiscal year, with the first SSLV launch anticipated in 2027.",
+    "reasoning": "According to multiple reports from March 2025, the chairman of the Indian Space Research Organisation (ISRO) stated that the first Small Satellite Launch Vehicle (SSLV) launch from the Kulasekarapattinam spaceport is expected to occur within 24 months. This timeline points directly to the year 2027. Furthermore, in August 2025, the Union Minister of State for Science and Technology confirmed that the commissioning of the spaceport is targeted for the 2026-27 fiscal year, with the first SSLV launch anticipated in 2027.",
+    "error": false
+  },
+  "e732dae3ab8b638b9d44b4355ce6bd0f": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C\nConfidence: 10\nReasoning: The Solar X-ray Monitor (XSM) is the instrument on the Chandrayaan-2 Orbiter that is designed to look at the Sun. Its primary purpose is to measure the Sun's X-ray spectrum and intensity. This data serves as a crucial input for the CLASS instrument, which analyzes the elemental composition of the lunar surface by measuring the X-rays fluoresced from the Moon when hit by solar X-rays. The other instruments have different functions: CLASS observes the Moon's surface, CHACE studies the lunar exosphere, and DFRS examines the lunar ionosphere.",
+    "reasoning": "The Solar X-ray Monitor (XSM) is the instrument on the Chandrayaan-2 Orbiter that is designed to look at the Sun. Its primary purpose is to measure the Sun's X-ray spectrum and intensity. This data serves as a crucial input for the CLASS instrument, which analyzes the elemental composition of the lunar surface by measuring the X-rays fluoresced from the Moon when hit by solar X-rays. The other instruments have different functions: CLASS observes the Moon's surface, CHACE studies the lunar exosphere, and DFRS examines the lunar ionosphere.",
+    "error": false
+  },
+  "477a46576be850eebfca369a419e1b2f": {
+    "model": "gemini-2.5-pro",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A\nConfidence: 10\nReasoning: To determine the travel time, the distance is divided by the speed. Therefore, 384,400 km divided by 50,000 km/h equals 7.688 hours. This result is closest to option A.",
+    "reasoning": "To determine the travel time, the distance is divided by the speed. Therefore, 384,400 km divided by 50,000 km/h equals 7.688 hours. This result is closest to option A.",
+    "error": false
+  },
+  "0e016755011f5c1a490219146499a284": {
+    "model": "gemini-2.5-pro",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D\nConfidence: 10\nReasoning: The Apollo missions utilized the Lunar Module (LM), a two-part spacecraft, to transport astronauts from lunar orbit to the Moon's surface and back. The Luna landers were part of the Soviet Union's robotic lunar program. The Chang'e landers are from China's robotic lunar exploration program. The Surveyor landers were uncrewed American spacecraft that served as robotic precursors to the Apollo program, gathering data to ensure the safety and feasibility of future crewed landings.",
+    "reasoning": "The Apollo missions utilized the Lunar Module (LM), a two-part spacecraft, to transport astronauts from lunar orbit to the Moon's surface and back. The Luna landers were part of the Soviet Union's robotic lunar program. The Chang'e landers are from China's robotic lunar exploration program. The Surveyor landers were uncrewed American spacecraft that served as robotic precursors to the Apollo program, gathering data to ensure the safety and feasibility of future crewed landings.",
+    "error": false
+  },
+  "93055289b47b1d36dbce484fd4fcb3e7": {
+    "model": "gemini-2.5-pro",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C\nConfidence: 9/10\nReasoning: The primary driver of major seismic events on Earth is plate tectonics, a process fueled by the planet's high internal heat. The Moon has significantly fewer seismic events because it has a much lower level of internal heat. Due to its smaller size, the Moon has cooled down more rapidly than Earth over its geological history. This has caused most of its internal, heat-driven geological processes to cease. While the Moon is not completely geologically dead—it experiences \"moonquakes\" from tidal forces exerted by Earth and from the continued slow cooling and contraction of its interior—it lacks the powerful engine of plate tectonics that causes the frequent and large-scale seismic activity seen on Earth.",
+    "reasoning": "The primary driver of major seismic events on Earth is plate tectonics, a process fueled by the planet's high internal heat. The Moon has significantly fewer seismic events because it has a much lower level of internal heat. Due to its smaller size, the Moon has cooled down more rapidly than Earth over its geological history. This has caused most of its internal, heat-driven geological processes to cease. While the Moon is not completely geologically dead—it experiences \"moonquakes\" from tidal forces exerted by Earth and from the continued slow cooling and contraction of its interior—it lacks the powerful engine of plate tectonics that causes the frequent and large-scale seismic activity seen on Earth.",
+    "error": false
   }
 }

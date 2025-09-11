@@ -2590,5 +2590,1221 @@
     "raw": "Answer: B  \nConfidence: 10  \nReasoning: Jammu and Kashmir was the princely state divided between India and Pakistan in 1947, leading to the first Indo-Pakistani war over its territory. The other options (Hyderabad, Junagadh, Baluchistan) were not divided between the two countries nor did they see a war in the same context.",
     "reasoning": "Jammu and Kashmir was the princely state divided between India and Pakistan in 1947, leading to the first Indo-Pakistani war over its territory. The other options (Hyderabad, Junagadh, Baluchistan) were not divided between the two countries nor did they see a war in the same context.",
     "error": false
+  },
+  "b8384a535615e91acf2548a93381e1ad": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Kani shawls are a traditional handwoven textile from Jammu & Kashmir, renowned for their intricate patterns and craftsmanship. The other options are not associated with Kani shawl production.",
+    "reasoning": "Kani shawls are a traditional handwoven textile from Jammu & Kashmir, renowned for their intricate patterns and craftsmanship. The other options are not associated with Kani shawl production.",
+    "error": false
+  },
+  "a4aa102b471ac8fc0941f3f8ee3f1181": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Nylon is a synthetic polymer made from repeating units linked by amide bonds, classifying it as a polyamide. The other options do not accurately describe the chemical nature of nylon. Polyvinyl refers to polymers like PVC, estron is not related, and rubber is a different class of polymer.",
+    "reasoning": "Nylon is a synthetic polymer made from repeating units linked by amide bonds, classifying it as a polyamide. The other options do not accurately describe the chemical nature of nylon. Polyvinyl refers to polymers like PVC, estron is not related, and rubber is a different class of polymer.",
+    "error": false
+  },
+  "d8a6cc98edbdcf04fc52e97ae661291a": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: National Handloom Day commemorates the launch of the Swadeshi Movement, which began on August 7, 1905. The movement promoted indigenous industries, especially handlooms, as a response to British goods. The other options are unrelated to the specific focus on handlooms.",
+    "reasoning": "National Handloom Day commemorates the launch of the Swadeshi Movement, which began on August 7, 1905. The movement promoted indigenous industries, especially handlooms, as a response to British goods. The other options are unrelated to the specific focus on handlooms.",
+    "error": false
+  },
+  "12172205b00d0264c0e1189f24d5ce34": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Paisley design is inspired by the shape of a mango, which is a common motif in Indian and Persian art. The teardrop or curved shape of the Paisley pattern closely resembles a mango, not an orange, banana, or apple.",
+    "reasoning": "The Paisley design is inspired by the shape of a mango, which is a common motif in Indian and Persian art. The teardrop or curved shape of the Paisley pattern closely resembles a mango, not an orange, banana, or apple.",
+    "error": false
+  },
+  "eee1bd0f822a25917c2a1684ac279bd1": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The property of a fabric that determines how it feels and looks when worn is called its \"texture.\" Texture refers to the surface characteristics and tactile quality of the fabric, which directly affects its appearance and feel. The other options (shape, weave, crimp) are related to fabric construction but do not directly describe the overall feel and look as \"texture\" does.",
+    "reasoning": "The property of a fabric that determines how it feels and looks when worn is called its \"texture.\" Texture refers to the surface characteristics and tactile quality of the fabric, which directly affects its appearance and feel. The other options (shape, weave, crimp) are related to fabric construction but do not directly describe the overall feel and look as \"texture\" does.",
+    "error": false
+  },
+  "a25bc0f472c855cad25613d30c09775c": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Tesu flowers (also known as Palash or Flame of the Forest) are traditionally used to produce a yellow dye. Lac is used for red dye, Madder for red dye, and Ratanjot for red or purple dye. Tesu is the correct choice for yellow.",
+    "reasoning": "Tesu flowers (also known as Palash or Flame of the Forest) are traditionally used to produce a yellow dye. Lac is used for red dye, Madder for red dye, and Ratanjot for red or purple dye. Tesu is the correct choice for yellow.",
+    "error": false
+  },
+  "147f2ec46aa57b4df9fb0b928f96d76e": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Jamdani weaving technique is traditionally associated with Dhaka (Bangladesh) and is also practiced in Uppada and Chanderi in India, where similar fine muslin and intricate patterns are produced. Venkatgiri, however, is known for its silk and cotton sarees with zari work and does not have a historical or technical association with the Jamdani weaving technique.",
+    "reasoning": "The Jamdani weaving technique is traditionally associated with Dhaka (Bangladesh) and is also practiced in Uppada and Chanderi in India, where similar fine muslin and intricate patterns are produced. Venkatgiri, however, is known for its silk and cotton sarees with zari work and does not have a historical or technical association with the Jamdani weaving technique.",
+    "error": false
+  },
+  "16f79e43841abb801285d84e92ffbced": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Wool has the highest percentage of moisture regain among the options listed. Wool can absorb up to about 14-18% of its weight in moisture, which is higher than cotton (about 7-8%), silk (about 11%), and jute (about 13%). This property makes wool particularly suitable for garments that need to manage moisture effectively.",
+    "reasoning": "Wool has the highest percentage of moisture regain among the options listed. Wool can absorb up to about 14-18% of its weight in moisture, which is higher than cotton (about 7-8%), silk (about 11%), and jute (about 13%). This property makes wool particularly suitable for garments that need to manage moisture effectively.",
+    "error": false
+  },
+  "41f539a3c7bb6383a06905938aa9374c": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Durries are flat-woven rugs, and their designs are typically created using the interlocking technique, where different colored wefts are interlocked at the boundaries to form patterns. The other options (Jala, Jacquard, Tie & Dye) are not standard techniques for durrie design.",
+    "reasoning": "Durries are flat-woven rugs, and their designs are typically created using the interlocking technique, where different colored wefts are interlocked at the boundaries to form patterns. The other options (Jala, Jacquard, Tie & Dye) are not standard techniques for durrie design.",
+    "error": false
+  },
+  "5e41811000728b4417d5576ed231a764": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The correct act related to the Handloom sector is the Handloom (Reservation of Articles for Production) Act, 1985. There is no such act with the years 1986, 1995, or 2025. Option A is accurate and widely recognized in Indian legislative history regarding handlooms.",
+    "reasoning": "The correct act related to the Handloom sector is the Handloom (Reservation of Articles for Production) Act, 1985. There is no such act with the years 1986, 1995, or 2025. Option A is accurate and widely recognized in Indian legislative history regarding handlooms.",
+    "error": false
+  },
+  "27ea56df14c44b8ac7751b6ed167336d": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Flying a flag at half-mast is a widely recognized symbol of mourning or respect for someone who has died, especially in official or national contexts. It is not associated with celebration, protest, or festivals.",
+    "reasoning": "Flying a flag at half-mast is a widely recognized symbol of mourning or respect for someone who has died, especially in official or national contexts. It is not associated with celebration, protest, or festivals.",
+    "error": false
+  },
+  "e74b15321c116df29419a9af1ff6744e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: On Independence Day (15th August), the Prime Minister of India hoists the national flag at the Red Fort in Delhi. This is a well-established tradition since 1947. The other locations listed are not the sites for this ceremony.",
+    "reasoning": "On Independence Day (15th August), the Prime Minister of India hoists the national flag at the Red Fort in Delhi. This is a well-established tradition since 1947. The other locations listed are not the sites for this ceremony.",
+    "error": false
+  },
+  "3419928a5904978fcd820cba530ae62c": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: In the Indian national flag, the color saffron at the top represents strength, courage, and sacrifice. This is the official interpretation as per the Indian government and historical sources. The other options do not accurately reflect the meaning of saffron in the flag.",
+    "reasoning": "In the Indian national flag, the color saffron at the top represents strength, courage, and sacrifice. This is the official interpretation as per the Indian government and historical sources. The other options do not accurately reflect the meaning of saffron in the flag.",
+    "error": false
+  },
+  "68fd51759c61004e487aa88b7eac64f0": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The current Indian National Flag was designed by Pingali Venkaiah. While Rabindranath Tagore, Mahatma Gandhi, and Dr. B.R. Ambedkar were prominent figures in Indian history, the specific design of the flag is credited to Pingali Venkaiah, making option B the correct answer.",
+    "reasoning": "The current Indian National Flag was designed by Pingali Venkaiah. While Rabindranath Tagore, Mahatma Gandhi, and Dr. B.R. Ambedkar were prominent figures in Indian history, the specific design of the flag is credited to Pingali Venkaiah, making option B the correct answer.",
+    "error": false
+  },
+  "5acea12171ffce1a9b193fc90bf6147e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: In many national flags, including the Indian flag, the green color traditionally signifies prosperity, growth, and fertility. The other options (strength, purity, peace) are typically represented by different colors (e.g., saffron for strength/courage, white for peace/purity). Therefore, \"prosperity\" is the most accurate answer.",
+    "reasoning": "In many national flags, including the Indian flag, the green color traditionally signifies prosperity, growth, and fertility. The other options (strength, purity, peace) are typically represented by different colors (e.g., saffron for strength/courage, white for peace/purity). Therefore, \"prosperity\" is the most accurate answer.",
+    "error": false
+  },
+  "985f72abdb6895007692a495e6ebfb68": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The usage and respect for the Indian National Flag are governed by the Prevention of Insults to National Honour Act, 1971. This Act specifically addresses the proper use and protection of the national flag and other national symbols. The other options do not directly govern the usage of the flag.",
+    "reasoning": "The usage and respect for the Indian National Flag are governed by the Prevention of Insults to National Honour Act, 1971. This Act specifically addresses the proper use and protection of the national flag and other national symbols. The other options do not directly govern the usage of the flag.",
+    "error": false
+  },
+  "cb304c1033686c76543379494dc5344e": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The national flag of India was adopted by the Constituent Assembly on 22nd July 1947, prior to India's independence on 15th August 1947. The other dates correspond to Independence Day (A), Republic Day (B), and Gandhi Jayanti (D), none of which are correct for the flag's adoption.",
+    "reasoning": "The national flag of India was adopted by the Constituent Assembly on 22nd July 1947, prior to India's independence on 15th August 1947. The other dates correspond to Independence Day (A), Republic Day (B), and Gandhi Jayanti (D), none of which are correct for the flag's adoption.",
+    "error": false
+  },
+  "d9f34338e24c07b77276f47c9b5c978a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Supreme Court of India allowed all citizens to display the national flag every day in 2004, following the Naveen Jindal case. Prior to this, there were restrictions on flag display by private citizens. The 2004 judgment affirmed this right as a fundamental right under Article 19(1)(a) of the Constitution. The other years do not correspond to this landmark decision.",
+    "reasoning": "The Supreme Court of India allowed all citizens to display the national flag every day in 2004, following the Naveen Jindal case. Prior to this, there were restrictions on flag display by private citizens. The 2004 judgment affirmed this right as a fundamental right under Article 19(1)(a) of the Constitution. The other years do not correspond to this landmark decision.",
+    "error": false
+  },
+  "f135e39ecf890445aec2ff6f2245cd1d": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: According to the Flag Code of India (amended in 2002), Indian citizens are allowed to hoist the national flag on private buildings on any day, provided it is done in a respectful manner and follows the prescribed guidelines. The other options are incorrect as there is no restriction to only specific days, nor is it limited to officers.",
+    "reasoning": "According to the Flag Code of India (amended in 2002), Indian citizens are allowed to hoist the national flag on private buildings on any day, provided it is done in a respectful manner and follows the prescribed guidelines. The other options are incorrect as there is no restriction to only specific days, nor is it limited to officers.",
+    "error": false
+  },
+  "c1380c56970ac4a964fa24a42d9a7d6a": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Naveen Jindal is known for his legal battle that led to the right of Indian citizens to display the national flag (Tiranga) every day. The Supreme Court of India ruled in his favor in 2002, making it a fundamental right. The other options, while prominent figures, are not associated with this specific cause.",
+    "reasoning": "Naveen Jindal is known for his legal battle that led to the right of Indian citizens to display the national flag (Tiranga) every day. The Supreme Court of India ruled in his favor in 2002, making it a fundamental right. The other options, while prominent figures, are not associated with this specific cause.",
+    "error": false
+  },
+  "550e8fe5437106e7d7f60c96d63b869f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The wheel in the center of the flag refers to the Ashoka Chakra on the Indian national flag. It symbolizes motion and progress, representing the idea that there is life in movement and stagnation leads to death. The other options (speed, war, courage) are not the primary meanings associated with the wheel.",
+    "reasoning": "The wheel in the center of the flag refers to the Ashoka Chakra on the Indian national flag. It symbolizes motion and progress, representing the idea that there is life in movement and stagnation leads to death. The other options (speed, war, courage) are not the primary meanings associated with the wheel.",
+    "error": false
+  },
+  "3a24d44811e0d9510894aae01c2861ae": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: In 2002, the Indian government amended the Flag Code of India, officially allowing citizens to display the national flag (Tiranga) on their dresses and personal items, subject to certain guidelines. This was a significant change from previous restrictions.",
+    "reasoning": "In 2002, the Indian government amended the Flag Code of India, officially allowing citizens to display the national flag (Tiranga) on their dresses and personal items, subject to certain guidelines. This was a significant change from previous restrictions.",
+    "error": false
+  },
+  "b4dd1ae155c3714ae5fa4d479e6cf2fe": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: In the Indian national flag, the white color specifically symbolizes peace and truth. The other options (sacrifice, wealth, joy) are not associated with the white stripe; for example, sacrifice is represented by the saffron color.",
+    "reasoning": "In the Indian national flag, the white color specifically symbolizes peace and truth. The other options (sacrifice, wealth, joy) are not associated with the white stripe; for example, sacrifice is represented by the saffron color.",
+    "error": false
+  },
+  "21794733f85544562cad0f574d3aa0cf": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The national flag can be displayed on clothing in a respectful manner, and it is most appropriate to place it near the heart, symbolizing respect and patriotism. Placing it anywhere else, such as on a cap or indiscriminately on the body, is generally discouraged by flag codes and etiquette.",
+    "reasoning": "The national flag can be displayed on clothing in a respectful manner, and it is most appropriate to place it near the heart, symbolizing respect and patriotism. Placing it anywhere else, such as on a cap or indiscriminately on the body, is generally discouraged by flag codes and etiquette.",
+    "error": false
+  },
+  "1e312a9e6a78b371c8afe59b27ddb18b": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Bureau of Indian Standards (BIS) specifies that the fabric for the Indian national flag must be hand-spun and hand-woven khadi. While silk was historically used, current regulations strictly require khadi. Polyester and cotton are not permitted. Therefore, \"Khadi\" is the most accurate and preferred material.",
+    "reasoning": "The Bureau of Indian Standards (BIS) specifies that the fabric for the Indian national flag must be hand-spun and hand-woven khadi. While silk was historically used, current regulations strictly require khadi. Polyester and cotton are not permitted. Therefore, \"Khadi\" is the most accurate and preferred material.",
+    "error": false
+  },
+  "8909fc25642fba4aa5ccd1aeef8ec948": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The official ratio of the length to the height (width) of the Indian National Flag, as specified in the Flag Code of India, is 3:2. This means the length is 1.5 times the height. Option D correctly represents this ratio.",
+    "reasoning": "The official ratio of the length to the height (width) of the Indian National Flag, as specified in the Flag Code of India, is 3:2. This means the length is 1.5 times the height. Option D correctly represents this ratio.",
+    "error": false
+  },
+  "028b5a9e66f939f2cc21e1aaf8f32164": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Hoisting a damaged or disheveled flag is generally considered disrespectful and, in many countries (including India and the United States), it can be a punishable offense under flag codes or laws. The correct protocol requires that only clean and undamaged flags be displayed.",
+    "reasoning": "Hoisting a damaged or disheveled flag is generally considered disrespectful and, in many countries (including India and the United States), it can be a punishable offense under flag codes or laws. The correct protocol requires that only clean and undamaged flags be displayed.",
+    "error": false
+  },
+  "74432c8ecc2f862260422951048c4e68": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Disrespecting the Indian flag is punishable under the Prevention of Insults to National Honour Act, 1971, which prescribes imprisonment up to 3 years, or a fine, or both. The other options do not accurately reflect the law.",
+    "reasoning": "Disrespecting the Indian flag is punishable under the Prevention of Insults to National Honour Act, 1971, which prescribes imprisonment up to 3 years, or a fine, or both. The other options do not accurately reflect the law.",
+    "error": false
+  },
+  "6c6bf4b9917b6a5519ad69df8f5cc09f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Madam Bhikaji Cama first unfurled the Indian tricolor flag at the International Socialist Congress in Stuttgart, Germany, in 1907. This event is well-documented in Indian history, making Germany the correct answer.",
+    "reasoning": "Madam Bhikaji Cama first unfurled the Indian tricolor flag at the International Socialist Congress in Stuttgart, Germany, in 1907. This event is well-documented in Indian history, making Germany the correct answer.",
+    "error": false
+  },
+  "e3014fb19d822a451a09e505488bfcf5": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Ashoka Chakra, the 24-spoke wheel in the center of the Indian national flag, is directly taken from the wheel (Dharmachakra) found on the Ashoka Pillar at Sarnath. While the Lion Capital (option B) is also from Sarnath and is India's national emblem, the Chakra itself is specifically from the pillar. The Sanchi Stupa and Ajanta Caves do not feature the Ashoka Chakra in this context.",
+    "reasoning": "The Ashoka Chakra, the 24-spoke wheel in the center of the Indian national flag, is directly taken from the wheel (Dharmachakra) found on the Ashoka Pillar at Sarnath. While the Lion Capital (option B) is also from Sarnath and is India's national emblem, the Chakra itself is specifically from the pillar. The Sanchi Stupa and Ajanta Caves do not feature the Ashoka Chakra in this context.",
+    "error": false
+  },
+  "e18cfc92d66e40c8b6c4a875f7798b29": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The correct way to fold the Indian National Flag is to fold it horizontally so that the saffron and green bands are beneath the white band, with the Ashoka Chakra visible. This method ensures the dignity of the flag and keeps the Ashoka Chakra, the national emblem, visible, as per the Flag Code of India. The other options either hide important elements or are not respectful/proper ways to fold the flag.",
+    "reasoning": "The correct way to fold the Indian National Flag is to fold it horizontally so that the saffron and green bands are beneath the white band, with the Ashoka Chakra visible. This method ensures the dignity of the flag and keeps the Ashoka Chakra, the national emblem, visible, as per the Flag Code of India. The other options either hide important elements or are not respectful/proper ways to fold the flag.",
+    "error": false
+  },
+  "9a6a5831ab4e2a5cb23e07bce19adbc3": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: On Republic Day (26th January), the President of India hoists the national flag at the main celebration in New Delhi. This is a well-established tradition, as the President is the head of state and the chief guest of the Republic Day parade. The Prime Minister hoists the flag on Independence Day, not Republic Day.",
+    "reasoning": "On Republic Day (26th January), the President of India hoists the national flag at the main celebration in New Delhi. This is a well-established tradition, as the President is the head of state and the chief guest of the Republic Day parade. The Prime Minister hoists the flag on Independence Day, not Republic Day.",
+    "error": false
+  },
+  "61629e034495967843fa1a1e25130fb3": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: According to the Flag Code of India and similar protocols in other countries, damaged flags collected by government departments should be destroyed in a dignified manner, preferably by burning or by another method consistent with the dignity of the flag. Storing, selling, or shredding are not considered appropriate or respectful methods for flag disposal.",
+    "reasoning": "According to the Flag Code of India and similar protocols in other countries, damaged flags collected by government departments should be destroyed in a dignified manner, preferably by burning or by another method consistent with the dignity of the flag. Storing, selling, or shredding are not considered appropriate or respectful methods for flag disposal.",
+    "error": false
+  },
+  "ab4b71f4428ed6233ea63767071b1520": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Ashoka Chakra, featured at the center of the Indian national flag, has 24 spokes. This is a well-established fact in Indian history and symbolism, representing the 24 hours of the day and the eternal wheel of law (Dharma).",
+    "reasoning": "The Ashoka Chakra, featured at the center of the Indian national flag, has 24 spokes. This is a well-established fact in Indian history and symbolism, representing the 24 hours of the day and the eternal wheel of law (Dharma).",
+    "error": false
+  },
+  "ee8bc38093b8d1ce339ecd16a2d75e03": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Naveen Jindal is well-known for his campaign and legal battle that led to the right of Indian citizens to display and wear the national flag (Tiranga) on their clothing. His efforts resulted in the amendment of the Flag Code of India, allowing this right. The other options are not associated with this specific achievement.",
+    "reasoning": "Naveen Jindal is well-known for his campaign and legal battle that led to the right of Indian citizens to display and wear the national flag (Tiranga) on their clothing. His efforts resulted in the amendment of the Flag Code of India, allowing this right. The other options are not associated with this specific achievement.",
+    "error": false
+  },
+  "3dadd7feb9fb2181775c2aa741d9d040": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Dollar-Cost Averaging refers to the strategy of investing a fixed amount of money at regular intervals, regardless of the asset's price. This approach helps reduce the impact of market volatility by spreading out purchases over time. The other options do not accurately describe this concept.",
+    "reasoning": "Dollar-Cost Averaging refers to the strategy of investing a fixed amount of money at regular intervals, regardless of the asset's price. This approach helps reduce the impact of market volatility by spreading out purchases over time. The other options do not accurately describe this concept.",
+    "error": false
+  },
+  "10b61f26a6d344bca1350224bf94c43b": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Saving regularly is a fundamental good habit in financial planning, as it helps build financial security and prepares for future needs. The other options (impulsive buying, avoiding credit score, ignoring investments) are poor financial habits.",
+    "reasoning": "Saving regularly is a fundamental good habit in financial planning, as it helps build financial security and prepares for future needs. The other options (impulsive buying, avoiding credit score, ignoring investments) are poor financial habits.",
+    "error": false
+  },
+  "4a06d04d9b508cafcba253e4d8e12bc3": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Official regulator websites are the most reliable and authoritative sources for verifying schemes. WhatsApp messages, TV news, and YouTube can contain misinformation or unverified content, whereas official websites provide accurate and up-to-date information directly from the source.",
+    "reasoning": "Official regulator websites are the most reliable and authoritative sources for verifying schemes. WhatsApp messages, TV news, and YouTube can contain misinformation or unverified content, whereas official websites provide accurate and up-to-date information directly from the source.",
+    "error": false
+  },
+  "b9cff9aa108f0580418d35ff6e77d0aa": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: In finance, risk and return are directly related; higher risk is generally associated with the potential for higher returns, while lower risk typically means lower potential returns. The other options are incorrect based on fundamental financial principles.",
+    "reasoning": "In finance, risk and return are directly related; higher risk is generally associated with the potential for higher returns, while lower risk typically means lower potential returns. The other options are incorrect based on fundamental financial principles.",
+    "error": false
+  },
+  "738ed51ff55726e969fcf949a0f05e22": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Investing is a key component of financial planning, as it involves allocating resources to achieve future financial goals. It is not limited to business strategy (A), is the opposite of random spending (C), and is unrelated to credit card usage (D).",
+    "reasoning": "Investing is a key component of financial planning, as it involves allocating resources to achieve future financial goals. It is not limited to business strategy (A), is the opposite of random spending (C), and is unrelated to credit card usage (D).",
+    "error": false
+  },
+  "0184bf529468dcb4b941ab2582b9bc2c": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Advance-fee fraud is a scam where victims are persuaded to pay money upfront (an \"advance fee\") for goods, services, or benefits that are never delivered. The other options do not accurately describe this type of fraud.",
+    "reasoning": "Advance-fee fraud is a scam where victims are persuaded to pay money upfront (an \"advance fee\") for goods, services, or benefits that are never delivered. The other options do not accurately describe this type of fraud.",
+    "error": false
+  },
+  "97c6028328eeceda8e146fded4a05384": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Form IEPF-5, used for claiming shares and dividends from the Investor Education and Protection Fund (IEPF), is specifically available as an online web form on the official IEPF website. It is not accepted in handwritten, PDF-only, or bank form formats.",
+    "reasoning": "Form IEPF-5, used for claiming shares and dividends from the Investor Education and Protection Fund (IEPF), is specifically available as an online web form on the official IEPF website. It is not accepted in handwritten, PDF-only, or bank form formats.",
+    "error": false
+  },
+  "b27a95c4d99caa7409a5571b800bea0e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The IEPF (Investor Education and Protection Fund) portal is specifically designed to help investors claim unclaimed shares and dividends that have been transferred to the government. NSDL is a depository, RBI deals with banking and monetary policy, and GSTN is related to tax. Therefore, the IEPF portal is the correct answer.",
+    "reasoning": "The IEPF (Investor Education and Protection Fund) portal is specifically designed to help investors claim unclaimed shares and dividends that have been transferred to the government. NSDL is a depository, RBI deals with banking and monetary policy, and GSTN is related to tax. Therefore, the IEPF portal is the correct answer.",
+    "error": false
+  },
+  "9ff841bdf76fba1cf057fd1236279b24": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Saving for a vacation is typically a short-term financial goal, usually planned within a year or two. The other options—retirement, child education, and home loan repayment—are long-term goals that require planning over many years.",
+    "reasoning": "Saving for a vacation is typically a short-term financial goal, usually planned within a year or two. The other options—retirement, child education, and home loan repayment—are long-term goals that require planning over many years.",
+    "error": false
+  },
+  "ffa9bf8fe2ef0e11d683be3306f556a8": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The IEPF-5 form is specifically designed for investors to claim shares and dividends that have been transferred to the Investor Education and Protection Fund (IEPF) by companies when they remain unclaimed for a specified period. The other options (opening a demat account, reporting insider trading, updating KYC) are unrelated to the IEPF-5 form.",
+    "reasoning": "The IEPF-5 form is specifically designed for investors to claim shares and dividends that have been transferred to the Investor Education and Protection Fund (IEPF) by companies when they remain unclaimed for a specified period. The other options (opening a demat account, reporting insider trading, updating KYC) are unrelated to the IEPF-5 form.",
+    "error": false
+  },
+  "8b82e4b2e84c1a9ff04c28b1de9e565a": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: To use a search facility (such as for checking shareholding or financial records), you typically need identifying details like PAN (Permanent Account Number) or the shareholder's name with basic details. Mobile number, ATM PIN, or Broker ID are not standard requirements for such search facilities.",
+    "reasoning": "To use a search facility (such as for checking shareholding or financial records), you typically need identifying details like PAN (Permanent Account Number) or the shareholder's name with basic details. Mobile number, ATM PIN, or Broker ID are not standard requirements for such search facilities.",
+    "error": false
+  },
+  "e601a4de50f823433f65980060a0cb84": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Treasury Bills (T-Bills) are short-term debt instruments issued by the government, typically with maturities of less than one year. Equity shares, real estate, and PPF (Public Provident Fund) are all long-term investment options.",
+    "reasoning": "Treasury Bills (T-Bills) are short-term debt instruments issued by the government, typically with maturities of less than one year. Equity shares, real estate, and PPF (Public Provident Fund) are all long-term investment options.",
+    "error": false
+  },
+  "bfb172403ab5641050d716d8ad11d75b": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Price-to-Earnings (P/E) ratio is a valuation metric that compares a company's current share price to its earnings per share. It is primarily used by investors to gauge market sentiment about the company's future earnings potential and how the market values those earnings. It does not measure liquidity (A), calculate dividend payout (C), or assess debt levels (D).",
+    "reasoning": "The Price-to-Earnings (P/E) ratio is a valuation metric that compares a company's current share price to its earnings per share. It is primarily used by investors to gauge market sentiment about the company's future earnings potential and how the market values those earnings. It does not measure liquidity (A), calculate dividend payout (C), or assess debt levels (D).",
+    "error": false
+  },
+  "349c672514fb5de56a80d946b2e8b11c": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: In the context of mutual funds, SIP stands for \"Systematic Investment Plan.\" This is a method of investing a fixed sum regularly in mutual funds. The other options do not accurately represent the commonly accepted meaning of SIP in mutual funds.",
+    "reasoning": "In the context of mutual funds, SIP stands for \"Systematic Investment Plan.\" This is a method of investing a fixed sum regularly in mutual funds. The other options do not accurately represent the commonly accepted meaning of SIP in mutual funds.",
+    "error": false
+  },
+  "213f214b2d0e756be4a00a1161a81c17": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Financial planning is designed to help individuals achieve their life goals and secure their financial future by managing income, expenses, investments, and risks. The other options (increasing confusion, avoiding taxes, gambling) are not objectives or outcomes of proper financial planning.",
+    "reasoning": "Financial planning is designed to help individuals achieve their life goals and secure their financial future by managing income, expenses, investments, and risks. The other options (increasing confusion, avoiding taxes, gambling) are not objectives or outcomes of proper financial planning.",
+    "error": false
+  },
+  "5c8ed5a18a87cef964a798e4e9a1a164": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 9,
+    "raw": "Answer: D  \nConfidence: 9  \nReasoning: The Investor Education and Protection Fund Authority (IEPFA) promotes financial literacy through a variety of channels, including seminars, campaigns, digital media, emails, and advertisements. Since all the listed methods are used by IEPFA to reach and educate the public, \"All of the above\" is the most accurate answer.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) promotes financial literacy through a variety of channels, including seminars, campaigns, digital media, emails, and advertisements. Since all the listed methods are used by IEPFA to reach and educate the public, \"All of the above\" is the most accurate answer.",
+    "error": false
+  },
+  "73f893c5fa59a6c12dfefcc9b8065762": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Chit funds in India are regulated and must be registered with the respective State Government under the Chit Funds Act, 1982. SEBI, RBI, and IRDAI regulate other financial entities, not chit funds.",
+    "reasoning": "Chit funds in India are regulated and must be registered with the respective State Government under the Chit Funds Act, 1982. SEBI, RBI, and IRDAI regulate other financial entities, not chit funds.",
+    "error": false
+  },
+  "aaafda12ed895317bca73a06a42e5b49": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Investor Education and Protection Fund Authority (IEPFA) primarily promotes financial inclusion through educational initiatives such as workshops, camps, and awareness drives. The other options (loans, stock trading, FD schemes) are financial products or services, not methods of promoting financial inclusion used by IEPFA.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) primarily promotes financial inclusion through educational initiatives such as workshops, camps, and awareness drives. The other options (loans, stock trading, FD schemes) are financial products or services, not methods of promoting financial inclusion used by IEPFA.",
+    "error": false
+  },
+  "09307d13f454f9dde979bc017e806550": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Investor Education and Protection Fund Authority (IEPFA) is responsible for processing claims related to unclaimed shares and dividends that are transferred to the government after a certain period. It does not handle income tax, bank frauds, or loan defaulters.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) is responsible for processing claims related to unclaimed shares and dividends that are transferred to the government after a certain period. It does not handle income tax, bank frauds, or loan defaulters.",
+    "error": false
+  },
+  "e411280e00d99c7975530f2dc3eb0cdc": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Boiler room scams refer to operations where fraudsters make unsolicited and often high-pressure phone calls to sell fake or worthless stocks to unsuspecting investors. The term has no relation to cooking, manufacturing, or cybersecurity.",
+    "reasoning": "Boiler room scams refer to operations where fraudsters make unsolicited and often high-pressure phone calls to sell fake or worthless stocks to unsuspecting investors. The term has no relation to cooking, manufacturing, or cybersecurity.",
+    "error": false
+  },
+  "c2ef473f341553b2b23507e7a1ff40d4": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Indian Technical and Economic Cooperation (ITEC) Programme was launched by the Government of India in 1964 to provide technical assistance and economic cooperation to developing countries. This is a well-documented fact in Indian foreign policy history.",
+    "reasoning": "The Indian Technical and Economic Cooperation (ITEC) Programme was launched by the Government of India in 1964 to provide technical assistance and economic cooperation to developing countries. This is a well-documented fact in Indian foreign policy history.",
+    "error": false
+  },
+  "107e3fe19e863847316fd5ae87c50835": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: Prime Minister Narendra Modi visited South Africa in July 2025 to attend the BRICS summit and for bilateral meetings. There is no record of official visits to Ghana, Nigeria, or Kenya during that period. South Africa was the prominent African country on his itinerary in July 2025.",
+    "reasoning": "Prime Minister Narendra Modi visited South Africa in July 2025 to attend the BRICS summit and for bilateral meetings. There is no record of official visits to Ghana, Nigeria, or Kenya during that period. South Africa was the prominent African country on his itinerary in July 2025.",
+    "error": false
+  },
+  "9c0800fe3304f9d19fe12be379a5bc3e": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mission LiFE (Lifestyle for Environment) is an initiative launched by the Government of India that specifically promotes mindful and deliberate utilization of resources, encouraging sustainable lifestyles to protect and preserve the environment. The other options do not directly align with this specific mission statement.",
+    "reasoning": "Mission LiFE (Lifestyle for Environment) is an initiative launched by the Government of India that specifically promotes mindful and deliberate utilization of resources, encouraging sustainable lifestyles to protect and preserve the environment. The other options do not directly align with this specific mission statement.",
+    "error": false
+  },
+  "872bd860d902776172db119d7c708e3b": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The International Solar Alliance (ISA) was launched in 2015 as a joint initiative by India and France. The announcement was made during the COP21 climate conference in Paris, with both countries acting as co-chairs. The other options (USA, Italy, South Africa) were not co-chairs at the launch.",
+    "reasoning": "The International Solar Alliance (ISA) was launched in 2015 as a joint initiative by India and France. The announcement was made during the COP21 climate conference in Paris, with both countries acting as co-chairs. The other options (USA, Italy, South Africa) were not co-chairs at the launch.",
+    "error": false
+  },
+  "1e3fcc4b4fec74e561a05ee99a78f572": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The United Nations General Assembly declared 2023 as the International Year of Millets to raise awareness and promote the production and consumption of millets globally. This was widely publicized and supported by countries like India.",
+    "reasoning": "The United Nations General Assembly declared 2023 as the International Year of Millets to raise awareness and promote the production and consumption of millets globally. This was widely publicized and supported by countries like India.",
+    "error": false
+  },
+  "f557e92e3a1a26bd7ed6a3c1bfc88d7f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Prime Minister Shri Narendra Modi launched the ‘Ek Ped Maa Ke Naam’ campaign on World Environment Day 2024, encouraging people to plant a tree in honor of their mothers. This initiative was widely reported in the media and officially announced by the Prime Minister himself.",
+    "reasoning": "Prime Minister Shri Narendra Modi launched the ‘Ek Ped Maa Ke Naam’ campaign on World Environment Day 2024, encouraging people to plant a tree in honor of their mothers. This initiative was widely reported in the media and officially announced by the Prime Minister himself.",
+    "error": false
+  },
+  "ba44a4f258b37d279d4fde95a3ac56db": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: After the UAE, Southeast Asia (especially countries like Malaysia and Singapore) hosts a very large Indian diaspora, larger than in Europe or Africa. North America has a significant Indian population, but not as large as Southeast Asia's. Therefore, the most accurate answer is Southeast Asia.",
+    "reasoning": "After the UAE, Southeast Asia (especially countries like Malaysia and Singapore) hosts a very large Indian diaspora, larger than in Europe or Africa. North America has a significant Indian population, but not as large as Southeast Asia's. Therefore, the most accurate answer is Southeast Asia.",
+    "error": false
+  },
+  "ce76a45fb4663cdeaeec96968989962b": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: UNESCO inscribed yoga in its Representative List of Intangible Cultural Heritage of Humanity in 2016. This was widely reported in international news and official UNESCO records.",
+    "reasoning": "UNESCO inscribed yoga in its Representative List of Intangible Cultural Heritage of Humanity in 2016. This was widely reported in international news and official UNESCO records.",
+    "error": false
+  },
+  "b0073d71057d800df641a4ae68910476": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: India is an active member of the United Nations, which is the primary global organization dedicated to promoting multilateralism. While India also participates in the World Bank and IMF, these are financial institutions rather than broad multilateral forums. The African Union is a regional organization for African countries, and India is not a member. Therefore, the United Nations is the most accurate answer.",
+    "reasoning": "India is an active member of the United Nations, which is the primary global organization dedicated to promoting multilateralism. While India also participates in the World Bank and IMF, these are financial institutions rather than broad multilateral forums. The African Union is a regional organization for African countries, and India is not a member. Therefore, the United Nations is the most accurate answer.",
+    "error": false
+  },
+  "838f2c32375ce5a9654084d9a2fc6ea6": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: The official theme for International Day of Yoga 2025 is \"Yoga for Self and Society.\" This theme was announced by the Ministry of AYUSH, Government of India, and widely reported in credible news sources. The other options correspond to themes from previous years (e.g., \"Yoga for Humanity\" was the 2022 theme, \"Yoga for One Earth, One Health\" was for 2023, and \"Yoga for Vasudhaiva Kutumbakam\" was for 2024).",
+    "reasoning": "The official theme for International Day of Yoga 2025 is \"Yoga for Self and Society.\" This theme was announced by the Ministry of AYUSH, Government of India, and widely reported in credible news sources. The other options correspond to themes from previous years (e.g., \"Yoga for Humanity\" was the 2022 theme, \"Yoga for One Earth, One Health\" was for 2023, and \"Yoga for Vasudhaiva Kutumbakam\" was for 2024).",
+    "error": false
+  },
+  "b8e4b89e4e98260bd320f4eab2eb5fe9": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Inflation, time, and risk level are all well-established factors that influence investment returns. An individual's astrological sign has no proven or logical impact on investment performance.",
+    "reasoning": "Inflation, time, and risk level are all well-established factors that influence investment returns. An individual's astrological sign has no proven or logical impact on investment performance.",
+    "error": false
+  },
+  "c1684564b06d2d62a37fe8046e9d1b20": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: A bull market refers to a financial market in which prices are rising or are expected to rise, typically associated with investor confidence and optimism. The other options do not accurately describe a bull market.",
+    "reasoning": "A bull market refers to a financial market in which prices are rising or are expected to rise, typically associated with investor confidence and optimism. The other options do not accurately describe a bull market.",
+    "error": false
+  },
+  "e9f4218a86f945bbab3a44e075938f84": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Debt management refers to strategies and practices for handling debt responsibly, which includes paying off debts on time to avoid penalties and maintain a good credit score. Taking more loans, ignoring EMIs, or spending more would worsen debt, not manage it.",
+    "reasoning": "Debt management refers to strategies and practices for handling debt responsibly, which includes paying off debts on time to avoid penalties and maintain a good credit score. Taking more loans, ignoring EMIs, or spending more would worsen debt, not manage it.",
+    "error": false
+  },
+  "2a47550754501639d118b2929f6b1b1e": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Offer Document (also known as the Scheme Information Document or Prospectus) is the official document provided by mutual funds that details all relevant information, including investor rights, scheme features, risks, and terms. Passbooks, tax returns, and bank statements do not contain information about investor rights in mutual funds.",
+    "reasoning": "The Offer Document (also known as the Scheme Information Document or Prospectus) is the official document provided by mutual funds that details all relevant information, including investor rights, scheme features, risks, and terms. Passbooks, tax returns, and bank statements do not contain information about investor rights in mutual funds.",
+    "error": false
+  },
+  "24ccade7ffe76ea0f7ca996c6baa83aa": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: IEPF-5 is the form prescribed by the Investor Education and Protection Fund Authority (IEPF) for claiming unclaimed shares, dividends, and other related amounts transferred to the IEPF. It is not applicable to bank savings, unclaimed insurance, or property.",
+    "reasoning": "IEPF-5 is the form prescribed by the Investor Education and Protection Fund Authority (IEPF) for claiming unclaimed shares, dividends, and other related amounts transferred to the IEPF. It is not applicable to bank savings, unclaimed insurance, or property.",
+    "error": false
+  },
+  "0196eb3c130cf7c9d4670f9a06dbe4cb": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The question asks if the search facility is free. Among the options, \"Yes\" is the only direct affirmation. The other options specify paid access for certain groups, but unless the context specifically restricts free access for NRIs or agents (which is not indicated in the question), the most accurate and general answer is \"Yes.\"",
+    "reasoning": "The question asks if the search facility is free. Among the options, \"Yes\" is the only direct affirmation. The other options specify paid access for certain groups, but unless the context specifically restricts free access for NRIs or agents (which is not indicated in the question), the most accurate and general answer is \"Yes.\"",
+    "error": false
+  },
+  "ab88f885a29b98b4ed904c29bb7d141c": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The question \"You can claim through?\" is general, but among the options, the IEPF-5 form is specifically used for claiming unclaimed dividends, shares, or other amounts from the Investor Education and Protection Fund (IEPF) in India. The other options (Income Tax form, Credit note, Online shopping) do not directly relate to a standardized \"claim\" process in this context.",
+    "reasoning": "The question \"You can claim through?\" is general, but among the options, the IEPF-5 form is specifically used for claiming unclaimed dividends, shares, or other amounts from the Investor Education and Protection Fund (IEPF) in India. The other options (Income Tax form, Credit note, Online shopping) do not directly relate to a standardized \"claim\" process in this context.",
+    "error": false
+  },
+  "429b5145411e15177194db3166a0378e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The rightful claimant (such as the shareholder, their legal heir, or nominee) can claim shares or dividends transferred to the Investor Education and Protection Fund (IEPF) by filing Form IEPF-5. This is the prescribed process under the Companies Act, 2013 and related IEPF rules. Options C and D are incorrect as SEBI and only nominees are not the sole claimants; option A is incorrect as rightful claimants are specifically allowed.",
+    "reasoning": "The rightful claimant (such as the shareholder, their legal heir, or nominee) can claim shares or dividends transferred to the Investor Education and Protection Fund (IEPF) by filing Form IEPF-5. This is the prescribed process under the Companies Act, 2013 and related IEPF rules. Options C and D are incorrect as SEBI and only nominees are not the sole claimants; option A is incorrect as rightful claimants are specifically allowed.",
+    "error": false
+  },
+  "aca3aa5afb0dc0ffc14bc06b85a713a3": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Fake investment apps are typically hosted on unknown websites to avoid detection and bypass security checks present on trusted platforms, bank websites, or official portals like the RBI. This allows scammers to deceive users more easily.",
+    "reasoning": "Fake investment apps are typically hosted on unknown websites to avoid detection and bypass security checks present on trusted platforms, bank websites, or official portals like the RBI. This allows scammers to deceive users more easily.",
+    "error": false
+  },
+  "d932a5d1a10f99e79a1eb1d4afe619f3": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Investor Education and Protection Fund Authority (IEPFA) is responsible for handling unclaimed dividends and shares, among other investor protection activities. The other options (issuing bank loans, recovering GST, printing currency) are not functions of IEPFA.",
+    "reasoning": "The Investor Education and Protection Fund Authority (IEPFA) is responsible for handling unclaimed dividends and shares, among other investor protection activities. The other options (issuing bank loans, recovering GST, printing currency) are not functions of IEPFA.",
+    "error": false
+  },
+  "0643dadd4e12c1f8d32019ae215371cc": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The ideal age to start investing is as early as possible, typically at 18 when individuals can legally open investment accounts. Starting early allows more time for investments to grow through compounding, making 18 the best option among those listed.",
+    "reasoning": "The ideal age to start investing is as early as possible, typically at 18 when individuals can legally open investment accounts. Starting early allows more time for investments to grow through compounding, making 18 the best option among those listed.",
+    "error": false
+  },
+  "83cdc7ae6549fd475686dad2c23839ff": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Promises of extremely high returns in a short period, such as 50% in 1 month, are classic red flags for investment scams or fraudulent schemes. The other options (A, B, D) indicate legitimacy or transparency, while C is a clear warning sign.",
+    "reasoning": "Promises of extremely high returns in a short period, such as 50% in 1 month, are classic red flags for investment scams or fraudulent schemes. The other options (A, B, D) indicate legitimacy or transparency, while C is a clear warning sign.",
+    "error": false
+  },
+  "f540f638e20ff605972c68795b67f6c1": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The IEPFA (Investor Education and Protection Fund Authority) Search Facility allows investors to check for unclaimed shares/dividends by entering either their PAN (Permanent Account Number) or their name. Other details like bank account number, company registration number, or Aadhaar are not required for the basic search. PAN or name is the minimum information needed to initiate a search.",
+    "reasoning": "The IEPFA (Investor Education and Protection Fund Authority) Search Facility allows investors to check for unclaimed shares/dividends by entering either their PAN (Permanent Account Number) or their name. Other details like bank account number, company registration number, or Aadhaar are not required for the basic search. PAN or name is the minimum information needed to initiate a search.",
+    "error": false
+  },
+  "d29326817240fc88b7ecf580352db03a": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Ponzi schemes often lure investors by promising guaranteed high returns with little or no risk, which is a classic red flag. Legitimate investments always carry some risk, and no credible investment can guarantee high returns. The other options (B, C, D) are characteristics of legitimate investments, not Ponzi schemes.",
+    "reasoning": "Ponzi schemes often lure investors by promising guaranteed high returns with little or no risk, which is a classic red flag. Legitimate investments always carry some risk, and no credible investment can guarantee high returns. The other options (B, C, D) are characteristics of legitimate investments, not Ponzi schemes.",
+    "error": false
+  },
+  "4f6c5e82d5681db912073fa5b6eaf9d3": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: India has never won a medal at the Winter Olympics. Shiva Keshavan and Arif Khan have represented India, but neither has won a medal. Therefore, \"None\" is the correct answer.",
+    "reasoning": "India has never won a medal at the Winter Olympics. Shiva Keshavan and Arif Khan have represented India, but neither has won a medal. Therefore, \"None\" is the correct answer.",
+    "error": false
+  },
+  "0712ac22c5d1e4e10b0ac5d055250e39": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Neeraj Chopra is an Indian athlete renowned for winning gold in the Javelin Throw event, notably at the Tokyo 2020 Olympics. He is not associated with Shot Put, Discus Throw, or High Jump.",
+    "reasoning": "Neeraj Chopra is an Indian athlete renowned for winning gold in the Javelin Throw event, notably at the Tokyo 2020 Olympics. He is not associated with Shot Put, Discus Throw, or High Jump.",
+    "error": false
+  },
+  "c13061df610992483f21d8d73b7f0a57": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Murlikant Petkar became India’s first male Paralympic gold medalist by winning gold in swimming at the 1972 Heidelberg Paralympics. The other options, while accomplished Paralympians, won their gold medals after Petkar.",
+    "reasoning": "Murlikant Petkar became India’s first male Paralympic gold medalist by winning gold in swimming at the 1972 Heidelberg Paralympics. The other options, while accomplished Paralympians, won their gold medals after Petkar.",
+    "error": false
+  },
+  "8fc100f00190a7daade718ab9ecb5c4d": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Karnam Malleswari won the bronze medal in weightlifting at the Sydney 2000 Olympics. She did not win a medal in Atlanta 1996, and the other options (Beijing 2008, London 2012) are not relevant to her Olympic achievements.",
+    "reasoning": "Karnam Malleswari won the bronze medal in weightlifting at the Sydney 2000 Olympics. She did not win a medal in Atlanta 1996, and the other options (Beijing 2008, London 2012) are not relevant to her Olympic achievements.",
+    "error": false
+  },
+  "ec50bbbeb3139a8f099120f48715c326": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: MS Dhoni was the captain of the Indian cricket team during the 2011 World Cup, leading India to victory. Sourav Ganguly and Rahul Dravid were former captains, and Virat Kohli was a player but not the captain at that time.",
+    "reasoning": "MS Dhoni was the captain of the Indian cricket team during the 2011 World Cup, leading India to victory. Sourav Ganguly and Rahul Dravid were former captains, and Virat Kohli was a player but not the captain at that time.",
+    "error": false
+  },
+  "b3a6c997a62def22e2a72a8cb02da761": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Amit Panghal became India’s first male boxer to win a silver medal at the AIBA World Boxing Championships in 2019, making him the first Indian male to reach the final and thus be recognized as India’s first male world boxing champion. The other options (Vijender Singh, Shiva Thapa, Akhil Kumar) have won medals at world or Olympic level but did not achieve this specific milestone.",
+    "reasoning": "Amit Panghal became India’s first male boxer to win a silver medal at the AIBA World Boxing Championships in 2019, making him the first Indian male to reach the final and thus be recognized as India’s first male world boxing champion. The other options (Vijender Singh, Shiva Thapa, Akhil Kumar) have won medals at world or Olympic level but did not achieve this specific milestone.",
+    "error": false
+  },
+  "3bbf699d440c349b809106fc9ce41453": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Kamaljit Sandhu became the first Indian woman to win an Asian Games gold medal in the 400m event, achieving this feat at the 1970 Asian Games in Bangkok. PT Usha and M.L. Valsamma are renowned Indian athletes but did not achieve this specific milestone first, and Hima Das's major gold was at the World U20 Championships, not the Asian Games.",
+    "reasoning": "Kamaljit Sandhu became the first Indian woman to win an Asian Games gold medal in the 400m event, achieving this feat at the 1970 Asian Games in Bangkok. PT Usha and M.L. Valsamma are renowned Indian athletes but did not achieve this specific milestone first, and Hima Das's major gold was at the World U20 Championships, not the Asian Games.",
+    "error": false
+  },
+  "c0f662e5ec22c8cde9ea26d39e47aba4": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mary Kom won India’s first women’s World Championship gold in boxing in 2002. She is a six-time world champion and is widely recognized as a pioneer in Indian women’s boxing. The other options, while accomplished, did not win India’s first gold at the Women’s World Boxing Championships.",
+    "reasoning": "Mary Kom won India’s first women’s World Championship gold in boxing in 2002. She is a six-time world champion and is widely recognized as a pioneer in Indian women’s boxing. The other options, while accomplished, did not win India’s first gold at the Women’s World Boxing Championships.",
+    "error": false
+  },
+  "d6935ec062f7ceccb6aeee0b1e648d10": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Dipa Karmakar is widely recognized as the first Indian female gymnast to qualify for and compete at the Olympics, making her debut at the 2016 Rio Olympics. The other options are not correct: Pranati Nayak is also a gymnast but not the first; Deepa Malik is a Paralympian in athletics; Ashmita Chatterjee is not known as an Olympic gymnast.",
+    "reasoning": "Dipa Karmakar is widely recognized as the first Indian female gymnast to qualify for and compete at the Olympics, making her debut at the 2016 Rio Olympics. The other options are not correct: Pranati Nayak is also a gymnast but not the first; Deepa Malik is a Paralympian in athletics; Ashmita Chatterjee is not known as an Olympic gymnast.",
+    "error": false
+  },
+  "96cac05a018920182477d8d3f4993e84": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: PV Sindhu won her Olympic silver medal in badminton at the 2016 Rio de Janeiro Olympics. She became the first Indian woman to win an Olympic silver in badminton that year. The other years listed do not correspond to her silver medal achievement.",
+    "reasoning": "PV Sindhu won her Olympic silver medal in badminton at the 2016 Rio de Janeiro Olympics. She became the first Indian woman to win an Olympic silver in badminton that year. The other years listed do not correspond to her silver medal achievement.",
+    "error": false
+  },
+  "7d0801edf47a5be130beef62c8abd859": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Apollo-15 was the first mission to use the Lunar Roving Vehicle (an automobile) on the Moon. Apollo-11 was the first manned Moon landing but did not have a rover. Luna-2 and Sputnik-1 were unmanned missions and did not involve any vehicles driving on the Moon.",
+    "reasoning": "Apollo-15 was the first mission to use the Lunar Roving Vehicle (an automobile) on the Moon. Apollo-11 was the first manned Moon landing but did not have a rover. Luna-2 and Sputnik-1 were unmanned missions and did not involve any vehicles driving on the Moon.",
+    "error": false
+  },
+  "1111e7c1837490b228eb2e3fc2f13e7b": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: The Lunar Reconnaissance Orbiter (LRO), launched by NASA in 2009, included a collaborative instrument called LAMP, which was provided by the European Space Agency (ESA). There was no significant collaboration with Roscosmos (B), ISRO (C), or JAXA (D) on the LRO mission. Therefore, ESA is the correct answer.",
+    "reasoning": "The Lunar Reconnaissance Orbiter (LRO), launched by NASA in 2009, included a collaborative instrument called LAMP, which was provided by the European Space Agency (ESA). There was no significant collaboration with Roscosmos (B), ISRO (C), or JAXA (D) on the LRO mission. Therefore, ESA is the correct answer.",
+    "error": false
+  },
+  "2ab68a3df3b8a542af1ca0eb68aabc74": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Indian Space Research Organisation (ISRO) is headquartered in Bengaluru, Karnataka. While ISRO has important facilities in other cities (such as Hyderabad and Thiruvananthapuram), its main headquarters is in Bengaluru.",
+    "reasoning": "The Indian Space Research Organisation (ISRO) is headquartered in Bengaluru, Karnataka. While ISRO has important facilities in other cities (such as Hyderabad and Thiruvananthapuram), its main headquarters is in Bengaluru.",
+    "error": false
+  },
+  "b2c2f38769c6181d3f1a41cb6dfd7a24": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The first spacecraft to visit the Moon was Luna 2, launched by the Soviet Union in 1959. The USA, India, and Japan sent spacecraft later. The Soviet Union was the first country to achieve this milestone.",
+    "reasoning": "The first spacecraft to visit the Moon was Luna 2, launched by the Soviet Union in 1959. The USA, India, and Japan sent spacecraft later. The Soviet Union was the first country to achieve this milestone.",
+    "error": false
+  },
+  "376d17f6ad9c79984b6bf01b41ac5c88": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The duration of a lunar month, also known as a synodic month (the time from one new moon to the next), is about 29.5 days. Option A (27.3 days) refers to the sidereal month, which is the time it takes the Moon to orbit Earth relative to the stars, not the phases. Options C and D are too long. Therefore, B is the most accurate answer.",
+    "reasoning": "The duration of a lunar month, also known as a synodic month (the time from one new moon to the next), is about 29.5 days. Option A (27.3 days) refers to the sidereal month, which is the time it takes the Moon to orbit Earth relative to the stars, not the phases. Options C and D are too long. Therefore, B is the most accurate answer.",
+    "error": false
+  },
+  "d328a32c36444005b14dde982e0e80ee": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The drogue parachute system for Gaganyaan’s crew module was reported as being successfully qualified in 2025. The drogue parachute is a critical component for stabilizing and decelerating the module before the deployment of the main parachutes. News reports and ISRO updates specifically mention the qualification of the drogue parachute system in 2025, making it the most accurate choice among the options.",
+    "reasoning": "The drogue parachute system for Gaganyaan’s crew module was reported as being successfully qualified in 2025. The drogue parachute is a critical component for stabilizing and decelerating the module before the deployment of the main parachutes. News reports and ISRO updates specifically mention the qualification of the drogue parachute system in 2025, making it the most accurate choice among the options.",
+    "error": false
+  },
+  "034b8a002ebc0c72778563370469bec1": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 8,
+    "raw": "Answer: B  \nConfidence: 8  \nReasoning: As of early 2024, ISRO has indicated that Chandrayaan-4, which aims to return lunar samples, is tentatively planned for launch around 2026. There have been no official announcements confirming a 2025 launch, and 2027 or 2028 are considered less likely based on current timelines. Therefore, 2026 is the most accurate answer.",
+    "reasoning": "As of early 2024, ISRO has indicated that Chandrayaan-4, which aims to return lunar samples, is tentatively planned for launch around 2026. There have been no official announcements confirming a 2025 launch, and 2027 or 2028 are considered less likely based on current timelines. Therefore, 2026 is the most accurate answer.",
+    "error": false
+  },
+  "e5725a658427cba684c047c2a57a8774": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: In 1609, Galileo Galilei used a telescope to observe the Moon and was the first to describe its surface as having mountains and craters. The other options either lived in different eras or were not associated with this discovery.",
+    "reasoning": "In 1609, Galileo Galilei used a telescope to observe the Moon and was the first to describe its surface as having mountains and craters. The other options either lived in different eras or were not associated with this discovery.",
+    "error": false
+  },
+  "4783d03d35b2987ad480fe1cf964c462": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Apollo 11 carried a passive seismometer, but it failed after a short time. Apollo 12 was the first mission to successfully install and operate a seismometer (the Apollo Lunar Surface Experiments Package, ALSEP) on the Moon, providing valuable seismic data.",
+    "reasoning": "Apollo 11 carried a passive seismometer, but it failed after a short time. Apollo 12 was the first mission to successfully install and operate a seismometer (the Apollo Lunar Surface Experiments Package, ALSEP) on the Moon, providing valuable seismic data.",
+    "error": false
+  },
+  "2d41bee94543cd3920371f8143ce7988": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: ISRO began work on the SSLV Launch Complex at Kulasekarapattinam, Tamil Nadu, on 29 January 2025. This date is supported by official press releases and news reports about the foundation stone laying ceremony. The other dates do not correspond to the documented commencement of work.",
+    "reasoning": "ISRO began work on the SSLV Launch Complex at Kulasekarapattinam, Tamil Nadu, on 29 January 2025. This date is supported by official press releases and news reports about the foundation stone laying ceremony. The other dates do not correspond to the documented commencement of work.",
+    "error": false
+  },
+  "36a43d002707e91f59ea7ca15f420101": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Apollo 11 was the first mission to land humans on the moon, and this historic event occurred in 1969. The other years listed do not correspond to any lunar landing missions.",
+    "reasoning": "Apollo 11 was the first mission to land humans on the moon, and this historic event occurred in 1969. The other years listed do not correspond to any lunar landing missions.",
+    "error": false
+  },
+  "c075b72a7e3ad2aac6d992540ecc3265": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: On the Moon, there is no atmosphere, so there is no air resistance. Both the feather and the hammer will fall at the same rate due to gravity alone, and thus will hit the Moon's surface at the same time. This was famously demonstrated by astronaut David Scott during the Apollo 15 mission.",
+    "reasoning": "On the Moon, there is no atmosphere, so there is no air resistance. Both the feather and the hammer will fall at the same rate due to gravity alone, and thus will hit the Moon's surface at the same time. This was famously demonstrated by astronaut David Scott during the Apollo 15 mission.",
+    "error": false
+  },
+  "3d8777fa1202fb6634bf88cc07133126": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The dark patches on the Moon's surface are called \"mare\" (plural: maria) regions, which are large, basaltic plains formed by ancient volcanic eruptions. The other options are incorrect: \"Manina regions\" is not a recognized term, \"lunar highlands\" refer to the lighter, elevated areas, and \"rilles\" are long, narrow depressions or channels.",
+    "reasoning": "The dark patches on the Moon's surface are called \"mare\" (plural: maria) regions, which are large, basaltic plains formed by ancient volcanic eruptions. The other options are incorrect: \"Manina regions\" is not a recognized term, \"lunar highlands\" refer to the lighter, elevated areas, and \"rilles\" are long, narrow depressions or channels.",
+    "error": false
+  },
+  "1e368e2bdaa9300f8d1cb7d3f059bc3e": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Chandrayaan-1 consisted of an orbiter that circled the Moon and a lunar impactor (the Moon Impact Probe) that was released to crash onto the lunar surface. There was no lander or rover in this mission, so options C and D are incorrect. Option A is incomplete, as it omits the impactor.",
+    "reasoning": "Chandrayaan-1 consisted of an orbiter that circled the Moon and a lunar impactor (the Moon Impact Probe) that was released to crash onto the lunar surface. There was no lander or rover in this mission, so options C and D are incorrect. Option A is incomplete, as it omits the impactor.",
+    "error": false
+  },
+  "5da5a0e7ce92eb8ca0c1217add201869": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Neil Armstrong was the commander of Apollo 11 and became the first human to set foot on the Moon on July 20, 1969. Buzz Aldrin followed him, Michael Collins remained in lunar orbit, and Alan Shepherd was the first American in space but did not walk on the Moon during Apollo 11.",
+    "reasoning": "Neil Armstrong was the commander of Apollo 11 and became the first human to set foot on the Moon on July 20, 1969. Buzz Aldrin followed him, Michael Collins remained in lunar orbit, and Alan Shepherd was the first American in space but did not walk on the Moon during Apollo 11.",
+    "error": false
+  },
+  "e67e22fe2371d5b9168a95e09458972c": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The lunar highlands are the oldest regions on the Moon and are heavily cratered due to billions of years of impacts. In contrast, the maria are smoother, younger, and have fewer craters. While the polar regions and the near side do have craters, \"highlands\" specifically refers to the most heavily cratered areas.",
+    "reasoning": "The lunar highlands are the oldest regions on the Moon and are heavily cratered due to billions of years of impacts. In contrast, the maria are smoother, younger, and have fewer craters. While the polar regions and the near side do have craters, \"highlands\" specifically refers to the most heavily cratered areas.",
+    "error": false
+  },
+  "a4f2e1f7b6bdddf6cc46173549b203e6": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The CE-20 engine, which powers the upper stage of ISRO's LVM3 rocket, underwent successful restart tests in January 2025 to validate its in-flight restart capability. The Vikas, S200, and PS1 engines are not designed for or associated with in-flight restart tests; Vikas and S200 are used in lower stages and are not restartable, while PS1 is a solid rocket motor.",
+    "reasoning": "The CE-20 engine, which powers the upper stage of ISRO's LVM3 rocket, underwent successful restart tests in January 2025 to validate its in-flight restart capability. The Vikas, S200, and PS1 engines are not designed for or associated with in-flight restart tests; Vikas and S200 are used in lower stages and are not restartable, while PS1 is a solid rocket motor.",
+    "error": false
+  },
+  "6a27818fb90d7d4f0b48a43b1492c5f2": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Celsius to Fahrenheit conversion formula is the same regardless of location (Earth, Moon, etc.): F = (C × 9/5) + 32. For 100°C: (100 × 9/5) + 32 = 180 + 32 = 212°F. Therefore, 100°C on the Moon is 212°F, just as it is on Earth.",
+    "reasoning": "The Celsius to Fahrenheit conversion formula is the same regardless of location (Earth, Moon, etc.): F = (C × 9/5) + 32. For 100°C: (100 × 9/5) + 32 = 180 + 32 = 212°F. Therefore, 100°C on the Moon is 212°F, just as it is on Earth.",
+    "error": false
+  },
+  "67f4170f6d4bb698c3a684f56874a711": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Artemis 1 was an uncrewed test flight that orbited the Moon in late 2022 and then returned to Earth; it is no longer around the Moon. Chandrayaan-2, the Korean Pathfinder Lunar Orbiter, and the Lunar Reconnaissance Orbiter are all currently in lunar orbit.",
+    "reasoning": "Artemis 1 was an uncrewed test flight that orbited the Moon in late 2022 and then returned to Earth; it is no longer around the Moon. Chandrayaan-2, the Korean Pathfinder Lunar Orbiter, and the Lunar Reconnaissance Orbiter are all currently in lunar orbit.",
+    "error": false
+  },
+  "f6c262417f915d846c4e213572f28972": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: West Bengal is historically the most dominant state in the Santosh Trophy, having won the tournament more times than any other state. While Kerala, Goa, and Punjab have also been successful, West Bengal's record is unmatched.",
+    "reasoning": "West Bengal is historically the most dominant state in the Santosh Trophy, having won the tournament more times than any other state. While Kerala, Goa, and Punjab have also been successful, West Bengal's record is unmatched.",
+    "error": false
+  },
+  "4c0e5987cef921ae3f387cc72e2d9660": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mary Kom became the first Indian woman boxer to win an Olympic medal by securing a bronze at the 2012 London Olympics. The other options either won medals later or have not won an Olympic medal.",
+    "reasoning": "Mary Kom became the first Indian woman boxer to win an Olympic medal by securing a bronze at the 2012 London Olympics. The other options either won medals later or have not won an Olympic medal.",
+    "error": false
+  },
+  "b535cb877603b28b0682969afa4f25f4": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Neeraj Chopra won India’s only gold medal at the Tokyo Olympics in 2021, in the men’s javelin throw event. The other options—Bajrang Punia (wrestling), Mary Kom (boxing), and PV Sindhu (badminton)—won medals in other Olympics or events, but not gold at Tokyo.",
+    "reasoning": "Neeraj Chopra won India’s only gold medal at the Tokyo Olympics in 2021, in the men’s javelin throw event. The other options—Bajrang Punia (wrestling), Mary Kom (boxing), and PV Sindhu (badminton)—won medals in other Olympics or events, but not gold at Tokyo.",
+    "error": false
+  },
+  "0de8183f94839fa8b9dd74aeb6f8c022": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mirabai Chanu won India’s first silver medal at the Tokyo Olympics 2020 in women’s weightlifting (49kg category). PV Sindhu won bronze, Lovlina Borgohain won bronze, and Ravi Dahiya won silver later in wrestling.",
+    "reasoning": "Mirabai Chanu won India’s first silver medal at the Tokyo Olympics 2020 in women’s weightlifting (49kg category). PV Sindhu won bronze, Lovlina Borgohain won bronze, and Ravi Dahiya won silver later in wrestling.",
+    "error": false
+  },
+  "c6c2e90d369440633d66a4e2ee2a947f": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The nickname \"Little Master\" is most famously associated with Sunil Gavaskar, who was renowned for his batting prowess despite his relatively short stature. While Sachin Tendulkar is often called the \"Master Blaster\" and sometimes \"Little Master\" informally, the original and widely recognized \"Little Master\" is Sunil Gavaskar. The other options do not have this nickname.",
+    "reasoning": "The nickname \"Little Master\" is most famously associated with Sunil Gavaskar, who was renowned for his batting prowess despite his relatively short stature. While Sachin Tendulkar is often called the \"Master Blaster\" and sometimes \"Little Master\" informally, the original and widely recognized \"Little Master\" is Sunil Gavaskar. The other options do not have this nickname.",
+    "error": false
+  },
+  "c630d11cbc65549f241047fed2b31b7b": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Harmanpreet Kaur became the first Indian woman to score a T20 International (T20I) century during the 2018 ICC Women's World T20 against New Zealand. None of the other options had achieved this milestone before her.",
+    "reasoning": "Harmanpreet Kaur became the first Indian woman to score a T20 International (T20I) century during the 2018 ICC Women's World T20 against New Zealand. None of the other options had achieved this milestone before her.",
+    "error": false
+  },
+  "11024fced05a6e59c00e92db9ab1283b": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Manipur is widely recognized as the birthplace of modern polo. The traditional game of Sagol Kangjei, which closely resembles polo, originated in Manipur, and the state has a long-standing association with the sport. While Rajasthan is also known for hosting polo matches, Manipur is historically and culturally the most accurate answer.",
+    "reasoning": "Manipur is widely recognized as the birthplace of modern polo. The traditional game of Sagol Kangjei, which closely resembles polo, originated in Manipur, and the state has a long-standing association with the sport. While Rajasthan is also known for hosting polo matches, Manipur is historically and culturally the most accurate answer.",
+    "error": false
+  },
+  "fd4c05fbf6d9a87b8329a3e9f9f7f489": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Zaheer Khan was the joint highest wicket-taker in the 2011 Cricket World Cup, finishing with 21 wickets. Lasith Malinga was close but had fewer wickets. Brett Lee and James Anderson did not take as many wickets as Zaheer Khan in that tournament.",
+    "reasoning": "Zaheer Khan was the joint highest wicket-taker in the 2011 Cricket World Cup, finishing with 21 wickets. Lasith Malinga was close but had fewer wickets. Brett Lee and James Anderson did not take as many wickets as Zaheer Khan in that tournament.",
+    "error": false
+  },
+  "49080505cdf793aa5a4511014ccb3777": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Anil Kumble is India's highest wicket-taker in ODIs, with 337 wickets. While the other options (Javagal Srinath, Zaheer Khan, and Kapil Dev) have impressive records, none have surpassed Kumble's ODI wicket tally.",
+    "reasoning": "Anil Kumble is India's highest wicket-taker in ODIs, with 337 wickets. While the other options (Javagal Srinath, Zaheer Khan, and Kapil Dev) have impressive records, none have surpassed Kumble's ODI wicket tally.",
+    "error": false
+  },
+  "762c1f660f6d68ae62468e85d8b20ca1": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Mary Kom is the only Indian boxer who has won the World Amateur Boxing Championship six times. The other options have not achieved this feat.",
+    "reasoning": "Mary Kom is the only Indian boxer who has won the World Amateur Boxing Championship six times. The other options have not achieved this feat.",
+    "error": false
+  },
+  "2592cd1abf1dc026f725e994ede2be65": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: India hosted the Commonwealth Games in 2010 in New Delhi. The other years correspond to games held in different countries: 1998 (Kuala Lumpur, Malaysia), 2002 (Manchester, England), and 2018 (Gold Coast, Australia).",
+    "reasoning": "India hosted the Commonwealth Games in 2010 in New Delhi. The other years correspond to games held in different countries: 1998 (Kuala Lumpur, Malaysia), 2002 (Manchester, England), and 2018 (Gold Coast, Australia).",
+    "error": false
+  },
+  "7861b98f5830b6ee9a19c129eb72b5da": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Saina Nehwal became India’s first Olympic medalist in badminton by winning the bronze medal at the 2012 London Olympics. PV Sindhu won her first Olympic medal (silver) in 2016, Prakash Padukone never won an Olympic medal, and Sai Praneeth has not won an Olympic medal.",
+    "reasoning": "Saina Nehwal became India’s first Olympic medalist in badminton by winning the bronze medal at the 2012 London Olympics. PV Sindhu won her first Olympic medal (silver) in 2016, Prakash Padukone never won an Olympic medal, and Sai Praneeth has not won an Olympic medal.",
+    "error": false
+  },
+  "3dabf7892b4a031aeba2fafb01e72082": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: MS Dhoni was the captain of the Indian cricket team when they won the inaugural ICC T20 World Cup in 2007. Sourav Ganguly and Kapil Dev did not captain India in T20 World Cups, and Virat Kohli became captain much later.",
+    "reasoning": "MS Dhoni was the captain of the Indian cricket team when they won the inaugural ICC T20 World Cup in 2007. Sourav Ganguly and Kapil Dev did not captain India in T20 World Cups, and Virat Kohli became captain much later.",
+    "error": false
+  },
+  "44dd047b7867a9a20164cb0c1be87813": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Anil Kumble is the first (and only) Indian cricketer to take all 10 wickets in a single Test innings, achieving this feat against Pakistan in 1999. None of the other options have accomplished this.",
+    "reasoning": "Anil Kumble is the first (and only) Indian cricketer to take all 10 wickets in a single Test innings, achieving this feat against Pakistan in 1999. None of the other options have accomplished this.",
+    "error": false
+  },
+  "4b1161a4683e8aa810f8921273c4bde7": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: KD Jadhav won a bronze medal in wrestling at the 1952 Helsinki Olympics, making him India’s first Olympic medalist in wrestling. Sushil Kumar, Yogeshwar Dutt, and Bajrang Punia won their medals much later.",
+    "reasoning": "KD Jadhav won a bronze medal in wrestling at the 1952 Helsinki Olympics, making him India’s first Olympic medalist in wrestling. Sushil Kumar, Yogeshwar Dutt, and Bajrang Punia won their medals much later.",
+    "error": false
+  },
+  "e8b5e30d68321d05facefcc594540107": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: PV Sindhu won the silver medal in badminton at the 2016 Rio Olympics at the age of 21, making her India’s youngest Olympic medalist. Neeraj Chopra and Sakshi Malik were older when they won their medals, and KD Jadhav competed decades earlier at an older age.",
+    "reasoning": "PV Sindhu won the silver medal in badminton at the 2016 Rio Olympics at the age of 21, making her India’s youngest Olympic medalist. Neeraj Chopra and Sakshi Malik were older when they won their medals, and KD Jadhav competed decades earlier at an older age.",
+    "error": false
+  },
+  "6bb2b1dbd247f2d6d528540d0b4afb20": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: The Chandrayaan-2 mission consisted of an orbiter, a lander named Vikram, and a rover named Pragyan. Therefore, the correct name of the Chandrayaan-2 rover is Pragyan.",
+    "reasoning": "The Chandrayaan-2 mission consisted of an orbiter, a lander named Vikram, and a rover named Pragyan. Therefore, the correct name of the Chandrayaan-2 rover is Pragyan.",
+    "error": false
+  },
+  "f67365c5705d11ec6711a3f2317eb851": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 9,
+    "raw": "Answer: C  \nConfidence: 9  \nReasoning: The largest moonquakes recorded by Apollo seismometers reached about magnitude 5 on the Richter scale. This is significantly less than the largest earthquakes on Earth, but still notable for the Moon. Therefore, option C (5) is the most accurate answer.",
+    "reasoning": "The largest moonquakes recorded by Apollo seismometers reached about magnitude 5 on the Richter scale. This is significantly less than the largest earthquakes on Earth, but still notable for the Moon. Therefore, option C (5) is the most accurate answer.",
+    "error": false
+  },
+  "69a0d0fdf03ae22184af19a3d8989576": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: The lunar night surface temperature typically drops to around -173°C, which is closest to -200°C among the options. The other options are either too warm or too cold compared to known scientific data.",
+    "reasoning": "The lunar night surface temperature typically drops to around -173°C, which is closest to -200°C among the options. The other options are either too warm or too cold compared to known scientific data.",
+    "error": false
+  },
+  "9452f8058e20157472da3bbc894d9cf7": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Surface temperature extremes are primarily caused by variations in solar radiation, which directly heats planetary surfaces. The other options (lunar volcanism, tidal forces, meteoroid impacts) do not have as significant or consistent an effect on surface temperature extremes as solar radiation does.",
+    "reasoning": "Surface temperature extremes are primarily caused by variations in solar radiation, which directly heats planetary surfaces. The other options (lunar volcanism, tidal forces, meteoroid impacts) do not have as significant or consistent an effect on surface temperature extremes as solar radiation does.",
+    "error": false
+  },
+  "7bde1ee2f17a1ff45105f87268035f79": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Chandrayaan-2 was launched by the Indian Space Research Organisation (ISRO) using the GSLV-MkIII launch vehicle. PSLV-XL was used for Chandrayaan-1, SSLV is a newer, smaller vehicle, and Falcon-9 is operated by SpaceX, not ISRO.",
+    "reasoning": "Chandrayaan-2 was launched by the Indian Space Research Organisation (ISRO) using the GSLV-MkIII launch vehicle. PSLV-XL was used for Chandrayaan-1, SSLV is a newer, smaller vehicle, and Falcon-9 is operated by SpaceX, not ISRO.",
+    "error": false
+  },
+  "745aaf943cbcd7566b276613092a69f7": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Luna 2 (A) was the first spacecraft to impact the Moon, but it was a hard landing (crash). Surveyor 1 (B) was the first spacecraft to achieve a successful soft landing on the Moon in 1966. Chang’e 3 (C) and Apollo 11 (D) achieved soft landings later. Therefore, Surveyor 1 is the correct answer.",
+    "reasoning": "Luna 2 (A) was the first spacecraft to impact the Moon, but it was a hard landing (crash). Surveyor 1 (B) was the first spacecraft to achieve a successful soft landing on the Moon in 1966. Chang’e 3 (C) and Apollo 11 (D) achieved soft landings later. Therefore, Surveyor 1 is the correct answer.",
+    "error": false
+  },
+  "9176d1278117cae26962af157c8f0ce9": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: Apollo 17 was a NASA mission and the last of the Apollo lunar landings. The mission deployed the Lunar Roving Vehicle (LRV), which was used by astronauts on the Moon. The other options refer to rovers from other countries or missions: Lunokhod 1 (Soviet Union), Yutu (China), and Sojourner (Mars rover, USA).",
+    "reasoning": "Apollo 17 was a NASA mission and the last of the Apollo lunar landings. The mission deployed the Lunar Roving Vehicle (LRV), which was used by astronauts on the Moon. The other options refer to rovers from other countries or missions: Lunokhod 1 (Soviet Union), Yutu (China), and Sojourner (Mars rover, USA).",
+    "error": false
+  },
+  "7adee60644851c38dfab7047b5996d90": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Regolith, which is the loose, fragmented material covering solid rock (commonly found on the Moon, Mars, and asteroids), is known to have low thermal conductivity due to its porous, granular nature and lack of moisture or dense packing. This property causes it to be a good insulator.",
+    "reasoning": "Regolith, which is the loose, fragmented material covering solid rock (commonly found on the Moon, Mars, and asteroids), is known to have low thermal conductivity due to its porous, granular nature and lack of moisture or dense packing. This property causes it to be a good insulator.",
+    "error": false
+  },
+  "e516927753e5283bc8dcab87cda8755c": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Moon stays in orbit around the Earth due to the balance between the gravitational pull of the Earth (which pulls the Moon inward) and the Moon's inertia (which tries to move it in a straight line, often described as a \"centrifugal force\" in this context). This balance keeps the Moon in a stable orbit. The other options are incorrect: B refers to axes, not forces; C is factually wrong; D is not a correct description of orbital mechanics.",
+    "reasoning": "The Moon stays in orbit around the Earth due to the balance between the gravitational pull of the Earth (which pulls the Moon inward) and the Moon's inertia (which tries to move it in a straight line, often described as a \"centrifugal force\" in this context). This balance keeps the Moon in a stable orbit. The other options are incorrect: B refers to axes, not forces; C is factually wrong; D is not a correct description of orbital mechanics.",
+    "error": false
+  },
+  "3409a8f75d7049cd945ee0b601a917c9": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Viswanathan Anand became India’s first chess Grandmaster in 1988. The other options—Pentala Harikrishna, Koneru Humpy, and Dronavalli Harika—achieved the Grandmaster title later. Anand is widely recognized as a pioneer in Indian chess.",
+    "reasoning": "Viswanathan Anand became India’s first chess Grandmaster in 1988. The other options—Pentala Harikrishna, Koneru Humpy, and Dronavalli Harika—achieved the Grandmaster title later. Anand is widely recognized as a pioneer in Indian chess.",
+    "error": false
+  },
+  "ea9750170f6be0409428e50cd2db57ca": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Fit India Movement was launched by Prime Minister Narendra Modi on 29th August 2019 to encourage people to include physical activities and sports in their daily lives. This initiative was widely publicized and is associated with the year 2019, making option C the correct answer.",
+    "reasoning": "The Fit India Movement was launched by Prime Minister Narendra Modi on 29th August 2019 to encourage people to include physical activities and sports in their daily lives. This initiative was widely publicized and is associated with the year 2019, making option C the correct answer.",
+    "error": false
+  },
+  "34571da983678f3e758eea8f2d723d19": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Major Dhyan Chand won three Olympic gold medals in field hockey for India in the years 1928 (Amsterdam), 1932 (Los Angeles), and 1936 (Berlin). This makes option C the correct answer.",
+    "reasoning": "Major Dhyan Chand won three Olympic gold medals in field hockey for India in the years 1928 (Amsterdam), 1932 (Los Angeles), and 1936 (Berlin). This makes option C the correct answer.",
+    "error": false
+  },
+  "6940cb6f3b19c1a22003f71b2eec3ba9": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: The Golden Ball is awarded to the best player of the FIFA World Cup tournament. In the 2022 FIFA World Cup, Lionel Messi won the Golden Ball for his outstanding performances and leadership, helping Argentina win the tournament. Kylian Mbappe won the Golden Boot (top scorer), Emiliano Martinez won the Golden Glove (best goalkeeper), and Luka Modric did not win any individual award in 2022.",
+    "reasoning": "The Golden Ball is awarded to the best player of the FIFA World Cup tournament. In the 2022 FIFA World Cup, Lionel Messi won the Golden Ball for his outstanding performances and leadership, helping Argentina win the tournament. Kylian Mbappe won the Golden Boot (top scorer), Emiliano Martinez won the Golden Glove (best goalkeeper), and Luka Modric did not win any individual award in 2022.",
+    "error": false
+  },
+  "692c8a2d9fc946dba839ed333c56a8cc": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: None of the listed rowers have won an Olympic medal for India. As of 2024, India has not won any Olympic medal in rowing. Bajrang Lal Takhar, Arjun Lal Jat, Arvind Singh, and Dattu Bhokanal have represented India at the Olympics, but none have medaled. The question may be a trick; the correct answer is that India has no Olympic medalist in rowing. However, among the options, Dattu Bhokanal is the most prominent recent Olympian, but he did not win a medal.",
+    "reasoning": "None of the listed rowers have won an Olympic medal for India. As of 2024, India has not won any Olympic medal in rowing. Bajrang Lal Takhar, Arjun Lal Jat, Arvind Singh, and Dattu Bhokanal have represented India at the Olympics, but none have medaled. The question may be a trick; the correct answer is that India has no Olympic medalist in rowing. However, among the options, Dattu Bhokanal is the most prominent recent Olympian, but he did not win a medal.",
+    "error": false
+  },
+  "50ac6b0ad2d8511a1cc23facad1814da": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Vijender Singh became India’s first Olympic medalist in boxing by winning the bronze medal at the 2008 Beijing Olympics. Mary Kom, Amit Panghal, and Lovlina Borgohain won medals in later Olympics, but Vijender was the first.",
+    "reasoning": "Vijender Singh became India’s first Olympic medalist in boxing by winning the bronze medal at the 2008 Beijing Olympics. Mary Kom, Amit Panghal, and Lovlina Borgohain won medals in later Olympics, but Vijender was the first.",
+    "error": false
+  },
+  "1894d98f7936f48e6a1fc56cde900cc0": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Saina Nehwal won India’s first Olympic medal in Badminton by securing the bronze at the 2012 London Olympics. PV Sindhu won a silver in 2016, while Prakash Padukone and Lakshya Sen have not won Olympic medals.",
+    "reasoning": "Saina Nehwal won India’s first Olympic medal in Badminton by securing the bronze at the 2012 London Olympics. PV Sindhu won a silver in 2016, while Prakash Padukone and Lakshya Sen have not won Olympic medals.",
+    "error": false
+  },
+  "1b3eca9ebb3c7db4b55a2951689803fd": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: B Sai Praneeth is the only Indian male shuttler among the options who won a bronze medal at the World Championships (2019), but at the Tokyo 2020 Olympics, no Indian male shuttler won a medal. The bronze medal in badminton at Tokyo 2020 was won by PV Sindhu (female). However, among the options, B Sai Praneeth is most often associated with a recent major bronze, though not at the Olympics. Since the question specifically asks about Tokyo 2020, technically, none of the options is correct, but A is the closest based on recent achievements.",
+    "reasoning": "B Sai Praneeth is the only Indian male shuttler among the options who won a bronze medal at the World Championships (2019), but at the Tokyo 2020 Olympics, no Indian male shuttler won a medal. The bronze medal in badminton at Tokyo 2020 was won by PV Sindhu (female). However, among the options, B Sai Praneeth is most often associated with a recent major bronze, though not at the Olympics. Since the question specifically asks about Tokyo 2020, technically, none of the options is correct, but A is the closest based on recent achievements.",
+    "error": false
+  },
+  "b8bb1338f199c5f3d0742efcf225ca2c": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 9,
+    "raw": "Answer: B  \nConfidence: 9  \nReasoning: Vikas Gowda is a well-known Indian discus thrower, but he did not win the gold in the 2018 Asian Games. However, among the options, he is the only discus throw specialist. The actual gold medalist in men's discus throw at the 2018 Asian Games was Ehsan Hadadi of Iran, but since he is not listed, Vikas Gowda is the closest correct answer based on the options provided. The other options are either cricketers (Irfan Pathan), a javelin thrower (Neeraj Chopra), or not known for discus throw (Anil Singh).",
+    "reasoning": "Vikas Gowda is a well-known Indian discus thrower, but he did not win the gold in the 2018 Asian Games. However, among the options, he is the only discus throw specialist. The actual gold medalist in men's discus throw at the 2018 Asian Games was Ehsan Hadadi of Iran, but since he is not listed, Vikas Gowda is the closest correct answer based on the options provided. The other options are either cricketers (Irfan Pathan), a javelin thrower (Neeraj Chopra), or not known for discus throw (Anil Singh).",
+    "error": false
+  },
+  "0893a9fbd4b1e00f5335a43715578b73": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Aeroplanes and helicopters rely on Earth's atmosphere for lift and propulsion. The Moon has no atmosphere, so these vehicles cannot fly to or operate on the Moon. Only specially designed spacecraft can travel to the Moon.",
+    "reasoning": "Aeroplanes and helicopters rely on Earth's atmosphere for lift and propulsion. The Moon has no atmosphere, so these vehicles cannot fly to or operate on the Moon. Only specially designed spacecraft can travel to the Moon.",
+    "error": false
+  },
+  "0e016755011f5c1a490219146499a284": {
+    "model": "gpt-4.1",
+    "answer": "D",
+    "confidence": 10,
+    "raw": "Answer: D  \nConfidence: 10  \nReasoning: The Apollo missions used the Lunar Module (also known as the LM or LEM) to land astronauts on the Moon. The other options refer to landers from Soviet, Chinese, or unmanned American missions, not the Apollo program.",
+    "reasoning": "The Apollo missions used the Lunar Module (also known as the LM or LEM) to land astronauts on the Moon. The other options refer to landers from Soviet, Chinese, or unmanned American missions, not the Apollo program.",
+    "error": false
+  },
+  "ef1f59eac54a4fee0045c5c49b546d6f": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The average density of the Moon is about 3.34 g/cm³, which is significantly less than Earth's average density (about 5.52 g/cm³). Option C matches this value exactly, while the other options are either too high or too low.",
+    "reasoning": "The average density of the Moon is about 3.34 g/cm³, which is significantly less than Earth's average density (about 5.52 g/cm³). Option C matches this value exactly, while the other options are either too high or too low.",
+    "error": false
+  },
+  "b69ddc3328c87de860fd5f46530ca1dd": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 9,
+    "raw": "Answer: A  \nConfidence: 9  \nReasoning: ISRO has announced that the first SSLV (Small Satellite Launch Vehicle) launch from the new Kulasekarapattinam spaceport is targeted for 2025. This timeline has been reported in multiple recent news sources and official statements, making 2025 the most accurate answer among the options provided.",
+    "reasoning": "ISRO has announced that the first SSLV (Small Satellite Launch Vehicle) launch from the new Kulasekarapattinam spaceport is targeted for 2025. This timeline has been reported in multiple recent news sources and official statements, making 2025 the most accurate answer among the options provided.",
+    "error": false
+  },
+  "93055289b47b1d36dbce484fd4fcb3e7": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The primary reason for fewer seismic events (moonquakes) on the Moon is its lower internal heat compared to Earth. This results in less tectonic activity and fewer processes that generate seismic events. The other options (thinner crust, no atmosphere, smaller size) are less directly related to the frequency of seismic activity.",
+    "reasoning": "The primary reason for fewer seismic events (moonquakes) on the Moon is its lower internal heat compared to Earth. This results in less tectonic activity and fewer processes that generate seismic events. The other options (thinner crust, no atmosphere, smaller size) are less directly related to the frequency of seismic activity.",
+    "error": false
+  },
+  "728daafb39f8ce350862656cb5816e81": {
+    "model": "gpt-4.1",
+    "answer": "A",
+    "confidence": 10,
+    "raw": "Answer: A  \nConfidence: 10  \nReasoning: Aditya-L1 is India's first solar observatory mission, and it is specifically named after the L1 Lagrange point. The L1 point is located between the Earth and the Sun, making it ideal for continuous solar observation. The mission is not stationed at L2, L3, or L4, which are other Lagrange points with different positions and purposes.",
+    "reasoning": "Aditya-L1 is India's first solar observatory mission, and it is specifically named after the L1 Lagrange point. The L1 point is located between the Earth and the Sun, making it ideal for continuous solar observation. The mission is not stationed at L2, L3, or L4, which are other Lagrange points with different positions and purposes.",
+    "error": false
+  },
+  "e732dae3ab8b638b9d44b4355ce6bd0f": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: The Chandrayaan-2 Orbiter carries the X-ray Solar Monitor (XSM), which is specifically designed to observe the Sun and monitor its X-ray emissions. The other instruments (CLASS, CHACE, DFRS) are not intended for solar observation.",
+    "reasoning": "The Chandrayaan-2 Orbiter carries the X-ray Solar Monitor (XSM), which is specifically designed to observe the Sun and monitor its X-ray emissions. The other instruments (CLASS, CHACE, DFRS) are not intended for solar observation.",
+    "error": false
+  },
+  "7ed2e8ac1accb840efcdde4a4412379b": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: A total of 12 astronauts walked on the Moon during the Apollo missions (Apollo 11, 12, 14, 15, 16, and 17). Options A and C are too low, and D refers to the total number of astronauts who traveled to the Moon, not those who walked on it.",
+    "reasoning": "A total of 12 astronauts walked on the Moon during the Apollo missions (Apollo 11, 12, 14, 15, 16, and 17). Options A and C are too low, and D refers to the total number of astronauts who traveled to the Moon, not those who walked on it.",
+    "error": false
+  },
+  "0e234ced2849396661489c1f07c29746": {
+    "model": "gpt-4.1",
+    "answer": "C",
+    "confidence": 10,
+    "raw": "Answer: C  \nConfidence: 10  \nReasoning: Chandrayaan-1, India's first lunar probe, was launched by ISRO in 2008. This is a well-documented fact in space exploration history. The other years listed do not correspond to the actual launch date.",
+    "reasoning": "Chandrayaan-1, India's first lunar probe, was launched by ISRO in 2008. This is a well-documented fact in space exploration history. The other years listed do not correspond to the actual launch date.",
+    "error": false
+  },
+  "477a46576be850eebfca369a419e1b2f": {
+    "model": "gpt-4.1",
+    "answer": "B",
+    "confidence": 10,
+    "raw": "Answer: B  \nConfidence: 10  \nReasoning: Time = Distance / Speed = 384,400 km / 50,000 km/h ≈ 7.688 hours. This is closest to option A (7.6 hours), but since 7.688 rounds to 7.7, and 7.6 is slightly less, option A is a bit low. However, option B (12 hours) is much higher. Given the calculation, the most accurate answer is A (7.6 hours).\n\nCorrection:  \nAnswer: A  \nConfidence: 10  \nReasoning: 384,400 km ÷ 50,000 km/h = 7.688 hours, which matches option A (7.6",
+    "reasoning": "Time = Distance / Speed = 384,400 km / 50,000 km/h ≈ 7.688 hours. This is closest to option A (7.6 hours), but since 7.688 rounds to 7.7, and 7.6 is slightly less, option A is a bit low. However, option B (12 hours) is much higher. Given the calculation, the most accurate answer is A (7.6 hours).",
+    "error": false
   }
 }

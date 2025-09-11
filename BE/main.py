@@ -21,6 +21,9 @@ import os
 import time
 import uvicorn
 import logging
+import asyncio
+import signal
+from contextlib import asynccontextmanager
 from datetime import datetime
 
 # FastAPI and related imports
@@ -30,6 +33,9 @@ from fastapi.responses import JSONResponse
 
 # Route imports
 from routes import quiz_router, health_router, test_router
+
+# Cache service import
+from services.cache_service import cache_manager
 
 # Load environment variables
 from dotenv import load_dotenv
@@ -66,13 +72,52 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Initialize FastAPI app with metadata
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    FastAPI lifespan event handler for startup and shutdown
+    """
+    # Startup
+    logger.info("🚀 Starting Quiz Assistant API Server...")
+    logger.info("📂 Loading cache files...")
+    # Cache manager is already initialized and loaded
+    
+    # Setup signal handlers for graceful shutdown
+    def signal_handler(signum, frame):
+        logger.info(f"🛑 Received signal {signum}, initiating graceful shutdown...")
+        # The lifespan shutdown will handle the cleanup
+    
+    # Register signal handlers (only on Unix-like systems)
+    if os.name != 'nt':  # Not Windows
+        signal.signal(signal.SIGINT, signal_handler)
+        signal.signal(signal.SIGTERM, signal_handler)
+    
+    yield
+    
+    # Shutdown
+    logger.info("🛑 Shutting down Quiz Assistant API Server...")
+    logger.info("💾 Saving all cache files before shutdown...")
+    
+    # Ensure all caches are saved before shutdown
+    try:
+        cache_manager.save_caches_now()
+        # Wait a bit for any pending background saves
+        await asyncio.sleep(0.5)
+        cache_manager.shutdown()
+        logger.info("✅ Cache files saved successfully")
+    except Exception as e:
+        logger.error(f"❌ Error during cache shutdown: {e}")
+    
+    logger.info("👋 Server shutdown complete")
+
+# Initialize FastAPI app with metadata and lifespan
 app = FastAPI(
     title="Quiz Assistant API",
     description="AI-powered quiz assistant with Chrome extension support",
     version="2.0.0",
     docs_url="/docs",
-    redoc_url="/redoc"
+    redoc_url="/redoc",
+    lifespan=lifespan
 )
 
 # Enhanced CORS configuration for Chrome extensions
