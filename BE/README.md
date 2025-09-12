@@ -121,6 +121,23 @@ BE/
 - **`GET /redoc`** - Alternative API documentation (ReDoc)
   - **Features**: Clean documentation layout, downloadable OpenAPI spec
 
+## 🔒 API Key Authentication
+
+All API endpoints (except /docs and /redoc) require a valid API key in the `X-API-Key` header.
+
+- The API key is configured in `config.py` or via the `QUIZ_API_KEY` environment variable.
+- Default key: `changeme-please-set-a-strong-key` (change this for production!)
+- To change the API key, either:
+  1. Edit the `api_key` value in `BE/config.py` (recommended for local/dev)
+  2. Set the `QUIZ_API_KEY` environment variable before starting the server (recommended for production/cloud):
+     - Windows: `set QUIZ_API_KEY=your-new-key && python main.py`
+     - Linux/macOS: `export QUIZ_API_KEY=your-new-key && python main.py`
+- The Chrome extension must send this header with every request:
+  ```http
+  X-API-Key: your-api-key-here
+  ```
+- Unauthorized requests will receive HTTP 401.
+
 ## 🚀 Installation & Setup
 
 ### Prerequisites

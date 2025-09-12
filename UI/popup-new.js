@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // === API Key Input UI ===
+  // Insert API key input at the top of the popup
+  const apiKeyDiv = document.createElement('div');
+  apiKeyDiv.style = 'margin-bottom: 10px; display: flex; gap: 6px; align-items: center;';
+  apiKeyDiv.innerHTML = `
+    <input id="apiKeyInput" type="text" placeholder="API Key" style="flex:1; padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 12px;" />
+    <button id="saveApiKeyBtn" style="padding: 5px 10px; font-size: 12px; border-radius: 4px; border: none; background: #007cba; color: white; cursor: pointer;">Save</button>
+  `;
+  document.body.insertBefore(apiKeyDiv, document.body.firstChild);
+
+  // Load API key from localStorage
+  const apiKeyInput = document.getElementById('apiKeyInput');
+  apiKeyInput.value = localStorage.getItem('quizApiKey') || '';
+
+  document.getElementById('saveApiKeyBtn').addEventListener('click', function() {
+    const key = apiKeyInput.value.trim();
+    localStorage.setItem('quizApiKey', key);
+    alert('API Key saved!');
+  });
+
+  // Helper to get API key
+  function getApiKey() {
+    return localStorage.getItem('quizApiKey') || "changeme-please-set-a-strong-key";
+  }
   // Initialize theme and UI elements
   initializeTheme();
   initializeUI();
@@ -366,7 +390,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     fetch(url, {
                       method: "POST",
-                      headers: { "Content-Type": "application/json" },
+                      headers: {
+                        "Content-Type": "application/json",
+                        "X-API-Key": (typeof getApiKey === 'function' ? getApiKey() : (localStorage.getItem('quizApiKey') || "changeme-please-set-a-strong-key"))
+                      },
                       body: JSON.stringify(requestBody)
                     })
                     .then(response => response.json())

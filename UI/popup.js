@@ -1,3 +1,11 @@
+// === API Key for backend authentication ===
+function getApiKey() {
+  return localStorage.getItem('quizApiKey') || '';
+}
+
+function setApiKey(key) {
+  localStorage.setItem('quizApiKey', key);
+}
 document.addEventListener("DOMContentLoaded", function() {
   // Wait for theme configuration to be available
   if (typeof THEME_CONFIG === 'undefined' || typeof ThemeHelper === 'undefined') {
@@ -267,6 +275,27 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   
   function initializeUI() {
+    // --- API Key Input UI ---
+    const header = document.querySelector('.header') || document.body;
+    const apiKeyDiv = document.createElement('div');
+    apiKeyDiv.style = 'margin-bottom: 10px; display: flex; flex-direction: column; align-items: stretch;';
+    apiKeyDiv.innerHTML = `
+      <label for="quiz-api-key" style="font-size:11px; margin-bottom:2px; color:#fff; text-align:left;">API Key:</label>
+      <input id="quiz-api-key" type="text" placeholder="Enter API key..." style="padding:6px 8px; border-radius:5px; border:1px solid #888; font-size:12px; width:100%; box-sizing:border-box; margin-bottom:2px;" autocomplete="off" />
+      <button id="save-api-key-btn" class="secondary-btn" style="margin-top:4px;">Save API Key</button>
+    `;
+    header.parentNode.insertBefore(apiKeyDiv, header.nextSibling);
+
+    // Set input value from storage
+    const apiKeyInput = apiKeyDiv.querySelector('#quiz-api-key');
+    const saveApiKeyBtn = apiKeyDiv.querySelector('#save-api-key-btn');
+    apiKeyInput.value = getApiKey();
+
+    saveApiKeyBtn.addEventListener('click', () => {
+      setApiKey(apiKeyInput.value.trim());
+      saveApiKeyBtn.textContent = 'Saved!';
+      setTimeout(() => { saveApiKeyBtn.textContent = 'Save API Key'; }, 1200);
+    });
     const runBtn = document.getElementById("run");
     const statusDiv = document.createElement("div");
     statusDiv.id = "status";
@@ -574,7 +603,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     fetch(url, {
                       method: "POST",
-                      headers: { "Content-Type": "application/json" },
+                      headers: {
+                        "Content-Type": "application/json",
+                        "X-API-Key": getApiKey()
+                      },
                       body: JSON.stringify(requestBody)
                     })
                     .then(response => response.json())

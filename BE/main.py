@@ -27,12 +27,14 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 
 # FastAPI and related imports
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-# Route imports
 from routes import quiz_router, health_router, test_router
+
+# Config import
+from config import settings
 
 # Cache service import
 from services.cache_service import cache_manager
@@ -140,7 +142,27 @@ app.add_middleware(
 # App startup time for uptime calculation
 start_time = time.time()
 
-# Include routers
+
+# --- API Key Authentication Middleware ---
+@app.middleware("http")
+async def api_key_auth_middleware(request: Request, call_next):
+    # Allow docs and openapi endpoints without API key
+    open_endpoints = ["/docs", "/openapi.json", "/redoc"]
+    if any(request.url.path.startswith(ep) for ep in open_endpoints):
+        return await call_next(request)
+
+    # Check for API key in header
+    api_key = request.headers.get("X-API-Key")
+    if not api_key or api_key != settings.api_key:
+        return JSONResponse(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            content={
+                "detail": "Unauthorized: Invalid or missing API key. Set X-API-Key header."
+            },
+            headers={"WWW-Authenticate": "API-Key"}
+        )
+    return await call_next(request)
+
 app.include_router(quiz_router)
 app.include_router(health_router)
 app.include_router(test_router)

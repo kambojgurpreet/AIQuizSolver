@@ -1,3 +1,8 @@
+// === API Key for backend authentication (dynamic from localStorage) ===
+function getApiKey() {
+  // Try to get from localStorage (set by popup UI), fallback to default
+  return localStorage.getItem('quizApiKey') || "changeme-please-set-a-strong-key";
+}
 // Quiz Assistant Content Script - Enhanced Version with Web Search
 (function() {
 'use strict';
@@ -321,7 +326,10 @@ async function processAllQuestionsAsync(mode = 'single') {
     
     const response = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "X-API-Key": getApiKey()
+      },
       body: JSON.stringify(batchRequest)
     });
 
@@ -419,7 +427,10 @@ async function processQuestion(questionData, mode = 'single', retryCount = 0) {
     
     const response = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "X-API-Key": getApiKey()
+      },
       body: JSON.stringify(requestBody)
     });
 
@@ -1839,7 +1850,9 @@ function removeExistingUI() {
 // Test function to check CORS
 window.testCORS = async function() {
   try {
-    const response = await fetch("http://64.227.188.233:3000/test");
+    const response = await fetch("http://64.227.188.233:3000/test", {
+      headers: { "X-API-Key": getApiKey() }
+    });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
     console.log("CORS test success:", data);

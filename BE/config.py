@@ -32,10 +32,8 @@ class Settings(BaseSettings):
     cors_origins: list = ["*"]
     cors_allow_credentials: bool = False
     
-    # Future: Authentication settings (commented for now)
-    # secret_key: Optional[str] = None
-    # algorithm: str = "HS256"
-    # access_token_expire_minutes: int = 30
+    # API Key authentication
+    api_key: str = os.getenv("QUIZ_API_KEY", "default_api_key")
     
     # Future: Database settings (commented for now)
     # database_url: Optional[str] = None
