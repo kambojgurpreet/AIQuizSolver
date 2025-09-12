@@ -133,22 +133,17 @@ app = FastAPI(
 # Enhanced CORS configuration for Chrome extensions
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for development
-    allow_credentials=False,
-    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allow_headers=[
-        "Origin", 
-        "X-Requested-With", 
-        "Content-Type", 
-        "Accept", 
-        "Authorization", 
-        "X-Chrome-Extension-Id"
-    ],
-    max_age=86400  # 24 hours
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods
+    allow_headers=["*"],  # Allow all headers
+    max_age=86400
 )
 
 # App startup time for uptime calculation
 start_time = time.time()
+
+
 
 
 # --- API Key Authentication Middleware ---
