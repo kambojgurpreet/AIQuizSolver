@@ -154,6 +154,10 @@ async def api_key_auth_middleware(request: Request, call_next):
     if any(request.url.path.startswith(ep) for ep in open_endpoints):
         return await call_next(request)
 
+    # Allow all OPTIONS requests (CORS preflight) without API key
+    if request.method == "OPTIONS":
+        return await call_next(request)
+
     # Check for API key in header
     api_key = request.headers.get("X-API-Key")
     if not api_key or api_key != settings.api_key:
