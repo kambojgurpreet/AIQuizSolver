@@ -3,3 +3,7 @@ node_modules/
 quiz_assistant_env/
 venv/
 __pycache__/
+*.pem
+BE/google-credentials.json
+BE/google-keys.json
+*.sqlite3

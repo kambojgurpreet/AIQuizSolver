@@ -17,6 +17,7 @@ Author: Quiz Assistant Team
 Version: 2.0
 """
 
+
 import os
 import time
 import uvicorn
@@ -25,6 +26,13 @@ import asyncio
 import signal
 from contextlib import asynccontextmanager
 from datetime import datetime
+
+# Suppress Pydantic field shadowing warnings
+import warnings
+warnings.filterwarnings(
+    "ignore",
+    message=r"Field name .* shadows an attribute in parent \"Operation\""
+)
 
 # FastAPI and related imports
 from fastapi import FastAPI, HTTPException, Request, status

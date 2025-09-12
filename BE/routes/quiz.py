@@ -68,7 +68,7 @@ async def ask_questions_batch(
                 if result is None:
                     return BatchAnswerResponse(
                         index=index,
-                        error="Model returned None result"
+                        error_message="Model returned None result"
                     )
                     
                 batch_response = BatchAnswerResponse(
@@ -91,7 +91,7 @@ async def ask_questions_batch(
                 logger.error(f"Error processing question {index}: {e}")
                 return BatchAnswerResponse(
                     index=index,
-                    error=str(e)
+                    error_message=str(e)
                 )
         
         # Process questions in parallel with asyncio
@@ -108,12 +108,12 @@ async def ask_questions_batch(
             if isinstance(result, Exception):
                 processed_results.append(BatchAnswerResponse(
                     index=i,
-                    error=str(result)
+                    error_message=str(result)
                 ))
             elif result is None:
                 processed_results.append(BatchAnswerResponse(
                     index=i,
-                    error="Received None result from question processing"
+                    error_message="Received None result from question processing"
                 ))
             elif isinstance(result, BatchAnswerResponse):
                 processed_results.append(result)
@@ -121,7 +121,7 @@ async def ask_questions_batch(
                 # Unexpected result type
                 processed_results.append(BatchAnswerResponse(
                     index=i,
-                    error=f"Unexpected result type: {type(result)}"
+                    error_message=f"Unexpected result type: {type(result)}"
                 ))
         
         logger.info(f"Batch processing completed: {len(processed_results)} results")

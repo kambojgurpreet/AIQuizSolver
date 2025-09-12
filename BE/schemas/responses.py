@@ -14,7 +14,7 @@ class ModelResponse(BaseModel):
     confidence: int = Field(..., ge=1, le=10, description="Confidence level 1-10")
     raw: str = Field(..., description="Raw AI response")
     reasoning: Optional[str] = Field(None, description="Reasoning explanation from the model")
-    error: Optional[bool] = Field(False, description="Whether this model response is an error fallback")
+    error_message: Optional[bool] = Field(False, description="Whether this model response is an error fallback")
 
     model_config = {"protected_namespaces": ()}
 
@@ -88,7 +88,7 @@ class BatchAnswerResponse(BaseModel):
     confidence: Optional[int] = None
     raw: Optional[str] = None
     reasoning: Optional[str] = None
-    error: Optional[str] = None
+    error_message: Optional[str] = None
     
     # Multi-model fields for extension compatibility
     consensus: Optional[bool] = None
@@ -101,7 +101,7 @@ class BatchAnswerResponse(BaseModel):
                 "answer": "B",
                 "confidence": 10,
                 "raw": "Answer: B\nConfidence: 10\nReasoning: 2 + 2 equals 4.",
-                "error": None
+                "error_message": None
             }
         }
 

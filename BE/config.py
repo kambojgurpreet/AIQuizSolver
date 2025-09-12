@@ -3,7 +3,7 @@
 
 import os
 from typing import Optional
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     """Application settings with environment variable support."""
@@ -34,6 +34,15 @@ class Settings(BaseSettings):
     
     # API Key authentication
     api_key: str = os.getenv("QUIZ_API_KEY", "default_api_key")
+
+    # Additional keys from environment
+    gemini_api_key: Optional[str] = None
+    xai_api_key: Optional[str] = None
+    environment: Optional[str] = None
+    google_cloud_project: Optional[str] = None
+    google_cloud_location: Optional[str] = None
+    quiz_api_key: Optional[str] = None
+    google_application_credentials: Optional[str] = None
     
     # Future: Database settings (commented for now)
     # database_url: Optional[str] = None

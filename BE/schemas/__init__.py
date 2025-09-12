@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 class QuestionRequest(BaseModel):
     """Single question request schema"""
     question: str = Field(..., description="The quiz question")
-    options: List[str] = Field(..., min_items=2, max_items=4, description="Answer options")
+    options: List[str] = Field(..., description="Answer options")
 
 
 class QuestionData(BaseModel):
@@ -39,7 +39,7 @@ class BatchAnswerResponse(BaseModel):
     answer: Optional[str] = None
     confidence: Optional[int] = None
     raw: Optional[str] = None
-    error: Optional[str] = None
+    error_message: Optional[str] = None
 
 
 class TestResponse(BaseModel):
