@@ -1,10 +1,43 @@
-// === API Key for backend authentication ===
-function getApiKey() {
-  return localStorage.getItem('quizApiKey') || '';
+// === API Key for backend authentication (chrome.storage.local) ===
+function getApiKey(cb) {
+  if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+    chrome.storage.local.get(['quizApiKey'], function(result) {
+      cb(result.quizApiKey || '');
+    });
+  } else {
+    cb(localStorage.getItem('quizApiKey') || '');
+  }
 }
 
-function setApiKey(key) {
-  localStorage.setItem('quizApiKey', key);
+function setApiKey(key, cb) {
+  if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+    chrome.storage.local.set({ quizApiKey: key }, function() {
+      // Notify all tabs to update their API key (seamless update)
+      if (typeof chrome.tabs !== 'undefined') {
+        chrome.tabs.query({}, function(tabs) {
+          for (let tab of tabs) {
+            chrome.tabs.sendMessage(tab.id, { type: 'QUIZ_API_KEY_UPDATED', apiKey: key }, function(response) {
+              if (chrome.runtime.lastError) {
+                // Content script not loaded, inject it then send message
+                if (chrome.scripting) {
+                  chrome.scripting.executeScript({
+                    target: { tabId: tab.id },
+                    files: ["theme-config.js", "content.js"]
+                  }, function() {
+                    chrome.tabs.sendMessage(tab.id, { type: 'QUIZ_API_KEY_UPDATED', apiKey: key });
+                  });
+                }
+              }
+            });
+          }
+        });
+      }
+      if (cb) cb();
+    });
+  } else {
+    localStorage.setItem('quizApiKey', key);
+    if (cb) cb();
+  }
 }
 document.addEventListener("DOMContentLoaded", function() {
   // Wait for theme configuration to be available
@@ -156,48 +189,70 @@ document.addEventListener("DOMContentLoaded", function() {
         color: ${theme.colors.white};
       }
       
-      .toggle-container {
+      .toggle-switch-container {
         display: flex;
-        flex-direction: column;
-        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 4px;
       }
-      
-      .toggle-option {
+      .toggle-label {
+        font-size: 13px;
+        font-weight: ${theme.typography.fontWeight.medium};
+        color: ${theme.colors.white};
+        min-width: 24px;
+        text-align: center;
+      }
+      .switch {
         position: relative;
+        display: inline-block;
+        width: 44px;
+        height: 24px;
       }
-      
-      .toggle-option input[type="radio"] {
-        display: none;
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
       }
-      
-      .toggle-option label {
-        display: block;
-        padding: 8px 12px;
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         background: ${theme.colors.overlayBackground};
         border: 2px solid ${theme.colors.borderDark};
-        border-radius: ${theme.borderRadius.medium};
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-size: 11px;
-        font-weight: ${theme.typography.fontWeight.medium};
+        border-radius: 24px;
+        transition: .4s;
       }
-      
-      .toggle-option input[type="radio"]:checked + label {
-        background: rgba(255, 255, 255, 0.2);
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 2px;
+        bottom: 2.5px;
+        background: ${theme.colors.white};
+        border-radius: 50%;
+        transition: .4s;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+      }
+      .switch input:checked + .slider {
+        background: ${theme.colors.successLight};
         border-color: ${theme.colors.success};
-        box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
       }
-      
-      .toggle-option label:hover {
-        background: rgba(255, 255, 255, 0.15);
-        transform: translateY(-1px);
+      .switch input:checked + .slider:before {
+        transform: translateX(20px);
+        background: ${theme.colors.success};
       }
-      
-      .option-desc {
-        font-size: 9px;
+      .toggle-desc {
+        text-align: center;
+        font-size: 10px;
         opacity: 0.8;
         margin-top: 2px;
-        font-weight: ${theme.typography.fontWeight.normal};
+        margin-bottom: 2px;
+        color: ${theme.colors.white};
       }
     `;
     
@@ -289,34 +344,48 @@ document.addEventListener("DOMContentLoaded", function() {
     // Set input value from storage
     const apiKeyInput = apiKeyDiv.querySelector('#quiz-api-key');
     const saveApiKeyBtn = apiKeyDiv.querySelector('#save-api-key-btn');
-    apiKeyInput.value = getApiKey();
+    // Load API key from chrome.storage.local
+    getApiKey(function(key) {
+      apiKeyInput.value = key;
+    });
 
     saveApiKeyBtn.addEventListener('click', () => {
-      setApiKey(apiKeyInput.value.trim());
-      saveApiKeyBtn.textContent = 'Saved!';
-      setTimeout(() => { saveApiKeyBtn.textContent = 'Save API Key'; }, 1200);
+      setApiKey(apiKeyInput.value.trim(), function() {
+        saveApiKeyBtn.textContent = 'Saved!';
+        setTimeout(() => { saveApiKeyBtn.textContent = 'Save API Key'; }, 1200);
+      });
     });
     const runBtn = document.getElementById("run");
     const statusDiv = document.createElement("div");
     statusDiv.id = "status";
     
-    // Get model selection elements
-    const singleModelRadio = document.getElementById("singleModel");
-    const multiModelRadio = document.getElementById("multiModel");
-    
+    // Toggle switch for analysis mode
+    const analysisModeToggle = document.getElementById("analysisModeToggle");
+    const toggleDesc = document.getElementById("toggle-desc");
+    const singleModelLabel = document.getElementById("single-model-label");
+    const multiModelLabel = document.getElementById("multi-model-label");
+
     // Function to get selected analysis mode
     function getSelectedMode() {
-      return singleModelRadio.checked ? 'single' : 'multi';
+      return analysisModeToggle && analysisModeToggle.checked ? 'multi' : 'single';
     }
-    
-    // Function to update button text based on selection
+
+    // Function to update button text and description based on toggle
     function updateButtonText() {
       const mode = getSelectedMode();
       const emoji = mode === 'single' ? ThemeHelper.getIcon('singleModel') : ThemeHelper.getIcon('multiModel');
       const modeText = mode === 'single' ? 'Single Model' : 'Multi-Model';
       runBtn.innerHTML = `<span class="emoji">${emoji}</span>Answer with ${modeText}`;
+      // Update description
+      if (toggleDesc) {
+        toggleDesc.textContent = mode === 'single' ? 'Single Model (Fast & Efficient)' : 'Multi-Model (Higher Accuracy)';
+      }
     }
-    
+
+    // Set label text
+    if (singleModelLabel) singleModelLabel.innerHTML = `<span class="emoji" id="single-model-icon"></span>`;
+    if (multiModelLabel) multiModelLabel.innerHTML = `<span class="emoji" id="multi-model-icon"></span>`;
+
     // Create buttons using theme configuration
     const processAllBtn = document.createElement("button");
     processAllBtn.className = "primary-btn";
@@ -331,9 +400,9 @@ document.addEventListener("DOMContentLoaded", function() {
     testBtn.className = "info-btn";
     testBtn.innerHTML = `${ThemeHelper.getIcon('link')} Test Connection`;
     
-    const clearBtn = document.createElement("button");
-    clearBtn.className = "danger-btn";
-    clearBtn.innerHTML = `${ThemeHelper.getIcon('trash')} Clear Log`;
+    // const clearBtn = document.createElement("button");
+    // clearBtn.className = "danger-btn";
+    // clearBtn.innerHTML = `${ThemeHelper.getIcon('trash')} Clear Log`;
     
     // Function to update process all button text
     function updateProcessAllText() {
@@ -401,23 +470,20 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
     
-    // Add event listeners to radio buttons
-    singleModelRadio.addEventListener('change', () => {
-      updateButtonText();
-      updateProcessAllText();
-      updateAutoCompleteText();
-    });
-    multiModelRadio.addEventListener('change', () => {
-      updateButtonText();
-      updateProcessAllText();
-      updateAutoCompleteText();
-    });
-    
+    // Add event listener to toggle switch
+    if (analysisModeToggle) {
+      analysisModeToggle.addEventListener('change', () => {
+        updateButtonText();
+        updateProcessAllText();
+        updateAutoCompleteText();
+      });
+    }
+
     // Initialize button texts and check initial state
     updateButtonText();
     updateProcessAllText();
     updateAutoCompleteText();
-    
+
     // Check quiz data availability on popup open
     checkQuizDataAvailability();
     
@@ -426,7 +492,7 @@ document.addEventListener("DOMContentLoaded", function() {
     runBtn.parentNode.insertBefore(processAllBtn, statusDiv.nextSibling);
     runBtn.parentNode.insertBefore(autoCompleteBtn, processAllBtn.nextSibling);
     runBtn.parentNode.insertBefore(testBtn, autoCompleteBtn.nextSibling);
-    runBtn.parentNode.insertBefore(clearBtn, testBtn.nextSibling);
+    // runBtn.parentNode.insertBefore(clearBtn, testBtn.nextSibling);
 
     function setStatus(message, type = "info") {
       statusDiv.textContent = message;
@@ -577,100 +643,97 @@ document.addEventListener("DOMContentLoaded", function() {
                 const mode = params?.mode || 'single';
                 const visibleQuizItem = document.querySelector(".wpProQuiz_listItem[style='']") || 
                                        document.querySelector(".wpProQuiz_listItem:not([style*='display: none'])");
-                
                 if (visibleQuizItem) {
                   const questionEl = visibleQuizItem.querySelector(".wpProQuiz_question_text");
                   const optionEls = visibleQuizItem.querySelectorAll(".wpProQuiz_questionListItem label");
-                  
                   if (questionEl && optionEls.length > 0) {
                     const rawQuestion = questionEl.innerText.trim();
                     const question = window.extractEnglishText ? window.extractEnglishText(rawQuestion) : rawQuestion;
-                    
                     const rawOptions = Array.from(optionEls).map(o => o.innerText.trim());
                     const options = rawOptions.map(opt => {
                       const cleanOpt = opt.replace(/^[A-D]\.\s*/, '');
                       return window.extractEnglishText ? window.extractEnglishText(cleanOpt) : cleanOpt;
                     });
-                    
                     console.log("Extracted English question:", question);
                     console.log("Extracted English options:", options);
                     console.log("Using mode:", mode);
-                    
                     const requestBody = { question, options };
                     const url = mode === 'multi' 
                       ? "http://64.227.188.233:3000/ask?multi_model=true"
                       : "http://64.227.188.233:3000/ask?multi_model=false";
-                    
-                    fetch(url, {
-                      method: "POST",
-                      headers: {
-                        "Content-Type": "application/json",
-                        "X-API-Key": getApiKey()
-                      },
-                      body: JSON.stringify(requestBody)
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                      console.log("AI Answer:", data.answer, "Confidence:", data.confidence);
-                      
-                      // Use theme-based highlighting
-                      const answerIndex = data.answer.charCodeAt(0) - 65;
-                      if (optionEls[answerIndex]) {
-                        let colors = window.ThemeHelper ? 
-                          window.ThemeHelper.getConfidenceColors(data.confidence) :
-                          { highlight: 'rgba(0, 255, 0, 0.2)', border: '#00ff00' };
-                        
-                        // Modify colors based on consensus for multi-model responses
-                        if (mode === 'multi' && data.consensus === false) {
-                          // Use orange/red colors to indicate no consensus
-                          colors = {
-                            highlight: 'rgba(255, 152, 0, 0.3)', // Orange background
-                            border: '#FF9800' // Orange border
-                          };
-                          
-                          // Add a consensus indicator to the option
-                          const consensusIndicator = document.createElement('span');
-                          consensusIndicator.textContent = ' ⚠️ No Consensus';
-                          consensusIndicator.style.fontSize = '0.8em';
-                          consensusIndicator.style.color = '#FF9800';
-                          consensusIndicator.style.fontWeight = 'bold';
-                          optionEls[answerIndex].appendChild(consensusIndicator);
-                        } else if (mode === 'multi' && data.consensus === true) {
-                          // Add a consensus indicator for confirmed consensus
-                          const consensusIndicator = document.createElement('span');
-                          consensusIndicator.textContent = ' ✓ Consensus';
-                          consensusIndicator.style.fontSize = '0.8em';
-                          consensusIndicator.style.color = '#4CAF50';
-                          consensusIndicator.style.fontWeight = 'bold';
-                          optionEls[answerIndex].appendChild(consensusIndicator);
+                    // Fetch API key asynchronously
+                    function doFetch(apiKey) {
+                      fetch(url, {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/json",
+                          "X-API-Key": apiKey
+                        },
+                        body: JSON.stringify(requestBody)
+                      })
+                      .then(response => response.json())
+                      .then(data => {
+                        // ...existing code...
+                        console.log("AI Answer:", data.answer, "Confidence:", data.confidence);
+                        // Use theme-based highlighting
+                        const answerIndex = data.answer.charCodeAt(0) - 65;
+                        if (optionEls[answerIndex]) {
+                          let colors = window.ThemeHelper ? 
+                            window.ThemeHelper.getConfidenceColors(data.confidence) :
+                            { highlight: 'rgba(0, 255, 0, 0.2)', border: '#00ff00' };
+                          // Modify colors based on consensus for multi-model responses
+                          if (mode === 'multi' && data.consensus === false) {
+                            // Use orange/red colors to indicate no consensus
+                            colors = {
+                              highlight: 'rgba(255, 152, 0, 0.3)', // Orange background
+                              border: '#FF9800' // Orange border
+                            };
+                            // Add a consensus indicator to the option
+                            const consensusIndicator = document.createElement('span');
+                            consensusIndicator.textContent = ' ⚠️ No Consensus';
+                            consensusIndicator.style.fontSize = '0.8em';
+                            consensusIndicator.style.color = '#FF9800';
+                            consensusIndicator.style.fontWeight = 'bold';
+                            optionEls[answerIndex].appendChild(consensusIndicator);
+                          } else if (mode === 'multi' && data.consensus === true) {
+                            // Add a consensus indicator for confirmed consensus
+                            const consensusIndicator = document.createElement('span');
+                            consensusIndicator.textContent = ' ✓ Consensus';
+                            consensusIndicator.style.fontSize = '0.8em';
+                            consensusIndicator.style.color = '#4CAF50';
+                            consensusIndicator.style.fontWeight = 'bold';
+                            optionEls[answerIndex].appendChild(consensusIndicator);
+                          }
+                          optionEls[answerIndex].style.border = `3px solid ${colors.border || '#00ff00'}`;
+                          optionEls[answerIndex].style.backgroundColor = colors.highlight || 'rgba(0, 255, 0, 0.2)';
                         }
-                        
-                        optionEls[answerIndex].style.border = `3px solid ${colors.border || '#00ff00'}`;
-                        optionEls[answerIndex].style.backgroundColor = colors.highlight || 'rgba(0, 255, 0, 0.2)';
-                      }
-                      
-                      // Log the result
-                      const log = JSON.parse(localStorage.getItem("quizLog") || "[]");
-                      const logEntry = {
-                        question,
-                        options,
-                        answer: data.answer,
-                        confidence: data.confidence,
-                        reasoning: data.reasoning || 'No reasoning provided',
-                        mode: mode,
-                        time: new Date().toLocaleString()
-                      };
-                      
-                      if (mode === 'multi') {
-                        logEntry.consensus = data.consensus;
-                        logEntry.individual_answers = data.individual_answers;
-                      }
-                      
-                      log.push(logEntry);
-                      localStorage.setItem("quizLog", JSON.stringify(log));
-                    })
-                    .catch(err => console.error("Error:", err));
-                    
+                        // Log the result
+                        const log = JSON.parse(localStorage.getItem("quizLog") || "[]");
+                        const logEntry = {
+                          question,
+                          options,
+                          answer: data.answer,
+                          confidence: data.confidence,
+                          reasoning: data.reasoning || 'No reasoning provided',
+                          mode: mode,
+                          time: new Date().toLocaleString()
+                        };
+                        if (mode === 'multi') {
+                          logEntry.consensus = data.consensus;
+                          logEntry.individual_answers = data.individual_answers;
+                        }
+                        log.push(logEntry);
+                        localStorage.setItem("quizLog", JSON.stringify(log));
+                      })
+                      .catch(err => console.error("Error:", err));
+                    }
+                    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+                      chrome.storage.local.get(['quizApiKey'], function(result) {
+                        doFetch(result.quizApiKey || '');
+                      });
+                    } else {
+                      doFetch(localStorage.getItem('quizApiKey') || '');
+                    }
                     return true;
                   } else {
                     console.error('Question or options not found');
@@ -820,14 +883,14 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 
-    clearBtn.addEventListener("click", async () => {
-      const result = await executeInActiveTab('clearLog');
-      if (result?.result) {
-        setStatus("Quiz log cleared", "success");
-      } else {
-        setStatus("Failed to clear log", "error");
-      }
-    });
+    // clearBtn.addEventListener("click", async () => {
+    //   const result = await executeInActiveTab('clearLog');
+    //   if (result?.result) {
+    //     setStatus("Quiz log cleared", "success");
+    //   } else {
+    //     setStatus("Failed to clear log", "error");
+    //   }
+    // });
 
     // Set initial status
     setStatus("Ready! Ensure proxy server is running on 64.227.188.233:3000");

@@ -12,7 +12,8 @@
     "*://quiz.mygov.in/*",
     "*://*.mygov.in/*",
     "file:///D:/Web/Chrome/quiz.html",
-    "*://64.227.188.233:*/*"
+    "*://64.227.188.233:*/*",
+    "*://cloud.digitalocean.com/*"
   ],
   "action": {
     "default_popup": "popup.html",

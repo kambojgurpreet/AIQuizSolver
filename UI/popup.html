@@ -16,33 +16,20 @@
   <!-- Model Selection -->
   <div class="model-selection">
     <div class="model-title" id="analysis-mode-title"></div>
-    <div class="toggle-container">
-      <div class="toggle-option">
-        <input type="radio" id="singleModel" name="analysisMode" value="single" checked>
-        <label for="singleModel">
-          <span class="emoji" id="single-model-icon"></span>Single Model (GPT 4.1)
-          <div class="option-desc">Fast & Efficient</div>
-        </label>
-      </div>
-      <div class="toggle-option">
-        <input type="radio" id="multiModel" name="analysisMode" value="multi">
-        <label for="multiModel">
-          <span class="emoji" id="multi-model-icon"></span>Multi-Model Consensus
-          <div class="option-desc">GPT 4.1 + Gemini 2.5 Pro + Grok 4</div>
-        </label>
-      </div>
+    <div class="toggle-switch-container">
+      <span class="toggle-label" id="single-model-label"><span class="emoji" id="single-model-icon"></span></span>
+      <label class="switch">
+        <input type="checkbox" id="analysisModeToggle">
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label" id="multi-model-label"><span class="emoji" id="multi-model-icon"></span></span>
     </div>
+    <div class="toggle-desc" id="toggle-desc"></div>
   </div>
   
   <button id="run" class="warning-btn">
     <span class="emoji" id="run-btn-icon"></span>Answer Current Question
   </button>
-  
-  <!-- New buttons will be dynamically added by popup.js -->
-  
-  <div class="footer">
-    Make sure proxy server is running on 64.227.188.233:3000
-  </div>
   
   <script src="popup.js"></script>
 </body>

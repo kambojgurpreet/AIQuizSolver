@@ -1,7 +1,26 @@
-// === API Key for backend authentication (dynamic from localStorage) ===
-function getApiKey() {
-  // Try to get from localStorage (set by popup UI), fallback to default
-  return localStorage.getItem('quizApiKey') || "changeme-please-set-a-strong-key";
+// === API Key for backend authentication (from chrome.storage.local) ===
+// Always fetch the latest API key from chrome.storage.local before every request
+function getApiKey(cb) {
+  if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+    chrome.storage.local.get(['quizApiKey'], function(result) {
+      console.log('[Quiz Assistant] getApiKey from chrome.storage.local:', result.quizApiKey);
+      cb(result.quizApiKey || '');
+    });
+  } else {
+    const key = localStorage.getItem('quizApiKey') || '';
+    console.log('[Quiz Assistant] getApiKey from localStorage:', key);
+    cb(key);
+  }
+}
+
+// Listen for API key update messages from popup (seamless update)
+if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.onMessage) {
+  chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+    if (message && message.type === 'QUIZ_API_KEY_UPDATED') {
+      // No need to cache, just log for debug
+      console.log('[Quiz Assistant] API key updated via message:', message.apiKey);
+    }
+  });
 }
 // Quiz Assistant Content Script - Enhanced Version with Web Search
 (function() {
@@ -324,19 +343,32 @@ async function processAllQuestionsAsync(mode = 'single') {
     
     console.log(`Sending batch request with ${allQuizData.length} questions...`);
     
-    const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "X-API-Key": getApiKey()
-      },
-      body: JSON.stringify(batchRequest)
-    });
-
+    const apiKey = await new Promise(resolve => getApiKey(resolve));
+    console.log('[Quiz Assistant] Using API key for batch:', apiKey);
+    if (!apiKey) {
+      showErrorNotification('API Key is not set. Please enter your API key in the extension popup.');
+      isProcessing = false;
+      window.isProcessing = isProcessing;
+      return;
+    }
+    let response;
+    try {
+      response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-API-Key": apiKey
+        },
+        body: JSON.stringify(batchRequest)
+      });
+    } catch (err) {
+      console.error('[Quiz Assistant] Fetch error in batch:', err);
+      throw err;
+    }
     if (!response.ok) {
+      console.error('[Quiz Assistant] HTTP error in batch:', response.status, response.statusText);
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-
     const batchResults = await response.json();
     
     // Process batch results and update allQuizData
@@ -425,20 +457,33 @@ async function processQuestion(questionData, mode = 'single', retryCount = 0) {
       ? "http://64.227.188.233:3000/ask?multi_model=true"
       : "http://64.227.188.233:3000/ask?multi_model=false";
     
-    const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "X-API-Key": getApiKey()
-      },
-      body: JSON.stringify(requestBody)
-    });
-
+    const apiKey = await new Promise(resolve => getApiKey(resolve));
+    console.log('[Quiz Assistant] Using API key for single:', apiKey);
+    if (!apiKey) {
+      showErrorNotification('API Key is not set. Please enter your API key in the extension popup.');
+      questionData.status = 'error';
+      questionData.error = 'API Key not set';
+      return;
+    }
+    let response;
+    try {
+      response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-API-Key": apiKey
+        },
+        body: JSON.stringify(requestBody)
+      });
+    } catch (err) {
+      console.error('[Quiz Assistant] Fetch error in single:', err);
+      throw err;
+    }
     if (!response.ok) {
       const errorText = await response.text();
+      console.error('[Quiz Assistant] HTTP error in single:', response.status, errorText);
       throw new Error(`HTTP ${response.status}: ${errorText}`);
     }
-
     const data = await response.json();
     
     questionData.answer = data.answer;
@@ -1850,9 +1895,21 @@ function removeExistingUI() {
 // Test function to check CORS
 window.testCORS = async function() {
   try {
-    const response = await fetch("http://64.227.188.233:3000/test", {
-      headers: { "X-API-Key": getApiKey() }
-    });
+    const apiKey = await new Promise(resolve => getApiKey(resolve));
+    console.log('[Quiz Assistant] Using API key for CORS test:', apiKey);
+    if (!apiKey) {
+      showErrorNotification('API Key is not set. Please enter your API key in the extension popup.');
+      return { success: false, error: 'API Key not set' };
+    }
+    let response;
+    try {
+      response = await fetch("http://64.227.188.233:3000/test", {
+        headers: { "X-API-Key": apiKey }
+      });
+    } catch (err) {
+      console.error('[Quiz Assistant] Fetch error in CORS test:', err);
+      throw err;
+    }
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
     console.log("CORS test success:", data);
