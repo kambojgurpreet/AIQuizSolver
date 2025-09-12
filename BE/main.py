@@ -172,11 +172,35 @@ app.include_router(test_router)
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
-    """Request logging middleware for monitoring"""
+    """Request/response logging middleware for monitoring and debugging"""
     start_time_req = time.time()
-    
+
+    # Log request details
+    try:
+        req_body = await request.body()
+        logger.info(f"[REQUEST] {request.method} {request.url.path}\nHeaders: {dict(request.headers)}\nBody: {req_body.decode('utf-8', errors='replace') if req_body else '<empty>'}")
+    except Exception as e:
+        logger.warning(f"[REQUEST] Could not read request body: {e}")
+
+    # Process request and capture response
     response = await call_next(request)
-    
+
+    # Log response details safely using StreamingResponse
+    try:
+        response_body = b""
+        async for chunk in response.body_iterator:
+            response_body += chunk
+        logger.info(f"[RESPONSE] {request.method} {request.url.path} - Status: {response.status_code}\nBody: {response_body.decode('utf-8', errors='replace') if response_body else '<empty>'}")
+        from starlette.responses import Response
+        response = Response(
+            content=response_body,
+            status_code=response.status_code,
+            headers=dict(response.headers),
+            media_type=response.media_type
+        )
+    except Exception as e:
+        logger.warning(f"[RESPONSE] Could not read response body: {e}")
+
     process_time = time.time() - start_time_req
     logger.info(
         f"{request.method} {request.url.path} - "
@@ -184,7 +208,7 @@ async def log_requests(request: Request, call_next):
         f"Time: {process_time:.3f}s - "
         f"Client: {request.client.host if request.client else 'unknown'}"
     )
-    
+
     return response
 
 @app.exception_handler(404)
