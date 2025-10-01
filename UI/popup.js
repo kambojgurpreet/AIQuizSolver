@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function() {
     apiKeyDiv.style = 'margin-bottom: 10px; display: flex; flex-direction: column; align-items: stretch;';
     apiKeyDiv.innerHTML = `
       <label for="quiz-api-key" style="font-size:11px; margin-bottom:2px; color:#fff; text-align:left;">API Key:</label>
-      <input id="quiz-api-key" type="text" placeholder="Enter API key..." style="padding:6px 8px; border-radius:5px; border:1px solid #888; font-size:12px; width:100%; box-sizing:border-box; margin-bottom:2px;" autocomplete="off" />
+      <input id="quiz-api-key" type="password" placeholder="Enter API key..." style="padding:6px 8px; border-radius:5px; border:1px solid #888; font-size:12px; width:100%; box-sizing:border-box; margin-bottom:2px;" autocomplete="off" />
       <button id="save-api-key-btn" class="secondary-btn" style="margin-top:4px;">Save API Key</button>
     `;
     header.parentNode.insertBefore(apiKeyDiv, header.nextSibling);
