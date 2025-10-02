@@ -1,4 +1,4 @@
-# AI Quiz Assistant
+# Quiz Assistant
 
 A comprehensive Chrome extension with FastAPI backend that provides AI-powered assistance for online quizzes and tests. Features multi-model AI support, intelligent caching, customizable themes, and advanced batch processing capabilities.
 
