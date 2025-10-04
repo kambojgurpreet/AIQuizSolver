@@ -1,4 +1,4 @@
-# Quiz Assistant
+# Quiz Solver 1.0
 
 A comprehensive Chrome extension with FastAPI backend that provides AI-powered assistance for online quizzes and tests. Features multi-model AI support, intelligent caching, customizable themes, and advanced batch processing capabilities.
 
