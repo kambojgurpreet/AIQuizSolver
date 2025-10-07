@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "AI Quiz Assistant",
-  "version": "2.0",
+  "name": "Quiz Solver",
+  "version": "1.0",
   "description": "Enhanced AI Quiz Assistant with bilingual support, bulk processing, and auto-completion for fastest quiz completion.",
   "permissions": ["activeTab", "scripting", "storage", "tabs"],
   "host_permissions": [
@@ -12,7 +12,7 @@
     "*://quiz.mygov.in/*",
     "*://*.mygov.in/*",
     "file:///D:/Web/Chrome/quiz.html",
-    "*://64.227.188.233:*/*",
+    "*://localhost:*/*",
     "*://cloud.digitalocean.com/*"
   ],
   "action": {

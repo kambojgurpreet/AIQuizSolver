@@ -338,8 +338,8 @@ async function processAllQuestionsAsync(mode = 'single') {
     
     // Add multi_model parameter for multi-model analysis
     const url = mode === 'multi' 
-      ? "http://64.227.188.233:3000/ask-batch?multi_model=true"
-      : "http://64.227.188.233:3000/ask-batch?multi_model=false";
+      ? "http://localhost:3000/ask-batch?multi_model=true"
+      : "http://localhost:3000/ask-batch?multi_model=false";
     
     console.log(`Sending batch request with ${allQuizData.length} questions...`);
     
@@ -454,8 +454,8 @@ async function processQuestion(questionData, mode = 'single', retryCount = 0) {
     
     // Add multi_model parameter for multi-model analysis
     const url = mode === 'multi' 
-      ? "http://64.227.188.233:3000/ask?multi_model=true"
-      : "http://64.227.188.233:3000/ask?multi_model=false";
+      ? "http://localhost:3000/ask?multi_model=true"
+      : "http://localhost:3000/ask?multi_model=false";
     
     const apiKey = await new Promise(resolve => getApiKey(resolve));
     console.log('[Quiz Assistant] Using API key for single:', apiKey);
@@ -1903,7 +1903,7 @@ window.testCORS = async function() {
     }
     let response;
     try {
-      response = await fetch("http://64.227.188.233:3000/test", {
+      response = await fetch("http://localhost:3000/test", {
         headers: { "X-API-Key": apiKey }
       });
     } catch (err) {

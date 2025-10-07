@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function() {
     styleElement.textContent = css;
     
     // Set icons using theme configuration
-    document.getElementById('main-title').innerHTML = `${ThemeHelper.getIcon('robot')} AI Quiz Assistant`;
+    document.getElementById('main-title').innerHTML = `${ThemeHelper.getIcon('robot')} Quiz Solver 1.0`;
     document.getElementById('analysis-mode-title').innerHTML = `${ThemeHelper.getIcon('science')} Analysis Mode`;
     document.getElementById('single-model-icon').textContent = ThemeHelper.getIcon('singleModel');
     document.getElementById('multi-model-icon').textContent = ThemeHelper.getIcon('multiModel');
@@ -659,8 +659,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.log("Using mode:", mode);
                     const requestBody = { question, options };
                     const url = mode === 'multi' 
-                      ? "http://64.227.188.233:3000/ask?multi_model=true"
-                      : "http://64.227.188.233:3000/ask?multi_model=false";
+                      ? "http://localhost:3000/ask?multi_model=true"
+                      : "http://localhost:3000/ask?multi_model=false";
                     // Fetch API key asynchronously
                     function doFetch(apiKey) {
                       fetch(url, {
@@ -893,6 +893,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // });
 
     // Set initial status
-    setStatus("Ready! Ensure proxy server is running on 64.227.188.233:3000");
+    setStatus("Ready! Ensure proxy server is running on localhost:3000");
   }
 });

@@ -122,8 +122,8 @@ async def lifespan(app: FastAPI):
 
 # Initialize FastAPI app with metadata and lifespan
 app = FastAPI(
-    title="Quiz Assistant API",
-    description="AI-powered quiz assistant with Chrome extension support",
+    title="Quiz Solver 1.0 APIs",
+    description="AI quiz solver with Chrome extension support",
     version="2.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
@@ -242,12 +242,13 @@ async def server_error_handler(request: Request, exc: HTTPException):
 # Main execution
 if __name__ == "__main__":
     # Run with uvicorn for development
+    # SSL disabled for local development to avoid HTTPS/HTTP mismatch
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
         port=3000,
         reload=True,  # Auto-reload on code changes
         log_level="info",
-        ssl_keyfile="../key.pem",
-        ssl_certfile="../cert.pem"
+        # ssl_keyfile="../key.pem",  # Commented out for local development
+        # ssl_certfile="../cert.pem"  # Commented out for local development
     )

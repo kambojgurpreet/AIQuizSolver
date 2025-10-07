@@ -33,7 +33,7 @@ class Settings(BaseSettings):
     cors_allow_credentials: bool = False
     
     # API Key authentication
-    api_key: str = os.getenv("QUIZ_API_KEY", "default_api_key")
+    api_key: str = os.getenv("QUIZ_API_KEY")
 
     # Additional keys from environment
     gemini_api_key: Optional[str] = None
